@@ -1,0 +1,91 @@
+:local .Login {
+	margin-top: 10%;
+	display:grid;
+	grid-template-columns: 1fr minmax(210px, 325px) 1fr;
+	grid-template-rows: 1fr 1fr;
+	grid-row-gap: 20px;
+	color: red;
+	font-family: recharge;
+}
+
+:local .Login input {
+	background-color: #680001FF !important;
+	font-family: recharge;
+	padding: 3px;
+	color: white;
+	transition: border 0.2s;
+	border: 1px solid transparent;
+	border-radius: 2px;
+	cursor: text;
+}
+
+:local .Login input:hover {
+	transition: border 0.2s;
+	border: 1px solid red;
+	border-radius: 2px;
+}
+
+:local .Login input:focus {
+	border: 1px solid red;
+	border-radius: 2px;
+}
+
+:local .LoginColumn {
+	grid-column: 2;
+}
+
+:local .LoginUsername {
+	grid-column: 2;
+	grid-row: 1;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	justify-content: center;
+}
+
+:local .LoginPassword {
+	grid-column: 2;
+	grid-row: 2;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	justify-content: center;
+}
+
+:local .LoginAttempts {
+	grid-column: 2 / span 2;
+	margin-left: -5%;
+	grid-row: 3;
+}
+
+:local .LoginButton {
+	grid-column: 2;
+	grid-row: 4;
+	cursor: pointer;
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+
+	font-size: 16px;
+	font-family: recharge;
+	margin-left: 30%;
+	margin-right: 30%;
+	background-color: transparent;
+	border: 1px solid transparent;
+	padding: 7px;
+	border-radius: 5px;
+	transition: border color 0.1s;
+	color: red;
+}
+
+:local .LoginButton:hover {
+	border: 1px solid red;
+	border-radius: 5px;
+	transition: border 0.2s;
+}
+
+:local .LoginButton:active {
+	transition: border 0s;
+	border-color: darkred;
+	color: darkred;
+}

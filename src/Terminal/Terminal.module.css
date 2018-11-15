@@ -1,0 +1,30 @@
+:local .Terminal {
+	display: flex;
+	margin-left: 15%;
+	margin-right: 15%;
+	margin-top: 5%;
+	height: 80vh;
+}
+
+:local .Commands {
+	font-size: 25px;
+	font-family: 'recharge';
+	overflow: none;
+	width: 100%;
+}
+
+:local .CommandLine {
+	display: flex;
+	flex-direction: row;
+	flex: 1;
+	width: 100%;
+}
+
+:local .InvisibleInput {
+	font-size: 25px;
+	font-family: 'recharge';
+	color: red;
+	background-color: transparent;
+	border: 0;
+	width: 1fr;
+}
