@@ -4,19 +4,19 @@ self.__precacheManifest = [
     "url": "/CyberpunkRPG/static/js/runtime~main.611f3c34.js"
   },
   {
-    "revision": "c4903b2978099316ca69",
-    "url": "/CyberpunkRPG/static/js/main.c4903b29.chunk.js"
+    "revision": "ad3ee021c481788a45a6",
+    "url": "/CyberpunkRPG/static/js/main.ad3ee021.chunk.js"
   },
   {
     "revision": "d5de9d4cf59f873ca269",
     "url": "/CyberpunkRPG/static/js/1.d5de9d4c.chunk.js"
   },
   {
-    "revision": "c4903b2978099316ca69",
-    "url": "/CyberpunkRPG/static/css/main.8b202f24.chunk.css"
+    "revision": "ad3ee021c481788a45a6",
+    "url": "/CyberpunkRPG/static/css/main.3a1ff563.chunk.css"
   },
   {
-    "revision": "67e966e747f941a98f7b131a59b2084d",
+    "revision": "be48b3e181642efb05fab662530509af",
     "url": "/CyberpunkRPG/index.html"
   }
 ];
