@@ -1,0 +1,282 @@
+{
+	"folders": {
+		"bin": {
+			"file": false,
+			"folders": {},
+			"permission": false,
+			"result": ""
+		},
+		"boot": {
+			"file": false,
+			"folders": {},
+			"permission": false,
+			"result": ""
+		},
+		"dev": {
+			"file": false,
+			"folders": {},
+			"permission": false,
+			"result": ""
+		},
+		"etc": {
+			"file": false,
+			"folders": {},
+			"permission": false,
+			"result": ""
+		},
+		"home": {
+			"file": false,
+			"folders": {
+				"admin": {
+					"file": false,
+					"folders": {},
+					"permission": false,
+					"result": ""
+				},
+				"mainframe": {
+					"file": false,
+					"folders": {
+						"Apocalypse": {
+							"file": false,
+							"folders": {
+								"Assets.pkg": {
+									"file": true,
+									"folders": {},
+									"permission": true,
+									"result": "[BINARY FILE]"
+								},
+								"CORE.dll": {
+									"file": true,
+									"folders": {},
+									"permission": true,
+									"result": "[BINARY FILE]"
+								},
+								"DX18.dll": {
+									"file": true,
+									"folders": {},
+									"permission": true,
+									"result": "[BINARY FILE]"
+								},
+								"Wolf.exe": {
+									"file": true,
+									"folders": {},
+									"permission": true,
+									"result": "[BINARY FILE]",
+									"execute": "File is already in use. Cannot terminate until users exit module by completing or manually exiting."
+								}
+
+							},
+							"permission": true,
+							"result": ""
+						},
+						"Desktop": {
+							"file": false,
+							"folders": {
+								"Contract.doc": {
+									"file": true,
+									"folders": {},
+									"permission": true,
+									"result": "I pledge to uphold Zetatech Inc. guidelines and integrity. I am not to leak non-public information to competitors or other third parties. I renounce the right to have liability claims if I get shot by one of the Zetatech. Inc guardsmen due to provokation. \nSigned Arthur Yangsville 11/13/2018."
+								},
+								"Important_stuff": {
+									"file": false,
+									"folders": {},
+									"permission": false,
+									"result": ""
+								},
+								"IMG_20238123.jpg": {
+									"file": true,
+									"folders": {},
+									"permission": true,
+									"result": "Image of lightly dressed individual was previously quarantined by user: Administrator. This file will disappear at a later date."
+								},
+								"Stuff": {
+									"file": false,
+									"folders": {},
+									"permission": false,
+									"result": ""
+								},
+								"Work_Stuff": {
+									"file": false,
+									"folders": {
+										"[ENCRYPTED FOLDER]": {
+											"file": false,
+											"folders": {},
+											"permission": false,
+											"result": ""
+										}
+									},
+									"permission": true,
+									"result": ""
+								}
+							},
+							"permission": true,
+							"result": ""
+						},
+						"Documents": {
+							"file": false,
+							"folders": {
+								"Business_prospects.txt": {
+									"file": true,
+									"folders": {},
+									"permission": true,
+									"result": "$¡@£¡@£ªOPlsßðªsdEßðªðłððþ←↓→↓→asd→ [FILE ENCRYPTED]"
+								},
+								"Cyberdecked_Individuals.txt": {
+									"file": true,
+									"folders": {},
+									"permission": true,
+									"result": "Currently we have the following people plugged in: [REDACTED]..."
+								},
+								"Dinner_Draft.txt": {
+									"file": true,
+									"folders": {},
+									"permission": true,
+									"result": "Hi Mary. I was wondering if you wanted to go out for dinner tonight? I mean we've been going at it for at least two years now, but no dinners? I hope I'm not too harsh, but [End of Document]"
+								},
+								"Music.txt": {
+									"file": true,
+									"folders": {},
+									"permission": true,
+									"result": "Gunship, Dance with the Dead, Midnight Danger, Perturbator, Sung, Nightstop, d.notive, Scandroid, Tokyo Rose, Waveshaper, Power Glove... [LIST TERMINATED, REASON: TOO LONG, OUT OF MEMORY]"
+								},
+								"New_Cyberwares.txt": {
+									"file": true,
+									"folders": {},
+									"permission": true,
+									"result": "Microtech AV Detection Services - Unannounced products was included and file is deleted. Author has been reported and will be found guilty for misuse/leaking of top secret company assets."
+								},
+								"Ending.txt": {
+									"file": true,
+									"folders": {},
+									"permission": false,
+									"result": ""
+								}
+							},
+							"permission": true,
+							"result": ""
+						},
+						"Legend2": {
+							"file": false,
+							"folders": {
+								"Assets.pkg": {
+									"file": true,
+									"folders": {},
+									"permission": true,
+									"result": "[BINARY FILE]"
+								},
+								"CORE.dll": {
+									"file": true,
+									"folders": {},
+									"permission": true,
+									"result": "[BINARY FILE]"
+								},
+								"DX18.dll": {
+									"file": true,
+									"folders": {},
+									"permission": true,
+									"result": "[BINARY FILE]"
+								},
+								"Knights2.exe": {
+									"file": true,
+									"folders": {},
+									"permission": true,
+									"result": "[BINARY FILE]",
+									"execute": "Wolf.exe is already running. Close Wolf.exe before executing."
+								}
+							},
+							"permission": true,
+							"result": ""
+						},
+						"Vampire": {
+							"file": true,
+							"folders": {},
+							"permission": true,
+							"result": "Message from Joshua: Module corrupted and buggy. Scheduled for deletion."
+						}
+					},
+					"permission": true,
+					"result": ""
+				}
+			},
+			"permission": true,
+			"result": ""
+		},
+		"lib": {
+			"file": false,
+			"folders": {},
+			"permission": false,
+			"result": ""
+		},
+		"mnt": {
+			"file": false,
+			"folders": {},
+			"permission": false,
+			"result": ""
+		},
+		"root": {
+			"file": false,
+			"folders": {},
+			"permission": false,
+			"result": ""
+		},
+		"run": {
+			"file": false,
+			"folders": {},
+			"permission": false,
+			"result": ""
+		},
+		"sbin": {
+			"file": false,
+			"folders": {},
+			"permission": false,
+			"result": ""
+		},
+		"srv": {
+			"file": false,
+			"folders": {},
+			"permission": false,
+			"result": ""
+		},
+		"sys": {
+			"file": false,
+			"folders": {},
+			"permission": false,
+			"result": ""
+		},
+		"tmp": {
+			"file": false,
+			"folders": {},
+			"permission": false,
+			"result": ""
+		},
+		"www": {
+			"file": false,
+			"folders": {
+				"Cyberpunk.Site": {
+					"file": true,
+					"folders": {},
+					"permission": true,
+					"result": "[WEBSITE?]",
+					"execute": "https://sondrehusevold.github.io/CyberpunkRPG/"
+				},
+				"Vampire.Site": {
+					"file": true,
+					"folders": {},
+					"permission": true,
+					"result": "[WEBSITE]",
+					"execute": "https://sondrehusevold.github.io/VampireRPG/"
+				},
+				"Werewolf.Site": {
+					"file": true,
+					"folders": {},
+					"permission": true,
+					"result": "[WEBSITE]",
+					"execute": "https://amundlochen.github.io/WerewolfRPG/"
+				}
+			},
+			"permission": true,
+			"result": ""
+		}
+	}
+}
