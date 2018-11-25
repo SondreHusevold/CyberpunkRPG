@@ -221,8 +221,45 @@
 						},
 						"Vampire": {
 							"name": "Vampire",
-							"file": true,
-							"folders": {},
+							"file": false,
+							"folders": {
+								"A¡etðs.pkg": {
+									"name": "A¡etðs.pkg",
+									"file": true,
+									"folders": {},
+									"permission": true,
+									"result": "[CORRUPTED DATA - RECOVERY IMPOSSIBLE]"
+								},
+								"CORE.dll": {
+									"name": "CORE.dll",
+									"file": true,
+									"folders": {},
+									"permission": true,
+									"result": "[BINARY FILE(?)]"
+								},
+								"DX13.dll": {
+									"name": "DX13.dll",
+									"file": true,
+									"folders": {},
+									"permission": true,
+									"result": "[BINARY FILE]"
+								},
+								"Epilogue_RECOVERED.dat": {
+									"name": "Epilogue_RECOVERED.dat",
+									"file": true,
+									"folders": {},
+									"permission": true,
+									"result": "Hi, you should never see this text. It will be replaced by the actual Epilogue."
+								},
+								"Vampire.exe": {
+									"name": "Vampire.exe",
+									"file": true,
+									"folders": {},
+									"permission": true,
+									"result": "[CORRUPTED EXECUTABLE]",
+									"execute": "W0lF.Ex€ is aĦreºdy runŒiÐ§. CLos€ W0lF.Ex€ befº™e exeC↑tin§Ð."
+								}
+							},
 							"permission": true,
 							"result": "Message from Joshua: Module corrupted and buggy. Scheduled for deletion."
 						}
