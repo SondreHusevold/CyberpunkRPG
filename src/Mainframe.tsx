@@ -11,7 +11,7 @@ interface ICyberpunkState {
 class Cyberpunk extends Component<{}, ICyberpunkState> {
 	public constructor(props: {}) {
 		super(props);
-		this.state = { loggedIn: true };
+		this.state = { loggedIn: false };
 	}
 
 	public changeLogin = (isLoggedIn: boolean) => {
