@@ -12,6 +12,7 @@ export class FileService {
 
 export interface IStructure {
 	folders: IStructure[],
+	name: string,
 	permission: boolean,
 	result: string
 }

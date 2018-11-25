@@ -17,7 +17,7 @@ interface ICommand {
 
 class Terminal extends Component<{}, ITerminalState> {
 	public prompt = " ❯❯ ";
-	public structure: IStructure = { folders: [], permission: false, result: "" };
+	public structure: IStructure = { folders: [], name: '', permission: false, result: "" };
 	public reverseHistoryNumber = 1;	// What command is currently chosen if history is being browsed.
 
 	public constructor(props: {}) {
@@ -26,7 +26,7 @@ class Terminal extends Component<{}, ITerminalState> {
 			commandHistory: [],
 			commands: [],
 			currentCommand: "",
-			currentFolder: { folders: [], permission: false, result: "" },
+			currentFolder: { folders: [], name: '', permission: false, result: "" },
 			currentPath: "/home/mainframe ",
 		}
 		
@@ -43,7 +43,8 @@ class Terminal extends Component<{}, ITerminalState> {
 		});
 	}
 
-	public keyDown = (event: any) => {
+	public keyDown = (event: React.KeyboardEvent<HTMLInputElement>) => {
+
 		switch(event.key) {
 			case 'Enter':
 				this.execute();
@@ -54,7 +55,37 @@ class Terminal extends Component<{}, ITerminalState> {
 			case 'ArrowDown':
 				this.goDownHistory();
 				break;
+			case 'Tab':
+				event.preventDefault();
+				this.tabAutocomplete();
+				break;
 		}
+
+		// Hotkey clear.
+		if(event.ctrlKey && event.key === 'l') {
+			event.preventDefault();
+			this.cls();
+		}
+	}
+
+	public tabAutocomplete() {
+		const cmd = this.state.currentCommand.split(' ');
+		if(cmd.length > 1) {
+			for (const folder in this.state.currentFolder.folders) {
+				if(this.state.currentFolder.folders[folder] != null){
+					const fold = this.state.currentFolder.folders[folder];
+					if(fold.name.toLowerCase().includes(cmd[1].toLowerCase())){
+						cmd[1] = fold.name;
+						this.setState({
+							currentCommand: cmd.join(" ")
+						});
+						return;
+					}
+				}
+			}
+		}
+
+
 	}
 
 	public goUpHistory() {
@@ -219,7 +250,7 @@ class Terminal extends Component<{}, ITerminalState> {
 		else if(cmd.toLowerCase().startsWith('shut down')) {
 			this.print("Shutting down the mainframe with users logged into their Cyberdecks is extremely dangerous. \nShut down sequence terminated.");
 		}
-		else if(cmd.toLowerCase().startsWith("ls")) {
+		else if(cmd.toLowerCase() === "ls") {
 			this.ls();
 		}
 		else if(cmd.toLowerCase() === 'help') {
