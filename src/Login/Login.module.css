@@ -17,6 +17,7 @@
 	border: 1px solid transparent;
 	border-radius: 2px;
 	cursor: text;
+	outline: 0;
 }
 
 :local .Login input:hover {

@@ -1,9 +1,11 @@
 import React, { Component } from 'react';  
+import { FileService, IStructure } from '../FileService';
 import styles from './Terminal.module.css';
 
 interface ITerminalState {
 	currentPath: string;
 	commands: ICommand[];
+	commandHistory: string[];
 	currentCommand: string;
 	currentFolder: IStructure;
 }
@@ -13,19 +15,15 @@ interface ICommand {
 	result: string;
 }
 
-interface IStructure {
-	folders: IStructure[],
-	permission: boolean,
-	result: string
-}
-
 class Terminal extends Component<{}, ITerminalState> {
 	public prompt = " ❯❯ ";
 	public structure: IStructure = { folders: [], permission: false, result: "" };
+	public reverseHistoryNumber = 1;	// What command is currently chosen if history is being browsed.
 
 	public constructor(props: {}) {
 		super(props);
 		this.state = { 
+			commandHistory: [],
 			commands: [],
 			currentCommand: "",
 			currentFolder: { folders: [], permission: false, result: "" },
@@ -35,25 +33,54 @@ class Terminal extends Component<{}, ITerminalState> {
 		this.getFolderStructure();
 	}
 
-	public getFolderStructure() {
-		const fdd = fetch('MainframeStructure.json');
-		fdd.then((s) => s.json().then((data: IStructure) => {
-				const home = "home";
-				const mainframe = "mainframe"; 
-				const currentF = data.folders[home].folders[mainframe];
-
-				this.setState({
-					currentFolder: currentF,
-				});
-				this.structure = data;
-			})
-		);
+	public async getFolderStructure() {
+		const home = "home";
+		const mainframe = "mainframe";
+		this.structure = await FileService.getFiles();
+				
+		this.setState({
+			currentFolder: this.structure.folders[home].folders[mainframe],
+		});
 	}
 
 	public keyDown = (event: any) => {
-		if(event.key === 'Enter'){
-			this.execute();
-         }
+		switch(event.key) {
+			case 'Enter':
+				this.execute();
+				break;
+			case 'ArrowUp': 
+				this.goUpHistory();
+				break;
+			case 'ArrowDown':
+				this.goDownHistory();
+				break;
+		}
+	}
+
+	public goUpHistory() {
+		if(this.state.commandHistory[this.state.commandHistory.length - this.reverseHistoryNumber] != null) {
+			this.setState({
+				currentCommand: this.state.commandHistory[this.state.commandHistory.length - this.reverseHistoryNumber]
+			});
+			
+			this.reverseHistoryNumber++;
+		}
+	}
+
+	public goDownHistory() {
+		this.reverseHistoryNumber--;
+
+		if(this.state.commandHistory[this.state.commandHistory.length - this.reverseHistoryNumber + 1] != null) {
+			this.setState({
+				currentCommand: this.state.commandHistory[this.state.commandHistory.length - this.reverseHistoryNumber + 1]
+			});
+			return;
+		}
+		
+		this.setState({
+			currentCommand: ""
+		});
+		this.reverseHistoryNumber = 1;
 	}
 
 	public changeCurrentCommand = (e: any) => {
@@ -162,6 +189,8 @@ class Terminal extends Component<{}, ITerminalState> {
 
 	public execute() {
 		const cmd = this.state.currentCommand.trim();
+		this.state.commandHistory.push(cmd);
+		this.reverseHistoryNumber = 1;
 
 		if(cmd.toLowerCase().startsWith('./')){
 			this.executeFile();
@@ -220,7 +249,6 @@ class Terminal extends Component<{}, ITerminalState> {
 		}
 	}
 
-	// <pre>{JSON.stringify(this.state.currentFolder)}</pre>
 	public render() {
 		return (
 			<div className={styles.Terminal}>
