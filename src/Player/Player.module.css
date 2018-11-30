@@ -77,19 +77,12 @@
 	overflow: hidden;
 }
 
-.ps > .ps__rail-y {
-	background-color: red !important;
-}
-
-.ps > .ps__rail-y > .ps__thumb-y {
-	background-color: red !important;
-}
-
 :local .MinimizedPlayer {
 	position: absolute;
 	left: 0;
 	bottom: 0;
 	height: 100px;
+	width: 300px;
 }
 
 :local .maximizeButton {

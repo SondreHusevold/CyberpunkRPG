@@ -135,7 +135,12 @@ export default class Player extends Component<IPlayerProps, IPlayerState> {
 	public render() {
 		return (
 			<div className={styles.Player + " " + (this.state.minimized ? styles.MinimizedPlayer : styles.ShownPlayer) }>
-				<PlayerHeaderbar closePlayer={this.props.closePlayer} toggleMinimize={this.toggleMinimize} hasSong={this.state.currentSong} switchToInterface={this.switchToInterface} />
+				<PlayerHeaderbar minimized={this.state.minimized} 
+								closePlayer={this.props.closePlayer} 
+								toggleMinimize={this.toggleMinimize} 
+								hasSong={this.state.currentSong} 
+								switchToInterface={this.switchToInterface} 
+				/>
 				<div className={styles.relativeTo}>
 					<PerfectScrollbar className={styles.mainArea}>
 						{this.renderListOrThumbnail()}

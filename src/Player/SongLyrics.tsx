@@ -17,7 +17,7 @@ export default class SongLyrics extends Component<ISongLyricsProps, {}> {
 			return (
 				<div className={styles.LyricsPadding}>
 					<h1>{this.props.song.name}</h1>
-					<p>{'Lyrics feature currently unavailable.'}</p>
+					<p>{this.props.song.lyrics}</p>
 				</div>
 			)
 		}

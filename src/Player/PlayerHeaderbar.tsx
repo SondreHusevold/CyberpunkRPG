@@ -6,6 +6,7 @@ import styles from './Player.module.css';
 interface IPlayerHeaderbarProps {
 	switchToInterface: (target: PlayerInterface) => void;
 	toggleMinimize: () => void;
+	minimized: boolean;
 	closePlayer: () => void;
 	hasSong: ISong | null;
 }
@@ -38,21 +39,24 @@ export default class PlayerHeaderbar extends Component<IPlayerHeaderbarProps, {}
 	}
 
 	public render() {
-		return(
-			<nav className={styles.HeaderBar}>
-				<div className={styles.HeaderBarButtons}>
-					<li onClick={this.switchToPlaying}>Now playing</li>
-					|
-					<li onClick={this.switchToAlbums}>Albums</li>
-					|
-					<li onClick={this.switchToLyrics}>Lyrics</li>
-				</div>
-				<div className={styles.HeaderBarButtons}>
-					|
-					{this.renderMinimizeButton()}
-					<li onClick={this.props.closePlayer}>X</li>
-				</div>
-			</nav>
-		)	
+		if(this.props.minimized !== true) {
+			return(
+				<nav className={styles.HeaderBar}>
+					<div className={styles.HeaderBarButtons}>
+						<li onClick={this.switchToPlaying}>Now playing</li>
+						|
+						<li onClick={this.switchToAlbums}>Albums</li>
+						|
+						<li onClick={this.switchToLyrics}>Lyrics</li>
+					</div>
+					<div className={styles.HeaderBarButtons}>
+						|
+						{this.renderMinimizeButton()}
+						<li onClick={this.props.closePlayer}>X</li>
+					</div>
+				</nav>
+			)	
+		}
+		return null;
 	}
 }
