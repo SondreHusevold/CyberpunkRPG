@@ -1,0 +1,89 @@
+:local .Player {
+	color: red;
+	background: rgba(60, 0, 0, 0.96);
+	border: 1px solid red;
+}
+
+:local .HeaderBar {
+	display: flex;
+	flex-direction: row;
+	list-style: none;
+	padding-top: 5px;
+	padding-left: 10px;
+	padding-bottom: 5px;
+	border-bottom: 1px solid red;
+	justify-content: space-between;
+	padding-right: 10px;
+}
+
+:local .HeaderBar li {
+	cursor: pointer;
+	border-bottom: 1px solid transparent;
+}
+
+:local .HeaderBar li:hover {
+	cursor: pointer;
+	border-bottom: 1px solid red;
+	transition: ease-in-out all 0.3s; 
+}
+
+:local .HeaderBarButtons {
+	display: flex;
+	gap: 10px;
+	flex-direction: row;
+}
+
+.HeaderBarButtons li:hover {
+	cursor: pointer;
+}
+
+:local .relativeTo {
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	width: 100%;
+	height: 100%;
+}
+
+@media only screen and (min-width: 992px) {
+	:local .ShownPlayer {
+		position: fixed;
+		left: 25%;
+		top: 10%;
+		right: 25%;
+		bottom: 10%;
+		max-width: 1000px;
+		min-height: 60vh;
+	}
+}
+
+@media only screen and (max-width: 992px) {
+	:local .ShownPlayer {
+		position: fixed;
+		left: 0;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		width: 100%;
+		height: 100%;
+	}
+}
+
+:local .MinimizedPlayer {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	height: 100px;
+}
+
+:local .maximizeButton {
+	cursor: pointer;
+	border-bottom: 1px solid transparent;
+}
+
+:local .maximizeButton:hover {
+	cursor: pointer;
+	border-bottom: 1px solid red;
+	transition: ease-in-out all 0.3s; 
+}

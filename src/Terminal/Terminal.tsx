@@ -1,5 +1,5 @@
 import React, { Component } from 'react';  
-import { FileService, IStructure } from '../FileService';
+import { FileService, IStructure } from '../Services/FileService';
 import styles from './Terminal.module.css';
 
 interface ITerminalState {
@@ -10,17 +10,21 @@ interface ITerminalState {
 	currentFolder: IStructure;
 }
 
+interface ITerminalProps {
+	enablePlayer: () => void;
+}
+
 interface ICommand {
 	command: string;
 	result: string;
 }
 
-class Terminal extends Component<{}, ITerminalState> {
+class Terminal extends Component<ITerminalProps, ITerminalState> {
 	public prompt = " ❯❯ ";
 	public structure: IStructure = { folders: [], name: '', permission: false, result: "" };
 	public reverseHistoryNumber = 1;	// What command is currently chosen if history is being browsed.
 
-	public constructor(props: {}) {
+	public constructor(props: ITerminalProps) {
 		super(props);
 		this.state = { 
 			commandHistory: [],
@@ -207,7 +211,10 @@ class Terminal extends Component<{}, ITerminalState> {
 		const fold = splitted[1];
 		const target = this.state.currentFolder.folders[fold];
 
-		if(target != null && target.permission === true && target.file === true && fold.endsWith('.exe')) {
+		if(target != null && target.permission === true && target.file === true && fold.endsWith('Player.exe')) {
+			this.props.enablePlayer();
+		}
+		else if(target != null && target.permission === true && target.file === true && fold.endsWith('.exe')) {
 			this.print(target.execute);
 		}
 		else if(target != null && target.permission === true && target.file === true && fold.endsWith('.Site')){

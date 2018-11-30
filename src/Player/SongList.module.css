@@ -1,0 +1,39 @@
+:local .SongList {
+	list-style: none;
+	max-height: 40vh;
+}
+
+:local .Song {
+	background: transparent;
+	
+	border-bottom: 1px solid transparent;
+	border-left: 0px;
+	border-right: 0px;
+	border-top: 0px;
+
+	color: red;
+	font-size: 16px;
+	font-family: recharge;
+	transition: ease-in-out 0.2s;
+	padding-bottom: 3px;
+}
+
+:local .Song:hover {
+	border-bottom: 1px solid red;
+	cursor: pointer;
+}
+
+:local .SongListWrapper {
+	padding: 10px;
+}
+
+:local .SongListWrapper h1 {
+	margin-bottom: 0px;
+}
+
+:local .SongListWrapper hr {
+	color: red;
+	border: 0px;
+	border-bottom: 1px solid red;
+	margin-bottom: 20px;
+}

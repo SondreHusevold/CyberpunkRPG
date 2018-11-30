@@ -219,6 +219,14 @@
 							"permission": true,
 							"result": ""
 						},
+						"Player.exe": {
+							"name": "Player.exe",
+							"file": true,
+							"folders": {},
+							"permission": true,
+							"result": "[BINARY EXECUTABLE]",
+							"execute": "Starting music player..."
+						},
 						"Vampire": {
 							"name": "Vampire",
 							"file": false,

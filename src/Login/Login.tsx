@@ -56,18 +56,18 @@ class Login extends Component<ILoginProps, ILoginState> {
 	public render() {
 		return (
 			<div className={styles.Login}>
-			<div className={styles.LoginUsername}>
-				<h3>Username:</h3>
-				<input onChange={this.changeUsername} />
-			</div>
-			<div className={styles.LoginPassword}>
-				<h3>Password:</h3>
-				<input onChange={this.changePassword} type="password"/>
-			</div>
-			<div className={styles.LoginAttempts}>
-				{this.renderAttempts()}
-			</div>
-			<button className={styles.LoginButton} onClick={this.login} >Login</button>
+				<div className={styles.LoginUsername}>
+					<h3>Username:</h3>
+					<input onChange={this.changeUsername} />
+				</div>
+				<div className={styles.LoginPassword}>
+					<h3>Password:</h3>
+					<input onChange={this.changePassword} type="password"/>
+				</div>
+				<div className={styles.LoginAttempts}>
+					{this.renderAttempts()}
+				</div>
+				<button className={styles.LoginButton} onClick={this.login} >Login</button>
 			</div>
 		);
 	}

@@ -1,0 +1,38 @@
+:local .AlbumList {
+	list-style: none;
+}
+
+:local .Album {
+	background: transparent;
+	
+	border-bottom: 1px solid transparent;
+	border-left: 0px;
+	border-right: 0px;
+	border-top: 0px;
+
+	color: red;
+	font-size: 16px;
+	font-family: recharge;
+	transition: ease-in-out 0.2s;
+	padding-bottom: 3px;
+}
+
+:local .Album:hover {
+	border-bottom: 1px solid red;
+	cursor: pointer;
+}
+
+:local .AlbumListWrapper {
+	padding: 10px;
+}
+
+:local .AlbumListWrapper h1 {
+	margin-bottom: 0px;
+}
+
+:local .AlbumListWrapper hr {
+	color: red;
+	border: 0px;
+	border-bottom: 1px solid red;
+	margin-bottom: 20px;
+}

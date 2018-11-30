@@ -1,0 +1,110 @@
+:local .playerControls {
+	color: rgb(221, 0, 0);
+	align-self: center;
+	padding-left: 10%;
+	padding-right: 10%;
+	margin-bottom: 3%;
+	height: 100%;
+	flex: 0;
+}
+
+:local .nowPlaying {
+	text-align: center;
+}
+
+:local .controls {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-evenly;
+}
+
+:local .controls span {
+	text-align: center;
+	font-size: 70px;
+	cursor: pointer;
+	transition: ease-in-out 0.2s all;
+}
+
+
+:local .controls li {
+	text-align: center;
+	font-size: 70px;
+	cursor: pointer;
+}
+
+
+:local .playerControls span:hover {
+	color: red;
+	box-shadow: 0px 1px 0px 0px;
+}
+
+:local .playerSeekBar {
+	padding-left: 20px;
+	padding-right: 40px;
+	outline: 0;
+}
+
+:local .playerSeeker {
+	-webkit-appearance: none;  /* Override default CSS styles */
+    appearance: none;
+    width: 100%; /* Full-width */
+    outline: 0; /* Remove outline */
+    -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+	transition: opacity .2s;
+}
+
+:local .playerSeeker input {
+	outline: none;
+}
+
+:local .playerSeeker input:hover {
+	outline: none;
+}
+
+:local .playerSeeker::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Override default look */
+    appearance: none;
+    width: 10px; /* Set a specific slider handle width */
+    height: 10px; /* Slider handle height */
+    background: red; /* Green background */
+	cursor: pointer; /* Cursor on hover */
+	border: 1px;
+	outline: none;
+}
+
+/* Remove ugly dotted outline */
+:local input[type=range]::-moz-focus-outer {
+	border: 0;
+}
+
+:local .playerSeeker::-moz-range-thumb {
+    width: 15px; /* Set a specific slider handle width */
+    height: 15px; /* Slider handle height */
+    background: red; /* Green background */
+	cursor: pointer; /* Cursor on hover */
+	border: 0px;
+	outline: none;
+}
+
+:local .playerSeeker::-webkit-slider-runnable-track {
+    -webkit-appearance: none; /* Override default look */
+    appearance: none;
+    background: darkred; /* Green background */
+	cursor: pointer; /* Cursor on hover */
+	outline: 0;
+}
+
+:local .playerSeeker::-moz-range-track {
+    background: darkred; /* Green background */
+	cursor: pointer; /* Cursor on hover */
+	outline: 0;
+}
+
+:local .MaximizeButton {
+	font-size: 30px !important;
+}
+
+:local .invisibleMiddleware {
+	display: none;
+}

@@ -1,0 +1,169 @@
+{
+	"songs": [
+		{
+			"name": "Welcome",
+			"artist": "Pylot",
+			"id": "YCZQjZfsxFU",
+			"artwork": [
+				{
+					"filename": "Powergrid.jpg"
+				}
+			],
+			"lyrics": "No lyrics available."
+		},
+		{
+			"name": "Neo-Tokyo",
+			"artist": "Dance with the Dead/Scandroid",
+			"id": "a1jMUiSR4Gg",
+			"artwork": [
+				{
+					"filename": "Scandroid1.jpg"
+				}
+			],
+			"lyrics": "No lyrics available."
+		},
+		{
+			"name": "Second Chances ",
+			"artist": "d.notive",
+			"id": "LUQV9zZaNX8",
+			"artwork": [
+				{
+					"filename": "dnotive.jpg"
+				}
+			],
+			"lyrics": "No lyrics available."
+		},
+		{
+			"name": "The Drone Racing League",
+			"artist": "Gunship",
+			"id": "AZtik4q7NqM",
+			"artwork": [
+				{
+					"filename": "DarkAllDay.jpg"
+				}
+			],
+			"lyrics": "No lyrics available."
+		},
+		{
+			"name": "Future Club",
+			"artist": "Perturbator",
+			"id": "RY66fdMt4vc",
+			"artwork": [
+				{
+					"filename": "DangerousDays.jpg"
+				}
+			],
+			"lyrics": "No lyrics available."
+		},
+		{
+			"name": "Atom & E.E.V",
+			"artist": "Scandroid",
+			"id": "iuXbj9wij9Q",
+			"artwork": [
+				{
+					"filename": "Scandroid2.jpg"
+				}
+			],
+			"lyrics": "No lyrics available."
+		},
+		{
+			"name": "Shadows",
+			"artist": "The Midnight",
+			"id": "sGwtkJaQ9n0",
+			"artwork": [
+				{
+					"filename": "TheMidnight.jpg"
+				}
+			],
+			"lyrics": "No lyrics available."
+		},	
+		{
+			"name": "Bad News",
+			"artist": "Absolute Valentine",
+			"id": "WX4r5iUTbfo",
+			"artwork": [
+				{
+					"filename": "AbsoluteValentine.jpg"
+				}
+			],
+			"lyrics": "No lyrics available."
+		},
+		{
+			"name": "Night Cruisin'",
+			"artist": "Sung",
+			"id": "a7ze-m5jrmY",
+			"artwork": [
+				{
+					"filename": "Sung.jpg"
+				}
+			],
+			"lyrics": "No lyrics available."
+		},
+		{
+			"name": "Sloan's Assult",
+			"artist": "Power Glove",
+			"id": "moiTaZmdOcE",
+			"artwork": [
+				{
+					"filename": "FC3.jpg"
+				}
+			],
+			"lyrics": "No lyrics available."
+		},
+		{
+			"name": "A Darker Path",
+			"artist": "Midnight Danger",
+			"id": "g5lK1GybPU0",
+			"artwork": [
+				{
+					"filename": "DarkerPath.jpg"
+				}
+			],
+			"lyrics": "No lyrics available."
+		},
+		{
+			"name": "Streetwalker",
+			"artist": "Nightstop",
+			"id": "SFzJsfMxtCg",
+			"artwork": [
+				{
+					"filename": "Nightstop.jpg"
+				}
+			],
+			"lyrics": "No lyrics available."
+		},
+		{
+			"name": "The Target",
+			"artist": "Neon Nox",
+			"id": "vSFXnZfqNXE",
+			"artwork": [
+				{
+					"filename": "NeonNox.jpg"
+				}
+			],
+			"lyrics": "No lyrics available."
+		},
+		{
+			"name": "Implant",
+			"artist": "Makeup And Vanity Set",
+			"id": "7yMbdkjbysY",
+			"artwork": [
+				{
+					"filename": "Implant.jpg"
+				}
+			],
+			"lyrics": "No lyrics available."
+		},
+		{
+			"name": "NARC",
+			"artist": "Mega Drive",
+			"id": "NiGG6S_1bpM",
+			"artwork": [
+				{
+					"filename": "NARC.jpg"
+				}
+			],
+			"lyrics": "No lyrics available."
+		}
+	]
+}
