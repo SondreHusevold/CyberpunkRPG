@@ -1,5 +1,7 @@
 :local .AlbumList {
 	list-style: none;
+	flex-wrap: wrap;
+	text-align: left;
 }
 
 :local .Album {

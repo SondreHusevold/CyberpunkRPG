@@ -22,7 +22,9 @@ export default class AlbumList extends Component<IAlbumListProps, {}> {
 					<div className={styles.AlbumList}>
 						{this.props.albums.map((album) => {
 							return (
-								<button onClick={this.props.setShownAlbum.bind(this, album)} className={styles.Album} key={album.name}>{album.name}</button>
+								<div key={album.name}>
+									<button onClick={this.props.setShownAlbum.bind(this, album)} className={styles.Album}>{album.name}</button>
+								</div>
 							)
 						})}
 					</div>

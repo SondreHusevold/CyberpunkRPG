@@ -1,10 +1,13 @@
 import React, { Component } from 'react';
+import PerfectScrollbar from 'react-perfect-scrollbar'
+import 'react-perfect-scrollbar/dist/css/styles.css';
 import { PlayerService } from '../Services/PlayerService';
 import AlbumList from './AlbumList';
 import styles from './Player.module.css';
 import PlayerArtwork from './PlayerArtwork';
 import PlayerHeaderbar from './PlayerHeaderbar';
 import PlayerMiddleware from './PlayerMiddleware';
+import './PlayerScrollbar.css';
 import SongList from './SongList';
 import SongLyrics from './SongLyrics';
 
@@ -22,7 +25,7 @@ interface IPlayerProps {
 }
 
 export default class Player extends Component<IPlayerProps, IPlayerState> {
-
+	
 	constructor(props: IPlayerProps) {
 		super(props);
 		this.state = {
@@ -129,25 +132,14 @@ export default class Player extends Component<IPlayerProps, IPlayerState> {
 		})
 	}
 
-	public renderMainArea() {
-		if(this.state.minimized !== true) {
-			return (
-				<div>
-					<PlayerHeaderbar closePlayer={this.props.closePlayer} toggleMinimize={this.toggleMinimize} hasSong={this.state.currentSong} switchToInterface={this.switchToInterface} />
-					<div  className={styles.mainArea}>
-						{this.renderListOrThumbnail()}
-					</div>
-				</div>
-			)
-		}
-		return null;
-	}
-
 	public render() {
 		return (
 			<div className={styles.Player + " " + (this.state.minimized ? styles.MinimizedPlayer : styles.ShownPlayer) }>
+				<PlayerHeaderbar closePlayer={this.props.closePlayer} toggleMinimize={this.toggleMinimize} hasSong={this.state.currentSong} switchToInterface={this.switchToInterface} />
 				<div className={styles.relativeTo}>
-					{this.renderMainArea()}
+					<PerfectScrollbar className={styles.mainArea}>
+						{this.renderListOrThumbnail()}
+					</PerfectScrollbar>
 					<PlayerMiddleware 
 						toggleMinimize={this.toggleMinimize} 
 						minimized={this.state.minimized} 

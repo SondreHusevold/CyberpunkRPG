@@ -15,7 +15,7 @@ class Cyberpunk extends Component<{}, ICyberpunkState> {
 		super(props);
 		this.state = { 
 			loggedIn: false, 
-			player: false
+			player: true
 		};
 	}
 

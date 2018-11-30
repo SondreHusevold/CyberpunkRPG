@@ -8,9 +8,8 @@
 	display: flex;
 	flex-direction: row;
 	list-style: none;
-	padding-top: 5px;
-	padding-left: 10px;
-	padding-bottom: 5px;
+	height: 32px;
+	line-height: 2;
 	border-bottom: 1px solid red;
 	justify-content: space-between;
 	padding-right: 10px;
@@ -73,6 +72,19 @@
 	}
 }
 
+:local .mainArea {
+	max-height: calc(100% - (185px - 32px));
+	overflow: hidden;
+}
+
+.ps > .ps__rail-y {
+	background-color: red !important;
+}
+
+.ps > .ps__rail-y > .ps__thumb-y {
+	background-color: red !important;
+}
+
 :local .MinimizedPlayer {
 	position: absolute;
 	left: 0;
@@ -90,3 +102,4 @@
 	border-bottom: 1px solid red;
 	transition: ease-in-out all 0.3s; 
 }
+

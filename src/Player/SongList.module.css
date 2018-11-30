@@ -1,6 +1,7 @@
 :local .SongList {
 	list-style: none;
-	max-height: 40vh;
+	height: 100%;
+	overflow: hidden;
 }
 
 :local .Song {
