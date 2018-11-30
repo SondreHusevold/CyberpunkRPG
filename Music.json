@@ -1,6 +1,11 @@
 {
 	"albums": [
 		{
+			"name": "Hyrim",
+			"folderName": "Hyrim",
+			"songs": []
+		},
+		{
 			"name": "Night City Top 15",
 			"folderName": "NightCityTop15",
 			"songs": []
