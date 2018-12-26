@@ -174,6 +174,7 @@ export interface ISong {
 		}
 	>
 	lyrics: string;
+	wasPlayed: string;
 }
 
 export enum PlayerInterface {

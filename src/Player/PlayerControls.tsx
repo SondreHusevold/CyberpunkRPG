@@ -93,6 +93,17 @@ export default class PlayerControls extends Component<IPlayerControlsProps, IPla
 		return null;
 	}
 
+	public renderPlayedWhen = () => {
+		if(this.props.minimized !== true && this.props.song != null) {
+			return (
+				<div className={styles.nowPlaying}>
+					<p>{this.props.song.wasPlayed}</p>
+				</div>
+			)
+		}
+		return null;
+	}
+
 	public renderMaximizeButton() {
 		if(this.props.minimized) {
 			return (
@@ -108,6 +119,7 @@ export default class PlayerControls extends Component<IPlayerControlsProps, IPla
 				<div>
 					<div className={styles.playerControls}>
 						{this.renderSongTitle()}
+						{this.renderPlayedWhen()}
 						<div className={styles.controls}>
 							<span className="material-icons" onClick={this.switchToPreviousSongButton}>skip_previous</span>
 							<span className="material-icons" onClick={this.togglePlayPause}>{this.props.isPlaying ? 'pause' : 'play_arrow'}</span>

@@ -11,7 +11,9 @@
 	border-left: 0px;
 	border-right: 0px;
 	border-top: 0px;
-
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
 	color: red;
 	font-size: 16px;
 	font-family: recharge;

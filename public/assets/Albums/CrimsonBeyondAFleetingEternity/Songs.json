@@ -1,0 +1,364 @@
+{
+	"songs": [
+		{
+			"name": "The Capital of Shinjuku",
+			"artist": "Hobby Atelier Carrot Wine",
+			"id": "HZ13CvKMvf8",
+			"artwork": [
+				{
+					"filename": "YggdrasilLeaf.png"
+				}
+			],
+			"lyrics": "No lyrics available.",
+			"wasPlayed": "During the cart ride to the God's Throne."
+		},
+		{
+			"name": "Chalky Woods",
+			"artist": "Stargaze",
+			"id": "1HfBsvaiiFY",
+			"artwork": [
+				{
+					"filename": "Stargaze.png"
+				}
+			],
+			"lyrics": "No lyrics available.",
+			"wasPlayed": "After the cart was wrecked and you walked up God's Throne."
+		},
+		{
+			"name": "Hoise the Sword and Pride in the Heart",
+			"artist": "Stargaze",
+			"id": "zi9oeN6mC_Y",
+			"artwork": [
+				{
+					"filename": "Stargaze.png"
+				}
+			],
+			"lyrics": "No lyrics available.",
+			"wasPlayed": "When the goblin escaped from the inn and ran into Isfre to be mercilessly killed."
+		},
+		{
+			"name": "Requiem for the Gods",
+			"artist": "Castlevania: Symphony of the Night",
+			"id": "2RqGeEsXJWY",
+			"artwork": [
+				{
+					"filename": "Castlevania.jpg"
+				}
+			],
+			"lyrics": "No lyrics available.",
+			"wasPlayed": "When a civilian found Paladin Thaanuff's white corpse in the snow at night. Isfre first suspected you of the deed."
+		},
+		{
+			"name": "Septette for the Dead Princess / U.N. Owen was Her?",
+			"artist": "玖原イヅナ",
+			"id": "pnlGgPbMAlo",
+			"artwork": [
+				{
+					"filename": "Embodiment.png"
+				}
+			],
+			"lyrics": "No lyrics available.",
+			"wasPlayed": "During Thaanuff's funeral - Last part was known was the Death Waltz they played for the dead at Ishomodae."
+		},
+		{
+			"name": "Faith is for the Transient People",
+			"artist": "流派未確定",
+			"id": "Xp6WwRE-zMc",
+			"artwork": [
+				{
+					"filename": "Faith.jpg"
+				}
+			],
+			"lyrics": "No lyrics available.",
+			"wasPlayed": "vs. Ranfelt in the abandoned clock tower located at Erri's old mansion where he was breeding gryphons."
+		},
+		{
+			"name": "Extend Ash ～ Holy Mountain People",
+			"artist": "Hellion Sounds",
+			"id": "uxUi_nonrW8",
+			"artwork": [
+				{
+					"filename": "ScentGames.jpg"
+				}
+			],
+			"lyrics": "No lyrics available.",
+			"wasPlayed": "The battle versus Pharasma soldiers after warning Isfre about what Ranfelt told you about."
+		},
+		{
+			"name": "Faith is for the Transient People.",
+			"artist": "Hellion Sounds",
+			"id": "StQQwjTEhzE",
+			"artwork": [
+				{
+					"filename": "ScentGames.jpg"
+				}
+			],
+			"lyrics": "No lyrics available.",
+			"wasPlayed": "The battle versus a Pharasma giant in the Pharasma army."
+		},
+		{
+			"name": "Waterfall Woods",
+			"artist": "Memories of the World Tree",
+			"id": "zp8kA7wL6go",
+			"artwork": [
+				{
+					"filename": "Memories.jpg"
+				}
+			],
+			"lyrics": "No lyrics available.",
+			"wasPlayed": "Ot Thundergaze has lost his Martha and Isfre has said she is not sending a rescue squad in to save her due to current circumstances."
+		},
+		{
+			"name": "Clash on the Big Bridge",
+			"artist": "Hellion Sounds",
+			"id": "G71OaGlaGGs",
+			"artwork": [
+				{
+					"filename": "RedRezone.jpg"
+				}
+			],
+			"lyrics": "No lyrics available.",
+			"wasPlayed": "vs. Drunk Pharasma soldiers on the bridge between the main mountain and the city of Gormagas."
+		},
+		{
+			"name": "City of Radiant Ruin",
+			"artist": "Etrian Odyssey IV",
+			"id": "3KmcSXVyzzM",
+			"artwork": [
+				{
+					"filename": "EO4.png"
+				}
+			],
+			"lyrics": "No lyrics available.",
+			"wasPlayed": "When the snow was melting as you wandered the old labyrinth surrounding Gormagas."
+		},
+		{
+			"name": "On an Adventure Gliding Through the Skies",
+			"artist": "Etrian Odyssey IV",
+			"id": "yf03W9oA4Cw",
+			"artwork": [
+				{
+					"filename": "EO4.png"
+				}
+			],
+			"lyrics": "No lyrics available.",
+			"wasPlayed": "During the city of Gormagras while it is threatened by the evil creature Crolp."
+		},
+		{
+			"name": "The Legend's Successor",
+			"artist": "Etrian Odyssey IV",
+			"id": "aSCSf3RFVdw",
+			"artwork": [
+				{
+					"filename": "EO4.png"
+				}
+			],
+			"lyrics": "No lyrics available.",
+			"wasPlayed": "During Phase 1 battle vs. Crolp."
+		},
+		{
+			"name": "The Legend's Successor (Super Arrange)",
+			"artist": "Etrian Odyssey IV Super Arrange",
+			"id": "4NWsZM8UZOs",
+			"artwork": [
+				{
+					"filename": "EO4SA.jpg"
+				}
+			],
+			"lyrics": "No lyrics available.",
+			"wasPlayed": "During the final phase vs. Crolp."
+		},
+		{
+			"name": "City of Radiant Ruin (Super Arrange)",
+			"artist": "Etrian Odyssey IV Super Arrange",
+			"id": "8y8vThtoB_8",
+			"artwork": [
+				{
+					"filename": "EO4SA.jpg"
+				}
+			],
+			"lyrics": "No lyrics available.",
+			"wasPlayed": "In the city of Gormagras after destroying Crolp."
+		},
+		{
+			"name": "U.N. Owen was Her? (Violin Ver.)",
+			"artist": "Zero Symphonic Battalion",
+			"id": "kL1GNs8ruNg",
+			"artwork": [
+				{
+					"filename": "Embodiment.png"
+				}
+			],
+			"lyrics": "No lyrics available.",
+			"wasPlayed": "Battle in the cabin where Martha was dead, drained completely and Erri was found bound up by agents of Pharasma."
+		},
+		{
+			"name": "Kyrie Eleison",
+			"artist": "WAVE",
+			"id": "uURwELdI38o",
+			"artwork": [
+				{
+					"filename": "Kyrie.png"
+				}
+			],
+			"lyrics": "No lyrics available.",
+			"wasPlayed": "As you woke up at the church after getting knocked unconcious by Isfre after saving Erri at the cabin."
+		},
+		{
+			"name": "After School Spirits Club",
+			"artist": "Persona Q",
+			"id": "uF8In96WHLE",
+			"artwork": [
+				{
+					"filename": "PQ.png"
+				}
+			],
+			"lyrics": "No lyrics available.",
+			"wasPlayed": "Entering Dwarfus Meridianum's creepy halls."
+		},
+		{
+			"name": "Den of the Dark Realm ",
+			"artist": "Etrian Odyssey IV",
+			"id": "epoINGeaKUs",
+			"artwork": [
+				{
+					"filename": "EO4.png"
+				}
+			],
+			"lyrics": "No lyrics available.",
+			"wasPlayed": "Continuing through Dwarfus Meridianum..."
+		},
+		{
+			"name": "If - Over Drive",
+			"artist": "WAVE",
+			"id": "dbnli361Lus",
+			"artwork": [
+				{
+					"filename": "WhiteAvalon.jpg"
+				}
+			],
+			"lyrics": "No lyrics available.",
+			"wasPlayed": "In the battle vs. Ug Thundergaze - Ot's son."
+		},
+		{
+			"name": "On an Adventure Gliding Through the Skies (Super Arrange)",
+			"artist": "EOIV Super Arrange",
+			"id": "KXYrsJRrlf4",
+			"artwork": [
+				{
+					"filename": "EO4SA.jpg"
+				}
+			],
+			"lyrics": "No lyrics available.",
+			"wasPlayed": "Doz is on the brink of death due to the poison in Dwarfus."
+		},
+		{
+			"name": "North",
+			"artist": "Rameses B",
+			"id": "U5im_1MHrLU",
+			"artwork": [
+				{
+					"filename": "North.png"
+				}
+			],
+			"lyrics": "No lyrics available.",
+			"wasPlayed": "Running around amid a forest of ice with the task of finding a unique flower."
+		},
+		{
+			"name": "Ghostly Eyes [Ver.Eclipse]",
+			"artist": "S.S.H & Aether",
+			"id": "h4heTSdzaCk",
+			"artwork": [
+				{
+					"filename": "EternalEclipse.jpg"
+				}
+			],
+			"lyrics": "No lyrics available.",
+			"wasPlayed": "vs. Paladin Lodel on the lizardman enchanter's blue transparent bridge back to Gormagras."
+		},
+		{
+			"name": "Dark Road",
+			"artist": "S.S.H & Aether",
+			"id": "q4lFgiPxyd0",
+			"artwork": [
+				{
+					"filename": "EternalEclipse.jpg"
+				}
+			],
+			"lyrics": "No lyrics available.",
+			"wasPlayed": "Paladin Lodel is defeated and our heroes are on the way back to Gormagras, flower and water in hand."
+		},
+		{
+			"name": "Dectet, Nonet, Octet",
+			"artist": "WAVE",
+			"id": "vAzGynpOmIc",
+			"artwork": [
+				{
+					"filename": "Rhapsody.jpg"
+				}
+			],
+			"lyrics": "No lyrics available.",
+			"wasPlayed": "vs. Isfre in the church during Gormagras' attack on Ishomodae."
+		},
+		{
+			"name": "Crimson Beyond a Fleeting Eternity",
+			"artist": "Hellion Sounds",
+			"id": "t1l8Rk3_514",
+			"artwork": [
+				{
+					"filename": "ScentGames.jpg"
+				}
+			],
+			"lyrics": "No lyrics available.",
+			"wasPlayed": "On the way to Erri's mansion after understanding you've destroyed Ishomodae's defenses and have opened pandora's box."
+		},
+		{
+			"name": "The 4th movement of Flandre Suite",
+			"artist": "TENMON",
+			"id": "FxtZ8qX2A04",
+			"artwork": [
+				{
+					"filename": "Bloodmoon.jpg"
+				}
+			],
+			"lyrics": "No lyrics available.",
+			"wasPlayed": "Vs. Erri."
+		},
+		{
+			"name": "Emotional Skyscraper ~ Cosmic Mind",
+			"artist": "Tutti Sound",
+			"id": "Iz_hdd4Qlno",
+			"artwork": [
+				{
+					"filename": "Bloodmoon.jpg"
+				}
+			],
+			"lyrics": "No lyrics available.",
+			"wasPlayed": "The second track Vs. Erri."
+		},
+		{
+			"name": "Screen",
+			"artist": "FELT",
+			"id": "gHBiUJXGgSY",
+			"artwork": [
+				{
+					"filename": "FELT.jpg"
+				}
+			],
+			"lyrics": "No lyrics available.",
+			"wasPlayed": "During Mercy's Embrace."
+		},
+		{
+			"name": "Moonlight Shines",
+			"artist": "FELT",
+			"id": "zftT4uMk_gM",
+			"artwork": [
+				{
+					"filename": "FELT.jpg"
+				}
+			],
+			"lyrics": "No lyrics available.",
+			"wasPlayed": "After Mercy's embrace, epilogue."
+		}
+	]
+}

@@ -1,6 +1,11 @@
 {
 	"albums": [
 		{
+			"name": "Crimson Beyond a Fleeting Eternity",
+			"folderName": "CrimsonBeyondAFleetingEternity",
+			"songs": []
+		},
+		{
 			"name": "Hyrim",
 			"folderName": "Hyrim",
 			"songs": []
