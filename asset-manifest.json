@@ -1,7 +1,7 @@
 {
   "main.css": "/CyberpunkRPG/static/css/main.3255227c.chunk.css",
-  "main.js": "/CyberpunkRPG/static/js/main.3b8ce7c1.chunk.js",
-  "main.js.map": "/CyberpunkRPG/static/js/main.3b8ce7c1.chunk.js.map",
+  "main.js": "/CyberpunkRPG/static/js/main.eb4989f1.chunk.js",
+  "main.js.map": "/CyberpunkRPG/static/js/main.eb4989f1.chunk.js.map",
   "static/css/1.2cb95e12.chunk.css": "/CyberpunkRPG/static/css/1.2cb95e12.chunk.css",
   "static/js/1.02c9a5e4.chunk.js": "/CyberpunkRPG/static/js/1.02c9a5e4.chunk.js",
   "static/js/1.02c9a5e4.chunk.js.map": "/CyberpunkRPG/static/js/1.02c9a5e4.chunk.js.map",
@@ -11,6 +11,6 @@
   "static/css/main.3255227c.chunk.css.map": "/CyberpunkRPG/static/css/main.3255227c.chunk.css.map",
   "static/css/1.2cb95e12.chunk.css.map": "/CyberpunkRPG/static/css/1.2cb95e12.chunk.css.map",
   "index.html": "/CyberpunkRPG/index.html",
-  "precache-manifest.e8b101ef0e0fdd15eb75bd3a14665925.js": "/CyberpunkRPG/precache-manifest.e8b101ef0e0fdd15eb75bd3a14665925.js",
+  "precache-manifest.5d618c57950c32998f609d70410590fd.js": "/CyberpunkRPG/precache-manifest.5d618c57950c32998f609d70410590fd.js",
   "service-worker.js": "/CyberpunkRPG/service-worker.js"
 }
