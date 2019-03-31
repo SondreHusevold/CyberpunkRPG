@@ -1,0 +1,58 @@
+{
+	"charClasses": [
+		{
+			"name": "Rockerboy",
+			"description": "Rebel rockers who use music and revolt to fight authority.",
+			"quote": "Music always gets hammered down to the Three A's. Axe, Attitude and Audience. Me, I had an Axe and an Attitude. All I had to do was get the third one.",
+			"artwork": "Rockerboy.jpg"
+		},
+		{
+			"name": "Solo",
+			"description": "Hired assessins, bodyguards, killers, soldiers.",
+			"quote": "After a few months on the street, I got into a dustdown with a local Booster lord.\n I flatlined him and went back to my drink. Within ten minutes, the recruiter from Militech came up to me and dropped a business card.",
+			"artwork": "Solo.jpg"
+		},
+		{
+			"name": "Netrunner",
+			"description": "Cybernetic computer hackers.",
+			"quote": "First system I ever hit, I  think they had some weeflerunner playin' Sysop for  them. I burned in, jolted the guy with a borrowed Hellbolt, and did the major plunder action all over the Data Fortress.",
+			"artwork": "Netrunner.jpg"
+		},
+		{
+			"name": "Techie",
+			"description": "Renegade mechanics and doctors",
+			"quote": "So you want me to build a delay switch into the thing? And you don't care about the explosion radius?\nNo problem. At least you got a simple job. Last guy in here, he wanted me to build him a cyberhand that had a built-in ...aw, frack, you don't wanna know.",
+			"artwork": "Techie.jpg"
+		},
+		{
+			"name": "Media",
+			"description": "Newsmen and reporters who go to the wall for the truth.",
+			"quote": "Okey, so it's dangerous. When I was a kid, I used to watch those reporters on the TV news. Always broadcasting from some exotic place like Mozambique or Saigon. They went straight into the Central American warzones with the cybergrunts, and they got the story even when the shooting was maximally fierece.\n\nThat's the part I like; the danger.",
+			"artwork": "Media.jpg"
+		},
+		{
+			"name": "Cop",
+			"description": "Maximum lawmen on mean 21st century streets.",
+			"quote": "Drop it, punk. I don't wanna hear your life story and I don't care about what society did to you. I just wanna see that gun hit the floor. Now, before I give you an extra nostrill.",
+			"artwork": "Cop.jpg"
+		},
+		{
+			"name": "Corporate",
+			"description": "Slick business raiders and multi-millionaires",
+			"quote": "Money. Yeah, I got money: A new BMW aerodyne and a penthouse flat in the Corporate Zone. All the money ain't worth frack. You play this game for power. The power to get things done; to make the big decisions; to affects things. You make a phone call, and the next thing you know, you're telling the president of some bushleague Euronation that he'd better play it your way, or he's history.",
+			"artwork": "Corporate.jpg"
+		},
+		{
+			"name": "Fixer",
+			"description": "Deal makers, smugglers, organizers and information brokers.",
+			"quote": "Don't give me this 'Robin Hood' stuff. I'm doin' a job, no more. I give people what they want, an' they pay me out.",
+			"artwork": "Fixer.jpg"
+		},
+		{
+			"name": "Nomad",
+			"description": "Road warriors and gypsies who roam the highways",
+			"quote": "Guns. Guns and cyberbikes. That's how we hold the line. We don't have any home except the Caravan. We don't have any rights except what we take. We get run out of town by the cops; we get raided by the roadwarrior packs, and we survive because we've got guns and bikes...",
+			"artwork": "Nomad.jpg"
+		}
+	]
+}
