@@ -1,0 +1,30 @@
+@media screen and (min-width: 1200px) {
+	:local .Classes {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-column-gap: 10px;
+		grid-row-gap: 10px;
+	}
+}
+
+@media screen and (max-width: 1200px) {
+	:local .Classes {
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-column-gap: 10px;
+		grid-row-gap: 10px;
+	}
+}
+
+:local .ClassWindow {
+	border: 1px solid red;
+	min-height: 250px;
+}
+
+:local .ClassWindow:hover {
+	animation: noise-anim-b 0.25s 1 linear alternate-reverse;
+}
+
+:local .ClassTitle {
+	text-align: center;
+}

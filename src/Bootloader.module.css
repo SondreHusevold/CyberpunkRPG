@@ -1,0 +1,31 @@
+:local .Zetatech {
+	color: red;
+	display: grid;
+  	grid-auto-flow: column;
+  	grid-template-columns: auto;
+	grid-template-rows: 30% 1fr;
+	grid-template-areas: 'MainMenu'
+						 'MainContent'
+}
+
+:local .Background {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+}
+
+:local .mainContent {
+	grid-area: MainContent;
+}
+
+:local .DevelopmentBackground {
+	background-color: #202020;
+};
+
+:local .footerLocation {
+	grid-area: Footer;
+	color: darkred;
+}

@@ -52,6 +52,7 @@
     outline: 0; /* Remove outline */
     -webkit-transition: .2s; /* 0.2 seconds transition on hover */
 	transition: opacity .2s;
+	background: transparent;
 }
 
 :local .playerSeeker input {

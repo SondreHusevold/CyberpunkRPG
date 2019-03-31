@@ -1,0 +1,303 @@
+{
+	"songs": [{
+			"name": "Angel",
+			"artist": "Massive Attack",
+			"id": "xiK2JlBpzvI",
+			"artwork": [{
+				"filename": "MassiveAttack.jpg"
+			}],
+			"lyrics": "You are my angel\nCome from way above to bring me love\nHer eyes, she's on the dark side\nNeutralize every man in sight\nTo love you, love you, love you\nYou are my angel\nCome from way above\nTo love you, love you, love you",
+			"wasPlayed": "Introduction video."
+		},
+		{
+			"name": "God Complex",
+			"artist": "Perturbator",
+			"id": "20TwmVR5fBo",
+			"artwork": [{
+				"filename": "GodComplex.jpg"
+			}],
+			"lyrics": "No lyrics available.",
+			"wasPlayed": "In the elevator at Poe Enterprises. Only 04:30-05:30 (around 50% mark)."
+		},
+		{
+			"name": "Dissolved Girl",
+			"artist": "Massive Attack",
+			"id": "6lcZ0redg1s",
+			"artwork": [{
+				"filename": "MassiveAttack.jpg"
+			}],
+			"lyrics": "No lyrics available.",
+			"wasPlayed": "Fight vs. Thugs who smashed up Gabriel with a baseball bat."
+		},
+		{
+			"name": "Risingson",
+			"artist": "Massive Attack",
+			"id": "klPGfv9Swbw",
+			"artwork": [{
+				"filename": "MassiveAttack.jpg"
+			}],
+			"lyrics": "No lyrics available.",
+			"wasPlayed": "While exploring the city before you went to the Firmament."
+		},
+		{
+			"name": "Genious",
+			"artist": "The Courtesans",
+			"id": "6SfY_myDFFQ",
+			"artwork": [{
+				"filename": "TheCourtesans.jpg"
+			}],
+			"lyrics": "No lyrics available.",
+			"wasPlayed": "Inside 'The Firmament'."
+		},
+		{
+			"name": "Creature of the Night",
+			"artist": "Zombie Girl",
+			"id": "0EFjr4blg-A",
+			"artwork": [{
+				"filename": "ZombieGirl.jpg"
+			}],
+			"lyrics": "No lyrics available.",
+			"wasPlayed": "Inside 'The Firmament'."
+		},
+		{
+			"name": "Isolated",
+			"artist": "Chiasm",
+			"id": "uoUCyrg5Syo",
+			"artwork": [{
+				"filename": "ISOLATED.jpg"
+			}],
+			"lyrics": "No lyrics available.",
+			"wasPlayed": "Inside 'The Firmament'."
+		},
+		{
+			"name": "Knowhere",
+			"artist": "The Courtesans",
+			"id": "Cd3hQMKHAiw",
+			"artwork": [{
+				"filename": "TheCourtesans.jpg"
+			}],
+			"lyrics": "No lyrics available.",
+			"wasPlayed": "Inside 'The Firmament'."
+		},
+		{
+			"name": "The Ruler and The Killer",
+			"artist": "Kid Cudi",
+			"id": "AAOSvKub00c",
+			"artwork": [{
+				"filename": "TheRulerAndTheKiller.jpg"
+			}],
+			"lyrics": "No lyrics available.",
+			"wasPlayed": "Fight vs. Thugs at the condemned apartments where Travis was embraced."
+		},
+		{
+			"name": "Omen",
+			"artist": "The Great Discord",
+			"id": "tgODgfjR6eg",
+			"artwork": [{
+				"filename": "Omen.jpg"
+			}],
+			"lyrics": "No lyrics available.",
+			"wasPlayed": "Fight vs. Sabbat inside the apartment where Travis was bound and broken."
+		},
+		{
+			"name": "Life Will Change",
+			"artist": "Shoji Meguro",
+			"id": "tk2eUGISZpk",
+			"artwork": [{
+				"filename": "P5.jpg"
+			}],
+			"lyrics": "No lyrics available.",
+			"wasPlayed": "Trying to steal some expensive jewels from one of the invited guests for Raul."
+		},
+		{
+			"name": "Rain",
+			"artist": "The Birthday Massacre",
+			"id": "V-lkAXgRML8",
+			"artwork": [{
+				"filename": "Superstition.jpg"
+			}],
+			"lyrics": "No lyrics available.",
+			"wasPlayed": "Fight vs. Angered Sabbat after Travis threw a dagger in the Cardinal's back."
+		},
+		{
+			"name": "The Tide",
+			"artist": "The Courtesans",
+			"id": "SuHC4wKDRvw",
+			"artwork": [{
+				"filename": "TheCourtesans.jpg"
+			}],
+			"lyrics": "No lyrics available.",
+			"wasPlayed": "Fight vs. Angered Sabbat after Travis threw a dagger in the Cardinal's back."
+		},
+		{
+			"name": "Vantablack",
+			"artist": "Perturbator",
+			"id": "mPMC3GYpBHg",
+			"artwork": [{
+				"filename": "GodComplex.jpg"
+			}],
+			"lyrics": "No lyrics available.",
+			"wasPlayed": "Following Poe back up Poe Enterprises. Elevator has stopped and The Sabbat are coming up the stairs."
+		},
+		{
+			"name": "Mesmerise",
+			"artist": "The Courtesans",
+			"id": "6ZstRAEkWJs",
+			"artwork": [{
+				"filename": "TheCourtesans.jpg"
+			}],
+			"lyrics": "No lyrics available.",
+			"wasPlayed": "Inside 'Uprising/Random battle music'."
+		},
+		{
+			"name": "I Want It",
+			"artist": "Zombie Girl",
+			"id": "fbr-ztFd3Yg",
+			"artwork": [{
+				"filename": "ZombieGirl2.jpg"
+			}],
+			"lyrics": "No lyrics available.",
+			"wasPlayed": "Inside 'Uprising'."
+		},
+		{
+			"name": "Hunger",
+			"artist": "Ayria",
+			"id": "PedT2bm_4EQ",
+			"artwork": [{
+				"filename": "Ayria.jpg"
+			}],
+			"lyrics": "No lyrics available.",
+			"wasPlayed": "Inside 'Uprising'."
+		},
+		{
+			"name": "Living Dead Superstars",
+			"artist": "Zombie Girl",
+			"id": "DKGEfCQvD4w",
+			"artwork": [{
+				"filename": "ZombieGirl.jpg"
+			}],
+			"lyrics": "No lyrics available.",
+			"wasPlayed": "Inside 'Uprising'."
+		},
+		{
+			"name": "Think",
+			"artist": "Kaleida",
+			"id": "1CurN2Fg-2E",
+			"artwork": [{
+				"filename": "JohnWick.jpg"
+			}],
+			"lyrics": "No lyrics available.",
+			"wasPlayed": "Infiltrating 'Uprising' to kill Fredreich Giovanni for his diablerie crimes."
+		},
+		{
+			"name": "LED Spirals",
+			"artist": "Le Castle Vania",
+			"id": "7Pv0u7uMn-g",
+			"artwork": [{
+				"filename": "JohnWick.jpg"
+			}],
+			"lyrics": "No lyrics available.",
+			"wasPlayed": "Infiltrating 'Uprising' to kill Fredreich Giovanni for his diablerie crimes."
+		},
+		{
+			"name": "After Dark",
+			"artist": "Seraphim Shock",
+			"id": "HCSIL-IupQU",
+			"artwork": [{
+				"filename": "AfterDark.jpg"
+			}],
+			"lyrics": "No lyrics available.",
+			"wasPlayed": "Multiple 'Ductus' arrives at the Nosferatu hideout due to connecting Giovanni's computer to Shrecknet."
+		},
+		{
+			"name": "John Doe",
+			"artist": "The Courtesans",
+			"id": "yO3X2kzTTEQ",
+			"artwork": [{
+				"filename": "TheCourtesans.jpg"
+			}],
+			"lyrics": "No lyrics available.",
+			"wasPlayed": "During battles in the Battle for the Chantry(?)."
+		},
+		{
+			"name": "Red Stars (Space Lab mix)",
+			"artist": "Dean Garica/Birthday Massacre",
+			"id": "u8KcO2ghLQA",
+			"artwork": [{
+				"filename": "LookingGlass.png"
+			}],
+			"lyrics": "No lyrics available.",
+			"wasPlayed": "Infiltrating the Red Star factory in search for The Cardinal and Ermer."
+		},
+		{
+			"name": "Red Stars",
+			"artist": "The Birthday Massacre",
+			"id": "GDxYFzxAkWg",
+			"artwork": [{
+				"filename": "WalkingWithStrangers.jpg"
+			}],
+			"lyrics": "No lyrics available.",
+			"wasPlayed": "Vs. Dmitry 'The Cardinal'."
+		},
+		{
+			"name": "Witching Hour",
+			"artist": "Noferatu",
+			"id": "wNG5aPG2xoI",
+			"artwork": [{
+				"filename": "Nosferatu.jpg"
+			}],
+			"lyrics": "No lyrics available.",
+			"wasPlayed": "Franklin is driving while our heroes are fighting Sabbat on a truck."
+		},
+		{
+			"name": "Our Truth",
+			"artist": "Lacuna Coil",
+			"id": "SB9LXpO6yWo",
+			"artwork": [{
+				"filename": "LacunaCoil.jpg"
+			}],
+			"lyrics": "No lyrics available.",
+			"wasPlayed": "Franklin is driving while our heroes are fighting Sabbat on a truck."
+		},
+		{
+			"name": "Sentient",
+			"artist": "Perturbator",
+			"id": "oTN6cGmH2yM",
+			"artwork": [{
+				"filename": "UncannyValley.jpg"
+			}],
+			"lyrics": "No lyrics available.",
+			"wasPlayed": "With Ermer at the hospital, Miami in flames we go up Poe Enterprises you hear someone familiar is talking through the speaker system."
+		},
+		{
+			"name": "Mercy",
+			"artist": "Muse",
+			"id": "HgcYQLv1Npw",
+			"artwork": [{
+				"filename": "Muse.jpg"
+			}],
+			"lyrics": "No lyrics available.",
+			"wasPlayed": "vs. Mercy."
+		},
+		{
+			"name": "Genious (Remix)",
+			"artist": "Sidewalks and Skeletons",
+			"id": "VCn1rvNX4Gc",
+			"artwork": [{
+				"filename": "Genious.jpg"
+			}],
+			"lyrics": "No lyrics available.",
+			"wasPlayed": "Unused. Originally envisioned vs. Mercy."
+		},
+		{
+			"name": "Passion of Lovers",
+			"artist": "The Shroud/Bauhaus",
+			"id": "Mn0_ud42lbs",
+			"artwork": [{
+				"filename": "PassionOfLovers.jpg"
+			}],
+			"lyrics": "No lyrics available.",
+			"wasPlayed": "Unused. Originally envisioned as Mercy drew her last 'breath'."
+		}
+	]
+}

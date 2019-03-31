@@ -1,20 +1,27 @@
 import React, { Component } from 'react';
 import { hot } from 'react-hot-loader';  
+import styles from './Bootloader.module.css';
 import Login from './Login/Login';
-import styles from './Mainframe.module.css';
+import Mainframe from './Mainframe/Mainframe';
+import MainMenu, { MainSection } from './MainMenu/MainMenu';
 import Player from './Player/Player';
 import Terminal from './Terminal/Terminal';
 
-interface ICyberpunkState {
+interface IBootloaderState {
+	currentSection: MainSection;
 	loggedIn: boolean;
 	player: boolean;
 }
 
-class Cyberpunk extends Component<{}, ICyberpunkState> {
+class Bootloader extends Component<{}, IBootloaderState> {
+	private development: boolean = process.env.NODE_ENV === 'development'; 
+
 	public constructor(props: {}) {
 		super(props);
-		this.state = { 
-			loggedIn: false, 
+
+		this.state = {
+			currentSection: MainSection.Mainframe,
+			loggedIn: false,
 			player: false
 		};
 	}
@@ -23,7 +30,13 @@ class Cyberpunk extends Component<{}, ICyberpunkState> {
 		this.setState({ loggedIn: isLoggedIn });
 	}
 
-	public renderLogin() {
+	public setMainSection = (section: MainSection) => {
+		this.setState({
+			currentSection: section
+		});	
+	}
+
+	public renderLogin() {		
 		if(!this.state.loggedIn){
 			return <Login loginFunction={this.changeLogin} />
 		}
@@ -55,7 +68,22 @@ class Cyberpunk extends Component<{}, ICyberpunkState> {
 		})
 	}
 
+
 	public render() {
+		if(this.development) {
+			return(
+				<div className={styles.Zetatech}>
+					<header className={styles.Background + ' ' + styles.DevelopmentBackground} />
+
+					<MainMenu changeSection={this.setMainSection}/>
+
+					<div className={styles.mainContent}>
+						<Mainframe currentSection={this.state.currentSection} />
+					</div>
+				</div>
+			)
+		}
+
 		return (
 			<div className={styles.Zetatech}>
 				<header>
@@ -68,4 +96,4 @@ class Cyberpunk extends Component<{}, ICyberpunkState> {
 	}
 }
 
-export default hot(module)(Cyberpunk);
+export default hot(module)(Bootloader);

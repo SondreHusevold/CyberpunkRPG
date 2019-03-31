@@ -1,0 +1,79 @@
+:local .cyberpunk_logo {
+	box-shadow: -10px 0px 0px 1px transparent;
+	padding-left: 10px;
+	margin: 10px 0 10px 20px;
+}
+
+:local .cyberpunk_logo:hover {
+	max-width: 300px;
+	box-shadow: -10px 0px 0px 1px red;
+	cursor: pointer;
+}
+
+:local .cyberpunk_logo:focus {
+	outline: none;
+	max-width: 300px;
+	box-shadow: -10px 0px 0px 1px red;
+	cursor: pointer;
+}
+
+:local .MainMenu {
+	grid-area: MainMenu;
+}
+
+/* Main menu list with options. */
+:local .mainmenuList {
+	list-style-type: none;
+	margin-left: 20px;
+	padding-top: 15px;
+}
+
+:local .mainmenuList ul {
+	padding: 0 15px 0 7px;
+	margin: 0 15px 0 0px;
+	display: inline;
+	border-top: 1px solid transparent;
+	border-left: 3px solid transparent;
+	border-bottom: 1px solid transparent;
+}
+
+:local .mainmenuList ul:hover {
+	box-shadow: -5px 0px 0px 1px red;
+	cursor: pointer;
+}
+
+:local .mainmenuList ul:focus {
+	outline: none;
+}
+
+:local hr {
+	color:red;
+	background-color: red;
+}
+
+:local .mobileButton {
+	float: right;
+	padding-right: 15px;
+}
+
+:local .selectedSection {
+	animation-name: redGlitch;
+	animation-duration: 0.25s;
+	box-shadow: -5px 0px 0px 1px red;
+}
+
+:local .selectedSection:hover {
+	box-shadow: -5px 0px 0px 1px red !important;
+}
+
+@keyframes redGlitch {
+  0%   {color: red; text-shadow: 0px 3px 0px red; }
+  25%  {color: black; text-shadow: 6px 2px 1px red;}
+  35%  {color: green; text-shadow: 6px 2px 1px red;}
+  40%  {color: red; text-shadow: 3px -3px 2px red; }
+  50%  {color: blue; text-shadow: -10px -3px -2px black; }
+  65%  {color: red; text-shadow: 4px 7px -0px black; }
+  75%  {color: green; text-shadow: -2px 5px 1px black;}
+  100% {color: red; text-shadow: 0px 0px 0px red; }
+}
+
