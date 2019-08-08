@@ -1,0 +1,20 @@
+{
+    "intro": "In the old days, they would have called you a yuppie—a hard driven, fast-track MBA on his way up the Corporate ladder. Sure, it’s selling your soul to the Company, but face it; the Corporations rule the Cyberpunk world. They control governments, markets, nations, armies—you name it. And you know that whoever controls the Corporations controls everything else.\nRight now, your life as a junior executive is anything but easy. There are guys underneath you who'd kill for a shot at your job. There are guys over you who'd kill to keep you out of their jobs. And they’re not kidding about the killing—every up and comer in the Corporation has his own crew of Solos and Netrunners to cover his pet projects.\nSabotage? Constantly. Bribery? Routine. Blackmail? Common. Promotion by assassination? Always a possibilty. The stakes are that high—one slip and you could be out on the Street with the rest of the trash. Or dead.\nAnd the projects your supervisors give you! Some are pretty straightforward; design a new productivity schedule for the Corporation’s medical subsidiary. Some are pretty raw—send a “black operations” team into the City to spread a designer plague so the Marketing team can clean up selling the vaccine. Last week, you led a mixed team of Solos, ‘Runners and Techies on a headhunting run to kidnap a researcher from a rival company. The week before, your project was to steal plans for a new suborbital shuttle from the EuroSpace Agency (so that the Aerospace Division could copy the design and sell it to the Soviets).\nYou told yourself you joined the Corporation to make it a better place—work from the inside, you said. But now you're not so sure. Your ideals are a little tarnished and things are getting pretty bleak. But you can’t worry about ethics now. You've got a report due in an hour, and it looks like that guy in Sales is planning to ice your database for good.\nYou're gonna ice him first.",
+    "specialAbility": [{
+        "name": "Resources",
+        "description": "This represents the Corporate's ability to command corporation resources. It is used as a persuasion skill, based on the scale of resources requested.\nThis could include bodyguards, weapons, vehicles, buildings, money, etc. Obviously, the more powerful the Corporate, the more he can call upon at any one time.\nYour level of Resources determines exactly how much you can request from the Corporation without overreaching yourself.\n----\nA Resource ability of +2 might get you access to a Company car.\n An ability of +6 might allow you to use a Company jet or hire a Solo team from the Corporate Security Division.\nA Resource of +9 would allow you access to almost all levels of the Corporation, as well as the ability to requisition almost any Company resource.\nYour Resource ability is applied to your INT stat."
+    }],
+    "careerSkills": [{
+        "name": "Corporate", 
+        "skills": [
+            "Awareness/Notice", 
+            "Human Perception", 
+            "Education", 
+            "Library Search", 
+            "Social Persuasion", 
+            "Stock Market", 
+            "Wardrobe & Style", 
+            "Personal Grooming"
+        ]
+    }]
+}
