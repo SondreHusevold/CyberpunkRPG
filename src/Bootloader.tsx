@@ -72,7 +72,7 @@ class Bootloader extends Component<{}, IBootloaderState> {
 	public render() {
 		if(this.development) {
 			return(
-				<div className={styles.Zetatech}>
+				<div className={styles.ZetatechDevelopment}>
 					<header className={styles.Background + ' ' + styles.DevelopmentBackground} />
 
 					<MainMenu changeSection={this.setMainSection}/>

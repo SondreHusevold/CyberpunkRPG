@@ -1,0 +1,21 @@
+{
+    "intro": "You were re-born with a gun in your hand—the flesh and blood hand, not the metallic weapons factory that covers most of your other arm. Whether as a freelance guard and killer-for-hire, or as one of the Corporate cybersoldiers that enforce business deals and the Company’s 'black operations', you’re one of the elite fighting machines of the Cyberpunk world.\nMost Solos have putin military time, either in a Corporate army or in one of the Government’s continual “police actions” around the world. As the battle damage piles up, you start to rely more and more upon hardware—cyberlimbs for weapons and armor, bio-program chips to increase your reflexes and awareness, combat drugs to give you that edge over your opponents. When you're the best of the best, you might even leave the ranks of Corporate samurai and go ronin— freelancing your lethal talents as killer, bodyguard or enforcer to whoever can pay your very high fees.\nSounds good? There’s a price — a heavy one. You've lost so much of your original meat body that you're almost a machine. Your killing reflexes are so jacked up that you have to restrain yourself from going beserk at any moment. Years of combat drugs taken to keep the edge have given you terrifying addictions. You can't trust anyone—your mother, your friends, your lovers—no one. One nightyousleepina penthouse condo in the City—the next in a filthy alley on the Street. \nBut that’s the price of being the best. And you're willing to pay it. Because you're a Solo.",
+    "specialAbility": [{
+        "name": "Combat Sense",
+        "description": "This ability is based on the Solo’s constant training and professionalism. Combat Sense allows the Solo to perceive danger, notice traps, and have an almost unearthly ability to avoid harm.\nYour Combat Sense gives you a bonus on both your Awareness skill and your Initiative equal to your level in the Combat Sense skill."
+    }],
+    "careerSkills": [{
+        "name": "Solo", 
+        "skills": [
+            "Awareness/Notice",
+            "Handgun",
+            "Brawling or Martial Arts",
+            "Melee",
+            "Weapons Tech",
+            "Rifle",
+            "Athletics",
+            "Submachinegun",
+            "Stealth"
+        ]
+    }]
+}

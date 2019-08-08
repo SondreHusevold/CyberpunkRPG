@@ -1,0 +1,22 @@
+{
+    "intro": "At three, your parents bought you an old Apple IV GS with a Radius 241 wall screen, and your life was changed. By fifth grade, you'd already mastered everything the school computer literacy lab could throw at you— you were already using Cand META-LINGUA to crack into the district’s mainframe and change your grades. When you were thirteen, you shifted enough funds out of unprotected TransAmerican Bank accounts to finance your first neural interface plugs.\nNow, nothing can stop you. With your direct mental link to the computer, you can plunge headfirst into the dizzying data-winds of the Net; the worldwide telecommunications system that joins humanity together. As an electronic wraith, you are the ultimate “hacker”, your brain wired into special modems and computer links. You slip into the “hardest” mainframe systems with ease. Your defense and offense programs are arrayed at a touch of your mental fingertips—a quick jolt of Demon or Vampire and the data fortresses fall. EBM. ITT. SonyMatsushita-Ford. You’ve tackled them all, buying, trading and selling their deepest secrets at will.\nSometimes you uncover important things— Corporate treachery or deadly secrets. But that’s not why you Netrun. You live for the new program, the next satellite downlink— the next piece of hot data that comes your way. It's only a matter of time, you think— every year, the counter intrustion programs get better, the Artificial Intelligences smarter. Sooner or later, a faster program or programmer’s going to catch up; reach out with electronic fingers through your interface plugs, and stop your heart.\nBut time’s on your side, and until the ride runs out, you'll be there, barebrained and headfirst in the Net.",
+    "specialAbility": [{
+        "name": "Interface",
+        "description": "This skill reflects the Netrunner's ability to manipulate Interface programs, and is the Skill used when operating Menu functions such as Locate Remote, Run Software, Control Remote, Downlink , Load, Create and Delete.\nOther players can enter the Net, but cannot use the Menu.\nInterface is based on the INT Stat."
+    }],
+    "careerSkills": [{
+        "name": "Netrunner", 
+        "skills": [
+            "Awareness/Notice", 
+            "Basic Tech", 
+            "Education", 
+            "System Knowledge", 
+            "CyberTech", 
+            "Cyberdeck", 
+            "Design", 
+            "Composition", 
+            "Electronics", 
+            "Programming"
+        ]
+    }]
+}

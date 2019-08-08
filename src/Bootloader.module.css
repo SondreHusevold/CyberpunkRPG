@@ -21,6 +21,10 @@
 	grid-area: MainContent;
 }
 
+:local .ZetatechDevelopment {
+	color: red;
+}
+
 :local .DevelopmentBackground {
 	background-color: #202020;
 };

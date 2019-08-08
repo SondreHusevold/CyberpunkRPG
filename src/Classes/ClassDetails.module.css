@@ -1,0 +1,103 @@
+:local .ClassDetails {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 20%;
+    grid-template-rows: min-content min-content min-content max-content;
+    grid-template-areas: "title title title padding"
+                         "description description description padding"
+                         "navigation navigation navigation padding"
+                         "content content picture padding"
+}
+
+:local .Title {
+    grid-area: title;
+    font-size: 2.5em;
+}
+
+:local .NavLink {
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 1.2em;
+    padding-bottom: 4px;
+    border-bottom: 1px solid red;
+    grid-row: navigation;
+}
+
+:local .CareerSkillsGridified {
+    display:  grid;
+    grid-template-columns: 18vw 1fr;
+    grid-column-gap: 10px;
+}
+
+:local .CareerSkillsLong {
+    grid-column: span 2;
+}
+
+:local .NavLink:hover {
+    cursor: pointer;
+}
+
+:local .Description {
+    font-size: 1.5em;
+    grid-area: description;
+}
+
+:local .ClassDetailContent {
+    border-left: 1px solid red;
+    border-bottom: 1px solid red;
+    padding: 20px;
+    grid-area: content;
+}
+
+:local .ClassDetailPicture {
+    grid-area: picture;
+    object-fit: cover;
+    border-right: 1px solid red;
+    border-bottom: 1px solid red;
+}
+
+:local .ClassDetailPictureFloat {
+    float: right;
+    background-clip: padding-box;
+    margin: 10px;
+    border-radius: 3px;
+    border: 5px solid transparent;
+}
+
+:local .NotActiveNav:hover:after {
+    content: '_';
+    font-weight: bold;
+    animation: blink-underscore 1.25s infinite;
+    opacity: 1;
+}
+
+:local .ActiveNav {
+    transition: 0.1s all linear;
+    background: red;
+    color: #202020;
+    cursor: pointer;
+}
+
+
+/* The typewriter cursor effect */
+@keyframes blink-underscore {
+    0% {
+        color: red;
+    }
+
+    45% {
+        color: red;
+    }
+
+    50% {
+        color: transparent;
+    }
+
+    95% {
+        color: transparent;
+    }
+
+    100% {
+        color: red;
+    }
+}

@@ -1,23 +1,141 @@
 import React, { Component } from 'react';
 import styles from './ClassDetails.module.css';
-import { CharacterClass } from './Classes';
+import { CharacterClass, ClassDetailedInformation } from './Classes';
+import { ClassQuote } from './ClassQuote';
+import { ClassService } from '../Services/ClassService';
+import { ClassIntroduction } from './ClassIntroduction';
+import { ClassSpecialAbility } from './ClassSpecialAbility';
+
+enum ClassDetailsSection {
+	None = "",
+	Intro = "Introduction",
+	SpecialAbility = "Special Ability",
+	CareerSkills = "Career Skills"
+}
 
 interface ClassDetailsProps {
 	characterClass: CharacterClass;
-} 
+}
 
-class ClassDetails extends Component<ClassDetailsProps, {}> {
+interface ClassDetailsState {
+	details: ClassDetailedInformation | null
+	female: boolean;
+	viewing: ClassDetailsSection
+}
+
+class ClassDetails extends Component<ClassDetailsProps, ClassDetailsState> {
 
 	public constructor(props: ClassDetailsProps) {
 		super(props);
+		this.state = {
+			details: null,
+			female: Math.floor(Math.random() * 10) % 2 == 1,
+			viewing: ClassDetailsSection.None
+		}
+
+		//  Set the details async. Constructor can't be async.
+		this.setDetails();
 	}
+
+
+	// Ensure that once the class changes it'll set the correct name.
+	async componentDidUpdate(prevProps: ClassDetailsProps, prevState: ClassDetailsState) {
+		if(prevProps.characterClass.name != this.props.characterClass.name) {
+			this.setState({
+				female: Math.floor(Math.random() * 10) % 2 == 1,
+				viewing: ClassDetailsSection.None
+			}, 
+			() => this.setDetails())
+		}
+	}
+
+	public async setDetails() {
+		this.setState({
+			details: await ClassService.getClassDetails(this.props.characterClass.name)
+		}, () => console.log("Details set.", this.state.details));
+	}
+
+	public getContent() {
+		if(this.state.details == null)
+			return "";
+;
+		switch (this.state.viewing) {
+			case ClassDetailsSection.None:
+				return <ClassQuote characterClass={this.props.characterClass} getGender={this.getGender}/>
+			case ClassDetailsSection.Intro:
+					return <ClassIntroduction characterClass={this.props.characterClass} characterInformation={this.state.details} getGender={this.getGender} />
+			case ClassDetailsSection.SpecialAbility:
+				return <ClassSpecialAbility characterInformation={this.state.details} />
+			case ClassDetailsSection.CareerSkills:
+				return <div>
+					{this.state.details.careerSkills.map((val, index) => {
+						return (
+							<div>
+								{
+									/* Mainly for Tech/MedTechie  */
+									this.state.details != null && this.state.details.careerSkills.length > 1 
+									? <h2>{val.name} career skills:</h2> 
+									: ""
+								}
+								<div className={styles.CareerSkillsGridified}>
+									{val.skills.map((skill, ind) => {
+										return <p className={skill.length > 20 ? styles.CareerSkillsLong : "" }>{skill}</p>
+									})}
+								</div>
+							</div>
+						)
+					})}
+				</div>
+			default:
+				return "ERROR: NULL"
+		}
+	}
+
+	public switchContent = (switchTo: ClassDetailsSection) => {
+		this.setState({
+			viewing: switchTo
+		});
+	}
+
+	// Used to replace gender in the text for flavor.  
+	public getGender = (ownership: boolean) => {
+		if(ownership)
+			return this.state.female ? "her": "his";
+		return this.state.female ? "she": "he";
+	}
+
+	public isActive = (selection: ClassDetailsSection) => {
+		return this.state.viewing == selection;
+	}
+
 
 	public render() {
 		return (
-			<div>
-				<h1>{this.props.characterClass.name}:</h1>
-				<div className={styles.ClassDetails}>
-					<h2>Details!</h2>
+			<div className={styles.ClassDetails}>
+				<span className={styles.Title}>{this.props.characterClass.name}:</span> 
+				<span className={styles.Description}>{this.props.characterClass.description}</span>
+				{
+					Object.values(ClassDetailsSection).map((sector) => {
+						// Ignore "None" in enum.
+						if(sector == ClassDetailsSection.None)
+							return null;
+
+						return (
+						<a  key={sector} 
+							className={ styles.NavLink + " " + (this.isActive(sector) ? styles.ActiveNav : styles.NotActiveNav)} 
+							onClick={() => {this.switchContent(sector)}}
+						>{sector}</a>
+						)
+					})
+				}
+				<div className={styles.ClassDetailContent}>
+					{this.getContent()}
+				</div>
+				
+				<div className={styles.ClassDetailPicture}>
+					<div className={styles.ClassDetailPictureFloat}>
+						<img src={`assets/Classes/${this.props.characterClass.name}/Picture.png`}/>
+					</div>
 				</div>
 			</div>
 		);

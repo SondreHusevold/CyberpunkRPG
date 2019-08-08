@@ -1,30 +1,71 @@
-@media screen and (min-width: 1200px) {
-	:local .Classes {
-		display: grid;
-		grid-template-columns: 1fr 1fr 1fr;
-		grid-column-gap: 10px;
-		grid-row-gap: 10px;
-	}
-}
-
-@media screen and (max-width: 1200px) {
-	:local .Classes {
-		display: grid;
-		grid-template-columns: 1fr;
-		grid-column-gap: 10px;
-		grid-row-gap: 10px;
-	}
+:local .ClassPanel {
+  padding-bottom: 20px;
+  padding-right: 15px;
 }
 
 :local .ClassWindow {
-	border: 1px solid red;
-	min-height: 250px;
+  padding-left: 20px;
+  transition-duration: 0.1s;
+  transition-timing-function: ease-in-out;
+  background: linear-gradient(to right, red 20%, #202020 50%);
+  background-size: 200% 100%;
+  background-position:right bottom;
+  box-shadow: -5px 0px 0px 1px transparent;
 }
 
 :local .ClassWindow:hover {
-	animation: noise-anim-b 0.25s 1 linear alternate-reverse;
+	box-shadow: -5px 0px 0px 1px red;
+  cursor: pointer;
 }
 
-:local .ClassTitle {
-	text-align: center;
+:local .isActiveClass {
+  color: #202020;
+  background-position:left bottom;
+  transition:all 0.3s ease-in-out;
+}
+
+:local .isActiveClass:hover {
+  box-shadow: 0px 0px 0px 0px red;
+}
+
+@media screen and (min-width: 1000px) {
+  :local .ClassSplit {
+    display: grid;
+    grid-template-columns: 0.15fr 1fr;
+  }
+
+  :local .ClassPicture {
+    padding-left: 50px;
+    grid-column: 2;
+  }
+
+  :local .ClassWindow {
+    font-size: 1.3rem;
+
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  :local .ClassSplit {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row-gap: 10px;
+  }
+
+  :local .ClassPicture {
+    display: none;
+  }
+
+  :local .ClassWindow {
+    padding-left: 0px;
+    font-size: 200%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    box-shadow: 0px 0px 0px 0px transparent !important;
+    border-bottom: 1px solid darkred;
+  }
+
+  :local .ClassPanel {
+    border-top: 0px solid red;
+  }
 }

@@ -1,0 +1,9 @@
+:local .ClassSkillWrapper {
+    padding: 10px;
+    margin: 0.5em;
+} 
+
+:local .Description {
+    margin-top: 1.5em;
+    margin-left: 1.5em;
+}

@@ -1,0 +1,50 @@
+
+.consoleText {
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    font-size: 1.5em;
+}
+
+@media screen and (min-width: 800px) {
+    .consoleText {
+        letter-spacing: .05em; /* Adjust as needed */
+        white-space: nowrap; /* Keeps the content on a single line */
+        animation: typing 2s steps(120, end);
+        font-size: 2em;
+    }
+
+}
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  .consoleText:after {
+    content: '▍';
+    font-weight: bold;
+    animation: blink-caret 1.25s infinite;
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+      0% {
+          color: transparent;
+      }
+  
+      45% {
+          color: transparent;
+      }
+  
+      50% {
+          color: red;
+      }
+  
+      95% {
+          color: red;
+      }
+  
+      100% {
+          color: transparent;
+      }
+  }

@@ -1,0 +1,21 @@
+{
+    "intro": "They drove your family off the Farm ten years ago. The Corporations rolled in, took over the land, and put rent-a-cops all over the place. It wasn’t the first time it'd happened; it wouldn't be the last. Gradually, your family fell in with a bunch of other homeless families, and they met another group...until you’d created a Nomad pack of nearly two hundred members.\nNow, crammed into a huge, ragtag fleet of cars, vans, buses and RV’s, your Nomad pack roams the freeways. You look for supplies, odd jobs and spare parts in a world where society has fragmented. The pack is your home—it has teachers, Med Techs, leaders, and mechanics—it’s virtually a town on wheels in which everyone is related by marriage or kinship.\nSometimes the Pack pulls into a town just to fuel up or get grub. Other times, it swings south to follow the harvest; you pick crops in trade for cash or food. Less law abiding Packs are like mobile armies, terrorizing cities and hiring out as muscle in Corporate wars. For obvious reasons, the cops don't like Nomads. But it doesn’t matter—your vehicles are usually well armored and bristling with stolen weapons; miniguns, rocket launchers and the like. Every kid knows how to use a rifle, and everyone packs a knife. Being homeless in the 2000's isn’t easy.\nThe most visible members of the Pack are the Scouts—leather armored riders on bikes or in fast muscle cars, who protect the convoy from attacks and hunt up safe campsites. As a Scout, you're on the lookout for trouble, and you usually can find enough of it, with rival Nomad Packs, the Law, and the Corporates all after you. Like a modern day cowboy, you ride the hard trail.\nYou've got a gun, a bike and that’s all you need. You're a Nomad.",
+    "specialAbility": [{
+        "name": "Family",
+        "description": "This is the ability to call upon the resources and help of any of the members of the Nomad’s large, extended tribal family.\nThis can be in the form of weapons, cash, information, or a small army of relatives. The threat of a Nomad family’s vengeance may in itself stop harm to the Nomad.\n The higher your Family ability, the more important you are to the Family and the more help you can call upon.\n----\nWith a Family status of +2, you might be able to get several of the Pack to help you wreck a town.\nWith a status of +7 or +8, you are able to make major Pack decisions and lead troops.\nAt +10, you may be the Leader of your Pack.\nFamily is applied to your Intelligence stat."
+    }],
+    "careerSkills": [{
+        "name": "Nomad", 
+        "skills": [
+            "Awareness/Notice", 
+            "Endurance", 
+            "Melee", 
+            "Rifle", 
+            "Drive", 
+            "Basic Tech", 
+            "Wilderness Survival",
+            "Brawling", 
+            "Athletics" 
+        ]
+    }]
+}

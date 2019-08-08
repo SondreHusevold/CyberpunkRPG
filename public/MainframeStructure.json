@@ -74,9 +74,69 @@
 									"folders": {},
 									"permission": true,
 									"result": "[BINARY FILE]",
-									"execute": "File is already in use. Cannot terminate until users exit module by completing or manually exiting."
+									"execute": "Caribbean.exe is already running. Close Caribbean.exe before executing."
 								}
 
+							},
+							"permission": true,
+							"result": ""
+						},
+						"Caribbean": {
+							"name": "Caribbean",
+							"file": false,
+							"folders": {
+								"Assets.pkg": {
+									"name": "Assets.pkg",
+									"file": true,
+									"folders": {},
+									"permission": true,
+									"result": "[BINARY FILE]"
+								},
+								"CRACK.exe": {
+									"name": "CRACK.exe",
+									"file": true,
+									"folders": {},
+									"permission": true,
+									"result": "[BINARY FILE]",
+									"execute": "Microtech AV Detection Services - File quarantined due to positive threat detection. Contact your administrator for further information."
+								},
+								"CORE.dll": {
+									"name": "CORE.dll",
+									"file": true,
+									"folders": {},
+									"permission": true,
+									"result": "[BINARY FILE]"
+								},
+								"DX18.dll": {
+									"name": "DX18.dll",
+									"file": true,
+									"folders": {},
+									"permission": true,
+									"result": "[BINARY FILE]"
+								},
+								"README.nfo": {
+									"name": "README.nfo",
+									"file": true,
+									"folders": {},
+									"permission": true,
+									"result": "5 - G R O U P\n---Caribbean, the pirate inspired role playing experience.---\nCracked by 5-GROUP for you!\nSince 2001 5-GROUP has devoted itself to improving the warez scene through intelligent and quality releases.\nWith ONE HUNDRED FORTY SEVEN member systems in TWENTY FIVE countries and averaging over THREE HUNDRED releases of cracked software, braindances, password hashes and military-grade cyberware every month, 5-GROUP is one of the most prominent scene groups on the NET."
+								},
+								"Caribbean.orig.exe": {
+									"name": "Caribbean.orig.exe",
+									"file": true,
+									"folders": {},
+									"permission": true,
+									"result": "[BINARY FILE]",
+									"execute": "SecuROM 128.03 - License chip not detected. Please insert your license chip to start the executable."
+								},
+								"Caribbean.exe": {
+									"name": "Caribbean.exe",
+									"file": true,
+									"folders": {},
+									"permission": true,
+									"result": "[BINARY FILE]",
+									"execute": "File is already in use. Cannot terminate until users exit module by completing or manually exiting."
+								}
 							},
 							"permission": true,
 							"result": ""
@@ -213,7 +273,7 @@
 									"folders": {},
 									"permission": true,
 									"result": "[BINARY FILE]",
-									"execute": "Wolf.exe is already running. Close Wolf.exe before executing."
+									"execute": "Caribbean.exe is already running. Close Caribbean.exe before executing."
 								}
 							},
 							"permission": true,
@@ -265,7 +325,7 @@
 									"folders": {},
 									"permission": true,
 									"result": "[CORRUPTED EXECUTABLE]",
-									"execute": "W0lF.Ex€ is aĦreºdy runŒiÐ§. CLos€ W0lF.Ex€ befº™e exeC↑tin§Ð."
+									"execute": "CAriddiE0n.Ex€ is aĦreºdy runŒiÐ§. CLos€ c/\riBb£an.Ex€ befº™e exeC↑tin§Ð."
 								}
 							},
 							"permission": true,
@@ -339,6 +399,14 @@
 			"name": "www",
 			"file": false,
 			"folders": {
+				"Caribbean.Site": {
+					"name": "Caribbean.Site",
+					"file": true,
+					"folders": {},
+					"permission": true,
+					"result": "[WEBSITE?]",
+					"execute": "https://www.youtube.com/watch?v=i8ju_10NkGY"
+				},
 				"Cyberpunk.Site": {
 					"name": "Cyberpunk.Site",
 					"file": true,

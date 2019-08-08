@@ -1,40 +1,18 @@
-:local .cyberpunk_logo {
-	box-shadow: -10px 0px 0px 1px transparent;
-	padding-left: 10px;
-	margin: 10px 0 10px 20px;
+
+:local hr {
+	color:red;
+	background-color: red;
 }
 
-:local .cyberpunk_logo:hover {
-	max-width: 300px;
-	box-shadow: -10px 0px 0px 1px red;
-	cursor: pointer;
+:local .selectedSection {
+	animation-name: redGlitch;
+	animation-duration: 0.25s;
+	color: #202020;
+	background-color: red;
 }
 
-:local .cyberpunk_logo:focus {
-	outline: none;
-	max-width: 300px;
-	box-shadow: -10px 0px 0px 1px red;
-	cursor: pointer;
-}
-
-:local .MainMenu {
-	grid-area: MainMenu;
-}
-
-/* Main menu list with options. */
-:local .mainmenuList {
-	list-style-type: none;
-	margin-left: 20px;
-	padding-top: 15px;
-}
-
-:local .mainmenuList ul {
-	padding: 0 15px 0 7px;
-	margin: 0 15px 0 0px;
-	display: inline;
-	border-top: 1px solid transparent;
-	border-left: 3px solid transparent;
-	border-bottom: 1px solid transparent;
+:local .selectedSection:hover {
+	box-shadow: 0px 0px 0px 0px red !important;
 }
 
 :local .mainmenuList ul:hover {
@@ -46,25 +24,100 @@
 	outline: none;
 }
 
-:local hr {
-	color:red;
-	background-color: red;
+/* Desktop screens */
+@media screen and (min-width: 1000px) {
+	:local .Mobile {
+		display: none;
+	}
+
+	:local .cyberpunk_logo {
+		box-shadow: -10px 0px 0px 1px transparent;
+		padding-left: 10px;
+		margin: 10px 0 10px 20px;
+	}
+	
+	:local .cyberpunk_logo:hover {
+		max-width: 300px;
+		box-shadow: -10px 0px 0px 1px red;
+		cursor: pointer;
+	}
+	
+	:local .cyberpunk_logo:focus {
+		outline: none;
+		max-width: 300px;
+		box-shadow: -10px 0px 0px 1px red;
+		cursor: pointer;
+	}
+
+	:local .mainmenuList {
+		margin-left: 30px;
+		list-style: none;
+	}
+
+	:local .mainmenuList ul {
+		padding: 0px 15px 0px 7px;
+		margin: 0 15px 0 0px;
+		display: inline;
+		border-top: 1px solid transparent;
+		border-left: 3px solid transparent;
+		border-bottom: 1px solid transparent;
+	}
+
 }
 
-:local .mobileButton {
-	float: right;
-	padding-right: 15px;
+/* Mobile screens */
+@media screen and (max-width: 1000px) {
+	:local .Desktop {
+		display: none;
+	}
+
+	:local .cyberpunk_logo {
+		box-shadow: -0px 0px 0px 1px transparent;
+		text-align: center;
+	}
+	
+	:local .cyberpunk_logo:hover {
+		box-shadow: -0px 0px 0px 1px red;
+		cursor: pointer;
+		text-align: center;
+	}
+	
+	:local .cyberpunk_logo:focus {
+		outline: none;
+		box-shadow: -0px 0px 0px 1px red;
+		cursor: pointer;
+		text-align: center;
+	}
+
+	/* Main menu list with options. */
+	:local .mainmenuList {
+		list-style-type: none;
+		text-align: center;
+		font-size: 25px;
+	}
+
+	:local .mainmenuList p {
+		cursor: pointer;
+		padding: 15px 15px 15px 7px;
+		border-top: 1px solid transparent;
+		border-left: 3px solid transparent;
+		border-bottom: 1px solid transparent;
+	}
+
+	:local .activateMobileList {
+		height: 500px;
+		transition: all 0.25s ease;
+	}
+
+	:local .hiddenMobileList {
+		height: 0px;
+		color: transparent;
+		overflow: hidden;
+		transition: all 0.25s ease;
+	}
 }
 
-:local .selectedSection {
-	animation-name: redGlitch;
-	animation-duration: 0.25s;
-	box-shadow: -5px 0px 0px 1px red;
-}
 
-:local .selectedSection:hover {
-	box-shadow: -5px 0px 0px 1px red !important;
-}
 
 @keyframes redGlitch {
   0%   {color: red; text-shadow: 0px 3px 0px red; }
@@ -76,4 +129,3 @@
   75%  {color: green; text-shadow: -2px 5px 1px black;}
   100% {color: red; text-shadow: 0px 0px 0px red; }
 }
-

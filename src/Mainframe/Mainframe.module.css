@@ -1,45 +1,56 @@
-.Mainframe {
-	padding: 20px;
+:local .Mainframe {
+	padding-left: 20px;
+	padding-right: 20px;
 }
 
-.console h1 {
-  overflow: hidden; /* Ensures the content is not revealed until the animation */
-  white-space: nowrap; /* Keeps the content on a single line */
-  letter-spacing: .15em; /* Adjust as needed */
-  animation: typing 2.5s steps(120, end);
+:local .fullscreenbgvideo {
+	width: 100%;
+	border-top: 1px solid red;
+	grid-row: 2;
+	grid-column: span 3;
 }
 
-/* The typing effect */
-@keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
+:local .mainframeVideo {
+	margin-left: 15%;
+	margin-right: 15%;
+	border: 1px solid red;
+	display: grid;
+	grid-template-rows: min-content 1fr;
+	grid-template-columns: 0.75fr 1fr 1fr;
 }
 
-.console h1:after {
-  content: ' ▍';
-  font-weight: bold;
-  animation: blink-caret 1.25s infinite;
+:local .videoNav {
+	font-size: 1.3em;
+	padding: 10px;
+	grid-row: 1;
+	cursor: pointer;
 }
 
-/* The typewriter cursor effect */
-@keyframes blink-caret {
-	0% {
-		color: transparent;
+:local .videoDescription {
+	font-size: 1.3em;
+	padding: 10px;
+	grid-row: 1;
+	border-right: 1px solid red;
+}
+
+:local .activeVideo {
+	background-color: red;
+	color: #202020;
+}
+
+/* Mobile screens */
+@media screen and (max-width: 1000px) {
+	:local .videoDescription {
+		display: none;
 	}
 
-	45% {
-		color: transparent;
+	:local .videoNav {
+		font-size: 0.8em;
 	}
 
-	50% {
-		color: red;
-	}
-
-	95% {
-		color: red;
-	}
-
-	100% {
-		color: transparent;
+	:local .mainframeVideo {
+		margin-left: 0;
+		margin-right: 0;
+		width: fit-content;
 	}
 }

@@ -15,38 +15,70 @@ class MainMenu extends Component<IMainMenuProps, IMainMenuState> {
 	public constructor(props: IMainMenuProps) {
 		super(props);
 		this.state = { 
-			isOpen: true,
+			isOpen: false,
 			selectedSection: MainSection.Mainframe
 		};
 	}
 
 	public changeSection = (section: MainSection) => {
 		this.setState({
-			selectedSection: section
+			selectedSection: section,
+			isOpen: false
 		})
 
 		this.props.changeSection(section);
 	}
 
+	public openMobileMenu = () => {
+		this.setState({
+			isOpen: !this.state.isOpen
+		});
+	}
+
 	public render() {
 		return (
 			<nav className={styles.MainMenu}>
-				<h1 className={styles.cyberpunk_logo} tabIndex={1} onClick={this.changeSection.bind(this, MainSection.Mainframe)}>Cyberpunk 2020</h1>
-				<li className={styles.mainmenuList}>
-					{MainSectionArray.map((section, index) => {
-						if(index !== 0) {
-							return (
-								<ul key={index} 
-									tabIndex={index+1}
-									className={this.state.selectedSection === index ? styles.selectedSection : ''}
-									onClick={this.changeSection.bind(this, index)}
-								>{section}</ul> 
-							)
-						}
-						return;
-					})}
-				</li>
-				<hr/>
+				{ /* DESKTOP */ }
+				<div className={styles.Desktop}>
+					<h1 className={styles.cyberpunk_logo} tabIndex={1} onClick={this.changeSection.bind(this, MainSection.Mainframe)}>
+						Cyberpunk 2020
+					</h1>
+					<li className={styles.mainmenuList}>
+						{MainSectionArray.map((section, index) => {
+							if(index !== 0) {
+								return (
+									<ul key={index} 
+										tabIndex={index+1}
+										className={this.state.selectedSection === index ? styles.selectedSection : ''}
+										onClick={this.changeSection.bind(this, index)}
+									>{section}</ul> 
+								)
+							}
+							return;
+						})}
+					</li>
+					<hr/>
+				</div>
+
+				{ /* MOBILE */ }
+				<div className={styles.Mobile}>
+					<h1 className={styles.cyberpunk_logo} tabIndex={1} onClick={this.openMobileMenu}>Cyberpunk 2020</h1>
+					<div className={styles.mainmenuList + " " + (this.state.isOpen ? styles.activateMobileList : styles.hiddenMobileList)}>
+						{MainSectionArray.map((section, index) => {
+							if(index !== 0) {
+								return (
+									<p key={index} 
+										tabIndex={index+1}
+										className={this.state.selectedSection === index ? styles.selectedSection : ''}
+										onClick={this.changeSection.bind(this, index)}
+									>{section}</p> 
+								)
+							}
+							return;
+						})}
+					</div>
+					<hr/>
+				</div>
 			</nav>
 		);
 	}
