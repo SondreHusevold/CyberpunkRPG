@@ -20,7 +20,7 @@ export class ClassIntroduction extends Component<ClassIntroductionProps, ClassIn
         }
     }
 
-    componentWillUpdate(nextProps: ClassIntroductionProps, nextState: ClassIntroductionState) {
+    componentDidUpdate(nextProps: ClassIntroductionProps, nextState: ClassIntroductionState) {
         if(this.props.characterClass.name !== nextProps.characterClass.name) {
             this.setState({
                 information: 1

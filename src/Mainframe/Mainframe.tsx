@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Classes from '../Classes/Classes'
+import Interlock from '../InterlockSystem/Interlock';
 import { MainSection } from '../MainMenu/MainMenu';
 import styles from './Mainframe.module.css';
 import "./ConsoleText.css";
@@ -28,7 +29,7 @@ class Mainframe extends Component<IMainframeProps, IMainframeState> {
 	public switchFeed = () => {
 		let videoFeed = Feeds.Netspace;
 
-		if(this.state.selectedVideo != Feeds.Realspace)
+		if(this.state.selectedVideo !== Feeds.Realspace)
 			videoFeed = Feeds.Realspace;
 
 		this.setState({
@@ -38,7 +39,7 @@ class Mainframe extends Component<IMainframeProps, IMainframeState> {
 
 	public getFeed = () => {
 		let videoLocation = "";
-		if(this.state.selectedVideo == Feeds.Realspace) {
+		if(this.state.selectedVideo === Feeds.Realspace) {
 			videoLocation = "assets/Background/OutsideVideo.webm";
 		}
 		else {
@@ -52,7 +53,7 @@ class Mainframe extends Component<IMainframeProps, IMainframeState> {
 			case MainSection.Classes:
 				return <Classes/>
 			case MainSection.InterlockSystem:
-				return <h1 className="consoleText">Interlock System:</h1>
+				return <Interlock/>
 			case MainSection.NightCity:
 				return <h1 className="consoleText">Night City:</h1>
 			case MainSection.FNFF:
@@ -69,7 +70,7 @@ class Mainframe extends Component<IMainframeProps, IMainframeState> {
 							<span className={styles.videoDescription}>{'>'} Current view from:</span>
 							{
 								Object.values(Feeds).map((feed) => {
-									return <a key={feed} className={styles.videoNav + " " + (this.state.selectedVideo == feed ? styles.activeVideo : "")} onClick={this.switchFeed}>{feed}</a>
+									return <span key={feed} className={styles.videoNav + " " + (this.state.selectedVideo === feed ? styles.activeVideo : "")} onClick={this.switchFeed}>{feed}</span>
 								})
 							}
 							{this.getFeed()}

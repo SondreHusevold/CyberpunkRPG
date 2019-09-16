@@ -9,10 +9,6 @@ interface IAlbumListProps {
 
 export default class AlbumList extends Component<IAlbumListProps, {}> {
 
-	constructor(props: IAlbumListProps) {
-		super(props);
-	}
-
 	public render() {
 		return (
 			<div className={styles.AlbumListWrapper}>

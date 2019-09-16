@@ -1,0 +1,30 @@
+:local .SidebarButton {
+    width: 100%;
+    padding: 5px;
+    font-size: 1.3rem;
+    margin: 10px;
+    transition: background 0.25s ease-in-out, color 0.25s ease-in-out;
+    background-image: linear-gradient(to right, red 0%,#202020 48% );
+    background-position: right center;
+    background-size: 210% 100%;
+    border-left: 7px solid transparent;
+}
+
+:local .SidebarButton:hover {
+    cursor: pointer; 
+}
+
+:local .SidebarButtonActive {
+    color: #202020;
+    background-position: left center;
+    box-shadow: -1px 0px 0 0 red;
+    border-left: 3px;
+    padding-left: 12px;
+}
+
+:local .SidebarButtonActive:hover {
+    color: #202020;
+    background-position: left center;
+    box-shadow: -1px 0px 0 0 red;
+    border-left: 8px;
+}

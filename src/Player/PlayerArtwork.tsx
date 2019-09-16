@@ -46,7 +46,7 @@ export default class PlayerArtwork extends Component<IPlayerArtworkProps, IPlaye
 			const path = "assets/Albums/" + this.props.album.folderName + "/Artwork/"
 			return (
 				<div className={styles.PlayerArtwork}>
-					<img src={path + this.props.song.artwork[this.state.currentShownArtwork].filename} height={'auto'} width={'auto'} />
+					<img alt={this.props.album.name} src={path + this.props.song.artwork[this.state.currentShownArtwork].filename} height={'auto'} width={'auto'} />
 				</div>
 			)
 		}

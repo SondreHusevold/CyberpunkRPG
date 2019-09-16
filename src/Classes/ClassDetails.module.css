@@ -1,6 +1,6 @@
 :local .ClassDetails {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 20%;
+    grid-template-columns: 1fr 1fr 1fr 5%;
     grid-template-rows: min-content min-content min-content max-content;
     grid-template-areas: "title title title padding"
                          "description description description padding"
@@ -26,7 +26,7 @@
 :local .CareerSkillsGridified {
     display:  grid;
     grid-template-columns: 18vw 1fr;
-    grid-column-gap: 10px;
+    column-gap: 10px;
 }
 
 :local .CareerSkillsLong {
@@ -56,12 +56,10 @@
     border-bottom: 1px solid red;
 }
 
-:local .ClassDetailPictureFloat {
+:local .ClassDetailPicture img {
+    height: 60vh;
     float: right;
-    background-clip: padding-box;
-    margin: 10px;
-    border-radius: 3px;
-    border: 5px solid transparent;
+    z-index: 40;
 }
 
 :local .NotActiveNav:hover:after {

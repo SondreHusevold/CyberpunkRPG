@@ -1,0 +1,52 @@
+:local .InterlockSplit {
+    display: grid;
+    grid-template-columns: 0.15fr 1fr;
+    column-gap: 5em;
+}
+
+:local .InterlockMenu {
+    padding-top: 5%;
+    grid-column: 1;
+}
+
+:local .InterlockMain {
+    grid-column: 2;
+}
+
+:local .InterlockIntroduction {
+    display: grid;
+    grid-template-columns: 0.6fr 1fr;
+    column-gap: 5%;
+}
+
+:local .InterlockIntroductionText {
+    grid-column: 1;
+}
+
+:local .InterlockIntroductionPicture {
+    grid-column: 2;
+    margin-top: 10%;
+}
+
+:local .InterlockIntroductionPicture img {
+    max-height: 60vh;
+    border: 1px solid red;
+    padding: 5%;
+
+}
+
+@media screen and (max-width: 1050px) {
+
+    :local .InterlockIntroduction {
+        grid-template-columns: 1fr;
+    }
+
+    :local .InterlockIntroductionPicture {
+        display: none;
+    }
+}
+
+@keyframes slideInterlace {
+    0% { background-position: 0% 100%; }
+    100% { background-position: 0% 0%; }
+}

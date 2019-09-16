@@ -74,7 +74,7 @@ export class ClassQuote extends Component<ClassQuoteProps, ClassQuoteState> {
 				return <p key={i}>"{item}"</p>
 			else if(i === (splitQuote.length-1))
 				return <p key={i}>{item}"</p>
-			else if(i == 0)
+			else if(i === 0)
 				return <p key={i}>"{item}</p>
 			return <p key={i}>{item}</p>
 		})

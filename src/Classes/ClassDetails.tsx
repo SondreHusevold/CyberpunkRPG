@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import pictureAnimation from '../StyleModules/Pictures.module.css';
 import styles from './ClassDetails.module.css';
 import { CharacterClass, ClassDetailedInformation } from './Classes';
 import { ClassQuote } from './ClassQuote';
@@ -29,7 +30,7 @@ class ClassDetails extends Component<ClassDetailsProps, ClassDetailsState> {
 		super(props);
 		this.state = {
 			details: null,
-			female: Math.floor(Math.random() * 10) % 2 == 1,
+			female: Math.floor(Math.random() * 10) % 2 === 1,
 			viewing: ClassDetailsSection.None
 		}
 
@@ -40,9 +41,9 @@ class ClassDetails extends Component<ClassDetailsProps, ClassDetailsState> {
 
 	// Ensure that once the class changes it'll set the correct name.
 	async componentDidUpdate(prevProps: ClassDetailsProps, prevState: ClassDetailsState) {
-		if(prevProps.characterClass.name != this.props.characterClass.name) {
+		if(prevProps.characterClass.name !== this.props.characterClass.name) {
 			this.setState({
-				female: Math.floor(Math.random() * 10) % 2 == 1,
+				female: Math.floor(Math.random() * 10) % 2 === 1,
 				viewing: ClassDetailsSection.None
 			}, 
 			() => this.setDetails())
@@ -70,7 +71,7 @@ class ClassDetails extends Component<ClassDetailsProps, ClassDetailsState> {
 				return <div>
 					{this.state.details.careerSkills.map((val, index) => {
 						return (
-							<div>
+							<div key={val.name}>
 								{
 									/* Mainly for Tech/MedTechie  */
 									this.state.details != null && this.state.details.careerSkills.length > 1 
@@ -79,7 +80,7 @@ class ClassDetails extends Component<ClassDetailsProps, ClassDetailsState> {
 								}
 								<div className={styles.CareerSkillsGridified}>
 									{val.skills.map((skill, ind) => {
-										return <p className={skill.length > 20 ? styles.CareerSkillsLong : "" }>{skill}</p>
+										return <p key={skill} className={skill.length > 20 ? styles.CareerSkillsLong : "" }>{skill}</p>
 									})}
 								</div>
 							</div>
@@ -105,7 +106,7 @@ class ClassDetails extends Component<ClassDetailsProps, ClassDetailsState> {
 	}
 
 	public isActive = (selection: ClassDetailsSection) => {
-		return this.state.viewing == selection;
+		return this.state.viewing === selection;
 	}
 
 
@@ -117,14 +118,14 @@ class ClassDetails extends Component<ClassDetailsProps, ClassDetailsState> {
 				{
 					Object.values(ClassDetailsSection).map((sector) => {
 						// Ignore "None" in enum.
-						if(sector == ClassDetailsSection.None)
+						if(sector === ClassDetailsSection.None)
 							return null;
 
 						return (
-						<a  key={sector} 
+						<span key={sector}
 							className={ styles.NavLink + " " + (this.isActive(sector) ? styles.ActiveNav : styles.NotActiveNav)} 
 							onClick={() => {this.switchContent(sector)}}
-						>{sector}</a>
+						>{sector}</span>
 						)
 					})
 				}
@@ -133,9 +134,7 @@ class ClassDetails extends Component<ClassDetailsProps, ClassDetailsState> {
 				</div>
 				
 				<div className={styles.ClassDetailPicture}>
-					<div className={styles.ClassDetailPictureFloat}>
-						<img src={`assets/Classes/${this.props.characterClass.name}/Picture.png`}/>
-					</div>
+					<img className={pictureAnimation.InterlacedPicture} alt="Class" src={`assets/Classes/${this.props.characterClass.name}/Picture.png`}/>
 				</div>
 			</div>
 		);

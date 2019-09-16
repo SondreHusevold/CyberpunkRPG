@@ -1,6 +1,16 @@
 import React, { Component } from 'react';
 import styles from './MainMenu.module.css';
 
+export enum MainSection {
+	Mainframe,
+	Classes,
+	InterlockSystem,
+	NightCity,
+	FNFF,
+	TraumaTeam,
+	Cyberwares
+}
+
 interface IMainMenuState {
 	selectedSection: MainSection;
 	isOpen: boolean;
@@ -40,23 +50,23 @@ class MainMenu extends Component<IMainMenuProps, IMainMenuState> {
 			<nav className={styles.MainMenu}>
 				{ /* DESKTOP */ }
 				<div className={styles.Desktop}>
-					<h1 className={styles.cyberpunk_logo} tabIndex={1} onClick={this.changeSection.bind(this, MainSection.Mainframe)}>
+					<button className={styles.cyberpunk_logo} tabIndex={1} onClick={this.changeSection.bind(this, MainSection.Mainframe)}>
 						Cyberpunk 2020
-					</h1>
-					<li className={styles.mainmenuList}>
+					</button>
+					<div className={styles.mainmenuList}>
 						{MainSectionArray.map((section, index) => {
 							if(index !== 0) {
 								return (
-									<ul key={index} 
+									<button key={index} 
 										tabIndex={index+1}
-										className={this.state.selectedSection === index ? styles.selectedSection : ''}
+										className={this.state.selectedSection === index ? "selectedButton" : ''}
 										onClick={this.changeSection.bind(this, index)}
-									>{section}</ul> 
+									>{section}</button> 
 								)
 							}
-							return;
+							return "";
 						})}
-					</li>
+					</div>
 					<hr/>
 				</div>
 
@@ -74,7 +84,7 @@ class MainMenu extends Component<IMainMenuProps, IMainMenuState> {
 									>{section}</p> 
 								)
 							}
-							return;
+							return "";
 						})}
 					</div>
 					<hr/>
@@ -82,16 +92,6 @@ class MainMenu extends Component<IMainMenuProps, IMainMenuState> {
 			</nav>
 		);
 	}
-}
-
-export enum MainSection {
-	Mainframe,
-	Classes,
-	InterlockSystem,
-	NightCity,
-	FNFF,
-	TraumaTeam,
-	Cyberwares
 }
 
 // Can't map an enum.

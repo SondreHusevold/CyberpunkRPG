@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { ClassService } from '../Services/ClassService';
 import styles from './Classes.module.css';
+import sidebar from '../StyleModules/Sidebar.module.css';
 import ClassDetails from './ClassDetails';
 
 interface ClassState {
@@ -46,9 +47,9 @@ class Classes extends Component<{}, ClassState> {
 	}
 
 	public IsTheActiveClass = (myClass: CharacterClass) => {
-		if(this.state.selectedClass != null && myClass == this.state.selectedClass) {
+		if(this.state.selectedClass != null && myClass === this.state.selectedClass) {
 
-			return styles.isActiveClass;
+			return sidebar.SidebarButtonActive;
 		}
 		return "";
 	}
@@ -58,18 +59,14 @@ class Classes extends Component<{}, ClassState> {
 			<div>
 				<h1 className="consoleText">Classes:</h1>
 				<div className={styles.ClassSplit}>
-					<div className={styles.ClassPanel}>
-			
-						<div className={styles.Classes}>
-							{this.state.characterClasses.map((mapper, index) => {
-								return (
-									<div key={mapper.name} onClick={() => {this.SetActiveClass(mapper)}} 
-									className={styles.ClassWindow + " " + this.IsTheActiveClass(mapper)}>
-										<p className={styles.ClassTitle}>{mapper.name}</p>
-									</div>
-								)
-							})}
-						</div>
+					<div>
+						{this.state.characterClasses.map((mapper, index) => {
+							return (
+								<button key={mapper.name} onClick={() => {this.SetActiveClass(mapper)}} className={sidebar.SidebarButton + " " + this.IsTheActiveClass(mapper)}>
+									{mapper.name}
+								</button>
+							)
+						})}
 					</div>
 
 					<div className={styles.ClassPicture}>

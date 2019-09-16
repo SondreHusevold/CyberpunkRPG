@@ -4,6 +4,15 @@ import { ISong } from './Player';
 import PlayerControls from './PlayerControls';
 import styles from './PlayerControls.module.css';
 
+enum PlayerState {
+	Unstarted,
+	Ended,
+	Playing,
+	Paused,
+	Buffering,
+	VideoCued
+}
+
 interface IPlayerMiddlewareProps {
 	song: ISong | null;
 	switchToNextSong: () => void;
@@ -108,13 +117,4 @@ export interface IController {
 	seekTo: (seconds: number, allowSeekAhead: boolean) => void;
 	getDuration: () => number;
 	getPlayerState: () => PlayerState;
-}
-
-enum PlayerState {
-	Unstarted,
-	Ended,
-	Playing,
-	Paused,
-	Buffering,
-	VideoCued
 }

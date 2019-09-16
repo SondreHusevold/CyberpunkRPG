@@ -6,6 +6,7 @@ import Mainframe from './Mainframe/Mainframe';
 import MainMenu, { MainSection } from './MainMenu/MainMenu';
 import Player from './Player/Player';
 import Terminal from './Terminal/Terminal';
+import './Initialization.css';
 
 interface IBootloaderState {
 	currentSection: MainSection;
@@ -72,7 +73,7 @@ class Bootloader extends Component<{}, IBootloaderState> {
 	public render() {
 		if(this.development) {
 			return(
-				<div className={styles.ZetatechDevelopment}>
+				<div className={styles.ZetatechDevelopment }>
 					<header className={styles.Background + ' ' + styles.DevelopmentBackground} />
 
 					<MainMenu changeSection={this.setMainSection}/>

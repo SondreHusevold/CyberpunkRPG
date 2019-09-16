@@ -11,6 +11,13 @@ import './PlayerScrollbar.css';
 import SongList from './SongList';
 import SongLyrics from './SongLyrics';
 
+export enum PlayerInterface {
+	NowPlaying,
+	Albums,
+	Songs,
+	Lyrics
+}
+
 interface IPlayerState {
 	albums: IAlbum[];
 	currentAlbum: IAlbum | null;
@@ -177,9 +184,3 @@ export interface ISong {
 	wasPlayed: string;
 }
 
-export enum PlayerInterface {
-	NowPlaying,
-	Albums,
-	Songs,
-	Lyrics
-}

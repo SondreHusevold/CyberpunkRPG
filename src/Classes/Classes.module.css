@@ -1,33 +1,3 @@
-:local .ClassPanel {
-  padding-bottom: 20px;
-  padding-right: 15px;
-}
-
-:local .ClassWindow {
-  padding-left: 20px;
-  transition-duration: 0.1s;
-  transition-timing-function: ease-in-out;
-  background: linear-gradient(to right, red 20%, #202020 50%);
-  background-size: 200% 100%;
-  background-position:right bottom;
-  box-shadow: -5px 0px 0px 1px transparent;
-}
-
-:local .ClassWindow:hover {
-	box-shadow: -5px 0px 0px 1px red;
-  cursor: pointer;
-}
-
-:local .isActiveClass {
-  color: #202020;
-  background-position:left bottom;
-  transition:all 0.3s ease-in-out;
-}
-
-:local .isActiveClass:hover {
-  box-shadow: 0px 0px 0px 0px red;
-}
-
 @media screen and (min-width: 1000px) {
   :local .ClassSplit {
     display: grid;
@@ -37,11 +7,6 @@
   :local .ClassPicture {
     padding-left: 50px;
     grid-column: 2;
-  }
-
-  :local .ClassWindow {
-    font-size: 1.3rem;
-
   }
 }
 
@@ -56,7 +21,7 @@
     display: none;
   }
 
-  :local .ClassWindow {
+  :local .SidebarButton {
     padding-left: 0px;
     font-size: 200%;
     padding-top: 5px;

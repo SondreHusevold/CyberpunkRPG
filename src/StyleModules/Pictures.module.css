@@ -1,0 +1,18 @@
+:local .InterlacedPicture {
+    background: repeating-linear-gradient(0deg,
+    transparent 0px, 
+    transparent 2px, 
+     red 3px, 
+     red 2px
+   );
+   background-position: 0 0%;
+   background-size: 10% 5px;
+   animation: slideInterlace 40s infinite linear backwards;
+   margin: 10px;
+   border: 1px solid red;
+}
+
+@keyframes slideInterlace {
+    0% { background-position: 0% 100%; }
+    100% { background-position: 0% 0%; }
+}

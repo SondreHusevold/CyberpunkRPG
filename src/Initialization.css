@@ -1,0 +1,74 @@
+/** Global variables for Zetatech theme. **/
+
+button {
+    background: transparent;
+    color: red;
+    border-top: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+    border-left: 7px solid transparent;
+    border-right: 0px solid transparent;
+    font-family: recharge;
+    font-size: 18px;
+    padding: 0px 15px 0px 7px;
+}
+
+button:hover {
+    cursor: pointer;
+    border-top: 1px solid red;
+    border-bottom: 1px solid red;
+    border-left: 7px solid red;
+}
+
+  
+button:active {
+    cursor: pointer;
+    border-top: 1px solid red;
+    border-bottom: 1px solid red;
+    border-left: 7px solid red;
+}
+  
+.selectedButton {
+    animation-name: redGlitch;
+    animation-duration: 0.25s;
+    color: #202020;
+    background-color: red;
+}
+  
+.selectedButton:hover {
+    border-top: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+    border-left: 7px solid transparent;
+}
+  
+/** Glitch when buttons are clicked. **/
+@keyframes redGlitch {
+    0%   {color: red; text-shadow: 0px 3px 0px red; }
+    25%  {color: black; text-shadow: 6px 2px 1px red;}
+    35%  {color: green; text-shadow: 6px 2px 1px red;}
+    40%  {color: red; text-shadow: 3px -3px 2px red; }
+    50%  {color: blue; text-shadow: -10px -3px -2px black; }
+    65%  {color: red; text-shadow: 4px 7px -0px black; }
+    75%  {color: green; text-shadow: -2px 5px 1px black;}
+    100% {color: red; text-shadow: 0px 0px 0px red; }
+}
+
+/**  
+
+Interlace effect for text. Cool, but annoying to read.
+
+
+.interlace {
+    position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: 40;
+    pointer-events: none;
+    background: repeating-linear-gradient(0deg,
+    transparent 0, 
+    transparent 1px, 
+     #202020 2px, 
+     #202020 1px
+   );
+}
+
+**/ 
