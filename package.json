@@ -10,10 +10,10 @@
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "react-scripts": "3.1.1",
-    "typescript": "^3.1.6"
+    "typescript": "3.5.3"
   },
   "scripts": {
-    "start": "PORT=2020 react-scripts start",
+    "start": "PORT=2020 react-app-rewired start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
@@ -44,6 +44,8 @@
     "tslint": "^5.20.0",
     "tslint-config-prettier": "^1.18.0",
     "tslint-react": "^3.6.0",
-    "@hot-loader/react-dom": "^16.8.6"
+    "@hot-loader/react-dom": "^16.8.6",
+    "react-app-rewire-hot-loader": "^2.0.1",
+    "react-app-rewired": "^2.1.3"
   }
 }

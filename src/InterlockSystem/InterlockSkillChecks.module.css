@@ -1,0 +1,197 @@
+:local .SkillChecks {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 15%;
+    grid-template-rows: min-content min-content min-content max-content;
+    grid-template-areas: "title title title title padding"
+                         "navigation navigation navigation navigation padding"
+                         "content content content content padding"
+}
+
+:local .SkillChecksTitle {
+    grid-area: title;
+}
+
+:local .ActiveNav {
+    transition: 0.1s all linear;
+    background: red;
+    color: #202020;
+    cursor: pointer;
+}
+
+:local .SkillDifficultyBorder {
+    border: 1px solid red;
+    padding: 20px;
+    width: 20em;
+}
+
+:local .ExampleBorder {
+    border: 1px solid red;
+    padding: 10px;
+}
+
+:local .NavLink {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 1.2em;
+    padding-bottom: 4px;
+    border-bottom: 1px solid red;
+    grid-row: navigation;
+}
+
+:local .SkillCheckContent {
+    border-left: 1px solid red;
+    border-bottom: 1px solid red;
+    border-right: 1px solid red;
+    padding: 20px;
+    grid-area: content;
+    max-height: 650px;
+    overflow: auto;
+}
+
+
+:local .NavLink:hover {
+    cursor:  pointer;
+}
+
+:local .NotActiveNav:after {
+    content: '_';
+    font-weight: bold;
+    opacity: 0;
+}
+
+:local .NotActiveNav:hover:after {
+    content: '_';
+    font-weight: bold;
+    animation: blink-underscore 1.25s infinite;
+    opacity: 1;
+}
+
+:local .SkillCheckPicture {
+    grid-area: picture;
+    object-fit: cover;
+    border-right: 1px solid red;
+    border-bottom: 1px solid red;
+}
+
+:local .FumbleTableRow {
+    display: grid;
+    grid-template-columns: 0.1fr 0.7fr;
+    grid-template-areas: "range result";
+}
+
+:local .FumbleTableWrapper {
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+:local .FumbleRange {
+    grid-area: "range";
+    border: 1px solid red;
+    padding: 10px;
+
+}
+
+:local .FumbleResult {
+    grid-area: "result";
+    border: 1px solid red;
+    padding: 10px;
+
+}
+
+:local .FumbleTableSubmenu {
+    animation: FumbleTableAnimation 1s;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 30px;
+}
+
+:local .FumbleTableSubmenu button {
+    height: 60px;
+    background: repeating-linear-gradient(0deg,
+    transparent 0px, 
+    transparent 2px, 
+     red 3px, 
+     red 2px
+   );
+
+   border: 1px solid red;
+   margin: 10px;
+}
+
+:local .FumbleTableSubmenu button:hover {
+    background: red;
+    color: #202020;
+}
+
+:local .FumbleTableSubmenuDetails {
+    grid-column: span 3;
+    animation: FumbleTableDetailSwitchAnimation 0.5s;
+    padding: 20px;
+}
+
+:local .FumbleTableSubmenuReturn {
+    padding-left: 0px;
+    padding-right: 0px;
+    transition: all 0.3s;
+}
+
+:local .FumbleTableSubmenuReturn:hover {
+    padding-left: 5px;
+    padding-right: 5px;
+
+    cursor: pointer;
+}
+
+:local .FumbleTableSubmenuReturnWrapper {
+    position: sticky;
+    bottom: 0;
+}
+
+@keyframes FumbleTableAnimation {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+
+@keyframes FumbleTableDetailSwitchAnimation {
+    from {
+        opacity: 0;
+        padding-top: 60px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 60px;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-underscore {
+    0% {
+        color: red;
+    }
+
+    45% {
+        color: red;
+    }
+
+    50% {
+        color: transparent;
+    }
+
+    95% {
+        color: transparent;
+    }
+
+    100% {
+        color: red;
+    }
+}

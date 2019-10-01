@@ -1,0 +1,56 @@
+:local .Skills {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 15%;
+    grid-template-rows: min-content min-content min-content max-content;
+    grid-template-areas: "title title title padding"
+                         "navigation navigation navigation padding"
+                         "content content content padding"
+}
+
+:local .SkillsTitle {
+    grid-area: title;
+}
+
+:local .ActiveNav {
+    transition: 0.1s all linear;
+    background: red;
+    color: #202020;
+    cursor: pointer;
+}
+
+:local .NavLink {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 1.2em;
+    padding-bottom: 4px;
+    border-bottom: 1px solid red;
+    grid-row: navigation;
+}
+
+:local .SkillContent {
+    border-left: 1px solid red;
+    border-bottom: 1px solid red;
+    border-right: 1px solid red;
+    padding: 20px;
+    grid-area: content;
+    max-height: 650px;
+    overflow: auto;
+}
+
+
+:local .NavLink:hover {
+    cursor:  pointer;
+}
+
+:local .NotActiveNav:after {
+    content: '_';
+    font-weight: bold;
+    opacity: 0;
+}
+
+:local .NotActiveNav:hover:after {
+    content: '_';
+    font-weight: bold;
+    animation: blink-underscore 1.25s infinite;
+    opacity: 1;
+}

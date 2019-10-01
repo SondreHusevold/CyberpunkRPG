@@ -53,7 +53,7 @@ class ClassDetails extends Component<ClassDetailsProps, ClassDetailsState> {
 	public async setDetails() {
 		this.setState({
 			details: await ClassService.getClassDetails(this.props.characterClass.name)
-		}, () => console.log("Details set.", this.state.details));
+		});
 	}
 
 	public getContent() {

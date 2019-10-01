@@ -16,10 +16,11 @@ export default class SongList extends Component<ISongListProps, {}> {
 
 	public renderList = () => {
 		if(this.props.album != null) {
+			let album = this.props.album;
 			return this.props.album.songs.map((song) => {
 				return (
 					<div key={song.name}>
-						<button onClick={this.props.switchToSong.bind(this, this.props.album, song)} className={styles.Song}>{song.name} - {song.artist}</button>
+						<button onClick={this.props.switchToSong.bind(this, album, song)} className={styles.Song}>{song.name} - {song.artist}</button>
 					</div>
 				)
 			})

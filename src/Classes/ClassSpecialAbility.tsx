@@ -12,7 +12,7 @@ export class ClassSpecialAbility extends Component<ClassSpecialAbilityProps, {}>
     public splitNewlines = (information: string) => {
 		let splitQuote = information.split("\n");
 		return splitQuote.map((item, i) => {
-			return <span key={i}>{item}</span>
+			return <p key={i}>{item}</p>
 		})
     }
 
