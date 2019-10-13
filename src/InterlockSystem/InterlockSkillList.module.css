@@ -1,0 +1,58 @@
+:local .SkillList {
+    padding: 30px;
+    max-height: 75vh;
+    overflow-y: scroll;
+}
+
+:local .InterlockSkillList {
+    display: grid;
+    grid-template-columns: 0.2fr 0.2fr 0.2fr;
+    grid-gap: 50px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+
+@media screen and (max-width: 1050px) {
+    :local .InterlockSkillList {
+        grid-template-columns: 0.2fr 0.2fr;
+        grid-gap: 10px;
+        padding: 20px;
+    }
+}
+
+:local .InterlockSkillList button {
+    height: 60px;
+    background: repeating-linear-gradient(0deg,
+    transparent 0px, 
+    transparent 2px, 
+     red 3px, 
+     red 2px
+   );
+   border: 1px solid red;
+}
+
+:local .InterlockSkillList button:hover {
+    background: red;
+    color: #202020;
+}
+
+:local .ModalBackground {
+    background: #202020be;
+    position: Fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+:local .WindowedInformation {
+    position: fixed;
+    left: 30%;
+    top: 20%;
+    width: 40vw;
+    border: 1px solid red;
+    padding: 50px;
+    background: #202020;
+    z-index: 4000;
+}

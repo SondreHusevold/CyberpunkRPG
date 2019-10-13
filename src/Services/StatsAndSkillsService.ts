@@ -6,6 +6,16 @@ export interface Fumble {
     fumbles: { range: string, result: string }[];
 }
 
+export interface SkillList {
+	category: string;
+	skills: Skill[]
+}
+
+export interface Skill {
+	name: string;
+	description: string;
+}
+
 export class StatService {
 	public static async getStats(): Promise<Stat[]> {
 		return fetch('assets/InterlockSystem/Stats.json')
@@ -19,6 +29,14 @@ export class StatService {
 		return fetch('assets/InterlockSystem/FumbleTable.json')
 		.then((s) => s.json().then((fetched: { fumbleTable: Fumble[] }) => {
 				return fetched.fumbleTable;
+			})
+		);
+	}
+
+	public static async getSkillList(): Promise<SkillList[]> {
+		return fetch('assets/InterlockSystem/SkillList.json')
+		.then((s) => s.json().then((fetched: { list: SkillList[] }) => {
+				return fetched.list;
 			})
 		);
 	}

@@ -1,10 +1,35 @@
 :local .Skills {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 15%;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 15%;
+    grid-template-rows: min-content min-content min-content min-content max-content;
+    grid-template-areas: "title title title title padding"
+                         "navigation navigation navigation navigation padding"
+                         "content content content content padding"
+}
+
+:local .ImprovementPoints {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 15%;
     grid-template-rows: min-content min-content min-content max-content;
     grid-template-areas: "title title title padding"
                          "navigation navigation navigation padding"
                          "content content content padding"
+}
+
+:local .AwardTable {
+    display: grid;
+    grid-template-columns: 0.1fr 0.4fr;
+    padding: 10px;
+}
+
+:local .AwardTable span {
+    border: 1px solid red;
+    padding: 10px;
+}
+
+:local .ExampleBorder {
+    border: 1px solid red;
+    padding: 20px;
 }
 
 :local .SkillsTitle {

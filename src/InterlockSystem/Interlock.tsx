@@ -6,6 +6,9 @@ import InterlockStats from './InterlockStats';
 import Sidebar from '../Sidebar/Sidebar.Navigation';
 import InterlockSkillCheck from './InterlockSkillChecks';
 import InterlockSkills from './InterlockSkills';
+import InterlockSkillList from './InterlockSkillList';
+import InterlockSkillsIP from './InterlockSkillsIP';
+import InterlockReputation from './InterlockReputation';
 
 interface InterlockState {
     selection: string | null;
@@ -17,7 +20,9 @@ enum Choices {
 	Stats = "Stats",
 	SkillCheck = "Skill Check",
 	Skills = "Skills",
+	Improvement = "Imp. Points",
 	SkillList = "Skill List", 
+	Reputation = "Reputation",
 	Starting = "Starting Out"
 }
 
@@ -49,8 +54,12 @@ class Interlock extends Component<{}, InterlockState> {
 				return <InterlockSkillCheck />
 			case Choices.Skills:
 				return <InterlockSkills />;
+			case Choices.Improvement:
+				return <InterlockSkillsIP/>;
 			case Choices.SkillList:
-				return "Skill List";
+				return <InterlockSkillList />
+			case Choices.Reputation:
+				return <InterlockReputation />
 			case Choices.Starting:
 				return "Starting";
 			default:

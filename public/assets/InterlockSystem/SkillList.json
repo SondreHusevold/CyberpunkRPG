@@ -133,7 +133,7 @@
                 },
                 {
                     "name": "Gamble",
-                    "description": "The skill of knowing how to make bets, figure odds, and play games of chance successfully. As any professional gambler knows, this is not a luck skill.\nAt+2, youare the local card shark at the Saturday night poker game.\nAt +6, you can make a living at the tables in Vegas and Monte Carlo.\nAt +9 or better, you can take on James Bond at roulette and stand a good chance of breaking the bank."
+                    "description": "The skill of knowing how to make bets, figure odds, and play games of chance successfully. As any professional gambler knows, this is not a luck skill.\nAt +2, you are the local card shark at the Saturday night poker game.\nAt +6, you can make a living at the tables in Vegas and Monte Carlo.\nAt +9 or better, you can take on James Bond at roulette and stand a good chance of breaking the bank."
                 },
                 {
                     "name": "Geology",
@@ -149,7 +149,7 @@
                 },
                 {
                     "name": "Know Language",
-                    "description": "The knowledge of a foreign tongue.\nAt+2, you can “get by” with speaking the language.\nAt +3, you can actually read a written form of it.\nAt +6 and above, you are fairly fluent, although no native will be fooled by your ability.\nAt+8and above, you speak and read the language like a native.\nEach language known requires a separate Know Language Skill, however, one may use the knowledge of a particular Language with up to 1/2 (round down) proficiency with any language in the same linguistic family (example: knowing Cantonese at +4 will give you the ability to understand and speak Mandarin at +2)."
+                    "description": "The knowledge of a foreign tongue.\nAt +2, you can “get by” with speaking the language.\nAt +3, you can actually read a written form of it.\nAt +6 and above, you are fairly fluent, although no native will be fooled by your ability.\nAt +8 and above, you speak and read the language like a native.\nEach language known requires a separate Know Language Skill, however, one may use the knowledge of a particular Language with up to 1/2 (round down) proficiency with any language in the same linguistic family (example: knowing Cantonese at +4 will give you the ability to understand and speak Mandarin at +2)."
                 },
                 {
                     "name": "Library Search",
@@ -157,7 +157,7 @@
                 },
                 {
                     "name": "Mathematics",
-                    "description": "The skill of understanding calculations and mathematical formulas.\nAt +3, you have the ability to add, subtract, divide and multiply.\nAt +4, you can do algebra and geometry.\nAt+6, you can perform calculus.\nAt+9 you can deduce your own mathematical formulas."
+                    "description": "The skill of understanding calculations and mathematical formulas.\nAt +3, you have the ability to add, subtract, divide and multiply.\nAt +4, you can do algebra and geometry.\nAt +6, you can perform calculus.\nAt +9 you can deduce your own mathematical formulas."
                 },
                 {
                     "name": "Physics",
@@ -177,7 +177,7 @@
                 },
                 {
                     "name": "System Knowledge",
-                    "description": "Basic knowledge of the geography of the Net, it’s lore and history, as well as knowledge of the important computer systems, their strengths and their weaknesses.\nAt +2, you can generally navigate around the Net and know where all the local places are.\nAt+6, you know the locations of most places in the Net, and have a working understanding of its largest and most well known systems.\nAt +9, you know the entire Net like the back of your hand, know the general layouts of the important systems cold, and are aware of the layouts for the rest of them."
+                    "description": "Basic knowledge of the geography of the Net, it’s lore and history, as well as knowledge of the important computer systems, their strengths and their weaknesses.\nAt +2, you can generally navigate around the Net and know where all the local places are.\nAt +6, you know the locations of most places in the Net, and have a working understanding of its largest and most well known systems.\nAt +9, you know the entire Net like the back of your hand, know the general layouts of the important systems cold, and are aware of the layouts for the rest of them."
                 },
                 {
                     "name": "Teaching",
@@ -307,7 +307,7 @@
                 },
                 {
                     "name": "Electronic Security",
-                    "description": "The skill of installing or countering electronic eyes, electronic locks, bugs and tracers, security cameras, pressure plates, etc.\nAt level +3, you can jimmy or install most apartment Jocks and security cams.\nAt+6, you can override most corporate office locks and traps.\nAt +9, you can enter most high security areas with impunity."
+                    "description": "The skill of installing or countering electronic eyes, electronic locks, bugs and tracers, security cameras, pressure plates, etc.\nAt level +3, you can jimmy or install most apartment Jocks and security cams.\nAt +6, you can override most corporate office locks and traps.\nAt +9, you can enter most high security areas with impunity."
                 },
                 {
                     "name": "First Aid",
@@ -335,7 +335,7 @@
                 },
                 {
                     "name": "Pick Lock",
-                    "description": "The skill required to pick locks and break into sealed containers and rooms.\nAt +3, you can jimmy most simple locks.\nAt+6 you can crack most safes.\nAt +9 or better, you have a rep as a master cracksman, and are known to all the major players in the Cyberpunk world."
+                    "description": "The skill required to pick locks and break into sealed containers and rooms.\nAt +3, you can jimmy most simple locks.\nAt +6 you can crack most safes.\nAt +9 or better, you have a rep as a master cracksman, and are known to all the major players in the Cyberpunk world."
                 },
                 {
                     "name": "Pick Pocket",

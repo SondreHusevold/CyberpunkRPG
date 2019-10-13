@@ -4,7 +4,8 @@ import styles from './InterlockSkills.module.css';
 enum SkillSections {
 	About = "About",
 	Starting = "Starting Skills",
-	Pickup = "Pickup Skills"
+	Pickup = "Pickup Skills",
+	House = "House Rules"
 }
 
 interface InterlockSkillsState {
@@ -65,6 +66,25 @@ class InterlockSkills extends Component<{}, InterlockSkillsState> {
 		)
 	}
 
+	public renderHouseRuled = () => {
+		return (
+			<div>
+				<p>The total amount of skills in Cyberpunk is <u>79</u> by default.</p>
+				<p>Due to this excessive amount of skills that are very similar in nature, many skills have been squashed into a single skill.</p>
+				<p>This is a referee house rule to keep the game simple and will make it easier for both referee and players.</p>
+				<p>A good example of this squash is Hide/Evade, Shadow/Track and Stealth which fulfill mostly the same roles.</p>
+				<div style={{border: "1px solid red", padding: "20px"}}>
+					<p><b>Shadow/Track</b> is described as <i>"The skill of shadowing and following people."</i></p>
+					<p><b>Hide/Evade</b> is described as <i>"The skill of losing pursuers, covering tracks and otherwise evading people on your trail."</i></p>
+					<p><b>Stealth</b> is described as <i>"The skill of hiding in shadows, moving silently, evading guards, etc."</i></p>
+				</div>
+				<p>These skills, while not identical, are essentially the same which means a character who is good at hiding might not be good at stealth, a skill described as 'hiding in shadows'.</p>
+				<p>In Cyberpunk RED - The newest edition of Cyberpunk, the skills have been squashed into <u>22</u> skills. Which is less than the WoD games which usually have 30.</p>
+				<p>Due to the referee not wanting to deviate too far from the Cyberpunk 2020 formula, the total sum of skills after the squash is 40.</p>
+			</div>
+		)
+	}
+
 	public renderChoice = () => {
 		switch(this.state.section) {
 			case SkillSections.About:
@@ -73,6 +93,8 @@ class InterlockSkills extends Component<{}, InterlockSkillsState> {
 				return this.renderStartingSkills();
 			case SkillSections.Pickup:
 				return this.renderPickupSkills();
+			case SkillSections.House:
+				return this.renderHouseRuled();
 		}
 
 		return "";

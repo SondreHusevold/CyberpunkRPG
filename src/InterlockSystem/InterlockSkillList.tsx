@@ -1,14 +1,10 @@
 import React, { Component } from 'react';
-import styles from './InterlockSkills.module.css';
-
-enum SkillSections {
-	About = "About",
-	Starting = "Starting Skills",
-	Pickup = "Pickup Skills"
-}
+import styles from './InterlockSkillList.module.css';
+import { StatService, SkillList, Skill } from '../Services/StatsAndSkillsService';
 
 interface InterlockSkillsState {
-    section: SkillSections;
+	selection: Skill | null;
+	list: SkillList[]
 }
 
 class InterlockSkillList extends Component<{}, InterlockSkillsState> {
@@ -17,38 +13,96 @@ class InterlockSkillList extends Component<{}, InterlockSkillsState> {
         super(props);
         
         this.state = {
-            section: SkillSections.About
-        }
+			list: [],
+			selection: null     
+		}
+
+		this.getSkills();
+	}
+	
+	public renderChoice = () => {
+		return "";
 	}
 
-	public setSection = (section: SkillSections) => {
-		this.setState({
-			section: section
+	public async getSkills() {
+		this.setState( {
+			list: await StatService.getSkillList()
 		});
 	}
 
-	public isActive = (selection: SkillSections) => {
-		return this.state.section === selection;
-    }
+	public setChoice = (skill: Skill) => {
+		this.setState({
+			selection: skill
+		});
+	}
 
-	public render() {
+	public clearChoice = () => {
+		this.setState({
+			selection: null
+		});
+	}
+
+	public renderSkill = () => {
+		if(this.state.selection == null)
+			return "";
+
+		let skill = this.state.selection;
 
 		return (
-			<div className={styles.Skills}>
-				<h1 className={styles.SkillsTitle}>Skills:</h1>
-				{
-					Object.values(SkillSections).map((section: SkillSections) => {
+			<div>
+				<div className={styles.ModalBackground} onClick={this.clearChoice}/>
+				<div className={styles.WindowedInformation}>
+					<h1>{skill.name}</h1>
+					{skill.description.split("\n").map((paragraph) => {
+						if(paragraph.includes("**")) {
+							return (
+								paragraph.split("**").map((listedItem) => {
+									return <li>{listedItem}</li>
+								})
+							)
+						}
+
 						return (
-							<span key={section}
-								className={ styles.NavLink + " " + (this.isActive(section) ? styles.ActiveNav : styles.NotActiveNav)} 
-								onClick={() => {this.setSection(section)}}
-							>{section}</span>
+							<p>{paragraph}</p>
+						)
+					})}
+					<button onClick={this.clearChoice}>>Go back</button> 
+				</div>
+			</div>
+		)
+	}
+
+	public countSkills = () => {
+		let totalCount = 0;
+
+		for (const category of this.state.list) {
+			totalCount = totalCount + category.skills.length;
+		}
+
+		return totalCount;
+	}
+
+	public render() {
+		return (
+			<div className={styles.SkillList}>
+				<div>
+					{ this.renderSkill() }
+				</div>
+				{
+					this.state.list.map((skillList) => {
+						return (
+							<div>
+								<h2 className={styles.InterlacedPicture}>{ skillList.category}:</h2>
+								<div className={styles.InterlockSkillList}>
+									{skillList.skills.map((skill) =>  {
+										return <button onClick={() => { this.setChoice(skill); } }>{skill.name}</button>
+									})}
+								</div>
+								<hr/>
+							</div>
 						)
 					}) 
 				}
-				<div className={styles.SkillContent}>
-					{this.renderChoice()}
-				</div>
 			</div>
 		);
 	}
