@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import styles from './InterlockSkills.module.css';
+import styles from './InterlockReputation.module.css';
+import tabbedpanel from '../TabbedPanel/TabbedPanel.module.css';
 
 enum ReputationSections {
 	About = "About",
@@ -25,7 +26,7 @@ class InterlockReputation extends Component<{}, InterlockReputationState> {
 		return (
 			<div>
 				<p>Reputation is a measure of things your character may do so well (or badly) that he has actually become well known for them. A reputation for something is always established by a character's actions, and is then awarded by the Referee. Whenever a character encounters new people in new situations , his reputation may actually influence how they react to him. Sometimes this can be very good. Other times, it can be very bad.</p>
-                <div className={styles.ExampleBorder}>
+                <div className={tabbedpanel.ExampleBorder}>
                     <p>Example:</p>
                     <p>Jake the Hammer is known far and wide as a streetfighter; he is feared throughout Night City for his trademark killer punch. Over time, the Referee has awarded Jake a Reputation of 6 points. Anyone who meets Jake for the first time must roll higher than 6 on 1D10 in order to have not heard of Jake's name.</p>
                     <p>On this particular night, jake swaggers into the Totentanz and orders a drink. Down the bar, Ripperjack hears the bartender address jake by name.</p>
@@ -74,12 +75,12 @@ class InterlockReputation extends Component<{}, InterlockReputationState> {
                 <p>Reputation in Cyberpunk has one other big effect— facedowns. </p>
                 <p>Remember; a lot of combat in this genre comes down to a duel of wills; who's tougher, meaner, and looks more ready to prove it. This often leads to what are called facedowns; when two heavies on the Street square off just before a fight, or to see who'll back down from a confrontation.</p>
                 <p>When making a facedown, both participants will roll:</p>
-                <div className={styles.ExampleBorder}>
+                <div className={tabbedpanel.ExampleBorder}>
                     <h3>1D10 + Cool + Reputation</h3>
                     <p>Note: If one of the opponents has a reputation for cowardice, his value will be treated as a negative number.</p>
                 </div>
                 <p>In a facedown, the loser has the option of backing down or making any subsequent attacks against this particular opponent at a -3 (due to fear) until he has successfully defeated that opponent once. On a tied roll, both parties are unsure and no penalties will apply.</p>
-                <div className={styles.ExampleBorder}>
+                <div className={tabbedpanel.ExampleBorder}>
                     <p>Example:</p> 
                     <p>The Ironmaster is a feared boosterganger known throughout Night City. In the middle of the Slammer, he runs across an attractive young woman and her male companion. The Ironmaster says "Take a clue and vanish, Kid-trash, the input's with me now." The Kid stands up and says, "Vanish yourself, burnbrain.” A faceoff begins.</p>
                     <p>The Ironmaster is known all over the City, giving him a Rep of 6.</p>
@@ -118,19 +119,19 @@ class InterlockReputation extends Component<{}, InterlockReputationState> {
 	public render() {
 
 		return (
-			<div className={styles.ImprovementPoints}>
-				<h1 className={styles.SkillsTitle}>Improvement Points:</h1>
+			<div className={tabbedpanel.ThreeTabs}>
+				<h1 className={tabbedpanel.Title}>Reputation:</h1>
 				{
 					Object.values(ReputationSections).map((section: ReputationSections) => {
 						return (
 							<span key={section}
-								className={ styles.NavLink + " " + (this.isActive(section) ? styles.ActiveNav : styles.NotActiveNav)} 
+								className={ tabbedpanel.NavLink + " " + (this.isActive(section) ? tabbedpanel.ActiveNav : tabbedpanel.NotActiveNav)} 
 								onClick={() => {this.setSection(section)}}
 							>{section}</span>
 						)
 					}) 
 				}
-				<div className={styles.SkillContent}>
+				<div className={tabbedpanel.Content}>
 					{this.renderChoice()}
 				</div>
 			</div>

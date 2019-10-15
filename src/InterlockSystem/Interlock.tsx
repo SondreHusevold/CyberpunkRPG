@@ -9,6 +9,7 @@ import InterlockSkills from './InterlockSkills';
 import InterlockSkillList from './InterlockSkillList';
 import InterlockSkillsIP from './InterlockSkillsIP';
 import InterlockReputation from './InterlockReputation';
+import InterlockLifepath from './InterlockLifepath';
 
 interface InterlockState {
     selection: string | null;
@@ -23,7 +24,7 @@ enum Choices {
 	Improvement = "Imp. Points",
 	SkillList = "Skill List", 
 	Reputation = "Reputation",
-	Starting = "Starting Out"
+	Starting = "Lifepath"
 }
 
 class Interlock extends Component<{}, InterlockState> {
@@ -61,7 +62,7 @@ class Interlock extends Component<{}, InterlockState> {
 			case Choices.Reputation:
 				return <InterlockReputation />
 			case Choices.Starting:
-				return "Starting";
+				return <InterlockLifepath />
 			default:
 				return "";
 		}

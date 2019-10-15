@@ -10,6 +10,13 @@
     border-left: 7px solid transparent;
 }
 
+
+@media screen and (max-width: 1000px) {
+    :local .SidebarMenu {
+        display: none;
+    }
+}
+
 :local .SidebarButton:hover {
     cursor: pointer; 
 }

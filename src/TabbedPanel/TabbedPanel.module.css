@@ -1,4 +1,4 @@
-:local .Skills {
+:local .FourTabs {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 15%;
     grid-template-rows: min-content min-content min-content min-content max-content;
@@ -7,7 +7,7 @@
                          "content content content content padding"
 }
 
-:local .ImprovementPoints {
+:local .ThreeTabs {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 15%;
     grid-template-rows: min-content min-content min-content max-content;
@@ -16,15 +16,22 @@
                          "content content content padding"
 }
 
-:local .AwardTable {
-    display: grid;
-    grid-template-columns: 0.1fr 0.4fr;
-    padding: 10px;
-}
+@media screen and (max-width: 1000px) {
+    :local .FourTabs {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: min-content min-content min-content min-content;
+        grid-template-areas: "title title title title"
+                             "navigation navigation navigation navigation"
+                             "content content content content"
+    }    
 
-:local .AwardTable span {
-    border: 1px solid red;
-    padding: 10px;
+    :local .ThreeTabs {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: min-content min-content min-content;
+        grid-template-areas: "title title title"
+                             "navigation navigation navigation"
+                             "content content content"
+    }
 }
 
 :local .ExampleBorder {
@@ -32,7 +39,7 @@
     padding: 20px;
 }
 
-:local .SkillsTitle {
+:local .Title {
     grid-area: title;
 }
 
@@ -52,16 +59,15 @@
     grid-row: navigation;
 }
 
-:local .SkillContent {
+:local .Content {
     border-left: 1px solid red;
     border-bottom: 1px solid red;
     border-right: 1px solid red;
     padding: 20px;
     grid-area: content;
-    max-height: 650px;
+    max-height: 65vh;
     overflow: auto;
 }
-
 
 :local .NavLink:hover {
     cursor:  pointer;
@@ -78,4 +84,27 @@
     font-weight: bold;
     animation: blink-underscore 1.25s infinite;
     opacity: 1;
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-underscore {
+    0% {
+        color: red;
+    }
+
+    45% {
+        color: red;
+    }
+
+    50% {
+        color: transparent;
+    }
+
+    95% {
+        color: transparent;
+    }
+
+    100% {
+        color: red;
+    }
 }

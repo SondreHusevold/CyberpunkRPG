@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import styles from './InterlockSkills.module.css';
+import tabbedpanel from '../TabbedPanel/TabbedPanel.module.css';
 
 enum SkillSections {
 	About = "About",
@@ -107,19 +107,19 @@ class InterlockSkills extends Component<{}, InterlockSkillsState> {
 	public render() {
 
 		return (
-			<div className={styles.Skills}>
-				<h1 className={styles.SkillsTitle}>Skills:</h1>
+			<div className={tabbedpanel.FourTabs}>
+				<h1 className={tabbedpanel.Title}>Skills:</h1>
 				{
 					Object.values(SkillSections).map((section: SkillSections) => {
 						return (
 							<span key={section}
-								className={ styles.NavLink + " " + (this.isActive(section) ? styles.ActiveNav : styles.NotActiveNav)} 
+								className={ tabbedpanel.NavLink + " " + (this.isActive(section) ? tabbedpanel.ActiveNav : tabbedpanel.NotActiveNav)} 
 								onClick={() => {this.setSection(section)}}
 							>{section}</span>
 						)
 					}) 
 				}
-				<div className={styles.SkillContent}>
+				<div className={tabbedpanel.Content}>
 					{this.renderChoice()}
 				</div>
 			</div>

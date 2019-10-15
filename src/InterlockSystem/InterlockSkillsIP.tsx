@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import styles from './InterlockSkills.module.css';
+import styles from './InterlockReputation.module.css';
+import tabbedpanel from '../TabbedPanel/TabbedPanel.module.css';
 
 enum SkillIPSections {
 	Learning = "Learning and Improving",
@@ -68,7 +69,7 @@ class InterlockSkillsIP extends Component<{}, InterlockSkillsIPState> {
         return(
             <div>
                 <p>There are three ways to accumulate Improvement Points: Study and Practice, Being Taught, and Direct Experience. In all three cases, the amount of improvement is determined by the Referee of your game.</p>
-                2
+                
                 <h3><u>Study and practice:</u></h3>
                 <p>In its simplest form, you get a how-to book and begin practicing. </p>
                 <p>Study is pretty tough—you have no idea of where to begin, and no one to correct your mistakes. </p>
@@ -115,19 +116,19 @@ class InterlockSkillsIP extends Component<{}, InterlockSkillsIPState> {
 	public render() {
 
 		return (
-			<div className={styles.ImprovementPoints}>
-				<h1 className={styles.SkillsTitle}>Improvement Points:</h1>
+			<div className={tabbedpanel.ThreeTabs}>
+				<h1 className={tabbedpanel.Title}>Improvement Points:</h1>
 				{
 					Object.values(SkillIPSections).map((section: SkillIPSections) => {
 						return (
 							<span key={section}
-								className={ styles.NavLink + " " + (this.isActive(section) ? styles.ActiveNav : styles.NotActiveNav)} 
+								className={ tabbedpanel.NavLink + " " + (this.isActive(section) ? tabbedpanel.ActiveNav : tabbedpanel.NotActiveNav)} 
 								onClick={() => {this.setSection(section)}}
 							>{section}</span>
 						)
 					}) 
 				}
-				<div className={styles.SkillContent}>
+				<div className={tabbedpanel.Content}>
 					{this.renderChoice()}
 				</div>
 			</div>

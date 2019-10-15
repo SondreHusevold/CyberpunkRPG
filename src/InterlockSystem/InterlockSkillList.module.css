@@ -51,8 +51,19 @@
     left: 30%;
     top: 20%;
     width: 40vw;
-    border: 1px solid red;
+    height: fit-content;
+    border: 2px solid red;
     padding: 50px;
     background: #202020;
     z-index: 4000;
+    animation: FadeIn 0.3s linear;
+}
+
+@keyframes FadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }

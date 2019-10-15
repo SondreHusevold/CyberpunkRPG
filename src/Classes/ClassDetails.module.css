@@ -33,13 +33,11 @@
     grid-column: span 2;
 }
 
-:local .NavLink:hover {
-    cursor: pointer;
-}
-
 :local .Description {
     font-size: 1.5em;
     grid-area: description;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 :local .ClassDetailContent {
@@ -60,42 +58,4 @@
     height: 60vh;
     float: right;
     z-index: 40;
-}
-
-:local .NotActiveNav:hover:after {
-    content: '_';
-    font-weight: bold;
-    animation: blink-underscore 1.25s infinite;
-    opacity: 1;
-}
-
-:local .ActiveNav {
-    transition: 0.1s all linear;
-    background: red;
-    color: #202020;
-    cursor: pointer;
-}
-
-
-/* The typewriter cursor effect */
-@keyframes blink-underscore {
-    0% {
-        color: red;
-    }
-
-    45% {
-        color: red;
-    }
-
-    50% {
-        color: transparent;
-    }
-
-    95% {
-        color: transparent;
-    }
-
-    100% {
-        color: red;
-    }
 }
