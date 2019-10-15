@@ -1,0 +1,32 @@
+:local .Bordered {
+    border: 1px solid red;
+    padding: 5px 10px 5px 10px;
+}
+
+@media screen and (min-width: 1300px) {
+    :local .Lifepath {
+        display: grid;
+        grid-template-columns: 1fr 0.6fr;
+    }
+    
+    :local .Explanations {
+        padding-right: 100px;
+    }
+    
+    :local .Picture {
+        grid-column: 2;
+        margin-top: 20%;
+    }
+    
+    :local .Picture img {
+        max-height: 60vh;
+        padding: 5%;
+    }
+    
+}
+
+@media screen and (max-width: 1300px) {
+    :local .Picture {
+        display: none;
+    }
+}

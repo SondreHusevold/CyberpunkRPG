@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { StatService, Fumble } from '../Services/StatsAndSkillsService';
 import styles from './InterlockSkillChecks.module.css';
+import tabbedpanel from '../StyleModules/TabbedPanel.module.css';
 
 enum SkillCheckSections {
     About = "About",
@@ -74,7 +75,8 @@ class InterlockSkillCheck extends Component<{}, InterlockSkillCheckState> {
                 <p>For example, if you were trying to stand on your head, REF would be best. If you were deciphering a code, INT would be the most appropriate.</p>
                 <p>Next, if you have any one Skill directly relating to the task at hand, add that skill to the stat. You may apply only one Skill to a task at any time.</p>
                 <p>Finally, roll a D10 and add the combined total of your die roll, your Stat, and your selected Skill. Compare your total with the Task’s Difficulty (as determined by the Referee). If your total is equal or higher, you have succeeded; on a lower roll, you have failed.</p>
-                <div className={styles.ExampleBorder}>
+                <div className={tabbedpanel.ExampleBorder}>
+                    <p>Example:</p>
                     <p>Johnny Silverhand needs to break into a locked room, a task the Referee considers to require some training. As such, it has a Difficulty of 15.</p>
                     <p>Johnny's most applicable stat is Technical, because this is a Task that requires manipulating a mechanical object. Johnny isn’t much of a techie (his Tech stat is only +3, enough to fix his guitar strings and plug in his amp). But Johnny also picked up Pick Lock +3 as one of his early Pickup skills.</p>
                     <p>This gives him a Base Ability of 6. Johnny will need to roll at least a 9 on his D10 to pick this lock.</p>
@@ -82,8 +84,6 @@ class InterlockSkillCheck extends Component<{}, InterlockSkillCheckState> {
                 <h3>Opposed Rolls:</h3>
                 <p>If you are making an attempt against another player character, the opposing player will combine his most applicable stat, skill and 1D10 roll. </p>
                 <p>On an equal or higher roll, the defending player wins.</p>
-                <hr/>
-                <p><u><b>TL;DR: Skill checks are exactly like in the World of Darkness systems.</b></u></p>
             </div>
         )
     }
@@ -178,19 +178,19 @@ class InterlockSkillCheck extends Component<{}, InterlockSkillCheckState> {
 	public render() {
 
 		return (
-			<div className={styles.SkillChecks}>
-                <h1 className={styles.SkillChecksTitle}>Skill checks:</h1>
+			<div className={tabbedpanel.FourTabs}>
+                <h1 className={tabbedpanel.Title}>Skill checks:</h1>
                 {
                     Object.values(SkillCheckSections).map((sector) => {       
                         return (
                             <span key={sector}
-                                className={ styles.NavLink + " " + (this.isActive(sector) ? styles.ActiveNav : styles.NotActiveNav)} 
+                                className={ tabbedpanel.NavLink + " " + (this.isActive(sector) ? tabbedpanel.ActiveNav : tabbedpanel.NotActiveNav)} 
                                 onClick={() => {this.switchContent(sector)}}
                             >{sector}</span>
                         )
                     })
                 }
-                <div className={styles.SkillCheckContent}>
+                <div className={tabbedpanel.Content}>
                     {this.getContent()}
                 </div>
 			</div>

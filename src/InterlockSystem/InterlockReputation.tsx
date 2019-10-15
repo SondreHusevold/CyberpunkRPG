@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import styles from './InterlockReputation.module.css';
-import tabbedpanel from '../TabbedPanel/TabbedPanel.module.css';
+import tabbedpanel from '../StyleModules/TabbedPanel.module.css';
 
 enum ReputationSections {
 	About = "About",

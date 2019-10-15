@@ -2,13 +2,13 @@ import React, { Component } from 'react';
 import styles from './MainMenu.module.css';
 
 export enum MainSection {
-	Mainframe,
-	Classes,
-	InterlockSystem,
-	NightCity,
-	FNFF,
-	TraumaTeam,
-	Cyberwares
+	Mainframe = "Mainframe",
+	Classes = "Classes",
+	InterlockSystem = "Interlock System",
+	NightCity = "Night City",
+	FNFF = "FNFF",
+	TraumaTeam = "Trauma Team",
+	Cyberware = "Cyberware"
 }
 
 interface IMainMenuState {
@@ -54,13 +54,12 @@ class MainMenu extends Component<IMainMenuProps, IMainMenuState> {
 						Cyberpunk 2020
 					</button>
 					<div className={styles.mainmenuList}>
-						{MainSectionArray.map((section, index) => {
-							if(index !== 0) {
+						{Object.values(MainSection).map((section) => {
+							if(section !== MainSection.Mainframe) {
 								return (
-									<button key={index} 
-										tabIndex={index+1}
-										className={this.state.selectedSection === index ? "selectedButton" : ''}
-										onClick={this.changeSection.bind(this, index)}
+									<button key={section} 
+										className={this.state.selectedSection === section ? "selectedButton" : ''}
+										onClick={() => this.changeSection(section) }
 									>{section}</button> 
 								)
 							}
@@ -74,13 +73,12 @@ class MainMenu extends Component<IMainMenuProps, IMainMenuState> {
 				<div className={styles.Mobile}>
 					<h1 className={styles.cyberpunk_logo} tabIndex={1} onClick={this.openMobileMenu}>Cyberpunk 2020</h1>
 					<div className={styles.mainmenuList + " " + (this.state.isOpen ? styles.activateMobileList : styles.hiddenMobileList)}>
-						{MainSectionArray.map((section, index) => {
-							if(index !== 0) {
+						{Object.values(MainSection).map((section) => {
+							if(section !== MainSection.Mainframe) {
 								return (
-									<p key={index} 
-										tabIndex={index+1}
-										className={this.state.selectedSection === index ? styles.selectedSection : ''}
-										onClick={this.changeSection.bind(this, index)}
+									<p key={section} 
+										className={this.state.selectedSection === section ? styles.selectedSection : ''}
+										onClick={() => this.changeSection(section)}
 									>{section}</p> 
 								)
 							}
@@ -93,16 +91,4 @@ class MainMenu extends Component<IMainMenuProps, IMainMenuState> {
 		);
 	}
 }
-
-// Can't map an enum.
-const MainSectionArray = [
-	'Mainframe',
-	'Classes',
-	'Interlock System',
-	'Night City',
-	'FNFF',
-	'Trauma Team',
-	'Cyberwares'
-]
-
 export default MainMenu;

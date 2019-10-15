@@ -60,8 +60,8 @@ class Mainframe extends Component<IMainframeProps, IMainframeState> {
 				return <h1 className="consoleText">Friday Night Firefight:</h1>
 			case MainSection.TraumaTeam:
 				return <h1 className="consoleText">Trauma Team:</h1>
-			case MainSection.Cyberwares:
-				return <h1 className="consoleText">Cyberwares:</h1>
+			case MainSection.Cyberware:
+				return <h1 className="consoleText">Cyberware:</h1>
 			default:
 				return (
 					<div>

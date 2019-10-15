@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import styles from './InterlockReputation.module.css';
-import tabbedpanel from '../TabbedPanel/TabbedPanel.module.css';
+import tabbedpanel from '../StyleModules/TabbedPanel.module.css';
 
 enum SkillIPSections {
 	Learning = "Learning and Improving",
@@ -84,7 +84,7 @@ class InterlockSkillsIP extends Component<{}, InterlockSkillsIPState> {
                 <p>Still the best teacher.</p>
                 <p>Whenever you do something well, the Referee rewards you with Improvement Points right on the spot. The problem is that these points will be applied to the skill you were using when you got the reward. Therefore, if you want to get better in a particular skill, it's important to use that skill every chance you get.</p>
                 <p>Referees should use an even hand when rewarding Improvement Points, not only rewarding players for doing things well, but also for demonstrating both role-playing ability and teamwork. </p>
-                <p>In general, we suggest not awarding more than six points per skill per game session.</p>
+                <p>In general, the rulebook suggests not awarding more than six points per skill per game session.</p>
             </div>
         )
     }

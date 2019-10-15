@@ -1,7 +1,7 @@
 :local .FourTabs {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 15%;
-    grid-template-rows: min-content min-content min-content min-content max-content;
+    grid-template-columns: 1fr 1fr 1fr 1fr 15%;
+    grid-template-rows: min-content min-content max-content;
     grid-template-areas: "title title title title padding"
                          "navigation navigation navigation navigation padding"
                          "content content content content padding"
@@ -10,16 +10,16 @@
 :local .ThreeTabs {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 15%;
-    grid-template-rows: min-content min-content min-content max-content;
+    grid-template-rows: min-content min-content max-content;
     grid-template-areas: "title title title padding"
                          "navigation navigation navigation padding"
                          "content content content padding"
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1400px) {
     :local .FourTabs {
         grid-template-columns: 1fr 1fr 1fr 1fr;
-        grid-template-rows: min-content min-content min-content min-content;
+        grid-template-rows: min-content min-content min-content;
         grid-template-areas: "title title title title"
                              "navigation navigation navigation navigation"
                              "content content content content"

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import tabbedpanel from '../TabbedPanel/TabbedPanel.module.css';
+import tabbedpanel from '../StyleModules/TabbedPanel.module.css';
 
 enum SkillSections {
 	About = "About",
@@ -61,7 +61,10 @@ class InterlockSkills extends Component<{}, InterlockSkillsState> {
 			<div>
 				<p>Pickup Skills are skills the character has learned in the course of knocking around, living his or her life. Characters determine their starting points for these skills by adding their REF and INT Stats.</p>
 				<p>For example: Johnny’s REF is 9 and his INT is 7. Johnny has 16 points to spend on Pickup Skills.</p>
-				<p style={{ border: "1px solid red", padding: "20px" }}>Pickup Skill points may not be used to increase your character's Career Skills!</p>
+				<div className={tabbedpanel.ExampleBorder}>
+					<p>Friendly reminder:</p>
+					<p>Pickup Skill points may not be used to increase your character's Career Skills!</p>
+				</div>
 			</div>
 		)
 	}
@@ -73,7 +76,7 @@ class InterlockSkills extends Component<{}, InterlockSkillsState> {
 				<p>Due to this excessive amount of skills that are very similar in nature, many skills have been squashed into a single skill.</p>
 				<p>This is a referee house rule to keep the game simple and will make it easier for both referee and players.</p>
 				<p>A good example of this squash is Hide/Evade, Shadow/Track and Stealth which fulfill mostly the same roles.</p>
-				<div style={{border: "1px solid red", padding: "20px"}}>
+				<div className={tabbedpanel.ExampleBorder}>
 					<p><b>Shadow/Track</b> is described as <i>"The skill of shadowing and following people."</i></p>
 					<p><b>Hide/Evade</b> is described as <i>"The skill of losing pursuers, covering tracks and otherwise evading people on your trail."</i></p>
 					<p><b>Stealth</b> is described as <i>"The skill of hiding in shadows, moving silently, evading guards, etc."</i></p>

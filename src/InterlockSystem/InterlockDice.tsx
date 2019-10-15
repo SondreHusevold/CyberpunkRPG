@@ -17,7 +17,7 @@ class InterlockDice extends Component<{}, {}> {
 						<p><li>Rolling one or more dice together and adding another value called a modifier to get a final value, expressed as 1D6+1, or 2D10 -2</li></p>
 						<p><li>Rolling two ten sided dice together, designating one to mark the tens place and the other to mark the ones place (rolling a percentage).</li></p>
 					</div>
-					<p>In Cyberpunk, if you are asked to divide something and you come up with a decimal value, you will automatically round the result down to the nearest whole number (such os 2.65352 becoming 2).</p>
+					<p>In Cyberpunk, if you are asked to divide something and you come up with a decimal value, you will automatically round the result down to the nearest whole number (such as 2.65352 becoming 2).</p>
 					<p>If a modified value (such as 1D6-4) comes out equal to, or below zero, It is automatically equal to 1 unless otherwise specified.</p>
 				</div>
 				<div className={styles.InterlockIntroductionPicture}>

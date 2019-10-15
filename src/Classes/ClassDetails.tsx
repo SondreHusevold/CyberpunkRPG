@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import pictureAnimation from '../StyleModules/Pictures.module.css';
 import styles from './ClassDetails.module.css';
-import tabbedpanel from '../TabbedPanel/TabbedPanel.module.css';
+import tabbedpanel from '../StyleModules/TabbedPanel.module.css';
 import { CharacterClass, ClassDetailedInformation } from './Classes';
 import { ClassQuote } from './ClassQuote';
 import { ClassService } from '../Services/ClassService';
