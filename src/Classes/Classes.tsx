@@ -56,7 +56,7 @@ class Classes extends Component<{}, ClassState> {
 			<div>
 				<h1 className="consoleText">Classes:</h1>
 				<div className={styles.ClassSplit}>
-					<Sidebar choices={Object.values(this.state.characterClasses.map(x => x.name))} clicked={this.SetActiveClass} />
+					<Sidebar choices={Object.values(this.state.characterClasses.map(x => x.name))} clicked={this.SetActiveClass} preDetermined="" />
 
 					<div className={styles.ClassPicture}>
 						{this.GetDetails()}

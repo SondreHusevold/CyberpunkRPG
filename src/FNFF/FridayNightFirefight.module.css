@@ -1,0 +1,17 @@
+@media screen and (min-width: 1000px) {
+    :local .FNFFSplit {
+        display: grid;
+        grid-template-columns: 0.15fr 1fr;
+        column-gap: 5em;
+    }
+
+    :local .FNFFMenu {
+        padding-top: 5%;
+        grid-column: 1;
+    }
+
+    :local .FNFFMain {
+        grid-column: 2;
+    }
+
+}

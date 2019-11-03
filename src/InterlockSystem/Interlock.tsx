@@ -33,7 +33,7 @@ class Interlock extends Component<{}, InterlockState> {
 		super(props);
 
 		this.state = {
-            selection: null
+            selection: Choices.Introduction
 		}
 	}
 
@@ -73,7 +73,7 @@ class Interlock extends Component<{}, InterlockState> {
 			<div>
 				<h1 className="consoleText">Interlock System:</h1>
 				<div className={styles.InterlockSplit}>
-                    <Sidebar choices={Object.values(Choices)} clicked={this.changeSelection} />
+                    <Sidebar choices={Object.values(Choices)} clicked={this.changeSelection} preDetermined={Choices.Introduction}/>
 					<div className={styles.InterlockMain}>
 						{this.getCurrentSelection()}
 					</div>

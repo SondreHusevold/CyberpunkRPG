@@ -73,15 +73,17 @@ class ClassDetails extends Component<ClassDetailsProps, ClassDetailsState> {
 					{this.state.details.careerSkills.map((val, index) => {
 						return (
 							<div key={val.name}>
+								
+								{ val.name === "Medtechie" ? <hr/> : "" }
 								{
 									/* Mainly for Tech/MedTechie  */
 									this.state.details != null && this.state.details.careerSkills.length > 1 
-									? <h2>{val.name} career skills:</h2> 
+									? ( <h2>{val.name} career skills:</h2> )
 									: ""
 								}
 								<div className={styles.CareerSkillsGridified}>
 									{val.skills.map((skill, ind) => {
-										return <p key={skill} className={skill.length > 20 ? styles.CareerSkillsLong : "" }>{skill}</p>
+										return <h3 key={skill} className={skill.length > 20 ? styles.CareerSkillsLong : "" }>{skill}</h3>
 									})}
 								</div>
 							</div>

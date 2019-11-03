@@ -1,3 +1,13 @@
+:local .FiveTabs {
+    display: grid;
+    grid-template-columns: 0.7fr 0.7fr 0.7fr 0.7fr 0.7fr 15%;
+    grid-template-rows: min-content min-content max-content;
+    grid-template-areas: "title title title title title padding"
+                         "navigation navigation navigation navigation navigation padding"
+                         "content content content content content padding"
+}
+
+
 :local .FourTabs {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 15%;
@@ -17,6 +27,15 @@
 }
 
 @media screen and (max-width: 1400px) {
+    :local .FiveTabs {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: min-content min-content max-content;
+        grid-template-areas: "title title title title title"
+                             "navigation navigation navigation navigation navigation"
+                             "content content content content content"
+    }
+
     :local .FourTabs {
         grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-template-rows: min-content min-content min-content;
@@ -37,6 +56,12 @@
 :local .ExampleBorder {
     border: 1px solid red;
     padding: 20px;
+    max-width: fit-content;
+}
+
+:local .ExampleBorder ul li {
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 :local .Title {
@@ -65,7 +90,7 @@
     border-right: 1px solid red;
     padding: 20px;
     grid-area: content;
-    max-height: 65vh;
+    max-height: min-content;
     overflow: auto;
 }
 

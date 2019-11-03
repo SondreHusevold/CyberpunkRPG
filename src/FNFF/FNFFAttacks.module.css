@@ -1,0 +1,129 @@
+
+:local .FNFFAttacksSplit {
+    display: grid;
+    grid-template-columns: 0.9fr 0.1fr;
+    column-gap: 5%;
+}
+
+:local .FNFFAttacksInformation {
+    grid-column: 1;
+}
+
+:local .FNFFAttacksPicture {
+    grid-column: 2;
+    margin-top: 10%;
+}
+
+@media screen and (max-width: 1050px) {
+    :local .FNFFAttacksPicture {
+        display: none;
+    }
+}
+
+:local .FNFFAttacksPicture img {
+    max-height: 60vh;
+    padding: 3%;
+    opacity: 1;
+}
+
+:local .FNFFAttackMenu {
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr;
+    grid-gap: 10px;
+}
+
+:local .Return {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+:local .ReturnWrapper {
+    position: sticky;
+    font-size: 20px;
+    bottom: 0;
+    margin: 0;
+    width: max-content;
+    padding: 10px;
+    text-shadow: 2px 2px 2px black;
+}
+
+:local .ReturnWrapper:hover {
+    background: red;
+    color: #202020;
+    text-shadow: none;
+    cursor: pointer;
+}
+
+
+:local .FNFFAttackMenu button {
+    height: 80px;
+    width: 100%;
+    background: repeating-linear-gradient(0deg,
+    transparent 0px, 
+    transparent 2px, 
+     red 3px, 
+     red 2px
+   );
+   border: 1px solid red;
+}
+
+:local .FNFFAttackSmallerMenu {
+    margin: 0px;
+}
+
+:local .FNFFAttackSmallerMenu button {
+    height: max-content;
+    width: max-content;
+    padding: 10px;
+    display: block;
+}
+
+:local .FNFFAttackMenu button:hover {
+    background: red;
+    color: #202020;
+}
+
+:local .ExampleBorder {
+    width: max-content;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid red;
+}
+
+:local .ExampleBorder h3 {
+    padding: 10px;
+    margin: 0px;
+}
+
+:local .ExampleBorder li {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+:local .liPadding li {
+    padding-top: 10px;
+    padding-bottom: 10px;
+} 
+
+@media screen and (min-width: 1050px) {
+    :local .SplitIntoTwo {
+        display: grid;
+        grid-gap: 50px;
+        grid-template-columns: 0.5fr 0.5fr;
+    }
+}
+
+:local .OverrideMaxContent {
+    width: initial;
+}
+
+:local th {
+    border: 1px solid red;
+}
+
+:local td {
+    padding: 20px;
+    border: 1px solid red;
+}
+

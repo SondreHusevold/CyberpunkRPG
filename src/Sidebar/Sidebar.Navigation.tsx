@@ -4,6 +4,7 @@ import styles from "./Sidebar.module.css";
 interface ISidebarProps {
     choices: string[];
     clicked: (chosen: string) => void;
+    preDetermined: string;
 }
 
 interface ISidebarState {
@@ -16,7 +17,7 @@ class Sidebar extends Component<ISidebarProps, ISidebarState> {
         super(props);
 
         this.state = {
-            chosen: ""
+            chosen: this.props.preDetermined
         }
     }
 

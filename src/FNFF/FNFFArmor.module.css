@@ -1,0 +1,47 @@
+:local .ArmorTable {
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr;
+    grid-template-areas: "light heavy"
+} 
+
+:local .LightArmor {
+    grid-area: "light";
+    border: 1px solid red;
+}
+
+:local .HeavyArmor {
+    grid-area: "heavy";
+    border: 1px solid red;
+}
+
+:local .HeavyArmor p {
+    text-align: center;
+    padding: 5px;
+    margin: 0px;
+}
+
+:local .HeavyArmor h4 {
+    text-align: center;
+    padding: 5px;
+    margin: 0;
+    border-bottom: 1px solid red;
+}
+
+:local .LightArmor p {
+    text-align: center;
+    padding: 5px;
+    margin: 0px;
+}
+
+:local .LightArmor h4 {
+    text-align: center;
+    padding: 5px;
+    margin: 0;
+    border-bottom: 1px solid red;
+}
+
+:local .TwoColumnSplit {
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr;
+    grid-gap: 5em;
+}

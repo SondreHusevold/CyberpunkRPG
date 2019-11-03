@@ -4,6 +4,7 @@ import Interlock from '../InterlockSystem/Interlock';
 import { MainSection } from '../MainMenu/MainMenu';
 import styles from './Mainframe.module.css';
 import "./ConsoleText.css";
+import FridayNightFirefight from '../FNFF/FridayNightFirefight';
 
 enum Feeds {
 	Realspace = "Realspace",
@@ -57,7 +58,7 @@ class Mainframe extends Component<IMainframeProps, IMainframeState> {
 			case MainSection.NightCity:
 				return <h1 className="consoleText">Night City:</h1>
 			case MainSection.FNFF:
-				return <h1 className="consoleText">Friday Night Firefight:</h1>
+				return <FridayNightFirefight />
 			case MainSection.TraumaTeam:
 				return <h1 className="consoleText">Trauma Team:</h1>
 			case MainSection.Cyberware:
