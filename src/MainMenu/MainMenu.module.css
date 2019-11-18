@@ -4,6 +4,13 @@
 	background-color: red;
 }
 
+:local .MainMenu {
+	position: sticky;
+	left: 0;
+	top: 0;
+	background: #202020;
+}
+
 
 :local .mainmenuList ul:focus {
 	outline: none;

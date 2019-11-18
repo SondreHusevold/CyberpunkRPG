@@ -1,0 +1,30 @@
+:local .CyberSplit {
+    display: grid;
+    grid-template-columns: 0.15fr 1fr;
+    grid-gap: 5em;
+}
+
+:local .IntroductionSplit {
+    display: grid;
+    grid-template-columns: 0.6fr 0.4fr;
+}
+
+:local .IntroductionImage {
+    padding: 20px;
+}
+
+:local .IntroductionImage img { 
+    padding: 10px;
+}
+
+:local .ExampleBorder {
+    border: 1px solid red;
+    padding: 15px;
+    max-width: max-content;
+}
+
+:local .Cyberware50Split {
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr;
+    grid-gap: 5em;
+}

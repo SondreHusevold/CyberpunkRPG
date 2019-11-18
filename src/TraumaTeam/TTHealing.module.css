@@ -45,13 +45,3 @@
     grid-template-columns: 0.5fr 0.5fr;
     grid-gap: 5em;
 }
-
-:local .CoverImageWrapper {
-    display: flex;
-    justify-content: center;
-}
-
-:local .CoverImage {
-    padding: 10px;
-    height: 370px;
-}

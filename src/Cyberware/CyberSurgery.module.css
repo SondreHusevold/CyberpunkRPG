@@ -1,0 +1,25 @@
+:local .SurgeryMain {
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr;
+    gap: 70px;
+}
+
+:local .SurgeryImage {
+    padding: 20px;
+}
+
+:local .SurgeryImage img {
+    padding: 10px;
+} 
+
+:local .SplitSurgery {
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr;
+    gap: 5px;
+}
+
+:local .SplitSurgery div {
+    border: 1px solid red;
+    padding: 15px;
+}
+

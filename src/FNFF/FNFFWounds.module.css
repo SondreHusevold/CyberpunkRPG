@@ -42,3 +42,9 @@
     grid-template-columns: 0.5fr 0.5fr;
     grid-gap: 5%;
 }
+
+:local .SpecialCasesSplit {
+    display: grid;
+    grid-template-columns: 0.6fr 0.4fr;
+    grid-gap: 5%;
+}

@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
 import pictureAnimation from '../StyleModules/Pictures.module.css';
 import tabbedpanel from '../StyleModules/TabbedPanel.module.css';
+import splitter from '../StyleModules/Splitter.module.css';
+import styles from './FNFFActions.module.css';
 
 enum ActionsSections {
-	About = "About",
+	About = "An Action",
 	More = "More than one",
 	Ambushes = "Ambushes",
 	LoS = "Line of Sight"
@@ -35,22 +37,28 @@ class FNFFActions extends Component<{}, FNFFActionsState> {
 		return (
 			<div>
 				<p>During your part of the round, you may perform one <b>action</b> without penalty.</p>
-
-                <div className={tabbedpanel.ExampleBorder} >
-                    <h3>Examples:</h3>
-                    <ul>
-                        <li>Move up to your full Movement (3x your Movement Allowance in meters) per round. </li>
-                        <li>Attack up to your weapon’s maximum Rate of Fire (ROF), or make a Melee attack. </li>
-                        <li>Dodge (making yourself harder to hit. Melee attacks only.) </li>
-                        <li>Parry (deflecting damage onto something else.) </li>
-                        <li>Escape a hold or trap. </li>
-                        <li>Aim (gaining +1 to hit for every consecutive turn of aiming up to 3 rounds) </li>
-                        <li>Reload or change weapons. </li>
-                        <li>Mount or dismount from a vehicle. </li>
-                        <li>Repair or give Medical Aid. </li>
-                        <li>Perform a non-combat task.</li>
-                    </ul>
-                </div>
+				<div className={splitter.TwoColumnSplit}>
+					<div className={styles.ActionText}>
+						<div className={tabbedpanel.ExampleBorder} >
+							<h3>Examples:</h3>
+							<ul>
+								<li>Move up to your full Movement (3x your Movement Allowance in meters) per round. </li>
+								<li>Attack up to your weapon’s maximum Rate of Fire (ROF), or make a Melee attack. </li>
+								<li>Dodge (making yourself harder to hit. Melee attacks only.) </li>
+								<li>Parry (deflecting damage onto something else.) </li>
+								<li>Escape a hold or trap. </li>
+								<li>Aim (gaining +1 to hit for every consecutive turn of aiming up to 3 rounds) </li>
+								<li>Reload or change weapons. </li>
+								<li>Mount or dismount from a vehicle. </li>
+								<li>Repair or give Medical Aid. </li>
+								<li>Perform a non-combat task.</li>
+							</ul>
+						</div>
+					</div>
+					<div className={styles.ActionPicture}>
+						<img className={pictureAnimation.InterlacedPicture} alt="Action!" src="assets/Visuals/Actions.jpg"/>
+					</div>
+				</div>
 			</div>
 		)
 	}

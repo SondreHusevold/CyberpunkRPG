@@ -1,0 +1,113 @@
+:local .TTSplit {
+    display: grid;
+    grid-template-columns: 0.15fr 1fr;
+    grid-gap: 5em;
+}
+
+:local .TTIntroduction {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5%;
+}
+
+:local .TTIntroductionText {
+    grid-column: 1;
+}
+
+:local .TTIntroductionPicture {
+    grid-column: 2;
+    margin-top: 10%;
+}
+
+:local .TTIntroductionPicture img {
+    max-height: 60vh;
+    padding: 2%;
+}
+
+@media screen and (max-width: 1050px) {
+
+    :local .TTIntroduction {
+        grid-template-columns: 1fr;
+    }    
+
+    :local .TTIntroductionPicture {
+        display: none;
+    }
+}
+
+
+:local .ExampleBorder {
+    padding: 30px;
+    border: 1px solid red;
+}
+
+:local .ExampleBorder li {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+:local .TwoColumnGrid {
+    display: grid;
+    grid-template-columns: 0.3fr 0.3fr;
+    grid-template-areas: "First Second";
+}
+
+:local .FirstColumn {
+    grid-area: "First";
+}
+
+:local .FirstColumn h3 {
+    margin: 0;
+    padding: 5px;
+    border: 1px solid red;
+}
+
+:local .FirstColumn p {
+    margin: 0;
+    padding: 5px;
+    border: 1px solid red;
+}
+
+:local .SecondColumn {
+    grid-area: "Second";
+}
+
+:local .SecondColumn h3 {
+    margin: 0;
+    padding: 5px;
+    border: 1px solid red;
+}
+
+:local .SecondColumn p {
+    margin: 0;
+    padding: 5px;
+    border: 1px solid red;
+}
+
+:local .DeathSaveGrid {
+    display: grid;
+    grid-template-columns: 0.6fr 0.4fr;
+    grid-template-areas: "First Second";
+}
+
+:local .InterlacedVideo video {
+    padding: 10px;
+    margin: 0px;
+    cursor: pointer;
+}
+
+:local .LiPadding li {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}  
+
+:local .SplitIntoTwo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+}
+
+:local .SplitIntoTwo div {
+    border: 1px solid red;
+    padding: 20px;
+}

@@ -1,0 +1,79 @@
+:local .NightCitySplit {
+    display: grid;
+    grid-template-columns: 0.15fr 1fr;
+    column-gap: 5em;
+}
+
+:local .NightCityMenu {
+    padding-top: 5%;
+    grid-column: 1;
+}
+
+:local .NightCityMain {
+    grid-column: 2;
+}
+
+:local .NightCityIntroduction {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 5%;
+}
+
+:local .NightCityEdgeRules {
+    display: grid;
+    grid-template-columns: 1.2fr 0.3fr;
+    column-gap: 3%;
+} 
+
+:local .NightCityLivingOnTheEdge {
+    display: grid;
+    grid-template-columns: 1fr;
+    column-gap: 5%;
+    padding-right: 10%;
+    margin-bottom: 30px;
+}
+
+
+:local .NightCityIntroductionPicture img {
+    padding: 10px;
+    margin: 0px;
+}
+
+:local .NightCityOnTheEdgePicture img {
+    padding: 10px;
+    margin: 0px;
+    max-width: 100%;
+}
+
+:local .ExampleBorder {
+    padding: 20px;
+    max-width: max-content;
+    border: 1px solid red;
+}
+
+:local .SlangSplit {
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr;
+    column-gap: 2%;
+    margin-right: 20%;
+}
+
+:local .SlangSplit div {
+    padding: 10px;
+    border: 1px solid red;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+:local .SlangImage {
+    display: flex;
+    justify-content: center;
+}
+
+:local .SlangImage img {
+    padding: 10px;
+}
+
+:local .DoubleSpan {
+    grid-column: span 2;
+}

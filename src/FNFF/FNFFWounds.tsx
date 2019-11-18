@@ -49,17 +49,23 @@ class FNFFWounds extends Component<{}, FNFFWoundsState> {
 
 	public renderSpecial = () => {
 		return (
-			<div>
-                <p>Being hit isn't always something you can shrug off. Friday Night Firefight is extremely deadly, often due to the rules below:</p>
-                <h2>Limb Loss:</h2>
-                <p>If a character takes more than eight points of damage to a limb area in any one attack, the area is severed or crushed beyond recognition. The character must make an immediate Death Save at Mortal 0.</p>
-                <p>A head wound of this type will kill automatically.</p>
-                <h2>Head Hits:</h2>
-                <p>A head hit always doubles damage.</p>
-                <hr/>
-                <p>Now think about it, a Militech Arms Avenger (9mm) does 2D6+1 damage. If your character takes more than 8 points to the head she dies immidiately, and a headshot is double damage.</p>
-                <p>If the character manages to roll both D6 at 1, you might survive. Otherwise you need some serious armor or be turned into spare parts.</p>
-                <p>Walking around with a "bulletproof" box on your head isn't exactly stylish however, and can instead be a typical sign of someone looking for trouble to the inhabitants of Night City.</p>
+            <div className={styles.SpecialCasesSplit}>
+                <div>
+                    <p>Being hit isn't always something you can shrug off. Friday Night Firefight is extremely deadly, often due to the rules below:</p>
+                    <h2>Limb Loss:</h2>
+                    <p>If a character takes more than eight points of damage to a limb area in any one attack, the area is severed or crushed beyond recognition. The character must make an immediate Death Save at Mortal 0.</p>
+                    <p>A head wound of this type will kill automatically.</p>
+                    <h2>Head Hits:</h2>
+                    <p>A head hit always doubles damage.</p>
+                </div>
+                <div className={tabbedpanel.ExampleBorder}>
+                    <h3>Think about it:</h3>
+                    <p>A regular Militech Arms Avenger (9mm hand pistol) does 2D6+1 damage.</p>
+                    <p>If your character takes more than 8 points to the head she dies immidiately.</p>
+                    <h4>And a headshot is double damage.</h4>
+                    <p>If the character hits and does a damage roll where <u>both</u> D6 land 1, you might survive. Otherwise you need some serious armor or be turned into spare parts.</p>
+                    <p>Walking around with a "bulletproof" box on your head isn't exactly stylish however, and can instead be a typical sign of someone looking for trouble to the inhabitants of Night City.</p>
+                </div>
 			</div>
 		)
 	}

@@ -2,10 +2,10 @@ import React, { Component } from 'react';
 import styles from './MainMenu.module.css';
 
 export enum MainSection {
+	NightCity = "Night City",
 	Mainframe = "Mainframe",
 	Classes = "Classes",
 	InterlockSystem = "Interlock System",
-	NightCity = "Night City",
 	FNFF = "FNFF",
 	TraumaTeam = "Trauma Team",
 	Cyberware = "Cyberware"

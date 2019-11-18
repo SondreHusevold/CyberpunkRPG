@@ -1,0 +1,10 @@
+:local .ActionText {
+    min-width: 500px;
+} 
+
+:local .ActionPicture img {
+    margin: 0px;
+    padding: 2%;
+    float: right;
+    max-width: 550px;
+}
