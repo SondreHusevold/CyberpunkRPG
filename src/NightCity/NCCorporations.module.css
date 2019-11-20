@@ -1,0 +1,95 @@
+
+:local .NightCityCorporations {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 5%;
+}
+
+
+:local .NightCityCorporationChosen {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3%;
+}
+
+:local .PadOutCorporation {
+    padding-right: 15%;
+}
+
+:local .NightCityCorporationPicture img {
+    padding: 10px;
+    margin: 0px;
+}
+
+:local .NightCityCorporationLogo img {
+    padding: 10px;
+    margin: 20px;
+    max-width: 500px;
+    max-height: 200px;
+}
+
+:local .NoMarginHeader {
+    margin: 0;
+}
+
+:local .BackButton {
+    padding: 0;
+    margin-bottom:10px;
+    width: max-content;
+    border-bottom: 1px solid transparent;
+}
+
+:local .BackButton:hover {
+    border-bottom: 1px solid red;
+}
+
+:local .BackButton span {
+    transition: ease 0.4s;
+}
+
+:local .BackButton span:hover {
+    cursor: pointer;
+    margin: 5px;
+}
+
+:local .NightCityCorporationGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5%;
+}
+
+:local .NightCityCorporationGrid button {
+    height: 80px;
+    background: repeating-linear-gradient(0deg,
+    transparent 0px, 
+    transparent 2px, 
+     red 3px, 
+     red 2px
+   );
+
+   border: 1px solid red;
+}
+
+:local .NightCityCorporationGrid button:hover {
+    background: red;
+    color: #202020;
+}
+
+:local .ExampleBorder {
+    padding: 20px;
+    max-width: max-content;
+    border: 1px solid red;
+}
+
+:local .RegionalOfficeSplit {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+:local .EmployeeSplit {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0;
+    margin: 0;
+    gap: 0;
+}

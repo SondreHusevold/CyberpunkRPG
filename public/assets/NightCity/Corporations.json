@@ -1,0 +1,233 @@
+{
+    "corporations": [
+        {
+            "name": "Arasaka",
+            "shortname": "Arasaka",
+            "logo": "Arasaka.png",
+            "description": "Corporate security, corporate police and various corporate suboperations.",
+            "headquarters": "Tokyo",
+            "regionalOffices": ["Singapore", "Hong Kong", "Osaka", "Kyoto", 
+                "Bangkok", "Baghdad", "Sydney", "London", "Hamburg", "Paris", 
+                "Madrid", "Rome", "Geneva", "Helsinki", "The Hague", "Rio de Janiero", 
+                "Montreal", "New York", "Washington", "San Francisco", "Los Angeles", 
+                "Chicago", "Honolulu", "Suboffices throughout the world."
+            ],
+            "majorShareholder": "Saburo Arasaka, Tokyo. Holding 19.9% of total shares.",
+            "employees": {
+                "worldwide": "1.000.000",
+                "troops": "100.000",
+                "covert": "5000"
+            },
+            "background": "If you want it protected, these are the people to speak to. They maintain the largest armed force of any corporation, although they do not maintain a particularily large amount of on-hand military heavy weapons. These troops are mostly licensed out to other firms as corporate security guards, couriers and mercenaries.\nThey are the best trained and hardest in the business, and will follow their client's orders second only to Arasaka’s.\nTo the Arasaka corporation, they are loyal to the point of death.\nArasaka is more interested in fostering its own political goals than protecting other companies, and they use their position of trust with major corporations around the world to gain inside information, contacts and advantages that will help them to realize their ultimate goal of political and economic control of Japan.",
+            "resources": "Dispersed among Arasaka’s offices are 250 AV-4 assault vehicles, 250 Osprey II aircraft, eleven corporate jets and twenty Boeing C-25 heavy cargo jets.\nEach office also has two helicopters, and a surgical infirmary.\nArasaka’s wealth gives it access to almost all levels of military technology on fairly short notice. Arasaka has a secret training facility in Hokkaido, where it trains its security troops and Operatives."
+        },
+        {
+            "name": "Euro Business Machines",
+            "shortname": "EBM",
+            "logo": "EBM.png",
+            "description": "Multi-role computer and eletronics manufacturer.",
+            "headquarters": "Hamburg",
+            "regionalOffices": ["W. Berlin", "Rome", "Madrid", "Paris", "Stockholm", "Geneva", "Oslo", "Helsinki", "London", "Tokyo", "Cairo", "Jerusalem", "Los Angeles", "San Francisco", "Washington", "Chicago", "Dallas", "New York", "Hong Kong"],
+            "majorShareholder": "Dr. Rudolf Muller, Bremen, Germany. Holding 20.8% of total shares.",
+            "employees": {
+                "worldwide": "1.000.000",
+                "troops": "20.000",
+                "covert": "2000"
+            },
+            "background": "In the late 1990’s, EBM, already the largest computer and hightech manufacturer in the world, and one of the most significant corporations in existence, pulled off the greatest free market hostile takeover in history.\nLed by master corporate raider Dr. Kurt Muller, this maneuver caused the merger of EBM with many other prominent computer companies around the world, consolidating EBM’s already fearsome market power.\nCurrently, Muller, and his two partners in the triumvirate, Ulf Grunwalder of Munich and Sir Nathaniel Poole of London, comprise the majority vote of EBM, holding 52.1% between the three of them.\nTheir long-term goal is to consolidate as much of the world’s high-tech manufacturing as possible under their label by any means.",
+            "resources": "Dispersed among the EBM offices as dictated by need are forty-six AV-4s, twenty Osprey II V-TOL attack craft, twenty corporate jets for the use of the executive board and five heavy cargo planes.\nIn addition, each office has two helicopters and a fully staffed clinic and infirmary. EBM’s power and stature gives it access to the highest levels of military technology.\nEBM also has a top secret underground medical and research/ training facility hidden in the Alps.\nEBM maintains a small orbital research facility with about thirty researchers and ten soldiers."
+        },
+        {
+            "name": "Zetatech",
+            "shortname": "ZETATECH",
+            "logo": "Zetatech.png",
+            "description": "Wetware and computer hardware and software design.",
+            "headquarters": "Cupertino, California (Silicon Valley).",
+            "regionalOffices": ["San Francisco, San Jose."],
+            "majorShareholder": "Bob Rosemont, New York. Holding 58.8% of total shares.",
+            "employees": {
+                "worldwide": "12.000",
+                "troops": "150",
+                "covert": "12"
+            },
+            "background": "Zetatech is a typical up-and-coming high-tech company doing its best to grow and diversify.\nIt has carved itself a small niche in the industry through the traditional methods: quality products, industrial espionage, and strategically applied violence. Having made it over the first hurdle, Zetatech is attempting to build a heavy name for itself by expanding overseas, the assured way toward success, and a high inflow of stable Eurodollars.\nThis means encroaching on markets occupied by other companies, most of which are not inclined to share their profits.\nZetatech's position as an established, growing, but small and relatively weak company make it a prime target for hostile takeover, and they must be continually on guard.",
+            "resources": "Three AV-4 assault vehicles, three helicopters, one private jet based out of San Francisco International Airport.\nEach office has an emergency first aid infirmary, but only the San Francisco office has a surgery capable trauma center.\nThe military hardware available to  Zetatech is only of moderate power. High-tech personal arms, armor and vehicular weapons systems are readily available, but only limited amounts of heavier weapons are available, and usually they can not be obtained on short notice.\nZetatech has no airlift capability of its own, but could arrange access to heavy lifting aircraft given enough time."
+        },
+        {
+            "name": "Militech",
+            "shortname": "Militech",
+            "logo": "Militech.png",
+            "description": "Arms manufacturing and distribution, mercenaries.",
+            "headquarters": "Washington D.C.",
+            "regionalOffices": ["New York", "Miami", "Chicago", "Montreal", "London", "Rome", "Zurich", "Night City", "Washington", "Los Angeles", "Toronto", "Tokyo", "Beijing", "Hong Kong"],
+            "majorShareholder": "Gen. Donald Lundee, USMC (ret.), Annapolis, Maryland. Holding 13.9% of total shares.",
+            "employees": {
+                "worldwide": "350.000",
+                "troops": "100.000",
+                "covert": "2031"
+            },
+            "background": "Dispersed among its offices and mercenary forces as needed are 200 AV-4 urban assault vehicles, 150 Osprey II aircraft, twenty corporate jets and twenty Boeing C-25heavy cargo aircraft. (Usually, 50-75% of this equipment is in the field at any given time.)\nAdditionally, each office has two helicopters, and a surgical infirmary. Naturally, Militech has access to large amounts of the best military technology available.\nMilitech maintains secret training camps in Texas, the Sierra-Nevada Mountains of California, and Florida.",
+            "resources": "Militech is the world’s largest producer and seller of military weapons of all kinds. From revolvers to tanks to jet fighters, Militech is a major military supplier to the United States, and the United States, in turn, is Militech’s largest customer.\nMilitech will deal worldwide with anyone who has money.\nMilitech’s mercenary forces and inhouse supply of weaponry make it the most militarily powerful company in the world, if not the most economically. That will come later..."
+        },
+        {
+            "name": "Microtech",
+            "shortname": "Microtech",
+            "logo": "Microtech.png",
+            "description": "Ultra-sophisticated mainframes and workstations.",
+            "headquarters": "Dallas, Texas.",
+            "regionalOffices": ["Sunnyvale", "California", "Miami", "London", "Tokyo"],
+            "majorShareholder": "Stephen Lew and family, San Francisco. Holding 55.5% of total shares.",
+            "employees": {
+                "worldwide": "52.340",
+                "troops": "1000",
+                "covert": "52"
+            },
+            "background": "Microtech does one thing, and they do it well: build full-size computers.\nThey concentrate all of their efforts into improving their mainframe computer systems, without dabbling in cybernetic computers or mini-computers.\nIndeed, they take pride in the fact that their mainframes and workstations are used by other companies to design those types of systems. They are to the 2000's what Cray was to the 1980'sand '90's, but on a larger scale.\nMicrotech is the industry standard. Defense agencies around the world rely on Microtech mainframes, and the EuroSpace Agency has several. With its hold on the specialized mainframe industry, Microtech is worried not so much about acquiring proprietary data through espionage as protecting itself against such theft. This is where most of its covert and military resources go, as well as a sizable amount of its own computer power.\nMicrotech must be vigilant for external threat as well, however, asthere are several larger corporations who would like to acquire Microtech, or see it eliminated in order to further the success of their own products.\nAccordingly, Microtech is attempting to beef up both its financial and military security.",
+            "resources": "Six AV-4 assault vehicles, ten helicopters, two Osprey IIs and three corporate jets are dispersed among the offices.\nMicrotech has access to sophisticated miltary hardware on a fairly small scale, with good amounts of personal weaponry and armor, including man-portable heavy weapons. It has no heavy, mobile armored vehicles (such as tanks), and only limited access to other vehicularly based heavy weapons. With sufficient time, however, Microtech can usually acquire whatever equipment it needs.\nOnly the Dallas office has a surgery capable medical center, but all of the other offices have well staffed infirmaries capable of dealing with most non intensive care needs, including trauma and illness.\nMicrotech has no orbital platform of its own, but it occasionally ships experiments up by Hermes space-plane if zero gravity is required."
+        },
+        {
+            "name": "Biotechnica",
+            "shortname": "Biotechnica",
+            "logo": "Biotechnica.png",
+            "description": "Genetic engineering, microbiological and biochemical research.",
+            "headquarters": "Rome.",
+            "regionalOffices": ["London", "Bonn", "Paris", "La Jolla California"],
+            "majorShareholder": "Nicolo Loggagia, Monte Carlo, Monaco. Holding 13.8% of total shares.",
+            "employees": {
+                "worldwide": "36.256",
+                "troops": "1833",
+                "covert": "124"
+            },
+            "background": "When the fuel crisis really began to affect the industrialized community in the late 1990s, Biotechnica, then a small firm with only one office, came up with the answer: CHOOH2™ (pronounced ‘chew two’).\nCHOOH2™ (not its actual chemical formula) is a complex grain alcohol produced by genetically engineered yeasts and wheat strains created by Biotechnica. The potential of CHOOH2™ was realized almost immediately after it was introduced, and within a few years all fuel burning vehicles and power plants had converted to the new fuel.\nAlthough Biotechnica held worldwide patents, it lacked the production facilities to meet worldwide demand, forcing it to license production to several large agribusinesses and petro-corporations.\nThese deals made Biotechnica an extremely wealthy, but still not particularly large, company. It is currently expanding, and working on its next big biotechnical breakthrough.",
+            "resources": "Biotechnica has ten AV-4 assault vehicles, five corporate jets, three Osprey II aircraft and one Boeing C-25 heavy cargo jet, moved as needed among its offices. In addition, each office maintains two helicopters and a surgery capable infirmary.\nDue to the worldwide importance of its developments, Biotechnica has a fair amount of power in the political community, and it can usually obtain whatever military equipment it needs, although some items may take more time to procure than others.\nBiotechnica has one orbital research workstation."
+        },
+        {
+            "name": "Petrochem",
+            "shortname": "Petrochem",
+            "logo": "Petrochem.png",
+            "description": "Petrochemical products and agribusiness. Worlds' largest CHOOH2 producer.",
+            "headquarters": "Dallas, Texas.",
+            "regionalOffices": ["New York", "Washington", "Miami", "Chicago", "San Francisco", "Tokyo", "London", "Hamburg", "Hong Kong", "Paris", "Rome. Oil fields in Canada", "Texas", "Alaska", "California", "Antarctica", "Agricultural areas in California and the Midwest and Southeast"],
+            "majorShareholder": "Ellen Trieste, Crystal Tower orbital facility. Holding 23.7% of total shares.",
+            "employees": {
+                "worldwide": "338.000",
+                "troops": "30.000",
+                "covert": "2500"
+            },
+            "background": "Petrochem Industries keeps the world running, literally.\nThey are the world's largest producer of CHOOH2, and control millions of acres of arable land across the United States. This land is used to grow the genetically altered wheat that is used to make CHOOH2. (Surplus grain is shipped across the world as food.)\nPetrochem is also one of the largest remaining oil producers. With the oil supply dwindling, all remaining fossil fuels are used to make plastics and other synthetics. Petrochem has more fertile oil fields than any other company.\nAll of these assets are huge, and accordingly hard to protect from other companies that would like to usurp Petrochem's wealth.\nAs a result, Petrochem invests huge amounts of money in protecting itself, maintaining an armed force worthy of a small country. Currently, all of the major petrochemical corporations are in a research race to come up with a viable artificial plastic base to entirely replace petroleum products.\nConsequently, industrial espionage is rife in the industry.",
+            "resources": "Petrochem has vast interests to protect, and is thus fiercely armed. Dispersed among their major offices, oil fields and agricultural areas are 150 AV-4s, forty Osprey II aircraft, ten Boeing C-25 heavy cargo jets and fifteen corporate jets.\nEach office has three helicopters and a surgery capable infirmary. Petrochem has considerable access to the highest levels of military technology, due to their national and worldwide importance.\nThey also have a large orbital research facility that is well protected, physically and electronically."
+        },
+        {
+            "name": "Network News 54",
+            "shortname": "Network News 54",
+            "logo": "NetworkNews54.png",
+            "description": "Nationwide broadcasting service.",
+            "headquarters": "New York",
+            "regionalOffices": ["Atlanta", "Chicago", "New Orleans", "Dallas", "Indianapolis", "Denver", "Arizona", "Portland", "Seattle", "Los Angeles", "San Francisco", "Detroit", "Washington", "subsidiary stations in most major cities."],
+            "majorShareholder": "Edwin R. Dreyer Foundation, under control of Michelle Dreyer. Located at Fifty Pines Ranch, near Santa Fe, New Mexico. The estate control 27.9% of all shares.",
+            "employees": {
+                "worldwide": "78.000",
+                "troops": "5000",
+                "covert": "750"
+            },
+            "background": "Network News 54 is a wavelength monopolizer, operating on the same frequency across the country. Accordingly, no matter where you go in the country, Network News 54 is on Channel 54.\nDespite its name, News 54 offers many diversionsin addition to news. Every regional office offers a slightly different schedule to its district, with syndicated series, non prime-time movies, independent local news programs.\nCertain elements of the broadcasting are universal nationwide, such as prime-time series and bihourly national and world news shows.",
+            "resources": "Network News 54 owns 42 AV-4s, ostensibly used as mobile news gathering and broadcasting facilities. These vehicles also retain much of their combat function.\n Network News 54 also owns 30 helicopters for weather and traffic reporting at each of the network offices, as well as for shuttling company executives, and ten corporate jets and five Osprey II aircraft.\nThe network has standard personal equipment for its troops, but little access to military weapons of a non man-portable nature, with the exception of a few vehicles.\nNews 54 has no airlift capability of its own."
+        },
+        {
+            "name": "Orbital Air",
+            "shortname": "Orbital Air",
+            "logo": "OrbitalAir.png",
+            "description": "Cargo and passenger transport to Earth orbit, and maintenance of commercial orbital facilities.",
+            "headquarters": "Nairobi, Kenya.",
+            "regionalOffices": ["Anchorage", "Vancouver", "Montreal", "New York", "Washington", "Miami", "Houston", "St. Louis", "Chicago", "Denver", "Portland", "San Francisco", "Los Angeles", "Mexico City", "Rio De Janiero", "London", "Paris", "Madrid", "Cairo", "Sydney", "Singapore", "Tokyo", "Honolulu", "the Johnson Orbital Facility in low Earth orbit."],
+            "majorShareholder": "Antoine DuBois, Paris. Holding 15.2% of total shares.",
+            "employees": {
+                "worldwide": "104.000",
+                "troops": "10.043",
+                "covert": "700"
+            },
+            "background": "Orbital Air holds a key position in the twenty-first century; with their large fleet of French-made Hermes spaceplanes they monopolize all orbital lifting capability, with the exception of a few governments, none of which offers comparable service. Many corporations rely on Orbital Air for transport of cargo out of the gravity well.\nThe Euro-Space Agency'’s Crystal Tower L-5 colony, a massive orbital hotel complex for the uitra-rich, would be out of business without them. With all commercial space bound cargo dependent upon them, Orbital Air is in a lucrative position that it would like very much to maintain.\nA large part of OA’s budget and covert resources is put to use ensuring that they remain the leader in orbital technology, and that the competion does not make it off the ground, literally or figuratively.\nCurrently, their eye is on China, which is improving its commercial lift capability rapidly. Also, Euro-flight Corporation is expanding its operations, and expecting to bring orbital services on line soon. This has OA worried about its monopoly.\nThe Johnson Orbital Facility is a transfer station for passengers bound for the Crystal Tower, where they switch from the space-planes to space transport shuttles assembled at the OA orbital workstations, or purchased from the Euro-Space Agency.",
+            "resources": "35 orbit capable Hermes Scramjet space-planes, 35 corporate jets, two helicopters per office, 70 AV-4 urban assault vehicles, 15 Boeing C-25 heavy cargo jets, and 30 Osprey II V-TOL aircraft.\nAll major offices have surgery capable infirmaries. Orbital Air is well equiped, and has access to almost all levels of military equipment.\nIt is primarily interested in space defense and air-superiority weaponry to protect its orbital and airborne resources.\nIn addition to the Johnson Facility, Orbital Air maintains two small maintenance and research workstations, and has a small fleet of orbital vehicles to transport crews between the facilities."
+        },
+        {
+            "name": "Infocomp",
+            "shortname": "Infocomp",
+            "logo": "Infocomp.png",
+            "description": "Corporate think-tank and information brokers.",
+            "headquarters": "Los Angeles.",
+            "regionalOffices": ["San Francisco", "New York", "Washington", "Chicago", "Denver", "Vancouver", "London", "Honolulu"],
+            "majorShareholder": "Robert D. (Bob) Alvarez, Kapaa, Kauai. Holding 19.2% of total shares.",
+            "employees": {
+                "worldwide": "9352",
+                "troops": "400",
+                "covert": "34"
+            },
+            "background": "Infocomp provides scientific, technical and personal data pertaining to any subject to anyone who can afford to pay for it.\nThe ultimate detectives, they pride themselves on their elite scientific and research staff’s ability to unearth, cogitate, formulate and theorize. For the right price, clients can access Infocomp’s huge library of existing information, or have them provide information pertaining to a subject not yet explored.\nWatch out—the tougher the problem, the higher the bill...",
+            "resources": "Each office has a surgery capable infirmary, an Osprey II aircraft, a private jet, two helicopters, two AV-4 urban assault vehicles, several Microtech Corp. advanced mainframes and an extensive library and and information gathering network."
+        },
+        {
+            "name": "Merill Asukaga & Finch",
+            "shortname": "MA & F",
+            "logo": "MAF.png",
+            "description": "Exclusive investment and finational counselling firm.",
+            "headquarters": "New York.",
+            "regionalOffices": ["San Francisco", "Los Angeles", "Chicago", "Hong Kong", "Tokyo", "London", "Paris", "Munich", "Rome"],
+            "majorShareholder": "Howard Merrill, New York. Holding 22.0% of total shares.",
+            "employees": {
+                "worldwide": "21.926",
+                "troops": "100",
+                "covert": "10"
+            },
+            "background": "If you have money, and you want more, or you just want it safe, Merrill, Asukaga, and Finch are the people to talk to.\nThey are without a doubt the top people in investments of all kinds, from stock to real estate to frog-farming futures. However, if you don’t have a good deal of money in the first place, they aren’t interested— the commission on a $1000 investment isn’t worth their rather expensive time\n MA & F’s high caliber of service has attracted many of the richest and most powerful people in the world.\nIf, for some reason, they were to go bankrupt, some of the greatest powers in the world, both legal and illegal, would be overturned.",
+            "resources": "Dispersed as needed among the offices are 15 AV-4 assault vehicles, eight corporate jets, and two Osprey II aircraft.\nEach office also has two helicopters and a non-surgical infirmary. Merrill Asukaga & Finch controls the finances of many powerful people, and even some small nations.\nAccordingly, they can command a great deal at short notice, including political favors and powerful military equipment."
+        },
+        {
+            "name": "World News Service",
+            "shortname": "WNS",
+            "logo": "WNS.png",
+            "description": "Worldwide News Service",
+            "headquarters": "London.",
+            "regionalOffices": [" Anchorage", "Seattle", "Ottowa", "New York", "Washington", "Miami", "Dallas", "St. Louis", "Chicago", "Denver", "Portland", "San Francisco", "Los Angeles", "Phoenix", "Mexico City", "Caracas", "Rio De Janiero", "Oslo", "Stockholm", "Helsinki", "London", "Berlin", "Jerusalem", "Cairo", "Tokyo", "Honoluly", "Tangier", "Beijing", "Shanghai", "Crystal Tower"],
+            "majorShareholder": "Mahmet Al Hamedi, Riyadh. Holding 31.6% of total shares.",
+            "employees": {
+                "worldwide": "215.000",
+                "troops": "7005",
+                "covert": "644"
+            },
+            "background": "WNS keeps tabs on the world, by any means possible.\nNewspapers and news stations around the world pay large amounts of money to receive WNS stories via the WorldSat Network. WNS has more offices than most corporations, but most of these offices are fairly small and limited in function, intended to serve only as bases of operations for the Operatives and reporters working in an area.\nWNS has at least a small office in almost every major city in the world, but these are sometimes no more than rooms with a few provisions, one resident agent and a Telecom-Terminal linked to the nearest regional office.\nFew competitors can match WNS’ information gathering capabilities, and WNS ensures that it remains at the forefront, not only through legitimate means, but also through spying, espionage, sabotage and illegal snooping of all sorts. WNS does not run any stations of its own, choosing instead to broker its information to the highest bidder.\nThere is no shortage of buyers, as ratings-hungry broadcasters will fork over millions for exclusive rights to an especially juicy story and the included multi-media presentation package containing WNS’ videos, write-ups and commentaries,",
+            "resources": "Dispersed among the regional offices as needed are 65 AV-4 urban assault vehicles, twenty-five Osprey II aircraft, twenty-five corporate jets, and five Boeing C-25 heavy cargo aircraft.\nEach regional office has two helicopters and an infirmary. Only the London, Los Angeles, New York, Paris, Tokyo and Seoul offices have surgical capability.\nWNS has access to moderate levels of military technology, including personal armor and weapons, light vehicles and aircraft."
+        },
+        {
+            "name": "Trauma Team International",
+            "shortname": "Trauma Team",
+            "logo": "TraumaTeam.png",
+            "description": "Ambulance and paramedical services.",
+            "headquarters": "Los Angeles.",
+            "regionalOffices": ["World wide in all major cities."],
+            "majorShareholder": "Carrie Lachanan of San Antonio, Texas. Holding 33.3% of total shares.",
+            "employees": {
+                "worldwide": "16526",
+                "troops": "350",
+                "covert": "25"
+            },
+            "background": "As one of the largest private medical firms in the world, Trauma Team provides ambulance services and paramedical support foraclient base of atleast fifteen million people.\nEquipped with top line AV type vehicles, Trauma Teams provide an essential service in the 2000's - recovering wounded clients from the field.\nLook at the Trauma Team section for more information about Trauma Team International.",
+            "resources": "Dispersed as needed among the offices are 1,305 AV-4 aerodyne vehicles, thirty corporate jets, twenty two Osprey II aircraft and four Boeing C-25 heavy cargo jets.\nEach office also has it's own surgical-capable infirmary."
+        },
+        {
+            "name": "WorldSat Communcations Network",
+            "shortname": "WorldSat",
+            "logo": "WorldSat.png",
+            "description": "Satellite transmission and communications.",
+            "headquarters": "Paris",
+            "regionalOffices": ["London", "Rome", "Madrid", "Stockholm", "Bonn", "Cairo", "Nairobi", "Brasilia", "Washington", "Los Angeles", "Toronto", "Tokyo", "Beijing", "Hong Kong"],
+            "majorShareholder": "Raymond Rousseau, Menton, French Riviera. Holding 15.5% of total shares.",
+            "employees": {
+                "worldwide": "51.625",
+                "troops": "7444",
+                "covert": "658"
+            },
+            "background": "WorldSat has the monopoly on large-scale satellite communications, and is responsible for the transmission of phone, military, computer and commercial data. These communications are crucial worldwide, and their disruption could be disastrous.\nWorldSat invests a great deal in making sure this does not happen. The satellites are even shielded against electro-magnetic pulse, although no one is really sure how well this will work.\nAlthough it is illegal, it is also possible for WorldSat to monitor any of the communications it is transmitting.",
+            "resources": "Dispersed as needed among the offices are thirty AV-4 assault vehicles, twelve Osprey II aircraft, five corporate jets and three Boeing C-25 heavy cargo jets.\nEach office also has two helicopters and a surgical infirmary.\nWorld Sat’s satellites are crucial to many nation's communications. Consequently, most high-tech military hardware is available to them on short notice.\nWorldSat has a large, well protected orbital service facility."
+        }
+    ]
+}

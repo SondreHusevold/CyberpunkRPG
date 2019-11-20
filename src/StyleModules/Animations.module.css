@@ -1,0 +1,29 @@
+:local .FadeIn {
+    opacity: 1;
+    animation: fadeInAnim 0.6s ease forwards;
+}
+
+:local .FadeInSlow {
+    opacity: 1;
+    animation: fadeInAnim 1s ease forwards;
+}
+
+:local .FadeInVerySlow {
+    opacity: 1;
+    animation: fadeInAnim 2s ease forwards;
+}
+
+:local .FadeInFast {
+    opacity: 1;
+    animation: fadeInAnim 0.3s ease forwards;
+}
+
+@keyframes fadeInAnim {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}

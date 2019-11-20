@@ -52,9 +52,21 @@ class CyberPieces extends Component<{}> {
                     <p>It doesn’t make you any stronger or faster, but it's perfect if you want all over protection all the time—and don't care who knows it.</p>
                     <p>Things like Cowls (covering the skull), torso plates, face plates, or front optic mounts (seen the Maelstrom gang in the Cyberpunk 2077 video game? Yeah, like that.)</p>
 				</div>
-				<div className={styles.SurgeryImage}>
-					<img className={pictureAnimation.InterlacedPicture} src="assets/Visuals/Surgery.png" />
-				</div>
+                <div>
+                    <div className={styles.SurgeryImage}>
+                        <img className={pictureAnimation.InterlacedPicture} alt="Get it today!." title="Get it today!." src="assets/Visuals/CyberPieces.png" />
+                    </div>
+                    <div className={styles.SurgeryImage}>
+                        <img className={pictureAnimation.InterlacedPicture} alt="Buy now!." title="Buy now!." src="assets/Visuals/CyberPieces2.png" />
+                    </div>
+                    <div className={styles.SurgeryImage}>
+                        <img className={pictureAnimation.InterlacedPicture} alt="Soon out of stock!." title="Soon out of stock!." src="assets/Visuals/CyberPieces3.png" />
+                    </div>
+                    <div className={styles.SurgeryImage}>
+                        <img className={pictureAnimation.InterlacedPicture} alt="Can't live without it!" title="Can't live without it!" src="assets/Visuals/CyberPieces4.png" />
+                    </div>
+                </div>
+
 			</div>
 		);
 	}

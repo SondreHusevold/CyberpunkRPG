@@ -1,0 +1,10 @@
+:local .NightCityMaps {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+:local .MapPicture {
+    max-width: 1200px;
+    border: 1px solid red;
+}

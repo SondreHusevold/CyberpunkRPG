@@ -7,6 +7,8 @@ import NightCityTheEdge from './NCLivingOnTheEdge';
 import NightCityHistory from './NCHistory';
 import NightCityAmerica from './NCAmerica';
 import NightCitySlang from './NCSlang';
+import NightCityCorporations from './NCCorporations';
+import NightCityMaps from './NCMaps';
 
 interface NightCityState {
     selection: string | null;
@@ -20,7 +22,7 @@ enum Choices {
     America = "America",
     Slang = "Slang",
     Corporations = "Corporations",
-    Maps = "Maps"
+    Maps = "Map"
 }
 
 class NightCity extends Component<{}, NightCityState> {
@@ -53,6 +55,10 @@ class NightCity extends Component<{}, NightCityState> {
 				return <NightCityAmerica />
 			case Choices.Slang:
 				return <NightCitySlang />
+			case Choices.Corporations:
+				return <NightCityCorporations />
+			case Choices.Maps: 
+				return <NightCityMaps />
 			default:
 				return "";
 		}

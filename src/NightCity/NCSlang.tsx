@@ -8,7 +8,7 @@ class NightCitySlang extends Component<{}> {
             <div>
                 <div className={styles.NightCityIntroductionText}>
 					<h1>Slang and terms:</h1>
-                    <p>Let's chat, choomba. It's a large world out there, and you need to know the lingo. You can't take your input or local Call-girl to the ripperdoc when a fodder is waiting to flatline you.</p>
+                    <p>Let's chat, choomba. It's a large world out there, and you need to know the lingo. You can't take your input or local Call-girl to the ripperdoc when you are nearly out of eddies and a fodder is waiting to flatline you.</p>
                 </div>
                 <div className={styles.SlangSplit}>
                     <div><h3>ACPA:</h3><p> Assisted Combat Personell Armor aka Power Armor.</p></div>
@@ -48,10 +48,12 @@ class NightCitySlang extends Component<{}> {
                     <div><h3>Dream time:</h3><p> Being jailed and confined inside a braindance.</p></div>
                     <div><h3>Eddies:</h3><p> Eurodollars / Eurobucks.</p></div>
                     <div><h3>Edgerunners:</h3><p> People living on The Edge.</p></div>
-                    <div><h3>Exotics:</h3><p> Biosculpted individuals who typically have non-human features like fangs or tails.</p></div>
+                    <div><h3>Eurobucks:</h3><p>Other word for Eurodollars.</p></div>
+                    <div><h3>Eurodollars:</h3><p>The european currency unit, which is one of the most used currencies in Night City and all over the world. </p></div>
+                    <div><h3>Exotics:</h3><p> Biosculpted individuals who typically have non-human features like fur, fangs and/or tails.</p></div>
                     <div><h3>Face:</h3><p> Interface or jacking into the net.</p></div>
-                    <div><h3>Flatbacker:</h3><p> Prostitute.</p></div>
-                    <div><h3>Flatline:</h3><p> Kill.</p></div>
+                    <div><h3>Flatbacker:</h3><p> A prostitute.</p></div>
+                    <div><h3>Flatline:</h3><p> To kill.</p></div>
                     <div><h3>Fixers:</h3><p> Information brokers and a class. Make deals and facilitates mercenaries.</p></div>
                     <div><h3>Fodder:</h3><p> Derogatory term for the Solo class.</p></div>
                     <div><h3>Gonks:</h3><p> Idiots.</p></div>

@@ -67,7 +67,7 @@ class CyberSurgery extends Component<{}, SurgeryState> {
 					</div>
 				</div>
 				<div className={styles.SurgeryImage}>
-					<img className={pictureAnimation.InterlacedPicture} src="assets/Visuals/Surgery.png" />
+					<img className={pictureAnimation.InterlacedPicture} alt="Surgery is dangerous." src="assets/Visuals/Surgery.png" />
 				</div>
 			</div>
 		);
