@@ -13,7 +13,8 @@ import FNFFAttacks from './FNFFAttacks';
 import FNFFVehicles from './FNFFVehicles';
 
 interface FNFFState {
-    selection: string | null;
+	selection: string | null;
+	showMobileMenu: boolean;
 } 
 
 enum Choices {
@@ -35,7 +36,8 @@ class FridayNightFirefight extends Component<{}, FNFFState> {
 		super(props);
 
 		this.state = {
-            selection: Choices.Introduction
+			selection: Choices.Introduction,
+			showMobileMenu: false
 		}
 	}
 
@@ -70,12 +72,23 @@ class FridayNightFirefight extends Component<{}, FNFFState> {
 		}
 	}
 
+	public toggleMobileView = () => {
+		this.setState({
+			showMobileMenu: !this.state.showMobileMenu
+		})
+	}
+
 	public render() {
 		return (
 			<div>
 				<h1 className="consoleText">Friday Night Firefight:</h1>
 				<div className={styles.FNFFSplit}>
-                    <Sidebar choices={Object.values(Choices)} clicked={this.changeSelection} preDetermined={Choices.Introduction} />
+					<Sidebar showMobile={this.state.showMobileMenu} 
+							choices={Object.values(Choices)} 
+							clicked={this.changeSelection} 
+							preDetermined={Choices.Introduction} 
+							toggleMobile={this.toggleMobileView}
+					/>
 
 					<div className={styles.FNFFMain}>
 						{this.getCurrentSelection()}

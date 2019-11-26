@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import styles from './InterlockReputation.module.css';
 import tabbedpanel from '../StyleModules/TabbedPanel.module.css';
+import splitter from '../StyleModules/Splitter.module.css';
+import Tabs from '../Common/Tabs';
 
 enum ReputationSections {
 	About = "About",
@@ -72,13 +74,18 @@ class InterlockReputation extends Component<{}, InterlockReputationState> {
     public renderFacedowns = () => {
         return(
             <div>
-                <p>Reputation in Cyberpunk has one other big effect— facedowns. </p>
-                <p>Remember; a lot of combat in this genre comes down to a duel of wills; who's tougher, meaner, and looks more ready to prove it. This often leads to what are called facedowns; when two heavies on the Street square off just before a fight, or to see who'll back down from a confrontation.</p>
-                <p>When making a facedown, both participants will roll:</p>
-                <div className={tabbedpanel.ExampleBorder}>
-                    <h3>1D10 + Cool + Reputation</h3>
-                    <p>Note: If one of the opponents has a reputation for cowardice, his value will be treated as a negative number.</p>
+                <div className={splitter.TwoColumnSplit}>
+                    <div>
+                        <p>Reputation in Cyberpunk has one other big effect — facedowns. </p>
+                        <p>Remember; a lot of combat in this genre comes down to a duel of wills; who's tougher, meaner, and looks more ready to prove it. This often leads to what are called facedowns; when two heavies on the Street square off just before a fight, or to see who'll back down from a confrontation.</p>
+                    </div>
+                    <div className={tabbedpanel.ExampleBorder}>
+                        <h3>1D10 + Cool + Reputation</h3>
+                        <p>Note: If one of the opponents has a reputation for cowardice, his value will be treated as a negative number.</p>
+                    </div>
                 </div>
+                <p>When making a facedown, both participants will roll:</p>
+               
                 <p>In a facedown, the loser has the option of backing down or making any subsequent attacks against this particular opponent at a -3 (due to fear) until he has successfully defeated that opponent once. On a tied roll, both parties are unsure and no penalties will apply.</p>
                 <div className={tabbedpanel.ExampleBorder}>
                     <p>Example:</p> 
@@ -92,14 +99,14 @@ class InterlockReputation extends Component<{}, InterlockReputationState> {
         )
     }
 
-	public setSection = (section: ReputationSections) => {
+	public switchContent = (section: ReputationSections) => {
 		this.setState({
 			section: section
 		});
 	}
 
 
-	public renderChoice = () => {
+	public getContent = () => {
 		switch(this.state.section) {
 			case ReputationSections.About:
 				return this.renderAbout();
@@ -119,22 +126,12 @@ class InterlockReputation extends Component<{}, InterlockReputationState> {
 	public render() {
 
 		return (
-			<div className={tabbedpanel.ThreeTabs}>
-				<h1 className={tabbedpanel.Title}>Reputation:</h1>
-				{
-					Object.values(ReputationSections).map((section: ReputationSections) => {
-						return (
-							<span key={section}
-								className={ tabbedpanel.NavLink + " " + (this.isActive(section) ? tabbedpanel.ActiveNav : tabbedpanel.NotActiveNav)} 
-								onClick={() => {this.setSection(section)}}
-							>{section}</span>
-						)
-					}) 
-				}
-				<div className={tabbedpanel.Content}>
-					{this.renderChoice()}
-				</div>
-			</div>
+            <Tabs getContent={this.getContent} 
+            isActive={this.isActive} 
+            sections={ReputationSections} 
+            title="Reputation:" 
+            switchContent={this.switchContent} 
+            />
 		);
 	}
 }

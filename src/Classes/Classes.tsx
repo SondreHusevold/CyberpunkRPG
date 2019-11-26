@@ -7,6 +7,7 @@ import Sidebar from '../Sidebar/Sidebar.Navigation';
 interface ClassState {
 	characterClasses: CharacterClass[];
 	selectedClass: CharacterClass | null;
+	showMobileMenu: boolean;
 } 
 
 class Classes extends Component<{}, ClassState> {
@@ -16,7 +17,8 @@ class Classes extends Component<{}, ClassState> {
 
 		this.state = {
 			characterClasses: [],
-			selectedClass: null
+			selectedClass: null,
+			showMobileMenu: false
 		}
 
 		this.GetClasses();
@@ -51,12 +53,23 @@ class Classes extends Component<{}, ClassState> {
 		});
 	}
 
+	public toggleMobileView = () => {
+		this.setState({
+			showMobileMenu: !this.state.showMobileMenu
+		})
+	}
+
 	public render() {
 		return (
 			<div>
 				<h1 className="consoleText">Classes:</h1>
 				<div className={styles.ClassSplit}>
-					<Sidebar choices={Object.values(this.state.characterClasses.map(x => x.name))} clicked={this.SetActiveClass} preDetermined="" />
+					<Sidebar showMobile={this.state.showMobileMenu} 
+							choices={Object.values(this.state.characterClasses.map(x => x.name))} 
+							clicked={this.SetActiveClass} 
+							preDetermined=""
+							toggleMobile={this.toggleMobileView}
+					/>
 
 					<div className={styles.ClassPicture}>
 						{this.GetDetails()}

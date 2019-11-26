@@ -59,7 +59,7 @@ class NightCityCorporations extends Component<{}, CorporationState> {
                     </div>
                 </div>
                 <div className={styles.NightCityCorporationPicture + " " + animation.FadeInVerySlow}>
-                    <img className={pictureAnimation.InterlacedPicture} alt="Night City from NCU." title="Night City as seen from NCU." src="/assets/Visuals/NightCity.jpg"/>
+                    <img className={pictureAnimation.InterlacedPicture} alt="Corporate Center." title="Corporate Center." src="/assets/Visuals/Corporations.png"/>
                 </div>
             </div>
         )

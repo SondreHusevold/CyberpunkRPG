@@ -10,9 +10,26 @@
     border-left: 7px solid transparent;
 }
 
+:local .MobileReturnButton {
+    display: none;
+}
 
 @media screen and (max-width: 1000px) {
-    :local .SidebarMenu {
+    :local .MobileReturnButton {
+        display: block;
+    }
+
+    :local .MobileShown {
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background: #202020;
+    }
+
+    :local .MobileHidden {
         display: none;
     }
 }

@@ -8,7 +8,8 @@ import CyberwareHumanity from './CyberHumanity';
 import CyberPieces from './CyberwarePieces';
 
 interface CyberState {
-    selection: string | null;
+	selection: string | null;
+	showMobileMenu: boolean;
 } 
 
 enum Choices {
@@ -25,7 +26,8 @@ class Cyberware extends Component<{}, CyberState> {
 		super(props);
 
 		this.state = {
-            selection: Choices.Introduction
+			selection: Choices.Introduction,
+			showMobileMenu: false
 		}
 	}
 
@@ -52,12 +54,23 @@ class Cyberware extends Component<{}, CyberState> {
 		}
 	}
 
+	public toggleMobileView = () => {
+		this.setState({
+			showMobileMenu: !this.state.showMobileMenu
+		})
+	}
+
 	public render() {
 		return (
 			<div>
 				<h1 className="consoleText">Cyberware:</h1>
 				<div className={styles.CyberSplit}>
-                    <Sidebar choices={Object.values(Choices)} clicked={this.changeSelection} preDetermined={Choices.Introduction}/>
+					<Sidebar showMobile={this.state.showMobileMenu} 
+							choices={Object.values(Choices)} 
+							clicked={this.changeSelection} 
+							preDetermined={Choices.Introduction}
+							toggleMobile={this.toggleMobileView}
+					/>
 					<div className={styles.CyberMain}>
 						{this.getCurrentSelection()}
 					</div>

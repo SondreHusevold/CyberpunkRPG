@@ -9,7 +9,8 @@ import TTDrugs from './TTDrugs';
 
 
 interface TTState {
-    selection: string | null;
+	selection: string | null;
+	showMobileMenu: boolean;
 } 
 
 enum Choices {
@@ -26,7 +27,8 @@ class TraumaTeam extends Component<{}, TTState> {
 		super(props);
 
 		this.state = {
-            selection: Choices.Introduction
+			selection: Choices.Introduction,
+			showMobileMenu: false
 		}
 	}
 
@@ -53,12 +55,23 @@ class TraumaTeam extends Component<{}, TTState> {
 		}
 	}
 
+	public toggleMobileView = () => {
+		this.setState({
+			showMobileMenu: !this.state.showMobileMenu
+		})
+	}
+
 	public render() {
 		return (
 			<div>
 				<h1 className="consoleText">Trauma Team International:</h1>
 				<div className={styles.TTSplit}>
-                    <Sidebar choices={Object.values(Choices)} clicked={this.changeSelection} preDetermined={Choices.Introduction}/>
+					<Sidebar showMobile={this.state.showMobileMenu} 
+						choices={Object.values(Choices)} 
+						clicked={this.changeSelection} 
+						preDetermined={Choices.Introduction}
+						toggleMobile={this.toggleMobileView}
+					/>
 					<div className={styles.TTMain}>
 						{this.getCurrentSelection()}
 					</div>

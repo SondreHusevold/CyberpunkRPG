@@ -7,20 +7,17 @@
 :local .FumbleTableWrapper {
     padding-top: 20px;
     padding-bottom: 30px;
+    width: 100%;
 }
 
 :local .FumbleRange {
-    grid-area: "range";
     border: 1px solid red;
     padding: 10px;
-
 }
 
 :local .FumbleResult {
-    grid-area: "result";
     border: 1px solid red;
     padding: 10px;
-
 }
 
 :local .FumbleTableSubmenu {
@@ -31,7 +28,7 @@
     row-gap: 30px;
 }
 
-:local .FumbleTableSubmenu button {
+:local .FumbleTableSubmenuButton {
     height: 60px;
     background: repeating-linear-gradient(0deg,
     transparent 0px, 
@@ -68,9 +65,8 @@
     cursor: pointer;
 }
 
-:local .FumbleTableSubmenuReturnWrapper {
-    position: sticky;
-    bottom: 0;
+:local .FumbleTableReturnMobile {
+    display: none;
 }
 
 @keyframes FumbleTableAnimation {
@@ -96,4 +92,34 @@
     to {
         opacity: 1;
     }
+}
+
+@media screen and (max-width: 1050px) { 
+    :local .FumbleTableRow {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    :local .FumbleTableSubmenu {
+        grid-template-columns: 1fr;
+        row-gap: 10px;
+    }
+
+    :local .FumbleTableReturnDesktop {
+        display: none;
+    }
+
+    :local .FumbleTableReturnMobile {
+        display: block;
+        width: 100%;
+        border: 1px solid red;
+        font-size: 1.3em;
+        background: repeating-linear-gradient(0deg,
+        transparent 0px, 
+        transparent 2px, 
+         red 3px, 
+         red 2px
+       );
+        padding: 10px;
+    }
+
 }

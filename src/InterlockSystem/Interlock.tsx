@@ -12,7 +12,8 @@ import InterlockReputation from './InterlockReputation';
 import InterlockLifepath from './InterlockLifepath';
 
 interface InterlockState {
-    selection: string | null;
+	selection: string | null;
+	showMobileMenu: boolean;
 } 
 
 enum Choices {
@@ -33,13 +34,15 @@ class Interlock extends Component<{}, InterlockState> {
 		super(props);
 
 		this.state = {
-            selection: Choices.Introduction
+			selection: Choices.Introduction,
+			showMobileMenu: false
 		}
 	}
 
 	public changeSelection = (newSelection: string) => {
 		this.setState({
-			selection: newSelection
+			selection: newSelection,
+			showMobileMenu: false
 		});
 	}
 
@@ -68,17 +71,26 @@ class Interlock extends Component<{}, InterlockState> {
 		}
 	}
 
+	public toggleMobileView = () => {
+		this.setState({
+			showMobileMenu: !this.state.showMobileMenu
+		})
+	}
+
 	public render() {
 		return (
-			<div>
-				<h1 className="consoleText">Interlock System:</h1>
+			<React.Fragment>
+				<h1 className={"consoleText"} onClick={this.toggleMobileView}>Interlock System:</h1>
 				<div className={styles.InterlockSplit}>
-                    <Sidebar choices={Object.values(Choices)} clicked={this.changeSelection} preDetermined={Choices.Introduction}/>
-					<div className={styles.InterlockMain}>
-						{this.getCurrentSelection()}
-					</div>
+					<Sidebar showMobile={this.state.showMobileMenu} 
+							choices={Object.values(Choices)} 
+							clicked={this.changeSelection} 
+							preDetermined={Choices.Introduction}
+							toggleMobile={this.toggleMobileView}
+					/>
+					{this.getCurrentSelection()}
 				</div>
-			</div>
+			</React.Fragment>
 		);
 	}
 }

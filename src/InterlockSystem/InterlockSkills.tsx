@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import tabbedpanel from '../StyleModules/TabbedPanel.module.css';
+import Tabs from '../Common/Tabs';
 
 enum SkillSections {
 	About = "About",
@@ -50,7 +51,7 @@ class InterlockSkills extends Component<{}, InterlockSkillsState> {
 		)
 	}
 
-	public setSection = (section: SkillSections) => {
+	public switchContent = (section: SkillSections) => {
 		this.setState({
 			section: section
 		});
@@ -88,7 +89,7 @@ class InterlockSkills extends Component<{}, InterlockSkillsState> {
 		)
 	}
 
-	public renderChoice = () => {
+	public getContent = () => {
 		switch(this.state.section) {
 			case SkillSections.About:
 				return this.renderAboutSkills();
@@ -110,22 +111,12 @@ class InterlockSkills extends Component<{}, InterlockSkillsState> {
 	public render() {
 
 		return (
-			<div className={tabbedpanel.FourTabs}>
-				<h1 className={tabbedpanel.Title}>Skills:</h1>
-				{
-					Object.values(SkillSections).map((section: SkillSections) => {
-						return (
-							<span key={section}
-								className={ tabbedpanel.NavLink + " " + (this.isActive(section) ? tabbedpanel.ActiveNav : tabbedpanel.NotActiveNav)} 
-								onClick={() => {this.setSection(section)}}
-							>{section}</span>
-						)
-					}) 
-				}
-				<div className={tabbedpanel.Content}>
-					{this.renderChoice()}
-				</div>
-			</div>
+			<Tabs getContent={this.getContent} 
+                isActive={this.isActive} 
+                sections={SkillSections} 
+                title="Skills:" 
+                switchContent={this.switchContent} 
+            />
 		);
 	}
 }

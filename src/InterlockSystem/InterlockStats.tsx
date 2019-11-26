@@ -52,7 +52,7 @@ class InterlockStats extends Component<{}, InterlockStatsState> {
 
         return (
             this.state.stats.map((stat) => 
-                <button className={pictureAnimation.InterlacedPicture} key={stat.name} onClick={() => this.setSubMenu(stat)}>{stat.name} ({stat.short})</button> 
+                <button className={styles.InterlockStatsSubmenuButton} key={stat.name} onClick={() => this.setSubMenu(stat)}>{stat.name} ({stat.short})</button> 
             )
         );
     }
@@ -148,7 +148,12 @@ class StatRender extends Component<StatProp, {}> {
                 <h2>{this.props.chosen.name}:</h2>
                 { this.renderText() }
                 <div className={styles.InterlockReturnSubmenuWrapper} onClick={this.props.back}>
-                    > [<span className={styles.InterlockReturnSubmenu}> RETURN </span>]
+                    <div className={styles.InterlockReturnDesktop}>
+                        > [<span className={styles.InterlockReturnSubmenu}> RETURN </span>]
+                    </div>
+                    <button className={styles.InterlockReturnMobile}>
+                        RETURN
+                    </button>
                 </div>
             </div>
         )

@@ -1,0 +1,139 @@
+Wardrobe & Style: {
+    Personal Grooming
+    Wardrobe & Style 
+}
+
+Endurance {
+    Endurance
+    Resist Drugs/Torture
+}
+
+Strength Feat
+Swimming
+
+Interrogation {
+    Interview
+    Interrogation
+}
+
+Intimidate
+
+Oratory {
+    Persuation & Fast Talk
+    Seduction
+}
+
+Social {
+    Human Perception
+    Social
+    Anthropology
+}
+
+Perform {
+    Disguise
+    Perform
+}
+
+Economics {
+    Accounting
+    Stock Market
+}  
+
+Awareness/Notice {
+    Awareness/Notice
+    Library Search
+}
+
+Biology {
+    Botany
+    Zoology
+}
+
+Expert {
+    Dance
+    Chemistry
+    Physics
+    Mathetmatics
+    Gamble
+    Geology
+    History
+    Teaching
+    Paint or Draw
+    Photography & Film
+}
+
+Composition {
+    Composition
+    Forgery
+}
+
+Medical {
+    Diagnose Illness
+}
+
+Educational & General Knowledge
+
+Knowledge Language
+
+Computer {
+    Programming
+    System Knowledge
+}
+
+Stealth {
+    Shadow/Track
+    Stealth
+} 
+
+Athletics
+Brawling 
+Dodge & Escape
+Driving Car/Motorcycle/AV/Gyro {
+    Operate Heavy Machinery
+    Piloting
+    Driving
+}
+
+Melee {
+    Fencing
+    Melee
+}
+
+Simple Ranged Weapon {
+    Archery
+    Handgun
+}
+
+Ranged Weapon {
+    Rifle
+    Submachinegun
+}
+
+Heavy Weapons
+Martial Arts (multiple choice)
+
+AV Tech {
+    Aero Tech
+    AV Tech
+    Gyro Tech
+}
+
+Basic Tech {
+    Electronics
+    Basic Tech
+}
+
+Cyberdeck Design
+CyberTech
+Demolitions
+Eletronic Security
+First Aid
+Pharmaceuticals
+
+Larceny {
+    Pick Lock
+    Pick Pocket
+}
+
+Play Instrument
+Weaponsmith

@@ -26,6 +26,10 @@
                          "content content content padding"
 }
 
+:local .Mobile {
+    display: none;       
+}
+
 @media screen and (max-width: 1400px) {
     :local .FiveTabs {
         display: grid;
@@ -52,6 +56,8 @@
                              "content content content"
     }
 }
+
+
 
 :local .ExampleBorder {
     border: 1px solid red;
@@ -109,6 +115,58 @@
     font-weight: bold;
     animation: blink-underscore 1.25s infinite;
     opacity: 1;
+}
+
+@media screen and (max-width: 1000px) { 
+    :local .Desktop {
+        display: none;
+    }
+
+    :local .Mobile {
+        display: initial;
+    }
+
+    :local .Mobile button {
+        text-align: center;
+        width: 100%;
+        margin: 0px;
+        padding: 10px;
+        border: 0px;
+    }
+
+    :local .Content {
+        border: 0px;
+        padding: 0px;
+        grid-area: content;
+        overflow: auto;
+    }
+
+    :local .FiveTabs {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: max-content;
+
+    }
+
+    :local .FourTabs {
+        grid-template-columns: 1fr;
+        grid-template-rows: max-content ;
+
+    }    
+
+    :local .ThreeTabs {
+        grid-template-columns: 1fr;
+        grid-template-rows: max-content;
+    }
+
+    :local .NavLink {
+        border-bottom: 1px solid red;
+    }
+
+    :local .FourTabs span {
+        padding: 20px;
+    }
+    
 }
 
 /* The typewriter cursor effect */

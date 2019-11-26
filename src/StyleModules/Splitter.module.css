@@ -3,3 +3,11 @@
     grid-template-columns: 0.5fr 0.5fr;
     grid-gap: 2em;
 }
+
+@media screen and (max-width: 1050px) {
+    :local .TwoColumnSplit {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 0em;
+    }
+}

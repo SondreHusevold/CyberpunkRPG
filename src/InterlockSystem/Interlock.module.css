@@ -9,24 +9,16 @@
     grid-column: 1;
 }
 
-:local .InterlockMain {
-    grid-column: 2;
-}
-
 :local .InterlockIntroduction {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    column-gap: 5%;
+    gap: 5%;
 }
 
 :local .InterlockStats {
     display: grid;
     grid-template-columns: 1fr 0.5fr;
-    column-gap: 5%;
-}
-
-:local .InterlockIntroductionText {
-    grid-column: 1;
+    gap: 5%;
 }
 
 :local .InterlockIntroductionPicture {
@@ -36,7 +28,7 @@
 
 :local .InterlockIntroductionPicture img {
     max-height: 60vh;
-    padding: 5%;
+    padding: 2%;
 }
 
 :local .InterlockStatsSubmenu {
@@ -48,8 +40,10 @@
     row-gap: 30px;
 }
 
-:local .InterlockStatsSubmenu button {
+:local .InterlockStatsSubmenuButton {
     height: 80px;
+    border: 1px solid red;
+    margin: 10px;
     background: repeating-linear-gradient(0deg,
     transparent 0px, 
     transparent 2px, 
@@ -81,11 +75,6 @@
     cursor: pointer;
 }
 
-:local .InterlockReturnSubmenuWrapper {
-    position: sticky;
-    bottom: 0;
-}
-
 :local .InterlockStatsBTModifiedTable {
     border: 1px solid red;
     font-size: 14px;
@@ -100,7 +89,6 @@
 
     to {
         opacity: 1;
-        border: 1px solid red;
     }
 }
 
@@ -119,11 +107,39 @@
     }
 }
 
+:local .InterlockReturnMobile {
+    display: none;
+}
+
 
 @media screen and (max-width: 1050px) {
+    :local .InterlockReturnMobile {
+        display: block;
+        font-size: 1.5em;
+        background: repeating-linear-gradient(0deg,
+        transparent 0px, 
+        transparent 2px, 
+         red 3px, 
+         red 2px
+       );
+       border: 1px solid red;
+       width: 100%;
+       padding: 10px;
+    }
+
+    :local .InterlockReturnDesktop {
+        display: none;
+    }
+    
+    :local .InterlockSplit {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 0%;
+    }
 
     :local .InterlockIntroduction {
         grid-template-columns: 1fr;
+        gap: 0%;
     }
 
     :local .InterlockStats {
@@ -131,10 +147,11 @@
     }
 
     :local .InterlockStatsSubmenu {
-        grid-template-columns: 1fr 1fr;
-        row-gap: 20px;
-    }
-    
+        grid-template-columns: 1fr;
+        border: 0px;
+        padding: 0px;
+        gap: 0px;
+    }  
 
     :local .InterlockIntroductionPicture {
         display: none;

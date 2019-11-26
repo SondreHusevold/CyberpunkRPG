@@ -11,7 +11,8 @@ import NightCityCorporations from './NCCorporations';
 import NightCityMaps from './NCMaps';
 
 interface NightCityState {
-    selection: string | null;
+	selection: string | null;
+	showMobileMenu: boolean;
 } 
 
 enum Choices {
@@ -20,9 +21,9 @@ enum Choices {
     GetStarted = "First Session",
     History = "History",
     America = "America",
-    Slang = "Slang",
-    Corporations = "Corporations",
-    Maps = "Map"
+	Corporations = "Corporations",
+    Slang = "Slang",	
+	Maps = "Map"
 }
 
 class NightCity extends Component<{}, NightCityState> {
@@ -31,7 +32,8 @@ class NightCity extends Component<{}, NightCityState> {
 		super(props);
 
 		this.state = {
-            selection: Choices.Introduction
+			selection: Choices.Introduction,
+			showMobileMenu: false
 		}
 	}
 
@@ -64,12 +66,23 @@ class NightCity extends Component<{}, NightCityState> {
 		}
 	}
 
+	public toggleMobileView = () => {
+		this.setState({
+			showMobileMenu: !this.state.showMobileMenu
+		})
+	}
+
 	public render() {
 		return (
 			<div>
 				<h1 className="consoleText">Night City:</h1>
 				<div className={styles.NightCitySplit}>
-                    <Sidebar choices={Object.values(Choices)} clicked={this.changeSelection} preDetermined={Choices.Introduction}/>
+					<Sidebar showMobile={this.state.showMobileMenu} 
+							choices={Object.values(Choices)} 
+							clicked={this.changeSelection} 
+							preDetermined={Choices.Introduction}
+							toggleMobile={this.toggleMobileView}
+					/>
 					<div className={styles.NightCityMain}>
 						{this.getCurrentSelection()}
 					</div>

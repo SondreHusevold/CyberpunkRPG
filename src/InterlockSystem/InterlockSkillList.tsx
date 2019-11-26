@@ -49,7 +49,7 @@ class InterlockSkillList extends Component<{}, InterlockSkillsState> {
 		let skill = this.state.selection;
 
 		return (
-			<div>
+			<React.Fragment>
 				<div className={styles.ModalBackground} onClick={this.clearChoice}/>
 				<div className={styles.WindowedInformation}>
 					<h1>{skill.name}</h1>
@@ -66,9 +66,9 @@ class InterlockSkillList extends Component<{}, InterlockSkillsState> {
 							<p>{paragraph}</p>
 						)
 					})}
-					<button onClick={this.clearChoice}>>Go back</button> 
+					<button className={styles.BigOnMobile} onClick={this.clearChoice}>> Return </button> 
 				</div>
-			</div>
+			</React.Fragment>
 		)
 	}
 
@@ -85,13 +85,11 @@ class InterlockSkillList extends Component<{}, InterlockSkillsState> {
 	public render() {
 		return (
 			<div className={styles.SkillList}>
-				<div>
-					{ this.renderSkill() }
-				</div>
+				{ this.renderSkill() }
 				{
 					this.state.list.map((skillList) => {
 						return (
-							<div>
+							<React.Fragment>
 								<h2 className={styles.InterlacedPicture}>{ skillList.category}:</h2>
 								<div className={styles.InterlockSkillList}>
 									{skillList.skills.map((skill) =>  {
@@ -99,7 +97,7 @@ class InterlockSkillList extends Component<{}, InterlockSkillsState> {
 									})}
 								</div>
 								<hr/>
-							</div>
+							</React.Fragment>
 						)
 					}) 
 				}

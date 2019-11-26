@@ -1,11 +1,19 @@
 :local .AwardTable {
     display: grid;
-    grid-template-columns: 0.1fr 0.4fr;
+    grid-template-columns: 0.1fr 1fr;
     padding: 10px;
 }
 
 :local .AwardTable span {
     border: 1px solid red;
     padding: 10px;
+}
+
+@media screen and (max-width: 1000px) { 
+    :local .AwardTable {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 10px;
+    }
 }
 

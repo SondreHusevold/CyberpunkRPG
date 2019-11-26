@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { StatService, Fumble } from '../Services/StatsAndSkillsService';
 import styles from './InterlockSkillChecks.module.css';
 import tabbedpanel from '../StyleModules/TabbedPanel.module.css';
+import Tabs from '../Common/Tabs';
 
 enum SkillCheckSections {
     About = "About",
@@ -116,7 +117,9 @@ class InterlockSkillCheck extends Component<{}, InterlockSkillCheckState> {
                         {
                             this.state.fumbleTable.map((fumble) => {
                                 return (
-                                    <button key={fumble.title} onClick={() => this.setFumbleSubMenu(fumble)}>{fumble.title}</button> 
+                                    <button className={styles.FumbleTableSubmenuButton} key={fumble.title} 
+                                            onClick={() => this.setFumbleSubMenu(fumble)}>{fumble.title}
+                                    </button> 
                                 )
                             }) 
                         }
@@ -151,7 +154,12 @@ class InterlockSkillCheck extends Component<{}, InterlockSkillCheckState> {
                         }
                     </div>
                     <div className={styles.FumbleTableSubmenuReturnWrapper} onClick={() => this.setFumbleSubMenu(null)}>
-                        > [<span className={styles.FumbleTableSubmenuReturn}> RETURN </span>]
+                        <div className={styles.FumbleTableReturnDesktop}>
+                            > [<span className={styles.FumbleTableSubmenuReturn}> RETURN </span>]
+                        </div>
+                        <button className={styles.FumbleTableReturnMobile}>
+                            RETURN
+                        </button>
                     </div>
                 </div>
             )
@@ -171,29 +179,18 @@ class InterlockSkillCheck extends Component<{}, InterlockSkillCheckState> {
             case SkillCheckSections.Automatic:
                 return this.renderAutomatics();
             default:
-                return "";
+                return <div/>;
         }
     }
 
 	public render() {
-
 		return (
-			<div className={tabbedpanel.FourTabs}>
-                <h1 className={tabbedpanel.Title}>Skill checks:</h1>
-                {
-                    Object.values(SkillCheckSections).map((sector) => {       
-                        return (
-                            <span key={sector}
-                                className={ tabbedpanel.NavLink + " " + (this.isActive(sector) ? tabbedpanel.ActiveNav : tabbedpanel.NotActiveNav)} 
-                                onClick={() => {this.switchContent(sector)}}
-                            >{sector}</span>
-                        )
-                    })
-                }
-                <div className={tabbedpanel.Content}>
-                    {this.getContent()}
-                </div>
-			</div>
+            <Tabs getContent={this.getContent} 
+                isActive={this.isActive} 
+                sections={SkillCheckSections} 
+                title="Skill Checks:" 
+                switchContent={this.switchContent} 
+            />
 		);
 	}
 }

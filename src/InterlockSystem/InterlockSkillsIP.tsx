@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import styles from './InterlockReputation.module.css';
-import tabbedpanel from '../StyleModules/TabbedPanel.module.css';
+import splitter from '../StyleModules/Splitter.module.css';
+import Tabs from '../Common/Tabs';
 
 enum SkillIPSections {
 	Learning = "Learning and Improving",
@@ -24,11 +25,13 @@ class InterlockSkillsIP extends Component<{}, InterlockSkillsIPState> {
 	
 	public renderLearning = () => {
 		return (
-			<div>
-				<p>Players can improve their skills or begin new ones by accumulating Improvement Points (IP) . As you gain more IP, you'll record these points in the area next to the skills listing on your Hardcopy Form. When you have collected enough Improvement Points in a skill, the skill's level increases by one.</p>
-                <p>The first level of a skill will always cost 10 IP.</p> 
-                <p>To determine how many points are required to raise a skill higher than this, multiply the current level of skill by 10. This is how many points are required to raise a simple (IP multiplier=1) skill to the next level.</p>
-                <p>Example: My Brawling skill is +4. To move from +4 to +5 will require 40 IP. To move from +5 to +6 will require 50 IP.</p>
+			<div className={splitter.TwoColumnSplit}>
+                <div>
+                    <p>Players can improve their skills or begin new ones by accumulating Improvement Points (IP) . As you gain more IP, you'll record these points in the area next to the skills listing on your Hardcopy Form. When you have collected enough Improvement Points in a skill, the skill's level increases by one.</p>
+                    <p>The first level of a skill will always cost 10 IP.</p> 
+                    <p>To determine how many points are required to raise a skill higher than this, multiply the current level of skill by 10. This is how many points are required to raise a simple (IP multiplier=1) skill to the next level.</p>
+                    <p>Example: My Brawling skill is +4. To move from +4 to +5 will require 40 IP. To move from +5 to +6 will require 50 IP.</p>
+                </div>
                 <div className={styles.AwardTable}>
                     <span>Award</span>
                     <span>Based on</span>
@@ -89,14 +92,14 @@ class InterlockSkillsIP extends Component<{}, InterlockSkillsIPState> {
         )
     }
 
-	public setSection = (section: SkillIPSections) => {
+	public switchContent = (section: SkillIPSections) => {
 		this.setState({
 			section: section
 		});
 	}
 
 
-	public renderChoice = () => {
+	public getContent = () => {
 		switch(this.state.section) {
 			case SkillIPSections.Learning:
 				return this.renderLearning();
@@ -116,22 +119,12 @@ class InterlockSkillsIP extends Component<{}, InterlockSkillsIPState> {
 	public render() {
 
 		return (
-			<div className={tabbedpanel.ThreeTabs}>
-				<h1 className={tabbedpanel.Title}>Improvement Points:</h1>
-				{
-					Object.values(SkillIPSections).map((section: SkillIPSections) => {
-						return (
-							<span key={section}
-								className={ tabbedpanel.NavLink + " " + (this.isActive(section) ? tabbedpanel.ActiveNav : tabbedpanel.NotActiveNav)} 
-								onClick={() => {this.setSection(section)}}
-							>{section}</span>
-						)
-					}) 
-				}
-				<div className={tabbedpanel.Content}>
-					{this.renderChoice()}
-				</div>
-			</div>
+			<Tabs getContent={this.getContent} 
+                isActive={this.isActive} 
+                sections={SkillIPSections} 
+                title="Improvement Points:" 
+                switchContent={this.switchContent} 
+            />
 		);
 	}
 }

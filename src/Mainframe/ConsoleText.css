@@ -2,22 +2,36 @@
 .consoleText {
     overflow: hidden; /* Ensures the content is not revealed until the animation */
     font-size: 1.5em;
+    letter-spacing: .05em; /* Adjust as needed */
+    white-space: nowrap; /* Keeps the content on a single line */
+    animation: typing 2s steps(120, end);
+    font-size: 2em;
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (max-width: 1000px) {
     .consoleText {
         letter-spacing: .05em; /* Adjust as needed */
-        white-space: nowrap; /* Keeps the content on a single line */
-        animation: typing 2s steps(120, end);
-        font-size: 2em;
+        width: 95%;
+        white-space: normal;
+        animation: none;
+        border: 1px solid red;  
+        text-shadow: 2px 2px #202020;  
+        padding: 10px;
+        text-align: center;
+        background: repeating-linear-gradient(0deg,
+        transparent 0px, 
+        transparent 3px, 
+         red 4px, 
+         red 2px
+       );
     }
 
 }
   
   /* The typing effect */
   @keyframes typing {
-    from { width: 0 }
-    to { width: 100% }
+    from { width: 0; }
+    to { width: 100%; }
   }
   
   .consoleText:after {
@@ -30,10 +44,12 @@
   @keyframes blink-caret {
       0% {
           color: transparent;
+          text-shadow: none;
       }
   
       45% {
           color: transparent;
+          text-shadow: none;
       }
   
       50% {
@@ -46,5 +62,6 @@
   
       100% {
           color: transparent;
+          text-shadow: none;
       }
   }

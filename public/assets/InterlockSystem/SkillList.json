@@ -164,7 +164,7 @@
                     "description": "The ability to calculate physical principles, such as gas pressures, mechanical energies, etc. This skill requires a basic Mathematics Skill of +4."
                 },
                 {
-                    "name": "Programmering",
+                    "name": "Programming",
                     "description": "The required skill to write programs and to re-program computer systems. This skill does not allow players to actually do repairs on a computer (this requires Electronics).\nWith a Programming Skill of +1, you can do simple EBASIC programs.\nA Programming Skil of +3 or better allows you to know some higher level languages and be able to write reasonably complex programs (including video games).\nPlayers with a Programming Skill +6 or better are considered to be professionals, who can build operating software, design mainframe systems, and hold down a steady job at your average Silicon Valley firm.\nWith a Programming Skill of +9 or better, other programmers speak your name with reverence ('You invented Q? Wow!'), young hackers set out to crack your systems, and any computer software you design instantly gets used by every business application in the world."
                 },
                 {
