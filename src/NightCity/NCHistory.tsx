@@ -9,6 +9,7 @@ class NightCityHistory extends Component<{}> {
 			<div className={styles.NightCityIntroduction}>
 				<div className={styles.NightCityIntroductionText}>
 					<h1>History of Night City:</h1>
+					<img className={styles.FirstSessionPictureMobile + " " + pictureAnimation.PictureMobileOnly} alt="The Corporate Center." title="The Corporate Center." src="/assets/Visuals/History.jpg"/>
                     <p>Night City was founded rather recently as cities go. Before 1994, the city was merely a clutter of unincorporated suburban sprawl between San Francisco and Los Angeles.</p>
                     <p>During the Collapse, an enterprising land developer named Richard Night bought up the majority of what was later to become the Corporate Center and City Center areas. He proposed to start a new, safe, clean corporate city, free of crime and urban blight.</p>
                     <p>By offering lucrative tax packages to several major corporations (PetroChem, for example, had established drilling rights off the coast), he was able to establish a strong economic base as well as an instant population of corporate employees.</p>

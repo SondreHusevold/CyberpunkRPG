@@ -39,7 +39,8 @@ class NightCity extends Component<{}, NightCityState> {
 
 	public changeSelection = (newSelection: string) => {
 		this.setState({
-			selection: newSelection
+			selection: newSelection,
+			showMobileMenu: false
 		});
 	}
 
@@ -75,7 +76,7 @@ class NightCity extends Component<{}, NightCityState> {
 	public render() {
 		return (
 			<div>
-				<h1 className="consoleText">Night City:</h1>
+				<h1 className="consoleText" onClick={this.toggleMobileView}>Night City:</h1>
 				<div className={styles.NightCitySplit}>
 					<Sidebar showMobile={this.state.showMobileMenu} 
 							choices={Object.values(Choices)} 

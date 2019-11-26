@@ -9,6 +9,7 @@ class NightCityTheEdge extends Component<{}> {
 			<div className={styles.NightCityLivingOnTheEdge}>
                 <div className={styles.NightCityOnTheEdgeSplitter}>
                     <h1>Living on the Edge:</h1>
+                    <img className={styles.NightCityLivingOnTheEdgePicture + " " + pictureAnimation.PictureMobileOnly } alt="Living on the Edge" src="/assets/Visuals/OnTheEdgeSide.jpg"/>
                     <p>To achieve the essence of the 2000's, you need to master three concepts.</p>
                     <div className={styles.NightCityEdgeRules}>
                         <div className={styles.ExampleBorder}>
@@ -42,8 +43,14 @@ class NightCityTheEdge extends Component<{}> {
                     <p>You become the car you drive, the gyro you fly, the guns you shoot.</p>
                     <p>You dive headfirst into the Net, using your mind to hurtle at lightspeed all over a vast network of Data Fortresses and Artifical Intelligences.</p>
                     <p>With cyborged fingers you pick computer locks; with enhanced senses, you see into the Future.</p>
+                    { /* Not happy with this. Shouldn't be an extra picture. */ }
+                    <img className={pictureAnimation.PictureMobileOnly } 
+                        alt="Living on the Edge" src="/assets/Visuals/OnTheEdge.jpg"
+                    />
                     <div className={styles.NightCityOnTheEdgePicture}>
-                        <img className={pictureAnimation.InterlacedPicture} alt="Living on the Edge" src="/assets/Visuals/OnTheEdge.jpg"/>
+                        <img className={pictureAnimation.InterlacedPicture} 
+                            alt="Living on the Edge" src="/assets/Visuals/OnTheEdge.jpg"
+                        />
                     </div>
                     <p>Cyberpunk is also an attitude.</p>
                     <p>You wear the most in clothes, know the right people and follow the right crowds.</p>

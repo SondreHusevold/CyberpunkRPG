@@ -93,3 +93,75 @@
     margin: 0;
     gap: 0;
 }
+
+
+:local .BackButtonMobile {
+    display: none;
+}
+
+
+@media screen and (max-width: 1050px) {
+    :local .NightCityCorporations {
+        grid-template-columns: 1fr;
+        column-gap: 0%;
+    }
+
+    :local .NightCityCorporationLogo img {
+        padding: 0px;
+        margin: 00px;
+        max-width: 300px;
+        max-height: 200px;
+    }
+
+    :local .EmployeeSplit {
+        grid-template-columns: 1fr;
+        padding-bottom: 20px;
+    }
+
+    :local .RegionalOfficeSplit {
+        grid-template-columns: 1fr;
+    }
+
+    :local .NightCityCorporationPicture {
+        display: none;
+    }
+
+    :local .NightCityCorporationChosen {
+        grid-template-columns: 1fr;
+        gap: 0%;
+    }
+
+    :local .NightCityCorporationGrid {
+        grid-template-columns: 1fr;
+        gap: 3%;
+    }
+
+    :local .PadOutCorporation {
+        padding-right: 0%;
+    }
+
+    :local .FirstSessionPictureMobile  {
+        object-position: 100% 30%;
+        object-fit: cover;
+    }
+
+    :local .BackButton {
+       display: none;
+    }
+
+    :local .BackButtonMobile {
+        display: block;
+        background: repeating-linear-gradient(0deg,
+        transparent 0px, 
+        transparent 2px, 
+         red 3px, 
+         red 2px
+       );
+       width: 100%;
+       height: 50px;
+       border: 1px solid red;
+       margin-bottom: 30px;
+    }
+
+
+}

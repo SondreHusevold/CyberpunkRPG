@@ -77,3 +77,62 @@
 :local .DoubleSpan {
     grid-column: span 2;
 }
+
+
+:local .NightCityMobilePicture {
+    object-position: 100% 65%;
+    object-fit: cover;
+}
+
+:local .NightCityLivingOnTheEdgePicture {
+    object-position: 100% 15%;
+    object-fit: cover;
+}
+
+
+@media screen and (max-width: 1050px) {
+
+    :local .NightCityLivingOnTheEdge {
+        column-gap: 0%;
+        padding-right: 0%;
+        margin-bottom: 0%;
+    }
+
+    :local .SlangSplit {
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+
+    :local .NightCityEdgeRules {
+        grid-template-columns: 1fr;
+        column-gap: 0%;
+    } 
+
+    :local .NightCityOnTheEdgePicture {
+        display: none;
+    }  
+    
+    :local .NightCitySplit {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 0%;
+    }
+
+    :local .NightCityIntroduction {
+        grid-template-columns: 1fr;
+        gap: 0%;
+    }
+    :local .NightCityOnTheEdgePictureMobile {
+        display: block;
+    }
+
+    :local .NightCityIntroductionPicture {
+        display: none;
+    }
+
+    :local .FirstSessionPictureMobile  {
+        object-position: 100% 30%;
+        object-fit: cover;
+    }
+
+}

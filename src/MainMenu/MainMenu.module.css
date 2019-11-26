@@ -9,6 +9,7 @@
 	left: 0;
 	top: 0;
 	background: #202020;
+	z-index: 3700;
 }
 
 
@@ -97,4 +98,10 @@
 		overflow: hidden;
 		transition: all 0.25s ease;
 	}
+
+	:local .MainMenu {
+		position: relative;
+		overflow: hidden;
+	}
+
 }
