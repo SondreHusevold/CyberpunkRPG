@@ -33,7 +33,8 @@ class Cyberware extends Component<{}, CyberState> {
 
 	public changeSelection = (newSelection: string) => {
 		this.setState({
-			selection: newSelection
+			selection: newSelection,
+			showMobileMenu: false
 		});
 	}
 
@@ -63,7 +64,7 @@ class Cyberware extends Component<{}, CyberState> {
 	public render() {
 		return (
 			<div>
-				<h1 className="consoleText">Cyberware:</h1>
+				<h1 className="consoleText" onClick={this.toggleMobileView}>Cyberware:</h1>
 				<div className={styles.CyberSplit}>
 					<Sidebar showMobile={this.state.showMobileMenu} 
 							choices={Object.values(Choices)} 

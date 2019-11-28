@@ -23,3 +23,24 @@
     padding: 15px;
 }
 
+@media screen and (max-width: 1000px) {
+    :local .SurgeryMain {
+        grid-template-columns: 1fr;
+        gap: 0px;
+    }
+    
+    :local .SurgeryImage {
+        display: none;
+    }
+
+    :local .SplitSurgery {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 5px;
+    }
+
+    :local .SurgeryMobilePicture {
+        object-fit: cover;
+        object-position: 100% 30%;
+    }
+}

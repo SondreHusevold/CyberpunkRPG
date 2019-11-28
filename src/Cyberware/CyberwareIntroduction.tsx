@@ -8,6 +8,8 @@ class CyberwareIntroduction extends Component<{}> {
 			<div className={styles.IntroductionSplit}>
 				<div>
 					<h1>Introduction:</h1>
+					<img className={styles.IntroductionPictureMobile + " " + pictureAnimation.PictureMobileOnly} title="Alt Cunningham. Johnny Silverhand's input." 
+					alt="Alt Cunningham. Johnny Silverhand's input." src="assets/Visuals/Cyberware.png" />
 					<p>Forget everything you ever thought about cyborgs. Everything. </p>
 					<p>This is the 2000's. Today’s cyborg is stylish.</p>
 					<p>His cybernetics are designed for a streamlined, highmover lifestyle. Whether equipped with implanted data chips in his nervous system to enhance his tennis game, or bioengineered miniweapons for his personal protection, the cyborg of the 2000's is the cutting edge of high tech living.</p>

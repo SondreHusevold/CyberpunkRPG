@@ -28,3 +28,51 @@
     grid-template-columns: 0.5fr 0.5fr;
     grid-gap: 5em;
 }
+
+@media screen and (max-width: 1000px) {
+    :local .CyberSplit {
+        grid-template-columns: 1fr;
+        grid-gap: 0em;
+        padding: 0px;
+    }
+    
+    :local .IntroductionPictureMobile {
+        object-fit: cover;
+        object-position: 100% 10%;
+        padding: 1px;
+    }
+
+    :local .IntroductionSplit {
+        grid-template-columns: 1fr;
+    }
+
+    :local .IntroductionImage {
+        display: none;
+    }
+
+    :local .ExampleBorder {
+        padding: 10px;
+        max-width: 100%;
+        margin-bottom: 10px;
+    }
+
+    :local .CyberpsychosisMobilePicture {
+        object-position: 100% 0%;
+        object-fit: cover;
+    }
+
+    /* Because Cyberpsychosis is a long title and causes the width to increase. */
+    :local .SmallerMobileTitle {
+        font-size: 1.8em;
+    }
+
+    :local .Cyberware50Split {
+        grid-template-columns: 1fr;
+        grid-gap: 0em;
+    }
+    
+    :local .HumanityPictureMobile {
+        object-position: 100% 5%;
+        object-fit: cover;
+    }
+}

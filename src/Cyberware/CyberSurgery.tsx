@@ -30,6 +30,9 @@ class CyberSurgery extends Component<{}, SurgeryState> {
 			<div className={styles.SurgeryMain}>
 				<div>
 					<h1>Surgery:</h1>
+					<img className={styles.SurgeryMobilePicture + " " + pictureAnimation.PictureMobileOnly} 
+						alt="Surgery is dangerous." src="assets/Visuals/Surgery.png" 
+					/>
                     <p>Not all medical care is the result of accidents or combat. This is the Metal Age, and when you want to get cybered up, you gotta pay a price in blood.</p>
 					<p>Surgery is usually done at ripperdocs who specialize in installing Cyberware. These can be smaller and independent ripperdocs, or more expensive and professional medical centers.</p>
 					<p>Ripperdocs can be both completely legal or illegal. The latter can potentially have black market military-grade cyberware, but can also have less qualms about your safety.</p>
