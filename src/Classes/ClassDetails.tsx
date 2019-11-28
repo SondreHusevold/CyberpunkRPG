@@ -116,28 +116,34 @@ class ClassDetails extends Component<ClassDetailsProps, ClassDetailsState> {
 	public render() {
 		return (
 			<div className={styles.ClassDetails}>
-				<span className={styles.Title}>{this.props.characterClass.name}:</span> 
-				<span className={styles.Description}>{this.props.characterClass.description}</span>
-				{
-					Object.values(ClassDetailsSection).map((sector) => {
-						// Ignore "None" in enum.
-						if(sector === ClassDetailsSection.None)
-							return null;
+				<h1 className={styles.Title}>{this.props.characterClass.name}:</h1> 
+				<h2>{this.props.characterClass.description}</h2>
+				<div className={styles.ClassSections}>
+					{
+						Object.values(ClassDetailsSection).map((sector) => {
+							// Ignore "None" in enum.
+							if(sector === ClassDetailsSection.None)
+								return null;
 
-						return (
-						<span key={sector}
-							className={ tabbedpanel.NavLink + " " + (this.isActive(sector) ? tabbedpanel.ActiveNav : tabbedpanel.NotActiveNav)} 
-							onClick={() => {this.switchContent(sector)}}
-						>{sector}</span>
-						)
-					})
-				}
+							return (
+								<div>
+									<p key={sector}
+										className={ tabbedpanel.NavLink + " " + (this.isActive(sector) ? tabbedpanel.ActiveNav : tabbedpanel.NotActiveNav)} 
+										onClick={() => {this.switchContent(sector)}}
+									>{sector}</p>
+								</div>
+							)
+						})
+					}
+				</div>
+
 				<div className={styles.ClassDetailContent}>
 					{this.getContent()}
-				</div>
-				
-				<div className={styles.ClassDetailPicture}>
-					<img className={pictureAnimation.InterlacedPicture} alt="Class" src={`assets/Classes/${this.props.characterClass.name}/Picture.png`}/>
+					<div className={styles.ClassDetailPicture}>
+						<img className={pictureAnimation.InterlacedPicture} alt="Class" 
+							src={`assets/Classes/${this.props.characterClass.name}/Picture.png`}
+						/>
+					</div>
 				</div>
 			</div>
 		);

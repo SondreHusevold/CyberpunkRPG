@@ -43,7 +43,8 @@ class FridayNightFirefight extends Component<{}, FNFFState> {
 
 	public changeSelection = (newSelection: string) => {
 		this.setState({
-			selection: newSelection
+			selection: newSelection,
+			showMobileMenu: false
 		});
 	}
 
@@ -81,7 +82,7 @@ class FridayNightFirefight extends Component<{}, FNFFState> {
 	public render() {
 		return (
 			<div>
-				<h1 className="consoleText">Friday Night Firefight:</h1>
+				<h1 className="consoleText" onClick={this.toggleMobileView}>Friday Night Firefight:</h1>
 				<div className={styles.FNFFSplit}>
 					<Sidebar showMobile={this.state.showMobileMenu} 
 							choices={Object.values(Choices)} 

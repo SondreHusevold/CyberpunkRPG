@@ -1,49 +1,24 @@
-:local .ArmorTable {
-    display: grid;
-    grid-template-columns: 0.5fr 0.5fr;
-    grid-template-areas: "light heavy"
-} 
-
-:local .LightArmor {
-    grid-area: "light";
-    border: 1px solid red;
-}
-
-:local .HeavyArmor {
-    grid-area: "heavy";
-    border: 1px solid red;
-}
-
-:local .HeavyArmor p {
-    text-align: center;
-    padding: 5px;
-    margin: 0px;
-}
-
-:local .HeavyArmor h4 {
-    text-align: center;
-    padding: 5px;
-    margin: 0;
-    border-bottom: 1px solid red;
-}
-
-:local .LightArmor p {
-    text-align: center;
-    padding: 5px;
-    margin: 0px;
-}
-
-:local .LightArmor h4 {
-    text-align: center;
-    padding: 5px;
-    margin: 0;
-    border-bottom: 1px solid red;
-}
-
 :local .TwoColumnSplit {
     display: grid;
     grid-template-columns: 0.5fr 0.5fr;
     grid-gap: 5em;
+}
+
+:local .ArmorTable th {
+    font-size: 1.1em;
+    padding: 10px;
+    text-align: center;
+    height: 20px;
+}
+
+:local .ArmorTable td {
+    padding: 10px;
+    text-align: center;
+    height: 20px;
+}
+
+:local .ArmorTable tr {
+    padding: 10px;    
 }
 
 :local .CoverImageWrapper {
@@ -54,4 +29,21 @@
 :local .CoverImage {
     padding: 10px;
     height: 370px;
+}
+
+@media screen and (max-width: 1000px) {
+    :local .CoverImage {
+        width: 100%;
+        max-width: 375px;
+        max-height: 150px;
+        object-fit: cover;
+        object-position: 100% 70%;
+        padding: 0px;
+    }
+
+    :local .TwoColumnSplit {
+        grid-template-columns: 1fr;
+        grid-gap: 0em;
+        margin-bottom: 30px;
+    }
 }

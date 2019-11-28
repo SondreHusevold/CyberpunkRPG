@@ -4,7 +4,7 @@ import styles from './FNFFAttacks.module.css';
 class FNFFAttacksMelee extends Component<{}, {}> {
 	public render() {
 		return (
-			<div>
+			<div className={styles.FNFFAttacks}>
 				<h1>Melee attacks:</h1>
                 <p>Melee attacks include clubs, knives, swords, axes, chainsaws, sledgehammers, monokatanas and monoknives, monomolecular chains, cyberbeasts, battlegloves, rippers, scratchers, martial arts weapons, hand to hand attacks and brawling.</p>
                 <p>Melee attacks differ from ranged attacks in that you are opposing a person, instead of a target. To make a melee attack, the formula is:</p>
@@ -34,10 +34,10 @@ class FNFFAttacksMelee extends Component<{}, {}> {
                         <p>These weapons will always break on a fumble (a natural 1), and require a special roll to determine if they shatter when used to parry (4 or less on 1D10).</p>
                         <p>Unless otherwise notedin the weapon’sdescription, all mono-edge weapons are at 1/3xSP vs. soft armors, 2/3xSP vs. hard armors.</p>
                         <h2>Cyberbeasts:</h2>
-                        <p>"Cyberbeast" is the popular term used to describe any cybernetically controlled weapon thatis stored in the body and yet has the capacity toattack onits own.</p>
+                        <p>"Cyberbeast" is the popular term used to describe any cybernetically controlled weapon that is stored in the body and yet has the capacity toattack onits own.</p>
                         <p>Cyberbeasts may make one attack per turn. They have a total attack skill of 10+1D10; in all other aspects, they attack as characters would.</p>
                     </div>
-                    <div className={styles.ExampleBorder}>
+                    <div>
                         <h3>Melee Damage Modifiers:</h3>
                         <table>
                             <tr>

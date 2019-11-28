@@ -5,6 +5,12 @@
     column-gap: 5%;
 }
 
+:local .FNFFAttacks {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+}
+
 :local .FNFFAttacksInformation {
     grid-column: 1;
 }
@@ -12,12 +18,6 @@
 :local .FNFFAttacksPicture {
     grid-column: 2;
     margin-top: 10%;
-}
-
-@media screen and (max-width: 1050px) {
-    :local .FNFFAttacksPicture {
-        display: none;
-    }
 }
 
 :local .FNFFAttacksPicture img {
@@ -87,7 +87,7 @@
 :local .ExampleBorder {
     width: max-content;
     text-align: center;
-    padding: 20px;
+    padding: 10px;
     border: 1px solid red;
 }
 
@@ -106,14 +106,6 @@
     padding-bottom: 10px;
 } 
 
-@media screen and (min-width: 1050px) {
-    :local .SplitIntoTwo {
-        display: grid;
-        grid-gap: 50px;
-        grid-template-columns: 0.5fr 0.5fr;
-    }
-}
-
 :local .OverrideMaxContent {
     width: initial;
 }
@@ -126,4 +118,51 @@
     padding: 20px;
     border: 1px solid red;
 }
+
+:local .AttacksMobilePicture {
+    display: none;
+}
+
+:local .SplitIntoTwo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5%;
+}
+
+@media screen and (max-width: 1000px) {
+    :local .ExampleBorder {
+        width: 100%;
+        padding: 5px;
+        border: 1px solid red;
+    }
+
+    :local .SplitIntoTwo {
+        grid-gap: 0px;
+        grid-template-columns: 1fr;
+    }
+
+    :local .ReturnWrapper {
+        width: 100%;
+    }
+
+    :local .FNFFAttacksSplit {
+        grid-template-columns: 1fr;
+    }
+
+    :local .FNFFAttackMenu {
+        grid-template-columns: 1fr;
+        margin: 0px;
+    }
+
+    :local .FNFFAttacksPicture {
+        display: none;
+    }
+
+    :local .AttacksMobilePicture {
+        display: block;
+        object-fit: cover;
+        object-position: 100% 0%;
+    }
+}
+
 

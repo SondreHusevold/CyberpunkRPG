@@ -9,6 +9,7 @@ class FNFFDeathSaves extends Component<{}> {
 			<div className={styles.FNFFIntroduction}>
 				<div className={styles.FNFFIntroductionText}>
 					<h1>Death Saves:</h1>
+					<img className={styles.FNFFIntroductionPictureMobile + " " + pictureAnimation.PictureMobileOnly} alt="Friday Night Firefight" src="/assets/Visuals/FNFFIntroduction.png"/>
                     <p>Unless you have taken a Mortal Wound, your character is in no danger of dying; he only needs to make his initial Stun save to remain conscious. But if the wound is a MORTAL one, he has a chance of dying.</p>
                     <p>Determining whether he survives requires that a Death Save be made, with a new save required every turn that the character remains untreated.</p>
                     <p>Like a Stun Save, a Death Save requires that you roll a value on 1D10 equal to or lower than your character’s Body Type score, 
@@ -27,20 +28,24 @@ class FNFFDeathSaves extends Component<{}> {
                         <span>Ripperjack has taken 20 points of damage, placing him in a Mortal 1 Wound State. To stabilize him will require a roll of 20 or greater. Once stabilized, the character is no longer in danger of dying unless another wound is taken. At this point, the whole messy business begins again...</span>
                     </div>
                     <p>The chances of a successful stabilization roll can be increased by the following modifiers, added to your die roll.</p>
-                    <div className={styles.DeathSaveGrid}>
-                        <div className={styles.FirstColumn}>
-                            <h3>Advantage:</h3>
-                            <p>Full Hospital and Surgery</p>
-                            <p>Trauma Team Ambulance</p>
-                            <p>Life suspension tank</p>
-                        </div>
-                        <div className={styles.SecondColumn}>
-                            <h3>Add to die roll:</h3>
-                            <p>+5</p>
-                            <p>+3</p>
-                            <p>+3</p>
-                        </div>
-                    </div>
+                    <table>
+                        <tr>
+                            <th>Advantage:</th>
+                            <th>Add to die roll:</th>
+                        </tr>
+                        <tr>
+                            <td>Full Hospital and Surgery</td>
+                            <td>+5</td>
+                        </tr>
+                        <tr>
+                            <td>Trauma Team Ambulance</td>
+                            <td>+3</td>
+                        </tr>
+                        <tr>
+                            <td>Life suspension tank</td>
+                            <td>+3</td>
+                        </tr>
+                    </table>
                     <p>Assuming you make your stabilization rolls, you're going to survive to fight again. If you fail, no problem, that's why we have Body banks. </p>
                     <p>Either way, to learn more about healing or spare parts brokering, check out the Trauma Team section.</p>
 				</div>

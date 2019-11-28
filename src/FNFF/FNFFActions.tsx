@@ -3,6 +3,7 @@ import pictureAnimation from '../StyleModules/Pictures.module.css';
 import tabbedpanel from '../StyleModules/TabbedPanel.module.css';
 import splitter from '../StyleModules/Splitter.module.css';
 import styles from './FNFFActions.module.css';
+import Tabs from '../Common/Tabs';
 
 enum ActionsSections {
 	About = "An Action",
@@ -35,7 +36,8 @@ class FNFFActions extends Component<{}, FNFFActionsState> {
 	
 	public renderAbout = () => {
 		return (
-			<div>
+			<div className={styles.SingleColumnGrid}>
+				<img className={styles.ActionPictureMobile + " " + pictureAnimation.PictureMobileOnly} alt="Action!" src="assets/Visuals/Actions.jpg"/>
 				<p>During your part of the round, you may perform one <b>action</b> without penalty.</p>
 				<div className={splitter.TwoColumnSplit}>
 					<div className={styles.ActionText}>
@@ -65,7 +67,7 @@ class FNFFActions extends Component<{}, FNFFActionsState> {
 
 	public renderMore = () => {
 		return (
-			<div>
+			<React.Fragment>
                 <h3>More than one action:</h3>
                 <p>You may perform more than one action at a -3 penalty to each successive action. </p>
                 <h3>Two weapon attacks:</h3>
@@ -77,13 +79,13 @@ class FNFFActions extends Component<{}, FNFFActionsState> {
 						The possibilities here are endless, so don't forget to take some penalities to do more stuff.</p>
 					<p>Because standing still in a gunfight will only make you predictable.</p>
 				</div>
-			</div>
+			</React.Fragment>
 		)
 	}
 
 	public renderAmbushes = () => {
 		return (
-			<div>
+			<React.Fragment>
                 <p>Sometimes, the best way to deal with a very powerful opponent is to get the drop on him from behind; in short, setting an ambush.</p>
                 <div className={tabbedpanel.ExampleBorder}>
 					<p>AMBUSH = +5 TO ATTACK FOR 1 ROUND</p>
@@ -97,19 +99,29 @@ class FNFFActions extends Component<{}, FNFFActionsState> {
                 <p>An ambush doesn’t mean you act first— it just means you have an attack advantage.</p>
                 <p>Initiative for the round is made as usual, and the ambushing character can spring the trap on his part of the round or can wait to see what develops before making his attack. </p>
 
-			</div>
+			</React.Fragment>
 		)
 	}
 
 	public renderLoS = () => {
 		return (
-			<div>
+			<React.Fragment>
                 <p>Whenever you are facing your target and have a clear path between you, you can attack.</p>
                 <p>You can clearly see anything forward of your shoulders.</p>
                 <p>See image below for clear paths and facings:</p>
-				{this.renderImage()}
-			</div>
+				<div className={styles.DesktopOnly}>
+					{this.renderImage()}
+				</div>
+				<img className={styles.LoSPicture + " " + pictureAnimation.InterlacedPicture} style={{ cursor: "pointer" }} 
+					onClick={this.openPictureInNewTab} alt="Line of sight" title="Click to remove background." src="/assets/Visuals/LineOfSight.png"
+				/>
+				
+			</React.Fragment>
 		)
+	}
+
+	public openPictureInNewTab = () => {
+        window.open("assets/Visuals/LineOfSightNo3D.png", "_blank"); 		
 	}
 
 	public renderImage = () => {
@@ -149,22 +161,12 @@ class FNFFActions extends Component<{}, FNFFActionsState> {
 	public render() {
 
 		return (
-			<div className={tabbedpanel.FourTabs}>
-				<h1 className={tabbedpanel.Title}>Actions:</h1>
-				{
-					Object.values(ActionsSections).map((section: ActionsSections) => {
-						return (
-							<span key={section}
-								className={ tabbedpanel.NavLink + " " + (this.isActive(section) ? tabbedpanel.ActiveNav : tabbedpanel.NotActiveNav)} 
-								onClick={() => {this.setSection(section)}}
-							>{section}</span>
-						)
-					}) 
-				}
-				<div className={tabbedpanel.Content}>
-					{this.renderChoice()}
-				</div>
-			</div>
+			<Tabs getContent={this.renderChoice} 
+				isActive={this.isActive} 
+				sections={ActionsSections} 
+				title="Actions:" 
+				switchContent={this.setSection}
+			/>
 		);
 	}
 }

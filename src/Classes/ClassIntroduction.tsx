@@ -1,5 +1,8 @@
 import React, { Component } from 'react'
 import { CharacterClass, ClassDetailedInformation } from './Classes';
+import pictureAnimation from '../StyleModules/Pictures.module.css';
+import styles from './ClassDetails.module.css';
+
 
 interface ClassIntroductionProps {
     characterClass: CharacterClass;
@@ -48,6 +51,7 @@ export class ClassIntroduction extends Component<ClassIntroductionProps, ClassIn
     render() {
         return (
             <div>
+                <img className={styles.ClassPictureMobile + " " + pictureAnimation.PictureMobileOnly} alt="Class" src={`assets/Classes/${this.props.characterClass.name}/Picture.png`}/>
                 {this.getInformation()}
             </div>
         )

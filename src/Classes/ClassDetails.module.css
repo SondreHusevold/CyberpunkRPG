@@ -1,26 +1,15 @@
 :local .ClassDetails {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 5%;
-    grid-template-rows: min-content min-content min-content max-content;
-    grid-template-areas: "title title title padding"
-                         "description description description padding"
-                         "navigation navigation navigation padding"
-                         "content content picture padding"
+    grid-template-columns: 0.8fr;
 }
 
 :local .Title {
-    grid-area: title;
-    font-size: 2.5em;
+    margin: 0px;
 }
 
-:local .NavLink {
-    margin-top: 20px;
-    padding-left: 10px;
-    padding-right: 10px;
-    font-size: 1.2em;
-    padding-bottom: 4px;
-    border-bottom: 1px solid red;
-    grid-row: navigation;
+:local .ClassSections {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 :local .CareerSkillsGridified {
@@ -33,29 +22,64 @@
     grid-column: span 2;
 }
 
-:local .Description {
-    font-size: 1.5em;
-    grid-area: description;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
 :local .ClassDetailContent {
-    border-left: 1px solid red;
-    border-bottom: 1px solid red;
+    display: grid;
+    grid-template-columns: 1fr 0.4fr;
+    border: 1px solid red;
     padding: 20px;
-    grid-area: content;
 }
 
 :local .ClassDetailPicture {
-    grid-area: picture;
     object-fit: cover;
-    border-right: 1px solid red;
-    border-bottom: 1px solid red;
 }
 
 :local .ClassDetailPicture img {
-    height: 60vh;
+    max-height: 550px;
     float: right;
-    z-index: 40;
+}
+
+:local .ClassSections p {
+    border: 0px;
+    margin: 0px;
+}
+
+
+@media screen and (max-width: 1050px) {
+    :local .ClassDetails {
+        grid-template-columns: 1fr;
+        padding: 0px;
+    }
+
+    :local .ClassSections {
+        grid-template-columns: 1fr;
+    }
+
+    :local .CareerSkillsGridified {
+        grid-template-columns: 1fr;
+        column-gap: 0px;
+    }
+
+    :local .CareerSkillsLong {
+        grid-column: span 1;
+    }
+
+    :local .ClassPictureMobile {
+        object-fit: cover;
+        object-position: 100% 0%;
+    }
+
+    :local .ClassDetailContent {
+        grid-template-columns: 1fr;
+    }
+
+    :local .ClassSections p {
+        border: 0px;
+        margin: 0px;
+        padding: 10px;
+        text-align: center;
+    }
+
+    :local .ClassDetailPicture {
+        display: none;
+    }    
 }

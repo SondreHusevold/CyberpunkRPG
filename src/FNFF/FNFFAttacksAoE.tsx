@@ -5,7 +5,7 @@ import styles from './FNFFAttacks.module.css';
 class FNFFAttacksAoE extends Component<{}, {}> {
 	public render() {
 		return (
-			<div>
+			<div className={styles.FNFFAttacks}>
 				<h1>Area of Effect attacks:</h1>
 				<p>Area Effect weapons are fired just like any other type of ranged weapon. However, they are capable of covering more than one target at a time with a cloud of pellets, flame, explosive force or gas. </p>
 				<p>Area effect weapons include shotguns, grenades and explosives, flamethrowers, missiles and rockets, mines and rocket powered grenades (RPGs).</p>
@@ -18,7 +18,7 @@ class FNFFAttacksAoE extends Component<{}, {}> {
 						<p>Note: if something is between the path of the shotgun and its intended target, the intervening spaces behind that object are considered to be exempt from the effects of fire.</p>
 						<p>Any target within the pattern will take damage based on the range (damage listed on the Weapons Table on pg. 51 in the rulebook is based on maximum damage).</p>
 					</div>
-					<div className={styles.ExampleBorder}>
+					<div>
 						<h3>Shotgun Table:</h3>
 						<table>
 								<tr>

@@ -129,9 +129,10 @@ class FNFFAttacks extends Component<{}, FNFFAttacksState> {
 
 		return (
 			<div className={styles.FNFFAttacksInformation}>
-			<h1>Making Attacks:</h1>
-			<p>This section covers the basics of how to make attacks:</p>
-			<hr/>
+				<h1>Making Attacks:</h1>
+				<img className={styles.AttacksMobilePicture + " " + pictureAnimation.PictureMobileOnly} alt="Friday Night Firefight" src="assets/Visuals/FNFF.png"/>
+				<p>This section covers the basics of how to make attacks:</p>
+				<hr/>
 				<div className={ styles.FNFFAttackMenu }>
 					{Object.values(AttackMethods).map((attack: AttackMethods) => {
 						return (
@@ -139,7 +140,7 @@ class FNFFAttacks extends Component<{}, FNFFAttacksState> {
 						)
 					})}
 				</div>
-			<hr/>
+				<hr/>
 			</div>
 			
 		)

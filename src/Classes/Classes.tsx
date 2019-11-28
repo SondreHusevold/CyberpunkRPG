@@ -49,7 +49,8 @@ class Classes extends Component<{}, ClassState> {
 		}
 
 		this.setState({
-			selectedClass: selected
+			selectedClass: selected,
+			showMobileMenu: false
 		});
 	}
 
@@ -62,7 +63,7 @@ class Classes extends Component<{}, ClassState> {
 	public render() {
 		return (
 			<div>
-				<h1 className="consoleText">Classes:</h1>
+				<h1 className="consoleText" onClick={this.toggleMobileView}>Classes:</h1>
 				<div className={styles.ClassSplit}>
 					<Sidebar showMobile={this.state.showMobileMenu} 
 							choices={Object.values(this.state.characterClasses.map(x => x.name))} 

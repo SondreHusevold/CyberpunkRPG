@@ -8,3 +8,41 @@
     float: right;
     max-width: 550px;
 }
+
+:local .ActionPictureMobile {
+    object-fit: cover;
+    width: 99.5%;
+    object-position: 100% 50%;
+}
+
+:local .SingleColumnGrid {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+:local .LoSPicture {
+    display: none;
+}
+
+@media screen and (max-width: 1050px) {
+    :local .ActionText {
+        min-width: 100px;
+        width: 100%;
+    } 
+
+    :local .ActionPicture  {
+        display: none;
+    }
+
+    :local .LoSPicture {
+        display: block;
+        max-width: 90%;
+        object-fit: cover;
+        object-position: 100% 50%;
+    }
+
+    :local .DesktopOnly {
+        display: none;
+    }
+}
+

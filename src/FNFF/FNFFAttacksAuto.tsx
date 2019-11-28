@@ -5,7 +5,7 @@ import styles from './FNFFAttacks.module.css';
 class FNFFAttacksAuto extends Component<{}, {}> {
 	public render() {
 		return (
-			<div>
+			<div className={styles.FNFFAttacks}>
 				<h1>Automatic Weapon attacks:</h1>
 				<p>There are three ways to use automatic weapons.</p>
 				<ul>

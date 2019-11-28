@@ -1,45 +1,6 @@
-
-:local .TwoColumnGrid {
-    display: grid;
-    grid-template-columns: 0.3fr 0.3fr;
-    grid-template-areas: "First Second";
-}
-
-:local .FirstColumn {
-    grid-area: "First";
-}
-
-:local .FirstColumn h3 {
-    margin: 0;
-    padding: 5px;
-    border: 1px solid red;
-}
-
-:local .FirstColumn p {
-    margin: 0;
-    padding: 5px;
-    border: 1px solid red;
-}
-
-:local .SecondColumn {
-    grid-area: "Second";
-}
-
-:local .SecondColumn h3 {
-    margin: 0;
-    padding: 5px;
-    border: 1px solid red;
-}
-
-:local .SecondColumn p {
-    margin: 0;
-    padding: 5px;
-    border: 1px solid red;
-}
-
 :local .SavesSplit {
     display: grid;
-    grid-template-columns: 0.5fr 0.5fr;
+    grid-template-columns: 1fr 1fr;
     grid-gap: 5%;
 }
 
@@ -47,4 +8,30 @@
     display: grid;
     grid-template-columns: 0.6fr 0.4fr;
     grid-gap: 5%;
+}
+
+:local .ModifierTableExtend {
+    width: 100%;
+}
+
+
+:local .ModifierTableExtend table {
+    width: 100%;
+}
+
+@media screen and (max-width: 1050px) {
+
+    :local .TwoColumnGrid {
+        grid-template-columns: 1fr;
+    }
+
+    :local .SavesSplit {
+        grid-template-columns: 1fr;
+        grid-gap: 0%;
+    }
+
+    :local .SpecialCasesSplit {
+        grid-template-columns: 1fr;
+        grid-gap: 0%;
+    }
 }

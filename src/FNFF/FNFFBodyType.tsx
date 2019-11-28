@@ -13,26 +13,36 @@ class FNFFBodyType extends Component<{}> {
                     <p>This is a special bonus which reduces the effects of damage, reflecting the stamina and general toughness of the character. </p>
                     <p>Each time your character takes damage, subtract your Body Type Modifier from the total amount of damage before applying it to your character.
                     </p>
-                    <div className={styles.TwoColumnGrid}>
-                        <div className={styles.FirstColumn}>
-                            <h3>Body Type</h3>
-                            <p>Very Weak</p>
-                            <p>Weak</p>
-                            <p>Average</p>
-                            <p>Strong</p>
-                            <p>Very Strong</p>
-                            <p>Superhuman*</p>
-                        </div>
-                        <div className={styles.SecondColumn}>
-                            <h3>Modifier</h3>
-                            <p>-0</p>
-                            <p>-1</p>
-                            <p>-2</p>
-                            <p>-3</p>
-                            <p>-4</p>
-                            <p>-5</p>
-                        </div>
-                    </div>
+                    <table className={styles.BTTable}>
+                        <tr>
+                            <th>Body Type:</th>
+                            <th>Modifier:</th>
+                        </tr>
+                        <tr>
+                            <td>Very Weak</td>
+                            <td>-0</td>
+                        </tr>
+                        <tr>
+                            <td>Weak</td>
+                            <td>-1</td>
+                        </tr>
+                        <tr>
+                            <td>Average</td>
+                            <td>-2</td>
+                        </tr>
+                        <tr>
+                            <td>Strong</td>
+                            <td>-3</td>
+                        </tr>
+                        <tr>
+                            <td>Very Strong</td>
+                            <td>-4</td>
+                        </tr>
+                        <tr>
+                            <td>Superhuman*</td>
+                            <td>-5</td>
+                        </tr>
+                    </table>
                     <p>*Superhuman is only available with cybernetics.</p>
                     <p>For example, say you took ten points of damage. If you were a Very Weak Body Type, you would take the full ten. But with a Very Strong Body Type, you'd only take (10-4=6) six points of damage.</p>
                     <div className={styles.ExampleBorder}>

@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import styles from './FNFFArmor.module.css';
 import pictureAnimations from '../StyleModules/Pictures.module.css';
 import tabbedpanel from '../StyleModules/TabbedPanel.module.css';
+import Tabs from '../Common/Tabs';
 
 enum ArmorSections {
 	SP = "Stopping Power",
@@ -60,34 +61,48 @@ class FNFFArmor extends Component<{}, FNFFArmorState> {
                     <p>Remember that there are more armors in the Chrome books 1-4. These are only from the core rulebook.</p>
                 </div>
             
-                <div>
-                    <div className={styles.ArmorTable}>
-                        <div className={styles.HeavyArmor}>
-                            <h4>Hard armor:</h4>
-                            <p>Metal Gear</p>
-                            <p>Police riot armor</p>
-                            <p>Door Gunner’s vest</p>
-                            <p>Steel helmet</p>
-                            <p>Flak vest/pants</p>
-                            <p>Ballistic Nylon helmet</p>
-                            <p>M-78 RPA heavy vest </p>
-                            <p>Corp Mil body armor</p>
-                            <p>C-Ballistic Light Mesh™</p>
-                        </div>
-                        <div className={styles.LightArmor}>
-                            <h4>Soft armor:</h4>
-                            <p>Heavy Armor jacket </p>
-                            <p>Med. Armor jacket </p>
-                            <p>Police patrol armor </p>
-                            <p>M-78 RPA jacket </p>
-                            <p>Light Armor jacket </p>
-                            <p>Kevlar T-shirt/vest </p>
-                            <p>M-78 RPA T-shirt </p>
-                            <p>Heavy Leather </p>
-                            <p>SkinTight™ armor padding</p>
-                        </div>
-                    </div>
-                </div>
+                <table className={styles.ArmorTable}>
+                    <tr>
+                        <th>Hard armor:</th>
+                        <th>Soft armor:</th>
+                    </tr>
+                    <tr>
+                        <td>Metal Gear</td>
+                        <td>Heavy Armor jacket </td>
+                    </tr>
+                    <tr>
+                        <td>Police riot armor</td>
+                        <td>Med. Armor jacket </td>
+                    </tr>
+                    <tr>
+                        <td>Door Gunner’s vest</td>
+                        <td>Police patrol armor </td>
+                    </tr>
+                    <tr>
+                        <td>Steel helmet</td>
+                        <td>M-78 RPA jacket </td>
+                    </tr>
+                    <tr>
+                        <td>Flak vest/pants</td>
+                        <td>Light Armor jacket </td>
+                    </tr>
+                    <tr>
+                        <td>Ballistic Nylon helmet</td>
+                        <td>Kevlar T-shirt/vest </td>
+                    </tr>
+                    <tr>
+                        <td>M-78 RPA heavy vest </td>
+                        <td>M-78 RPA T-shirt </td>
+                    </tr>
+                    <tr>
+                        <td>Corp Mil body armor</td>
+                        <td>Heavy Leather </td>
+                    </tr>
+                    <tr>
+                        <td>C-Ballistic Light Mesh™</td>
+                        <td>SkinTight™ armor padding</td>
+                    </tr>
+                </table>
 			</div>
 		)
 	}
@@ -144,50 +159,81 @@ class FNFFArmor extends Component<{}, FNFFArmorState> {
                         <img className={styles.CoverImage + " " + pictureAnimations.InterlacedPicture} alt="Covering yourself up prevents bullets to the face." src="assets/Visuals/FNFFCover.png" />
                     </div>
                 </div>
-                <div>
-                    <div className={styles.ArmorTable}>
-                        <div className={styles.HeavyArmor}>
-                            <h4>Common Cover</h4>
-                            <p>Sheetrock Wall </p>
-                            <p>Stone Wall </p>
-                            <p>Large Tree, Phone pole </p>
-                            <p>Brick wall </p>
-                            <p>Concrete Block Wall </p>
-                            <p>Wood door </p>
-                            <p>Heavy Wood Door </p>
-                            <p>Steel Door </p>
-                            <p>Concrete Ultility Pole </p>
-                            <p>Data Term™ </p>
-                            <p>Car body, door </p>
-                            <p>Armored Car body </p>
-                            <p>AV-4 Body </p>
-                            <p>Engine block</p>
-                            <p>Mailbox</p>
-                            <p>Hydrant </p>
-                            <p>Curb</p>
-                        </div>
-                        <div className={styles.LightArmor}>
-                            <h4>SPs</h4>
-                            <p>5</p>
-                            <p>30</p>
-                            <p>30</p>
-                            <p>25</p>
-                            <p>10</p>
-                            <p>5</p>
-                            <p>15</p>
-                            <p>20</p>
-                            <p>35</p>
-                            <p>25</p>
-                            <p>10</p>
-                            <p>40</p>
-                            <p>40</p>
-                            <p>35</p>
-                            <p>25</p>
-                            <p>35</p>
-                            <p>25</p>
-                        </div>
-                    </div>
-                </div>
+                <table className={styles.ArmorTable}>
+                    <tr>
+                        <th>Common Cover</th>
+                        <th>SPs</th>
+                    </tr>
+                    <tr>
+                        <td>Sheetrock Wall </td>
+                        <td>5</td>
+                    </tr>
+                    <tr>
+                        <td>Stone Wall </td>
+                        <td>30</td>
+
+                    </tr> 
+                    <tr>
+                        <td>Large Tree, Phone pole </td>
+                        <td>30</td>
+                    </tr> 
+                    <tr>
+                        <td>Brick wall </td>
+                        <td>25</td>
+                    </tr> 
+                    <tr>
+                        <td>Concrete Block Wall </td>
+                        <td>10</td>
+                    </tr> 
+                    <tr>
+                        <td>Wood door </td>
+                        <td>5</td>
+                    </tr> 
+                    <tr>
+                        <td>Heavy Wood Door </td>
+                        <td>15</td>
+                    </tr> 
+                    <tr>
+                        <td>Steel Door </td>
+                        <td>20</td>
+                    </tr> 
+                    <tr>
+                        <td>Concrete Ultility Pole </td>
+                        <td>35</td>
+                    </tr>
+                    <tr>
+                        <td>Data Term™ </td>
+                        <td>25</td>
+                    </tr>
+                    <tr>
+                        <td>Car body, door </td>
+                        <td>10</td>
+                    </tr>
+                    <tr>
+                        <td>Armored Car body </td>
+                        <td>40</td>
+                    </tr>
+                    <tr>
+                        <td>AV-4 Body </td>
+                        <td>40</td>
+                    </tr>
+                    <tr>
+                        <td>Engine block</td>
+                        <td>35</td>
+                    </tr>
+                    <tr>
+                        <td>Mailbox</td>
+                        <td>25</td>
+                    </tr>
+                    <tr>
+                        <td>Hydrant </td>
+                        <td>35</td>
+                    </tr>
+                    <tr>
+                        <td>Curb</td>
+                        <td>25</td>
+                    </tr>
+                </table>
 			</div>
 		)
 	}
@@ -214,24 +260,13 @@ class FNFFArmor extends Component<{}, FNFFArmorState> {
     }
 
 	public render() {
-
 		return (
-			<div className={tabbedpanel.FiveTabs}>
-				<h1 className={tabbedpanel.Title}>Armor:</h1>
-				{
-					Object.values(ArmorSections).map((section: ArmorSections) => {
-						return (
-							<span key={section}
-								className={ tabbedpanel.NavLink + " " + (this.isActive(section) ? tabbedpanel.ActiveNav : tabbedpanel.NotActiveNav)} 
-								onClick={() => {this.setSection(section)}}
-							>{section}</span>
-						)
-					}) 
-				}
-				<div className={tabbedpanel.Content}>
-					{this.renderChoice()}
-				</div>
-			</div>
+            <Tabs getContent={this.renderChoice} 
+                isActive={this.isActive} 
+                sections={ArmorSections} 
+                title="Armor:" 
+                switchContent={this.setSection}
+            />
 		);
 	}
 }

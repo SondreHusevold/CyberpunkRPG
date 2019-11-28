@@ -3,6 +3,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 5%;
+    margin-bottom: 20px;
 }
 
 :local .FNFFIntroductionText {
@@ -20,6 +21,10 @@
     opacity: 1;
 }
 
+:local .FNFFIntroductionPictureMobile {
+    display: none;
+}
+
 :local .ExampleBorder {
     padding: 30px;
     border: 1px solid red;
@@ -29,6 +34,16 @@
     padding-top: 5px;
     padding-bottom: 5px;
 }
+
+:local .BTTable th {
+    font-size: 1.1em;
+    padding: 10px;
+}
+
+:local .BTTable td {
+    padding: 10px;
+}
+
 
 :local .TwoColumnGrid {
     display: grid;
@@ -72,4 +87,30 @@
     display: grid;
     grid-template-columns: 0.6fr 0.4fr;
     grid-template-areas: "First Second";
+}
+
+:local .FNFFHitLocationMobile {
+    display: none;
+}
+
+@media screen and (max-width: 1000px) {
+    :local .FNFFIntroduction {
+        grid-template-columns: 1fr;
+        column-gap: 0%;
+    }
+
+    :local .FNFFIntroductionPicture {
+        display: none;
+    }    
+
+    :local .FNFFIntroductionPictureMobile {
+        display: block;
+        object-fit: cover;
+        object-position: 100% 30%;
+    }    
+
+    :local .FNFFHitLocationMobile {
+        display: block;
+        max-width: 100%;
+    }
 }

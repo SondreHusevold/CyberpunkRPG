@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import tabbedpanel from '../StyleModules/TabbedPanel.module.css';
+import Tabs from '../Common/Tabs';
 
 enum TurnsSections {
 	About = "Rounds/Turns",
@@ -22,7 +23,7 @@ class FNFFTurns extends Component<{}, FNFFTurnsState> {
         }
 	}
 
-	public setSection = (section: TurnsSections) => {
+	public switchContent = (section: TurnsSections) => {
 		this.setState({
 			section: section
 		});
@@ -112,22 +113,12 @@ class FNFFTurns extends Component<{}, FNFFTurnsState> {
 	public render() {
 
 		return (
-			<div className={tabbedpanel.FourTabs}>
-				<h1 className={tabbedpanel.Title}>Rounds, turns and initiative:</h1>
-				{
-					Object.values(TurnsSections).map((section: TurnsSections) => {
-						return (
-							<span key={section}
-								className={ tabbedpanel.NavLink + " " + (this.isActive(section) ? tabbedpanel.ActiveNav : tabbedpanel.NotActiveNav)} 
-								onClick={() => {this.setSection(section)}}
-							>{section}</span>
-						)
-					}) 
-				}
-				<div className={tabbedpanel.Content}>
-					{this.renderChoice()}
-				</div>
-			</div>
+			<Tabs getContent={this.renderChoice} 
+				isActive={this.isActive} 
+				sections={TurnsSections} 
+				title="Initiative and turns:" 
+				switchContent={this.switchContent}
+			/>
 		);
 	}
 }

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import styles from './FNFFWounds.module.css';
 import tabbedpanel from '../StyleModules/TabbedPanel.module.css';
+import Tabs from '../Common/Tabs';
 
 enum WoundsSections {
 	Effects = "Effects",
@@ -83,36 +84,54 @@ class FNFFWounds extends Component<{}, FNFFWoundsState> {
                     <p>The Stun Save is equal to your character's Body Type value, minus a penalty based on his current Wound State.</p>
                     <p>A failed roll means the character is out of combat.</p>
                 </div>
-                <div>
+                <div className={styles.ModifierTableExtend}>
                     <h3>Stun/Shock Save Modifiers:</h3>
-                    <div className={styles.TwoColumnGrid}>
-                        <div className={styles.FirstColumn}>
-                            <h3>Wound State</h3>
-                            <p>Light</p>
-                            <p>Serious</p>
-                            <p>Critical</p>
-                            <p>Mortal</p>
-                            <p>Mortal 1</p>
-                            <p>Mortal 2</p>
-                            <p>Mortal 3</p>
-                            <p>Mortal 4</p>
-                            <p>Mortal 5</p>
-                            <p>Mortal 6</p>
-                        </div>
-                        <div className={styles.SecondColumn}>
-                            <h3>Penalty</h3>
-                            <p>-0</p>
-                            <p>-1</p>
-                            <p>-2</p>
-                            <p>-3</p>
-                            <p>-4</p>
-                            <p>-5</p>
-                            <p>-6</p>
-                            <p>-7</p>
-                            <p>-8</p>
-                            <p>-9</p>
-                        </div>
-                    </div>
+                    <table>
+                        <tr>
+                            <th>Wound State</th>
+                            <th>Penalty</th>
+                        </tr>
+                        <tr>
+                            <td>Light</td>
+                            <td>-0</td>
+                        </tr>
+                        <tr>
+                            <td>Serious</td>
+                            <td>-1</td>
+                        </tr>
+                        <tr>
+                            <td>Critical</td>
+                            <td>-2</td>
+                        </tr>
+                        <tr>
+                            <td>Mortal</td>
+                            <td>-3</td>
+                        </tr>
+                        <tr>
+                            <td>Mortal 1</td>
+                            <td>-4</td>
+                        </tr>
+                        <tr>
+                            <td>Mortal 2</td>
+                            <td>-5</td>
+                        </tr>
+                        <tr>
+                            <td>Mortal 3</td>
+                            <td>-6</td>
+                        </tr>
+                        <tr>
+                            <td>Mortal 4</td>
+                            <td>-7</td>
+                        </tr>
+                        <tr>
+                            <td>Mortal 5</td>
+                            <td>-8</td>
+                        </tr>
+                        <tr>
+                            <td>Mortal 6</td>
+                            <td>-9</td>
+                        </tr>
+                    </table>
                 </div>
 			</div>
 		)
@@ -138,22 +157,12 @@ class FNFFWounds extends Component<{}, FNFFWoundsState> {
 	public render() {
 
 		return (
-			<div className={tabbedpanel.ThreeTabs}>
-				<h1 className={tabbedpanel.Title}>Wounds:</h1>
-				{
-					Object.values(WoundsSections).map((section: WoundsSections) => {
-						return (
-							<span key={section}
-								className={ tabbedpanel.NavLink + " " + (this.isActive(section) ? tabbedpanel.ActiveNav : tabbedpanel.NotActiveNav)} 
-								onClick={() => {this.setSection(section)}}
-							>{section}</span>
-						)
-					}) 
-				}
-				<div className={tabbedpanel.Content}>
-					{this.renderChoice()}
-				</div>
-			</div>
+            <Tabs getContent={this.renderChoice} 
+                isActive={this.isActive} 
+                sections={WoundsSections} 
+                title="Wounds:" 
+                switchContent={this.setSection}
+            />
 		);
 	}
 }
