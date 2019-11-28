@@ -34,7 +34,8 @@ class TraumaTeam extends Component<{}, TTState> {
 
 	public changeSelection = (newSelection: string) => {
 		this.setState({
-			selection: newSelection
+			selection: newSelection,
+			showMobileMenu: false
 		});
 	}
 
@@ -64,7 +65,7 @@ class TraumaTeam extends Component<{}, TTState> {
 	public render() {
 		return (
 			<div>
-				<h1 className="consoleText">Trauma Team International:</h1>
+				<h1 className="consoleText" onClick={this.toggleMobileView}>Trauma Team International:</h1>
 				<div className={styles.TTSplit}>
 					<Sidebar showMobile={this.state.showMobileMenu} 
 						choices={Object.values(Choices)} 

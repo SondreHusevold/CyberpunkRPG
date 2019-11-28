@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import styles from './TraumaTeam.module.css';
 import tabbedpanel from '../StyleModules/TabbedPanel.module.css';
+import Tabs from '../Common/Tabs';
 
 enum HealingSections {
     About = "About",
@@ -133,22 +134,12 @@ class TTHealing extends Component<{}, TTHealingState> {
 	public render() {
 
 		return (
-			<div className={tabbedpanel.FiveTabs}>
-				<h1 className={tabbedpanel.Title}>Healing:</h1>
-				{
-					Object.values(HealingSections).map((section: HealingSections) => {
-						return (
-							<span key={section}
-								className={ tabbedpanel.NavLink + " " + (this.isActive(section) ? tabbedpanel.ActiveNav : tabbedpanel.NotActiveNav)} 
-								onClick={() => {this.setSection(section)}}
-							>{section}</span>
-						)
-					}) 
-				}
-				<div className={tabbedpanel.Content}>
-					{this.renderChoice()}
-				</div>
-			</div>
+            <Tabs getContent={this.renderChoice} 
+                isActive={this.isActive} 
+                sections={HealingSections} 
+                title="Healing:" 
+                switchContent={this.setSection}
+            />
 		);
 	}
 }

@@ -9,6 +9,7 @@ class TTDeath extends Component<{}> {
 			<div className={styles.TTIntroduction}>
 				<div className={styles.TTIntroductionText}>
 					<h1>Death:</h1>
+					<img className={styles.TTDeathMobilePicture + " " + pictureAnimation.PictureMobileOnly} alt="Don't die please." src="/assets/Visuals/TraumaTeamDeath.png"/>
                     <p>Whenever a character’s Wound State drops to MORTAL, he has a pretty good chance of dying. But when?</p>
                     <p>In Cyberpunk, each time you are at a MORTAL wound state, you must make a Death Save to avoid dying.</p>
                     <p>To make the Save, roll a 1D10 value lower than your character’s Body Type, subtracting the level of Mortality from your base chance to save.</p>

@@ -81,3 +81,40 @@
         opacity: 1;
     }
 }
+
+@media screen and (max-width: 1000px) {
+    :local .DrugList {
+        grid-template-columns: 1fr;
+        grid-gap: 10px;
+        padding-top: 0px;
+        padding-bottom: 30px;
+    }
+    
+    :local .WindowedInformation {
+        left: 0;
+        top: 0;
+        width: 95%;
+        height: 100%;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        border: 0px;
+    }
+
+    :local .ModalBackground {
+        display: none;
+    }
+
+    :local .ModalReturn {
+        border: 1px solid red;
+        padding: 10px;
+        background: repeating-linear-gradient(0deg,
+        transparent 0px, 
+        transparent 2px, 
+         red 3px, 
+         red 2px
+       );
+    
+    }
+    
+}

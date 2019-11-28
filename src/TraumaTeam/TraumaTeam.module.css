@@ -24,18 +24,6 @@
     padding: 2%;
 }
 
-@media screen and (max-width: 1050px) {
-
-    :local .TTIntroduction {
-        grid-template-columns: 1fr;
-    }    
-
-    :local .TTIntroductionPicture {
-        display: none;
-    }
-}
-
-
 :local .ExampleBorder {
     padding: 30px;
     border: 1px solid red;
@@ -110,4 +98,44 @@
 :local .SplitIntoTwo div {
     border: 1px solid red;
     padding: 20px;
+}
+
+@media screen and (max-width: 1000px) {
+    :local .TTSplit {
+        grid-template-columns: 1fr;
+        grid-gap: 0em;
+    }
+    
+    :local .TTIntroduction {
+        grid-template-columns: 1fr;
+        grid-gap: 0%;
+    }
+
+    :local .TTIntroductionPicture {
+        display: none;
+    }
+
+    :local .InterlacedVideo video {
+        max-width: 100%;
+        padding: 0px;
+    }    
+
+    :local .TTIntroMobilePicture {
+        object-fit: scale-down;
+        border: 0px;
+    }
+
+    :local .TTDeathMobilePicture {
+        object-fit: cover;
+        object-position: 100% 30%;
+    }
+
+    :local .BodyBankPictureMobile {
+        padding: 2px;
+    }
+
+    :local .DrugsPictureMobile {
+        object-fit: cover;
+        object-position: 100% 70%;
+    }
 }

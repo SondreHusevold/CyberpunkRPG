@@ -9,10 +9,11 @@ class TTBodyBank extends Component<{}> {
 			<div className={styles.TTIntroduction}>
 				<div className={styles.TTIntroductionText}>
 					<h1>The Body Bank:</h1>
+					<img className={styles.BodyBankPictureMobile + " " + pictureAnimation.PictureMobileOnly} alt="Logo of Trauma Team International" src="/assets/Visuals/TraumaTeamAV4.png"/>
 					<p>These are places where you can get the raw materials for putting people back together again. They are a staple of the Cyberpunk landscape, and a good source of steady income for the enterprising street dweller.</p>
                     <p>Just in case it didn’t work out, you can still make a dead comrade pull his weight. The Lifeline Act of 1994 (an extension of the donor cards of the 1980s) allows a potential source of spare parts to carry adonor card in his wallet.</p>
                     <p>This card must be registered with the federal government. Only donor carded bodies can be turned into a donor center, where a bounty is paid. The bounty is based onthe parts involved and the body condition at the time.</p>
-                    <table>
+                    <table className={styles.TTBodyBankTable}>
                         <tr>
                             <th>Part</th>
                             <th>Average bounty</th>
@@ -29,24 +30,24 @@ class TTBodyBank extends Component<{}> {
                             <td>1200</td>
                         </tr>
                         <tr>
-                            <td>Heart/Lung</td>
+                            <td>Heart / Lung</td>
                             <td>700</td>
                             <td>1400</td>
                         </tr>
                         <tr>
-                            <td>Liver/Kidney</td>
+                            <td>Liver / Kidney</td>
                             <td>200</td>
                             <td>400</td>
                         </tr>
                         <tr>
-                            <td>Eyes/Ears</td>
+                            <td>Eyes / Ears</td>
                             <td>800</td>
                             <td>1000</td>
                         </tr>
                         <tr>
                             <td>Other organs</td>
-                            <td>200-300</td>
-                            <td>400-600</td>
+                            <td>200 - 300</td>
+                            <td>400 - 600</td>
                         </tr>
                     </table>
                     <p>The Government doesn’t care who turns the body in. All you need is the card and a legitimate death certificate stating that the deceased died of natural or accidental causes, available through any local coroner. </p>

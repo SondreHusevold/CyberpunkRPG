@@ -100,7 +100,7 @@
 }
 
 
-@media screen and (max-width: 1050px) {
+@media screen and (max-width: 1000px) {
     :local .NightCityCorporations {
         grid-template-columns: 1fr;
         column-gap: 0%;

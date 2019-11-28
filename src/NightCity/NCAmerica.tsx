@@ -9,7 +9,7 @@ class NightCityAmerica extends Component<{}> {
 			<div className={styles.NightCityIntroduction}>
 				<div className={styles.NightCityIntroductionText}>
 					<h1>America in 2020:</h1>
-					<img className={styles.FirstSessionPictureMobile + " " + pictureAnimation.PictureMobileOnly} src="assets/Visuals/MapOfUS.png"/>
+					<img className={styles.FirstSessionPictureMobile + " " + pictureAnimation.PictureMobileOnly} alt="Map of the United States." src="assets/Visuals/MapOfUS.png"/>
 					<p>If you listen to the Euro-trash, the United States is a seething hellhole of drug addicts, psychopathic killers and wandering homeless packs armed to the teeth.</p>
 					<p>If you listen to the corporate-controlled media, it's a place of "new challenges and exciting beginnings.</p>
 					<p>If you listen to the punk on the Street, it's neither one, but a mix of both.</p>
