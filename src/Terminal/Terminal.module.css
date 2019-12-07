@@ -2,6 +2,11 @@
 	border: 0px;
 }
 
+:local button {
+	border: 0px;
+}
+
+
 :local .Terminal {
 	display: flex;
 	margin-left: 15%;
