@@ -87,7 +87,7 @@ class Bootloader extends Component<{}, IBootloaderState> {
 
 
 	public render() {
-		if(!this.development) {
+		if(this.development) {
 			return this.renderRealSite();
 		}
 
