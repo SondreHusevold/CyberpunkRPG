@@ -1,0 +1,106 @@
+{
+    "fumbleTable": [
+        {
+            "title": "Reflex (Combat)",
+            "usage": "Weapon firing, hitting opponents.",
+            "fumbles": [
+                {
+                    "range": "1-4",
+                    "result": "No fumble. You just screw up."
+                },
+                {
+                    "range": "5",
+                    "result": "You drop your weapon."
+                },
+                {
+                    "range": "6",
+                    "result": "Weapon discharges (make reliability roll for non-autoweap.) or strikes something harmless."
+                },
+                {
+                    "range": "7",
+                    "result": "Weapon jams (make reliability roll for non-autoweap.) or imbeds itself in the ground for one turn."
+                },
+                {
+                    "range": "8",
+                    "result": "You manage to wound yourself. Roll for location."
+                },
+                {
+                    "range": "9-10",
+                    "result": "You manage to wound a member of your own party."
+                }
+            ]
+        },
+        {
+            "title": "Reflex (Athletics)",
+            "usage": "Jumping, running, dodging.",
+            "fumbles": [
+                {
+                    "range": "1-4",
+                    "result": "No fumble. You just mess up and make an idiot of yourself."
+                },
+                {
+                    "range": "5-7",
+                    "result": "You fail miserably. Take 1 point in minor damage (sprain, fall, stumble), plus make a Save vs. Stun."
+                },
+                {
+                    "range": "8-10",
+                    "result": "You fail abysmally. If a physical action, take 1D6 in damage from falling or strained muscles. Also make a roll vs Stun at -1."
+                }
+            ]
+        },
+        {
+            "title": "Tech",
+            "usage": "Repairing or creating tech.",
+            "fumbles": [
+                {
+                    "range": "1-4",
+                    "result": "No fumble. You just can't get it together."
+                },
+                {
+                    "range": "5-7",
+                    "result": "You not only fail, you make it worse! You drop the tools you're working with, or you lose your grip and damage the thing you're working on with even more. Raise the Difficulty by 5 points and try again."
+                },
+                {
+                    "range": "8-10",
+                    "result": "Wow, did you ever blow it! You damaged the device or creation beyond repair. Buy a new one."
+                }
+            ]
+        },
+        {
+            "title": "Empathy",
+            "usage": "Convincing, fast talking, seducing.",
+            "fumbles": [
+                {
+                    "range": "1-4",
+                    "result": "No fumble. They just won't buy it."
+                },
+                {
+                    "range": "5-6",
+                    "result": "So much for your people skills. You not only don't convince them; you leave them totally cold (-4 to your next EMP die roll) to any other suggestion you might have."
+                },
+                {
+                    "range": "7-10",
+                    "result": "Yow! You blew it royally. You not only didn't convience them, but now they're actually, violently, opposed to anything you want to do. Roll 1D10. On a 1-4, they actually attempt to do you physical harm!"
+                }
+            ]
+        },
+        {
+            "title": "Intelligence",
+            "usage": "Figure out something, noticing something, catching a clue.",
+            "fumbles": [
+                {
+                    "range": "1-4",
+                    "result": "No fumble. You just don't know how to do it. You don't know what's going on. You carry on, oblivious to higher concerns."
+                },
+                {
+                    "range": "5-7",
+                    "result": "You don't know anything about what's going on, and you haven't a clue about how to do anything about it. Make a Convince check at -2 to see if anyone else notices how dumb you are."
+                },
+                {
+                    "range": "8-10",
+                    "result": "Wow, are you oblivious. You not only don't know what's going on or anything about the subject, but everyone knows how ignorant you are."
+                }
+            ]
+        }
+    ]
+}

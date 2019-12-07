@@ -1,0 +1,67 @@
+{
+    "drugs": [
+        {
+            "name": "Synth Coke",
+            "strength": "+1",
+            "difficulty": "20",
+            "duration": " 1D6+1 minutes ",
+            "description": "The second generation, synthetic replacement for cocaine. Like the original, its side effects are nasty: paranoia, psychological addiction."
+        },
+        {
+            "name": "Stim",
+            "strength": "+3",
+            "difficulty": "10",
+            "duration": " 1D6+1 minutes ",
+            "description": "Stim increases endurance, allowing the user to stay alertfor longer periods.\nSide effects include mental delusions."
+        },
+        {
+            "name": "Syncomp 15",
+            "strength": "+3",
+            "difficulty": "13",
+            "duration": " 1D6+1 minutes ",
+            "description": "Syncomp is a broad spectrum poison antidote, used to treat nerve and biotoxins.\nREF is reduced at the rate of 1 point per dose."
+        },
+        {
+            "name": "Speedheal",
+            "strength": "+2",
+            "difficulty": "33",
+            "duration": "1D6+1 hours ",
+            "description": "Speedheal (described under healing), is designed to enhance the natural healing processes.\nSide effects are reduced REF by 1D6/3 for a period of 1 week after use."
+        },
+        {
+            "name": "Boost",
+            "strength": "+4",
+            "difficulty": "12",
+            "duration": "1D6+1 hours ",
+            "description": "Boost increases INT by +1 for a 2-7 hour period.\nA Boost addict has gained full tolerance—his INT is no longer increased, and he must have more Boost within twelve hours or be reduced to screaming fits and hallucinations."
+        },
+        {
+            "name": "Blue Glass",
+            "strength": "+1",
+            "difficulty": " 18",
+            "duration": " 1D6+1 minutes ",
+            "description": "Blue Glass was originally developed as a biological weapon.\nUnder stress, you will have a 3 in 10 chance of 'flashing out'—reduced to staring blankly at the pretty colors in your mind (reduce INT by 1 per dose). Roll 1D10 and hope."
+        },
+        {
+            "name": "Smash",
+            "strength": "+1",
+            "difficulty": " 2",
+            "duration": " 1D6+1 minutes ",
+            "description": "Smash is 2020's answer to alcohol—it's yellow, foamy, and comes in cans. It makes you loose, happy and ready to party.\nThe downside is that when it wears off, its psychological addiction component makes you suicidal.\n If you fail your addiction Save, you sink into total catatonia; a feebly mumbling ball of pain—a ripe target for some Booster looking for spare change."
+        },
+        {
+            "name": "'Dorph",
+            "strength": "+2",
+            "difficulty": " 5",
+            "duration": " 1D6+1 turns ",
+            "description": "Designed as a combat drug and painkiller, endorphins reduce pain and stress effects.\n'Dorph thus allows you to reduce the effects of stun or shock.\nDorph also has a nasty cost in nervous system damage.\nEach time you use 'dorph, roll an additional 1D10. On a 1, you have lost 1 point of REF.\nPermanently."
+        },
+        {
+            "name": "Black Lace",
+            "strength": "+3",
+            "difficulty": " 13",
+            "duration": " 1D6+1 hours ",
+            "description": "A high powered version of 'Dorph which imparts euphoria, adrenal rush, and invulnerability to pain.\nYour CL is raised by 2, and you are resistant to stun or shock effects.\nLace is deadly. Lace users become fearless, cold-blooded killing machines—exactly what its military designers were looking for.\nIf you fail your addiction save (1D10 roll higher than Body Type) roll an additional 1D6 and subtract the result from your EMP stat.\nTreat the result as if suffering from cyberpsychosis. If you go over the line, too bad. Roll up another character."
+        }
+    ]
+}

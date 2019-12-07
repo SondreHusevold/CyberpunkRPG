@@ -74,7 +74,7 @@
 									"folders": {},
 									"permission": true,
 									"result": "[BINARY FILE]",
-									"execute": "Caribbean.exe is already running. Close Caribbean.exe before executing."
+									"execute": "Sorcery.exe is already running. Close Sorcery.exe before executing."
 								}
 
 							},
@@ -273,7 +273,44 @@
 									"folders": {},
 									"permission": true,
 									"result": "[BINARY FILE]",
-									"execute": "Caribbean.exe is already running. Close Caribbean.exe before executing."
+									"execute": "Sorcery.exe is already running. Close Sorcery.exe before executing."
+								}
+							},
+							"permission": true,
+							"result": ""
+						},
+						"Mage": {
+							"name": "Mage",
+							"file": false,
+							"folders": {
+								"Assets.pkg": {
+									"name": "Assets.pkg",
+									"file": true,
+									"folders": {},
+									"permission": true,
+									"result": "[BINARY FILE]"
+								},
+								"CORE.dll": {
+									"name": "CORE.dll",
+									"file": true,
+									"folders": {},
+									"permission": true,
+									"result": "[BINARY FILE]"
+								},
+								"DX18.dll": {
+									"name": "DX18.dll",
+									"file": true,
+									"folders": {},
+									"permission": true,
+									"result": "[BINARY FILE]"
+								},
+								"Knights2.exe": {
+									"name": "Sorcery.exe",
+									"file": true,
+									"folders": {},
+									"permission": true,
+									"result": "[BINARY FILE]",
+									"execute": "Sorcery.exe is already running."
 								}
 							},
 							"permission": true,
@@ -325,7 +362,7 @@
 									"folders": {},
 									"permission": true,
 									"result": "[CORRUPTED EXECUTABLE]",
-									"execute": "CAriddiE0n.Ex€ is aĦreºdy runŒiÐ§. CLos€ c/\riBb£an.Ex€ befº™e exeC↑tin§Ð."
+									"execute": "SoR©erIE.Ex€ is aĦreºdy runŒiÐ§. CLos€ s0®c€Ry.Ex€ befº™e exeC↑tin§Ð."
 								}
 							},
 							"permission": true,

@@ -1,0 +1,36 @@
+{
+    "codes": [
+        {
+            "name": "Negligible",
+            "required": "Mall clinic or other drop-in bodyshop. ",
+            "time": "1hr",
+            "damage": "1 point",
+            "cost": "Included with installation.",
+            "difficulty": "Easy (10)"
+        },
+        {
+            "name": "Minor",
+            "required": "Medical center or ripperdoc clinic. ",
+            "time": "2 hrs",
+            "damage": "1D6+1",
+            "cost": "500eb",
+            "difficulty": "Simple (15)"
+        },
+        {
+            "name": "Major",
+            "required": "Full hospital with surgery center. ",
+            "time": "4 hrs",
+            "damage": "2D6+1",
+            "cost": "1,500eb",
+            "difficulty": "Trained (20)"
+        },
+        {
+            "name": "Critical",
+            "required": "Full hospital with surgery center.",
+            "time": "6 hrs",
+            "damage": "3D6+1",
+            "cost": "2,500eb",
+            "difficulty": "Difficult (25)"
+        }
+    ]
+}

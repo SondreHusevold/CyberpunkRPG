@@ -1,0 +1,355 @@
+{
+    "list": [
+        {
+            "category": "Attractiveness",
+            "skills": [
+                {
+                    "name": "Personal Grooming",
+                    "description": "This is the skill of knowing proper grooming, hair styling, etc., to maximize your physical attractiveness. Use of this skill allows players to increase their Attractiveness, and thus their chances of successful Relationships or Persuasions.\nA basically good looking person would be at +2.\nA fashion model might have a Personal Grooming of +5 or +6.\nAt +8 or better, you could be a major fashion model, film star, or trendsetter. You are always “together”. And you know it."
+                },
+                {
+                    "name": "Wardrobe & Style",
+                    "description": "The skill of knowing the right clothes to wear, when to wear them, and how to look cool even in a spacesuit.\nWith a Wardrobe of +2 or better, you are good at choosing clothes off the rack.\nAt +6, your friends ask you for wardrobe tips, and you never buy anything off the rack.\nAt +8 or better, you are one of those rare people whose personal style influences major fashion trends."
+                }
+            ]
+        },
+        {
+            "category": "Body Type",
+            "skills": [
+                {
+                    "name": "Endurance",
+                    "description": "This is the ability to withstand pain or hardship, particularly over long periods of time, by knowing the best ways to conserve strength and energy.\nEndurance Skill checks would be made whenever a character must continue to be active after along period without food, sleep or water."
+                },
+                {
+                    "name": "Strength Feat",
+                    "description": "The user of this skill has practiced the art of bending bars, crushing objects, ripping phone books apart and other useful parlor tricks.\nAt +2 you can crush cans, rip thin books in half, and bend thin rods.\nAt +8, no phonebook is safe, you can bend thin rebar, and snap handcuffs.\nAt +10, you can bend prison bars, rip up the Gutenberg Bible, and dent car fenders with one blow."
+                },
+                {
+                    "name": "Swimming",
+                    "description": "This skill is required to know how to swim (see Athletics)."
+                }
+            ]
+        },
+        {
+            "category": "Cool/Willpower",
+            "skills": [
+                {
+                    "name": "Interrogation",
+                    "description": "The skill of drawing information from a subject and forcing his secrets into the open.\nAn Interrogation of +2 or better will allow you to infallibly find out if your boyfriend is lying to you.\nAt +5, you are a professional level interrogator—equivalent to a skilled detective grilling a suspect.\nMike Wallace of 60 Minutes has an Interrogation of +9, allowing him to make even the most powerful people squirm."
+                },
+                {
+                    "name": "Intimidate",
+                    "description": "The skill of getting people to do what you want by force of personality or physical coercion.\nAt +3, you can frighten almost any typical citizen, politician or low-level thug.\nAt +6, you can intimidate Sylvester Stallone or any moderate “tough guy”.\nAt +9, you could intimidate Arnold Schwartzenegger."
+                },
+                {
+                    "name": "Oratory",
+                    "description": "The skill of public speaking.\nAt +2, you can wing high school speech contests.\nAt +6, you can be paid to speak in public.\nAt +10, you are capable of delivering a speech to rival Kennedy's “Ich Bin Ein Berliner” or Linculn’s Gettysburg Address.\nRockers with an Oratory Skill of +6 or better can add +1 when using their Charismatic Leadership ability."
+                },
+                {
+                    "name": "Resist Torture/Drugs",
+                    "description": "Characters with this skill are especially thoughened against interrigation, torture and mind control drugs.\nA successful use of this skill will automatically increase the difficulty of any interrogation attempt made by another party by one level."
+                },
+                {
+                    "name": "Streetwise",
+                    "description": "The knowiedge of the “seamy” side of life—where to get illegal and contraband things, how to talk to the criminal element, and avoiding bad situations in bad neighborhoods.\nWith a Streetwise of +2 or better, you can get “hot” items, score drugs, etc.\nA Streetwise of +5 would allow you to arrange a murder contract, know a few mobsters who might owe you favors, and be able to call on muscle when you need it.\nAt +8 or better, you could become a major crimelord yourself and skip the middlemen."
+                }
+            ]
+        },
+        {
+            "category": "Empathy",
+            "skills": [
+                {
+                    "name": "Human Perception",
+                    "description": "The skill of detecting lies, evasions, moods and other emotional clues from others.\nAt +2, you can usually tell when you’re not getting the whole truth.\nAt +6, you can detect subtle evasions and mood swings.\nAt +8, you can not only detect subtle emotional clues, but can usually tell what the subject is hiding in a general way."
+                },
+                {
+                    "name": "Interview",
+                    "description": "The skill of eliciting interesting annecdotes from an interview subject. This information will be of a more nonspecific and personal nature rather than specific knowledge (distinguishing this skill from the skill of Interrogation, where the user is trying to extract exact information. Example: Barbara Walters interviews, Mike Wallace interrogates).\nAt +3 or better, the subject will usually tell you only information relating to what he/she is well known for.\nAt +6 or better, the subject will tell you anecdotes about the past, pontificate about favorite interests and philosophies, etc.\nAt +9 or better, he/she tells you everything—including personal information about their illegitimate son, the time they stole a cookie at age 4, and the fact that no one ever loved them."
+                },
+                {
+                    "name": "Leadership",
+                    "description": "The skill of leading and convincing people to follow you.\nA leader with a skill of +2 can manage a small office successfully and be respected for it.\nA leader with a skill of +4 or better can lead a small band of troops into battle and not get backshot.\nA leader with a skill of +7 or better can lead the entire Gamelon Empire into battle and look good doing it.\nJames Kirk of Star Trek has a Leadership of +11, but you never will."
+                },
+                {
+                    "name": "Seduction",
+                    "description": "The skill of forming and maintaining romantic relationships (this includes your abilities as a lover). This skill may be used to determine whether or not players can form relationships with other non-player characters and the intensity of these relationships.\nIn certain cases, Referees may want to average this skill with a player’s Attractiveness to get a more realistic outcome."
+                },
+                {
+                    "name": "Social",
+                    "description": "The ability to deal with social situations, like knowing the right fork to use or when not to tell the joke about the farmer’s daughter and the travelling cyberware salesman.\nA Social Skill of +2 or better will allow you to get by at any fine restaurant or social function.\nAt +5, you can lunch with the President with aplomb. No social situation will faze you, no matter what.\nAt +8 or above, you can lecture Emily Post on what's proper."
+                },
+                {
+                    "name": "Persuasion & Fast Talk",
+                    "description": "The ability to talk others into doing what you want. This may be used individually or on large groups.\nAt +3, you can win most debates or convince your girlfriend that the blonde you were with was your sister.\nAt +5, you are a smooth talker of professional caliber.\nRonald Reagan hasa Persuasion of +7.\nHitler had a Persuasion of +9."
+                },
+                {
+                    "name": "Perform",
+                    "description": "The skill of trained acting, singing, etc.\nA trained performer of +4 or greater can successfully sing for payment at weddings or small clubs.\nPerformers +6 or greater will be considered to be of professional caliber, and may have lucrative contracts and fans.\nPerformers of +9 or greater are of “star” caliber, have a large number of fans, and may be recognized on the street."
+                }
+            ]
+        },
+        {
+            "category": "Intelligence",
+            "skills": [
+                {
+                    "name": "Accounting",
+                    "description": "The ability to balance books (or create false books), juggle numbers, create budgets and handle day to day business operations."
+                },
+                {
+                    "name": "Anthropology",
+                    "description": "The knowledge of human cultures, habits and customs. Unlike Streetwise (which covers only the cultures and customs of the Street), or Social (which covers only what you should do in a given situation), Anthropology covers general customs and background of a culture.\nFor example, with Streetwise, you know what alleys to avoid and what gangs are dangerous.\nWith Social, you know the proper forms of address for a high ranking Japanese zaibatsu head.\nWith Anthropology, you know that the customs of a N'Tanga tribesman require that a young man kill a lion in order to be accepted as an adult male."
+                },
+                {
+                    "name": "Awareness/Notice",
+                    "description": "This is the equivalent of a “trained observer” skill, allowing characters to notice or be aware of clues, shadowers and other events.\nWith an Awareness of +2 you will usually spot small pieces of paper with notes on them, doors left ajar, and obvious expressions of lying or dislike.\nAn Awareness of +5 or better allows you to spot fairly well hidden clues, notice small changes in expression, and fairly sophisticated attempts to “shadow” you.\nWith an Awareness of +8 or greater, you routinely perform the sorts of deductive reasoning seen in the average TV cop show (“The murderer was left handed because this knife has a specialized handle”).\nSherlock Holmes has a +10 Awareness.\nPlayers without this skill may only use their Intelligence Stat."
+                },
+                {
+                    "name": "Biology",
+                    "description": "General knowledge of animals, plants, and other biological systems.\nAt level +3, you know most types of common animals, plants.\nAt +6, you have a general understanding of genetics, cellular biology, etc.\nAt +10, you can perform most bio-lab procedures, including gene mapping and splicing."
+                },
+                {
+                    "name": "Botany",
+                    "description": "The general knowledge of plants and plant identification.\nAt level +3, you know most common plants and can identify which ones are dangerous and why.\nAt a +6, you can identify most important plants found worldwide and have a working knowledge of their uses.\nAt +8, you have the equivalent of a doctorate in Botany and know all about rare poisons, exotic orchids and other useful plants."
+                },
+                {
+                    "name": "Chemistry",
+                    "description": "The required skill for mixing chemicals and creating various compounds.\nA level +2 Chemistry is equal to high school chemistry. A level +4 is equal to a trained pharmacist or college level chemist.\nA +8 is a trained laboratory chemist."
+                },
+                {
+                    "name": "Composition",
+                    "description": "The required skill for writing songs, articles, or stories.\nA Composing Skill of +4 or greater gives your character the ability to produce salable work.\nA Skill of +8 or more produces work of such a high caliber that the creator may have a strong literary following and not a little critical acclaim."
+                },
+                {
+                    "name": "Diagnose Illness",
+                    "description": "The skill of clinically diagnosing symptoms and medical problems.\nA +3 is the equivalent of a high school nurse—you can recognize most common injuries and complaints.\nAt +6, you would be equivalent to a trained intern; you can recognize many uncommon illnesses and know how to treat most common ones.\nA+9 is the equivalent of a skilled diagnostician; other physicians come to you to get a diagnosis."
+                },
+                {
+                    "name": "Education & General Knowledge",
+                    "description": "This skill is the equivalent of a basic public school education, allowing you to know how to read, write, use basic math, and know enough history to get by. In effect, itis a “lore” or trivia skill.\nA level of +1is a basic grade school education.\nA skill of +2 is equal to a high school equivalency.\nA Knowledge Skill of +3 is equal to a college education, +4 or higher is equal to a Masters or Doctorate.\nAt +7, you are an extremely well educated person, and are asked to play Trivial Pursuit a lot.\nAt +9 and above, you are one of those people who knows a lot about everything (and hopefully has the good sense to keep his mouth shut)."
+                },
+                {
+                    "name": "Expert",
+                    "description": "You may use this skill to be an expert on one specific subject, such as rare postage stamps, obscure weapons, a foreign language, etc.\nAt +3, you are the local expert.\nAt +6, you know enough to publish a few books on the subject.\nAt +8 or better, your books are recognized as major texts on the subject, and you could do the talk-show circuit if you wanted to."
+                },
+                {
+                    "name": "Gamble",
+                    "description": "The skill of knowing how to make bets, figure odds, and play games of chance successfully. As any professional gambler knows, this is not a luck skill.\nAt +2, you are the local card shark at the Saturday night poker game.\nAt +6, you can make a living at the tables in Vegas and Monte Carlo.\nAt +9 or better, you can take on James Bond at roulette and stand a good chance of breaking the bank."
+                },
+                {
+                    "name": "Geology",
+                    "description": "A functional knowledge of rocks, minerals and geologic structures.\nAt +3, you can identify most common rocks and minerals.\nAt +6, you have the equivalent of a college degree in Geology and can identify minerals and geological structures with ease.\nAt +8, you can teach geology in high school."
+                },
+                {
+                    "name": "Hide/Evade",
+                    "description": "The skill of losing pursuers, covering tracks and otherwise evading people on your trail.\nAt +3, you can lose most booster gangers on the rampage.\nAt +6, you can ditch cops and private eyes.\nAt +8, you can ditch most Solos."
+                },
+                {
+                    "name": "History",
+                    "description": "The knowledge of facts and figures of past events. In game play, this might be used to determine if a character is familiar with a particular clue related to a past event.\nAt +2, you have the equivalent of a grade school history education.\nAt +6, you would have the equivalent of a college grasp on the subject.\nAt +8, you could teach history in high school.\nAt +9, you may have written a few of the most oftused texts on a particular historical personage or epoch."
+                },
+                {
+                    "name": "Know Language",
+                    "description": "The knowledge of a foreign tongue.\nAt +2, you can “get by” with speaking the language.\nAt +3, you can actually read a written form of it.\nAt +6 and above, you are fairly fluent, although no native will be fooled by your ability.\nAt +8 and above, you speak and read the language like a native.\nEach language known requires a separate Know Language Skill, however, one may use the knowledge of a particular Language with up to 1/2 (round down) proficiency with any language in the same linguistic family (example: knowing Cantonese at +4 will give you the ability to understand and speak Mandarin at +2)."
+                },
+                {
+                    "name": "Library Search",
+                    "description": "The skill of using databases, DataTerms™, libraries and other compiled information sources to find facts.\nWith a skill of +2 you can use most simple databases.\nWith a skill of +6, you can easily access the Library Congress.\nAt +9, you can comprehend almost any public database and find very obscure facts."
+                },
+                {
+                    "name": "Mathematics",
+                    "description": "The skill of understanding calculations and mathematical formulas.\nAt +3, you have the ability to add, subtract, divide and multiply.\nAt +4, you can do algebra and geometry.\nAt +6, you can perform calculus.\nAt +9 you can deduce your own mathematical formulas."
+                },
+                {
+                    "name": "Physics",
+                    "description": "The ability to calculate physical principles, such as gas pressures, mechanical energies, etc. This skill requires a basic Mathematics Skill of +4."
+                },
+                {
+                    "name": "Programming",
+                    "description": "The required skill to write programs and to re-program computer systems. This skill does not allow players to actually do repairs on a computer (this requires Electronics).\nWith a Programming Skill of +1, you can do simple EBASIC programs.\nA Programming Skil of +3 or better allows you to know some higher level languages and be able to write reasonably complex programs (including video games).\nPlayers with a Programming Skill +6 or better are considered to be professionals, who can build operating software, design mainframe systems, and hold down a steady job at your average Silicon Valley firm.\nWith a Programming Skill of +9 or better, other programmers speak your name with reverence ('You invented Q? Wow!'), young hackers set out to crack your systems, and any computer software you design instantly gets used by every business application in the world."
+                },
+                {
+                    "name": "Shadow/Track",
+                    "description": "The skill of shadowing and following people. This skill is primarily used in urban or inhabited areas rather than in wilderness (where the skill of Survival incorporates tracking game in the wilds)."
+                },
+                {
+                    "name": "Stock Market",
+                    "description": "The ability to play the stock market, engage in routine stock transactions and manipulate stocks profitably.\nAt +2, you know enough to invest in junk bonds and lose your shirt.\nAt +6, your investments pay off 75% of the time.\nAt +9, you are a major heavy on the Market, routinely dabble in international stocks, and can write learned articles on the subject of investment."
+                },
+                {
+                    "name": "System Knowledge",
+                    "description": "Basic knowledge of the geography of the Net, it’s lore and history, as well as knowledge of the important computer systems, their strengths and their weaknesses.\nAt +2, you can generally navigate around the Net and know where all the local places are.\nAt +6, you know the locations of most places in the Net, and have a working understanding of its largest and most well known systems.\nAt +9, you know the entire Net like the back of your hand, know the general layouts of the important systems cold, and are aware of the layouts for the rest of them."
+                },
+                {
+                    "name": "Teaching",
+                    "description": "The skill of imparting knowledge to someone else (if you don’t think this is a skill, you ought to try it sometime). Players may not teach any skill unless they have a higher skill level than the student. The referee is the final arbiter of how long it takes to teach a skill.\nAt a Teaching Skill of +3 or better, you can professionally teach students up to High School.\nAt +6, you know enough to be a college professor (if you wanted ).\nAt +9 or greater, you are recognized by others in the field as good enough to guest lecture at MIT or Cal Tech; your texts on the subject are quoted as the major references, and you might have a TV show on the equivalent of the PBS channel."
+                },
+                {
+                    "name": "Wilderness Survival",
+                    "description": "The required skill for knowing how to survive in the wilds. Knowledge includes how to set traps, forage forwood, track game, build shelters, make fires.\nThe average Boy Scout has a Survival of +3.\nA Special Forces Green Beret has a Survival of +6 or above.\nGrizzly Adams, Mountain Man of the Wilderness, would have a +9 or +10 Survival Skill."
+                },
+                {
+                    "name": "Zoology",
+                    "description": "Knowledge of lifeforms, biological processes and their relation to the environment.\nAt +2, you know most common animals.\nAt +5, you know not only well known animals, but also about many exotics and endangered species.\nAt +8, you are knowledgable on almost all animals, know their habitswell, and have a +1 advantage to any Wilderness Survival Skills (you know where to find the game)."
+                }
+            ]
+        },
+        {
+            "category": "Reflex",
+            "skills": [
+                {
+                    "name": "Archery",
+                    "description": "The skill required to use bows, crossbows and other arrow-based ranged weapons. See Handgun for details."
+                },
+                {
+                    "name": "Athletics",
+                    "description": "This skill is required for accurate throwing, climbing, and balancing. It combines the basic elements of any high school level sports program.\nAt +3 and above, you are the equivalent of a real high school 'jock'.\nAt +5 and above, you can perform in college level competitions.\nAt +8 and above, you are of Olympic or Professional caliber."
+                },
+                {
+                    "name": "Brawling",
+                    "description": "The skill of fighting man to man with fist, feet and other parts of the body. Brawling is not a trained skill— it is learned on the Street by getting into a lot of fights. Unlike Martial Arts, there are no specialized attacks and no damage bonuses based on level of mastery."
+                },
+                {
+                    "name": "Dance",
+                    "description": "The specific skill needed to become a professional dancer.\nA trained dancer +4 or greater can successfully dance for payment in small clubs or dance troupes.\nDancers +6 or greater will be considered to be of professional caliber, and regularly give performances and have fans.\nDancers +9 or greater are of “star” caliber, have a large number of fans, and may be recognized on the street."
+                },
+                {
+                    "name": "Dodge & Escape",
+                    "description": "This skill is required to dodge attacks and escape grapples and holds. If an attack is made without your knowledge, you may not apply this skill to your Defense roll."
+                },
+                {
+                    "name": "Driving",
+                    "description": "This skill allows you to pilot all ground vehicles like cars, trucks, tanks and hovercraft. This skill is not useable for piloting aircraft.\nA skill of +3 is equal to that of a very good non-professional driver.\nA skill of +6 allows you to drive with the skill of a moderately skilled race driver.\nAn driver with a skill of +8 or greater will be nationally known as a racer, regularly win championship races, and possibly have access to the most advanced ground vehicles available (as long as he makes an endorsement)."
+                },
+                {
+                    "name": "Fencing",
+                    "description": "The mastery of swords, rapiers and monoblades.\nA fencing Skill of +3 allows you to be competent with a blade.\nA Skill of +5 makes you fairly skilled.\nA Fencing Skill of +6 might win you the National Fencing Competitions.\nA Skill of +8 will get you a reputation for being a true swordsman of duellist caliber.\nPeople like D'Artagnan or Miyamoto Musashi have Skills of +10. They are legendary masters of the blade; the mention of whom will cause all but the stupidest young bravo to run for cover."
+                },
+                {
+                    "name": "Handgun",
+                    "description": "You must have this skill to effectively use handguns of any type, including cyberwear types.\nAt +2, you can use a handgun effectively on a target range, though combat will still rattle you.\nAt +5, you are as skilled as most military officers or policemen.\nAt +7, you can do the sort of fancy shooting you see on TV, and have begun to get a reputation of being “good with a gun”.\nAt +8, you are a recognized gunslinger with a “rep”. The very sound of your name makes some people back down in fear.\nAt +10, you are a legendary gunslinger, feared by all except the stupid young punks who keep trying to “take” you in innumerable gunfight challenges."
+                },
+                {
+                    "name": "Heavy Weapons",
+                    "description": "The required skill for using grenade launchers, autocannon, mortars, heavy machine guns, missiles and rocket launchers.\nA Level +5 skill would be equivalent to a general military 'Heavy Weapons' training course, giving the user the ability to use any or all of these weapon types."
+                },
+                {
+                    "name": "Martial Arts",
+                    "description": "Martial Arts are extremely advanced and has it's own section."
+                },
+                {
+                    "name": "Melee",
+                    "description": "The ability to use knives, axes, clubs and other hand to hand weapons in combat. Note: when using non-ranged cyberweapons such as rippers, scratchers, slicen’dices, cyberbeasts, and battlegloves, you must use this skill."
+                },
+                {
+                    "name": "Motorcycle",
+                    "description": "The required skill to operate motorcycles, cyberbikes and other two and three-wheeled vehicles."
+                },
+                {
+                    "name": "Operate Heavy Machinery",
+                    "description": "The required skill to operate tractors, tanks, very large trucks and construction equipment."
+                },
+                {
+                    "name": "Piloting",
+                    "description": "In general, this is the skill of controlling aircraft. Aircraft are broken into  categories: Gyro and Rotorcraft, Fixed Wing Aircraft, Dirigibles and Vectored Thrust Aerodynes (AV-s).\nA Piloting Skill of +1 allows you to take off and land safely in good weather conditions.\nA Piloting Skill of +3 or more makes you a trained pilot, able to engage in most combat situations or bad weather.\nPilots with a Skill of +6 or greater are veteran pilots, able to handle themselves in almost any situation, including aerobatic manuevers.\nPilots with a Skill of +9 or greater are so good, they have a rep as pilots, and are widely known among the piloting fraternity for having the “right stuff”.**Pilot Gyro (3): The ability to pilot all types of rotorwing aircraft, including gyros, copters and Ospreys.**Pilot Fixed Wing(2): The ability to pilot fixed wing jets and light aircraft. Ospreys may be flown with this skill, but only in the straight ahead (non-hover) mode.**Pilot Dirigible (2): The ability to pilot all lighter than air vehicles, including cargo dirigibles, blimps and powered balloons.**Pilot Vectored Thrust Vehicle (3): The skill of piloting all types of vectored thrust vehicles, including hovercars, hover rafts and AV-4, 6 and 7 vehicles."
+                },
+                {
+                    "name": "Rifle",
+                    "description": "You must have this skill to use rifles/shotguns effectively (see Handguns for limitations and modifiers)."
+                },
+                {
+                    "name": "Stealth",
+                    "description": "The skill of hiding in shadows, moving silently, evading guards, etc.\nA Stealth Skill of +1 is about the level of avery sneaky 10 year old stealing cookies.\nAt +3, you are able to get past most guards, or your parents if you’ve been grounded.\nAt +6, you are good enough to slip smoothly from shadow to shadow and not make any noise.\nAt +8, you are the equal of most Ninja warriors.\nAt +10, you move as silently as a shadow, making the Ninja sound like elephants."
+                },
+                {
+                    "name": "Submachinegun",
+                    "description": "You must have this skill to use any type of submachine gun effectively (see Handguns for limitations and modifiers)."
+                }
+            ]
+        },
+        {
+            "category": "Technical",
+            "skills": [
+                {
+                    "name": "Aero Tech",
+                    "description": "The required skill for repairing fixed wing aircraft, including Ospreys, jets, and light aircraft.\nWith a Skill of +3, you can perform most routine maintenance tasks.\nWith a Skill of +6, you can do engine teardowns and major structural repairs.\nWith a Skill of +9 or better, you are capable of designing and building your own aircraft."
+                },
+                {
+                    "name": "AV Tech",
+                    "description": "The required skill for repairing all ducted fan aerodyne vehicles.\nAt +3, you can perform routine maintenance.\nAt +6, you can tear down engines and modify an AV.\nAt +10, you can design your own AVs on common airframes."
+                },
+                {
+                    "name": "Basic Tech",
+                    "description": "The required skills for building or repairing simple mechanical and electrical devices, such as car engines, television sets, etc.\nWith a Basic Tech Skill of +3 or better, you can fix minor car problems, repair basic wiring, etc.\nA Basic Tech Skill of +6 or better can repair stereos and TVs, rebuild an engine, etc.\nA Basic Tech Skill of +9 or better can build a simple computer from scratch, put together a race car engine, and maintain any kind of industrial machinery. However, they do not know enough specialized knowledge to apply it to complex things such as aircraft (justlike Mr. Goodwrench doesn’t know how to build and service an F-16)."
+                },
+                {
+                    "name": "Cryotank Operation",
+                    "description": "The required skill for operating, repairing and maintaining life suspension and body chilling devices.\nA minimum skill of +4 is required to chill down a healthy person.\nA minumum skill of +6 for chilling a wounded person."
+                },
+                {
+                    "name": "Cyberdeck Design",
+                    "description": "The required skill for designing cyberdecks.\nAt level +4, you can modify an existing cyberdeck for greater speed or memory.\nAt level +6, you can design a deck equal to most existing designs.\nAt +8, you can design decks that are substantially improved over existing designs."
+                },
+                {
+                    "name": "CyberTech",
+                    "description": "The required skill for repairing and maintaining cyberwear.\nAt level +2, you can keep your cyberwear tuned up and can replace its power batteries.\nAt level +6, you can strip down most cyberwear and even make simple modifications.\nAt level +8, you can design your own cyberwear to order."
+                },
+                {
+                    "name": "Demolitions",
+                    "description": "This skill allows the character to be knowledgeable in the use of explosives, as well as knowing the best explosives to use for which jobs, how to set timers and detonators, and how much explosive to use to accomplish a desired result."
+                },
+                {
+                    "name": "Disguise",
+                    "description": "The skill of disguising your character to resemble someone else, whether real or fictitious. This skill incorporates elements of both makeup and acting, although it is not the same as the ability to actually be an actor."
+                },
+                {
+                    "name": "Electronics",
+                    "description": "The required skill for maintaining, repairing and modifying electronic instruments such as computers, personal electronics hardware, electronic security systems, cameras and monitors."
+                },
+                {
+                    "name": "Electronic Security",
+                    "description": "The skill of installing or countering electronic eyes, electronic locks, bugs and tracers, security cameras, pressure plates, etc.\nAt level +3, you can jimmy or install most apartment Jocks and security cams.\nAt +6, you can override most corporate office locks and traps.\nAt +9, you can enter most high security areas with impunity."
+                },
+                {
+                    "name": "First Aid",
+                    "description": "This skill allows the user to bind wounds, stop bleeding, and revive a stunned patient (see Trauma Team for details)."
+                },
+                {
+                    "name": "Forgery",
+                    "description": "The skill of copying and creating false documents and identifications. This skill may also be applied to the detection of same; if you can fake it, you can usually tell a fake as well."
+                },
+                {
+                    "name": "Gyro Tech",
+                    "description": "The skill of repairing and maintaining rotorwing aircraft such as helicopters and gyrocopters."
+                },
+                {
+                    "name": "Paint or Draw",
+                    "description": "The skill of producing professional drawings.\nA Skill of +3 allows you to produce salable “modern” art.\nA Skill of +6 will produce artwork that is recognizable and extremely pleasant to the eye—as well as salable.\nAn artist with a Skill of +8 or greater will be nationally known, have exhibits in galleries, and have other lesser artists studying his style in art school."
+                },
+                {
+                    "name": "Photography & Film",
+                    "description": "The skill of producing professional-caliber photographs or motion pictures.\nA Skill of +2 allows you to make decent home movies.\nA Skill of +4 or better creates work capable of winning amateur contests.\nA Skill of +6 or better will produce work of the level of the average Playboy cover or rock video.\nA photographer or cinematographer with a Skill of +8 or better will be nationally known and probably famous."
+                },
+                {
+                    "name": "Pharmaceuticals",
+                    "description": "The skill of designing and manufacturing drugs and medicines.\nA minimum Chemistry skill of +4 is required.\nAt +4, you can make asprin.\nAt +6, you can make hallucinogenics or antibiotics.\nAt level +9 you can build designer drugs tailored to individual body chemistries."
+                },
+                {
+                    "name": "Pick Lock",
+                    "description": "The skill required to pick locks and break into sealed containers and rooms.\nAt +3, you can jimmy most simple locks.\nAt +6 you can crack most safes.\nAt +9 or better, you have a rep as a master cracksman, and are known to all the major players in the Cyberpunk world."
+                },
+                {
+                    "name": "Pick Pocket",
+                    "description": "The required skill for picking pockets without being noticed, as well as “shoplifting” small items. For ideas on levels of ability, see Pick Lock, above."
+                },
+                {
+                    "name": "Play Instrument",
+                    "description": "The skill of knowing how to play a musical instrument. You must take this skill separately for each type of instrument played.\nA Skill of +4 or higher will qualify your character to play professional “gigs”.\nA Skill of +8 and above will gain the musician some professional acclaim, possibly with recording contracts and command performances.\nAt +10, you are widely acclaimed, have lots of Grammys, and regularly jam with Kerry Eurodyne."
+                },
+                {
+                    "name": "Weaponsmith",
+                    "description": "The required skill for repairing and maintaining weapons of all types.\nAt level +2, you can do repairs and field stripping.\nAt level +6, you can repair all types of weapons and make simple modifications.\nAt level +8, you can design your own weapons to order."
+                }
+            ]
+        }
+    ]
+}

@@ -1,16 +1,18 @@
 {
-  "main.css": "/CyberpunkRPG/static/css/main.638166c1.chunk.css",
-  "main.js": "/CyberpunkRPG/static/js/main.fdf29837.chunk.js",
-  "main.js.map": "/CyberpunkRPG/static/js/main.fdf29837.chunk.js.map",
-  "static/css/1.84bb2a4e.chunk.css": "/CyberpunkRPG/static/css/1.84bb2a4e.chunk.css",
-  "static/js/1.37e31f3b.chunk.js": "/CyberpunkRPG/static/js/1.37e31f3b.chunk.js",
-  "static/js/1.37e31f3b.chunk.js.map": "/CyberpunkRPG/static/js/1.37e31f3b.chunk.js.map",
-  "runtime~main.js": "/CyberpunkRPG/static/js/runtime~main.611f3c34.js",
-  "runtime~main.js.map": "/CyberpunkRPG/static/js/runtime~main.611f3c34.js.map",
-  "static/media/material-icons.css": "/CyberpunkRPG/static/media/MaterialIcons-Regular.e79bfd88.eot",
-  "static/css/1.84bb2a4e.chunk.css.map": "/CyberpunkRPG/static/css/1.84bb2a4e.chunk.css.map",
-  "static/css/main.638166c1.chunk.css.map": "/CyberpunkRPG/static/css/main.638166c1.chunk.css.map",
-  "index.html": "/CyberpunkRPG/index.html",
-  "precache-manifest.8711f2577d7c1fe8bb25ae38f6a125b3.js": "/CyberpunkRPG/precache-manifest.8711f2577d7c1fe8bb25ae38f6a125b3.js",
-  "service-worker.js": "/CyberpunkRPG/service-worker.js"
+  "files": {
+    "main.css": "/CyberpunkRPG/static/css/main.c60ee4cc.chunk.css",
+    "main.js": "/CyberpunkRPG/static/js/main.a616f7a3.chunk.js",
+    "main.js.map": "/CyberpunkRPG/static/js/main.a616f7a3.chunk.js.map",
+    "runtime~main.js": "/CyberpunkRPG/static/js/runtime~main.7e13717d.js",
+    "runtime~main.js.map": "/CyberpunkRPG/static/js/runtime~main.7e13717d.js.map",
+    "static/css/2.06aa897a.chunk.css": "/CyberpunkRPG/static/css/2.06aa897a.chunk.css",
+    "static/js/2.efa6f7a4.chunk.js": "/CyberpunkRPG/static/js/2.efa6f7a4.chunk.js",
+    "static/js/2.efa6f7a4.chunk.js.map": "/CyberpunkRPG/static/js/2.efa6f7a4.chunk.js.map",
+    "index.html": "/CyberpunkRPG/index.html",
+    "precache-manifest.73d37330d4af90a495d4aa782af9ca88.js": "/CyberpunkRPG/precache-manifest.73d37330d4af90a495d4aa782af9ca88.js",
+    "service-worker.js": "/CyberpunkRPG/service-worker.js",
+    "static/css/2.06aa897a.chunk.css.map": "/CyberpunkRPG/static/css/2.06aa897a.chunk.css.map",
+    "static/css/main.c60ee4cc.chunk.css.map": "/CyberpunkRPG/static/css/main.c60ee4cc.chunk.css.map",
+    "static/media/material-icons.css": "/CyberpunkRPG/static/media/MaterialIcons-Regular.e79bfd88.eot"
+  }
 }
