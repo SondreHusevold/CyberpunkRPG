@@ -13,7 +13,7 @@ class FNFFDamage extends Component<{}> {
                     <p>If a rule says, “roll 2D6", for example, you would roll two six sided dice, total the results, and apply the total to the target you were attacking.</p>
                     <p>If the rule said “roll 2D6+1", you would roll as above, then add 1 to the total.</p> 
                     <h1>Hit Location</h1>
-                    <img className={styles.FNFFHitLocationMobile} alt="Friday Night Firefight" src="assets/Visuals/HitLocations.png"/>
+                    <img className={styles.FNFFHitLocationMobile} alt="Friday Night Firefight" src="/assets/Visuals/HitLocations.png"/>
                     <p>The first step in applying damage Is to figure out where to apply it.</p>
                     <p>Most combat attacks are just barely aimed; you're looking for an opening, your opponent slips up, and you take it.</p>
                     <p>This means that unless you attempt to aim your shot at a specific location (and take the -4 penalty for this), you will have to determine where you hit on a random basis.</p>
@@ -25,7 +25,7 @@ class FNFFDamage extends Component<{}> {
                     </div>
 				</div>
 				<div className={styles.FNFFIntroductionPicture}>
-					<img className={pictureAnimation.InterlacedPicture} alt="Friday Night Firefight" src="assets/Visuals/HitLocations.png"/>
+					<img className={pictureAnimation.InterlacedPicture} alt="Friday Night Firefight" src="/assets/Visuals/HitLocations.png"/>
 				</div>
 			</div>
 		);

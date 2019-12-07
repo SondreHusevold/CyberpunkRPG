@@ -9,7 +9,7 @@ class FNFFIntroduction extends Component<{}> {
 			<div className={styles.FNFFIntroduction}>
 				<div className={styles.FNFFIntroductionText}>
 					<h1>Introduction:</h1>
-					<img className={styles.FNFFIntroductionPictureMobile + " " + pictureAnimation.PictureMobileOnly} alt="Friday Night Firefight" src="assets/Visuals/FNFFIntro.png"/>
+					<img className={styles.FNFFIntroductionPictureMobile + " " + pictureAnimation.PictureMobileOnly} alt="Friday Night Firefight" src="/assets/Visuals/FNFFIntro.png"/>
                     <p>Friday Night Firefight (FNFF) is a weapons combat system for using modern, futuristic and archaic firearms in Cyberpunk adventures.</p>
                     <p>It's designed to cover all major elements of weapons combat in an easy to use format, allowing realistic firefight action without resorting to lots of tables and charts.</p>
                     <p>FNFF also covers melee weapons, hand to hand combatand martial arts as well, all in a simple system that allows you to use strategy over firepower.</p>
@@ -32,7 +32,7 @@ class FNFFIntroduction extends Component<{}> {
                     <p>That's why you’re Cyberpunk.</p>
 				</div>
 				<div className={styles.FNFFIntroductionPicture}>
-					<img className={pictureAnimation.InterlacedPicture} alt="Friday Night Firefight" src="assets/Visuals/FNFFIntro.png"/>
+					<img className={pictureAnimation.InterlacedPicture} alt="Friday Night Firefight" src="/assets/Visuals/FNFFIntro.png"/>
 				</div>
 			</div>
 		);

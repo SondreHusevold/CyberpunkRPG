@@ -9,7 +9,7 @@ class TTBodyBank extends Component<{}> {
 			<div className={styles.TTIntroduction}>
 				<div className={styles.TTIntroductionText}>
 					<h1>The Body Bank:</h1>
-					<img className={styles.BodyBankPictureMobile + " " + pictureAnimation.PictureMobileOnly} alt="Logo of Trauma Team International" src="assets/Visuals/TraumaTeamAV4.png"/>
+					<img className={styles.BodyBankPictureMobile + " " + pictureAnimation.PictureMobileOnly} alt="Logo of Trauma Team International" src="/assets/Visuals/TraumaTeamAV4.png"/>
 					<p>These are places where you can get the raw materials for putting people back together again. They are a staple of the Cyberpunk landscape, and a good source of steady income for the enterprising street dweller.</p>
                     <p>Just in case it didn’t work out, you can still make a dead comrade pull his weight. The Lifeline Act of 1994 (an extension of the donor cards of the 1980s) allows a potential source of spare parts to carry adonor card in his wallet.</p>
                     <p>This card must be registered with the federal government. Only donor carded bodies can be turned into a donor center, where a bounty is paid. The bounty is based onthe parts involved and the body condition at the time.</p>
@@ -64,7 +64,7 @@ class TTBodyBank extends Component<{}> {
                     <p>However, the process is relatively new and is more expensive than simply using an arm off the rack (2 times the price for a similar body bank part in Excellent condition).</p>
 				</div>
 				<div className={styles.TTIntroductionPicture}>
-					<img className={pictureAnimation.InterlacedPicture} alt="Logo of Trauma Team International" src="assets/Visuals/TraumaTeamAV4.png"/>
+					<img className={pictureAnimation.InterlacedPicture} alt="Logo of Trauma Team International" src="/assets/Visuals/TraumaTeamAV4.png"/>
 				</div>
 			</div>
 		);
