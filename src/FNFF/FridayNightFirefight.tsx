@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import styles from './FridayNightFirefight.module.css';
-import Sidebar from '../Sidebar/Sidebar.Navigation';
+import Sidebar from '../Common/Sidebar.Navigation';
 import FNFFIntroduction from './FNFFIntroduction';
 import FNFFTurns from './FNFFTurns';
 import FNFFActions from './FNFFActions';

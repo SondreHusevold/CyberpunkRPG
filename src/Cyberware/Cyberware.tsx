@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import styles from './Cyberware.module.css';
-import Sidebar from '../Sidebar/Sidebar.Navigation';
+import Sidebar from '../Common/Sidebar.Navigation';
 import CyberSurgery from './CyberSurgery';
 import CyberwareIntroduction from './CyberwareIntroduction';
 import Cyberpsychosis from './Cyberpsychosis';

@@ -9,7 +9,7 @@ class InterlockIntroduction extends Component<{}> {
 			<div className={styles.InterlockIntroduction}>
 				<div className={styles.InterlockIntroductionText}>
 					<h1>Introduction:</h1>
-					<div className={pictureAnimation.PictureMobileOnly}>
+					<div className={styles.InterlockIntroMobilePic + " " + pictureAnimation.PictureMobileOnly}>
 						<img className={"responsive"} alt="Interlock system" src="/assets/Visuals/InterlockSystem.png"/>
 					</div>
 					<p>The interlock system is a simple die + bonus system using a D10. Cyberpunk 2020 is using a polished version of Interlock named "Standard Interlock".</p> 

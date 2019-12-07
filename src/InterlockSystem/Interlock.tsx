@@ -3,7 +3,7 @@ import styles from './Interlock.module.css';
 import InterlockIntroduction from './InterlockIntroduction';
 import InterlockDice from './InterlockDice';
 import InterlockStats from './InterlockStats';
-import Sidebar from '../Sidebar/Sidebar.Navigation';
+import Sidebar from '../Common/Sidebar.Navigation';
 import InterlockSkillCheck from './InterlockSkillChecks';
 import InterlockSkills from './InterlockSkills';
 import InterlockSkillList from './InterlockSkillList';

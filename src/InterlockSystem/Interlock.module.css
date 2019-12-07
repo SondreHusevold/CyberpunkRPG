@@ -23,7 +23,6 @@
 
 :local .InterlockIntroductionPicture {
     grid-column: 2;
-    margin-top: 10%;
 }
 
 :local .InterlockIntroductionPicture img {
@@ -116,19 +115,18 @@
     :local .InterlockReturnMobile {
         display: block;
         font-size: 1.5em;
-        background: repeating-linear-gradient(0deg,
-        transparent 0px, 
-        transparent 2px, 
-         red 3px, 
-         red 2px
-       );
-       border: 1px solid red;
-       width: 100%;
-       padding: 10px;
+        border: 1px solid red;
+        width: 100%;
+        padding: 10px;
     }
 
     :local .InterlockReturnDesktop {
         display: none;
+    }
+
+    :local .InterlockStatsSubmenuButton {
+        background: #202020;
+        border: 2px solid red;
     }
     
     :local .InterlockSplit {
@@ -156,6 +154,11 @@
     :local .InterlockIntroductionPicture {
         display: none;
     }
+
+    :local .InterlockIntroMobilePic img {
+        object-fit: cover;
+        object-position: 100% 13%;
+    } 
 }
 
 @keyframes slideInterlace {

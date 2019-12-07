@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import pictureAnimation from '../StyleModules/Pictures.module.css';
 import styles from './ClassDetails.module.css';
 import tabbedpanel from '../StyleModules/TabbedPanel.module.css';
+import animations from '../StyleModules/Animations.module.css';
 import { CharacterClass, ClassDetailedInformation } from './Classes';
 import { ClassQuote } from './ClassQuote';
 import { ClassService } from '../Services/ClassService';
@@ -115,7 +116,7 @@ class ClassDetails extends Component<ClassDetailsProps, ClassDetailsState> {
 
 	public render() {
 		return (
-			<div className={styles.ClassDetails}>
+			<div className={styles.ClassDetails + " " + animations.FadeIn}>
 				<h1 className={styles.Title}>{this.props.characterClass.name}:</h1> 
 				<h2>{this.props.characterClass.description}</h2>
 				<div className={styles.ClassSections}>

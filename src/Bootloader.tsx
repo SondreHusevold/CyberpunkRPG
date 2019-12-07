@@ -10,7 +10,7 @@ import './Initialization.css';
 
 interface IBootloaderState {
 	currentSection: MainSection;
-	loggedIn: boolean;
+	loggedIn: string | null;
 	player: boolean;
 }
 
@@ -22,12 +22,12 @@ class Bootloader extends Component<{}, IBootloaderState> {
 
 		this.state = {
 			currentSection: MainSection.Mainframe,
-			loggedIn: false,
+			loggedIn: null,
 			player: false
 		};
 	}
 
-	public changeLogin = (isLoggedIn: boolean) => {
+	public changeLogin = (isLoggedIn: string) => {
 		this.setState({ loggedIn: isLoggedIn });
 	}
 
@@ -38,12 +38,14 @@ class Bootloader extends Component<{}, IBootloaderState> {
 	}
 
 	public renderLogin() {		
-		if(!this.state.loggedIn){
-			return <Login loginFunction={this.changeLogin} />
-		}
-		else{
+		if (this.state.loggedIn === "admin"){
 			return <Terminal enablePlayer={this.enablePlayer} />
 		}
+		else if(this.state.loggedIn === "TopSecret") {
+			return this.renderRealSite();
+		}
+
+		return <Login loginFunction={this.changeLogin} />
 	}
 
 	public renderPlayer() {
@@ -69,20 +71,24 @@ class Bootloader extends Component<{}, IBootloaderState> {
 		})
 	}
 
+	public renderRealSite = () => {
+		return(
+			<div className={styles.ZetatechDevelopment }>
+				<header className={styles.Background + ' ' + styles.DevelopmentBackground} />
+
+				<MainMenu changeSection={this.setMainSection}/>
+
+				<div className={styles.mainContent}>
+					<Mainframe currentSection={this.state.currentSection} />
+				</div>
+			</div>
+		)
+	}
+
 
 	public render() {
-		if(this.development) {
-			return(
-				<div className={styles.ZetatechDevelopment }>
-					<header className={styles.Background + ' ' + styles.DevelopmentBackground} />
-
-					<MainMenu changeSection={this.setMainSection}/>
-
-					<div className={styles.mainContent}>
-						<Mainframe currentSection={this.state.currentSection} />
-					</div>
-				</div>
-			)
+		if(!this.development) {
+			return this.renderRealSite();
 		}
 
 		return (

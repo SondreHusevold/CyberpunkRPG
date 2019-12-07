@@ -136,8 +136,20 @@
         gap: 3%;
     }
 
+    :local .NightCityCorporationGrid button {
+        background: repeating-linear-gradient(0deg,
+        transparent 0px, 
+        transparent 4px, 
+         red 6px, 
+         red 1px
+       );
+       text-shadow: 1px 1px 4px black;
+    }
+
     :local .PadOutCorporation {
         padding-right: 0%;
+        margin-bottom: 80px;
+
     }
 
     :local .FirstSessionPictureMobile  {
@@ -150,17 +162,23 @@
     }
 
     :local .BackButtonMobile {
-        display: block;
-        background: repeating-linear-gradient(0deg,
-        transparent 0px, 
-        transparent 2px, 
-         red 3px, 
-         red 2px
-       );
+
+       text-shadow: 1px 1px 4px black;
+       display: block;
+       height: 70px;
+       border-top: 2px solid red;
        width: 100%;
-       height: 50px;
-       border: 1px solid red;
-       margin-bottom: 30px;
+       z-index: 2020;
+    }
+
+    :local .BackButtonMobileBackground {
+        background: #202020;
+        display: block;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+       width: 100%;
+
     }
 
 

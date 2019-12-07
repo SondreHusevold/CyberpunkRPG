@@ -9,7 +9,7 @@ interface ILoginState {
 } 
 
 interface ILoginProps {
-	loginFunction: (isLoggedIn: boolean) => void;
+	loginFunction: (isLoggedIn: string) => void;
 }
 
 class Login extends Component<ILoginProps, ILoginState> {
@@ -39,9 +39,14 @@ class Login extends Component<ILoginProps, ILoginState> {
 			return;
 		}
 
-		const hash = CryptoJS.SHA1(this.state.password);
-		if(this.state.username === 'admin' && hash.toString() === 'd5240d4a4b8066612800099ed10f85cb21ec0adf') {
-			this.props.loginFunction(true);
+		const hash = CryptoJS.SHA1(this.state.password).toString();
+		const username = CryptoJS.SHA1(this.state.username).toString();
+		if(username === 'd033e22ae348aeb5660fc2140aec35850c4da997' && hash === 'd5240d4a4b8066612800099ed10f85cb21ec0adf') {
+			this.props.loginFunction("admin");
+			return;
+		}
+		else if(username === "ac3478d69a3c81fa62e60f5c3696165a4e5e6ac4" && hash === 'af51d716321777677bb9f3888fc6810cdc2d5db1') {
+			this.props.loginFunction("TopSecret");
 			return;
 		}
 	}
@@ -53,6 +58,12 @@ class Login extends Component<ILoginProps, ILoginState> {
 		return;
 	}
 
+	public onEnterLogin = (e: React.KeyboardEvent<HTMLInputElement>) => {
+		if(e.key == "Enter") {
+			this.login();
+		}
+	}
+
 	public render() {
 		return (
 			<div className={styles.Login}>
@@ -62,7 +73,7 @@ class Login extends Component<ILoginProps, ILoginState> {
 				</div>
 				<div className={styles.LoginPassword}>
 					<h3>Password:</h3>
-					<input onChange={this.changePassword} type="password"/>
+					<input onChange={this.changePassword} onKeyDown={this.onEnterLogin} type="password"/>
 				</div>
 				<div className={styles.LoginAttempts}>
 					{this.renderAttempts()}

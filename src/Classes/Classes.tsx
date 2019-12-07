@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { ClassService } from '../Services/ClassService';
 import styles from './Classes.module.css';
 import ClassDetails from './ClassDetails';
-import Sidebar from '../Sidebar/Sidebar.Navigation';
+import Sidebar from '../Common/Sidebar.Navigation';
 
 interface ClassState {
 	characterClasses: CharacterClass[];

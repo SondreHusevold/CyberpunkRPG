@@ -2,6 +2,7 @@
 :local hr {
 	color:red;
 	background-color: red;
+	border-color: red;
 }
 
 :local .MainMenu {

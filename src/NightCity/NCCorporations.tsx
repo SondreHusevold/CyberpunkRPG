@@ -76,8 +76,9 @@ class NightCityCorporations extends Component<{}, CorporationState> {
                             return <span> {splitButton} </span>
                         })}
                     </div>
-                    <button className={styles.BackButtonMobile} onClick={this.clearCorpo}>Back</button>
-
+                    <div className={styles.BackButtonMobileBackground}>
+                        <button className={styles.BackButtonMobile} onClick={this.clearCorpo}>Back</button>
+                    </div>
                     <h1 className={styles.NoMarginHeader}>Corporation Profile:</h1>
                     <hr/>
 

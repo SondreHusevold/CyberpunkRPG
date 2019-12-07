@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import styles from '../StyleModules/TabbedPanel.module.css';
+import animations from '../StyleModules/Animations.module.css';
+
 
 interface TabsProps {
     title: string;
@@ -30,7 +32,7 @@ class Tabs extends Component<TabsProps> {
 
 	public render() {
 		return (
-            <div className={this.getAmount()}>
+            <div className={this.getAmount() + " " + animations.FadeIn}>
             <h1 className={styles.Title}>{this.props.title}</h1>
             
             { /* DESKTOP */ }

@@ -50,8 +50,7 @@
 	}
 
 	:local .mainframeVideo {
-		margin-left: 0;
-		margin-right: 0;
-		width: fit-content;
+		display: none;
 	}
+	
 }

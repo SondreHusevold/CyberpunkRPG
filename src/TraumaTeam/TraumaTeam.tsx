@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import styles from './TraumaTeam.module.css';
 import TTIntroduction from './TTIntroduction';
-import Sidebar from '../Sidebar/Sidebar.Navigation';
+import Sidebar from '../Common/Sidebar.Navigation';
 import TTDeath from './TTDeath';
 import TTHealing from './TTHealing';
 import TTBodyBank from './TTBodyBank';

@@ -132,6 +132,7 @@
         margin: 0px;
         padding: 10px;
         border: 0px;
+        outline: none;
     }
 
     :local .Content {

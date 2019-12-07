@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import styles from './NightCity.module.css';
-import Sidebar from '../Sidebar/Sidebar.Navigation';
+import Sidebar from '../Common/Sidebar.Navigation';
 import NightCityIntroduction from './NCIntroduction';
 import NightCityStartingOut from './NCStartingOut';
 import NightCityTheEdge from './NCLivingOnTheEdge';

@@ -1,3 +1,7 @@
+:local button:hover {
+	border: 0px;
+}
+
 :local .Terminal {
 	display: flex;
 	margin-left: 15%;
