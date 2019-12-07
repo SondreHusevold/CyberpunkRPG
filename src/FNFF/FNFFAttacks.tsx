@@ -35,10 +35,10 @@ class FNFFAttacks extends Component<{}, FNFFAttacksState> {
 		let url = "";
 		switch (this.state.currentSelection) {
 			case AttackMethods.Ranged:
-				url = "/assets/Visuals/RangedWeapon.png"
+				url = "assets/Visuals/RangedWeapon.png"
 				break;
 			case AttackMethods.Martial:
-				url = "/assets/Visuals/MartialArts.png"
+				url = "assets/Visuals/MartialArts.png"
 				break;
 			case AttackMethods.Melee:
 				url = "assets/Visuals/MeleeWeapons.png"
@@ -53,7 +53,7 @@ class FNFFAttacks extends Component<{}, FNFFAttacksState> {
 				url = "assets/Visuals/LaserWeapon.png"
 				break;
 			default:
-				url = "/assets/Visuals/FNFF.png";
+				url = "assets/Visuals/FNFF.png";
 				break;
 		}
 

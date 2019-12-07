@@ -43,7 +43,7 @@ class NightCityAmerica extends Component<{}> {
 					<h3>Referee note: Check out the Night City sourcebook if you want to learn more about Night City.</h3>
 				</div>
 				<div className={styles.NightCityIntroductionPicture}>
-					<img className={pictureAnimation.InterlacedPicture} alt="Night City from NCU." title="Night City as seen from NCU." src="/assets/Visuals/MapOfUS.png"/>
+					<img className={pictureAnimation.InterlacedPicture} alt="Night City from NCU." title="Night City as seen from NCU." src="assets/Visuals/MapOfUS.png"/>
 				</div>
 			</div>
 		);

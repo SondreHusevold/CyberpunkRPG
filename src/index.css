@@ -6,7 +6,7 @@ body {
 
 @font-face {
 	font-family: recharge;
-	src: url("https://sondrehusevold.github.io/CyberpunkRPG/assets/recharge.ttf");
+	src: url("assets/recharge.ttf");
 }
 
 /** Used for the terminal. **/
