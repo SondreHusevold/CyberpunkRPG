@@ -113,7 +113,7 @@ class FNFFActions extends Component<{}, FNFFActionsState> {
 					{this.renderImage()}
 				</div>
 				<img className={styles.LoSPicture + " " + pictureAnimation.InterlacedPicture} style={{ cursor: "pointer" }} 
-					onClick={this.openPictureInNewTab} alt="Line of sight" title="Click to remove background." src="/assets/Visuals/LineOfSight.png"
+					onClick={this.openPictureInNewTab} alt="Line of sight" title="Click to remove background." src="assets/Visuals/LineOfSight.png"
 				/>
 				
 			</React.Fragment>
@@ -127,10 +127,10 @@ class FNFFActions extends Component<{}, FNFFActionsState> {
 	public renderImage = () => {
 		if(this.state.imageAnimation) {
 			return <img className={pictureAnimation.InterlacedPicture} style={{ cursor: "pointer" }} 
-					onClick={this.toggleImageAnimation} alt="Line of sight" title="Click to remove background." src="/assets/Visuals/LineOfSight.png"
+					onClick={this.toggleImageAnimation} alt="Line of sight" title="Click to remove background." src="assets/Visuals/LineOfSight.png"
 					/>
 		}
-		return <img onClick={this.toggleImageAnimation} style={{ cursor: "pointer" }} alt="Line of sight" src="/assets/Visuals/LineOfSightNo3D.png"/>
+		return <img onClick={this.toggleImageAnimation} style={{ cursor: "pointer" }} alt="Line of sight" src="assets/Visuals/LineOfSightNo3D.png"/>
 	}
 
 	public toggleImageAnimation = () => {

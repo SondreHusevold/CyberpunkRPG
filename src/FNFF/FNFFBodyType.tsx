@@ -50,7 +50,7 @@ class FNFFBodyType extends Component<{}> {
                     </div>
 				</div>
 				<div className={styles.FNFFIntroductionPicture}>
-					<img className={pictureAnimation.InterlacedPicture} alt="BodyType" src="/assets/Visuals/BodyType.png"/>
+					<img className={pictureAnimation.InterlacedPicture} alt="BodyType" src="assets/Visuals/BodyType.png"/>
 				</div>
 			</div>
 		);

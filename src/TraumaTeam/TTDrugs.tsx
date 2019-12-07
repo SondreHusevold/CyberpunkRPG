@@ -62,7 +62,7 @@ class TTDrugs extends Component<{}, DrugState> {
 			<div className={styles.TTIntroduction}>
 				<div className={styles.TTIntroductionText}>
 					<h1>Drugs:</h1>
-					<img className={styles.DrugsPictureMobile + " " + pictureAnimation.PictureMobileOnly} alt="Stop it." src="/assets/Visuals/TTDrugs.png"/>
+					<img className={styles.DrugsPictureMobile + " " + pictureAnimation.PictureMobileOnly} alt="Stop it." src="assets/Visuals/TTDrugs.png"/>
                     { this.renderDrug() }
                     <p>The drugs of the future are far more lethal than their 20th century counterparts. Many are experimental chemicals dumped on the Street by unscrupulous Corporations looking for guinea pigs.</p>
                     <p>Some are homebrewed horrors designed in basement labs. Still others are military designed combat drugs designed to create armies of zombie killing machines. All of them are bad news.</p>
@@ -78,7 +78,7 @@ class TTDrugs extends Component<{}, DrugState> {
 				</div>
 				<div className={styles.TTIntroductionPicture}>
                     <img className={pictureAnimation.InterlacedPicture} alt="Stop it." 
-                        title="Stop it. Get some help and a burger from McDonalds®" src="/assets/Visuals/TTDrugs.png"
+                        title="Stop it. Get some help and a burger from McDonalds®" src="assets/Visuals/TTDrugs.png"
                     />
 				</div>
 			</div>
