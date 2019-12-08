@@ -77,6 +77,10 @@
     grid-column: span 2;
 }
 
+:local .NotLoaded {
+    opacity: 0;
+}
+
 @media screen and (max-width: 1050px) {
 
     :local .NightCityLivingOnTheEdge {
@@ -116,10 +120,4 @@
     :local .NightCityIntroductionPicture {
         display: none;
     }
-
-    :local .FirstSessionPictureMobile  {
-        object-position: 100% 30%;
-        object-fit: cover;
-    }
-
 }

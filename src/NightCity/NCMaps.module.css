@@ -4,9 +4,7 @@
     width: 70%;
 }
 
-:local .MapPicture {
-    max-width: 1200px;
-    border: 1px solid red;
+:local .MapPicture img {
     cursor: pointer;
 }
 
@@ -15,8 +13,4 @@
         width: 100%;
     }
 
-    :local .MapPicture {
-        max-width: 100%;
-        border: 1px solid red;
-    }
 }

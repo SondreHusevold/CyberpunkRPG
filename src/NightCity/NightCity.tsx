@@ -15,6 +15,7 @@ const NightCityMaps = React.lazy(() => import('./NCMaps'));
 interface NightCityState {
 	selection: string | null;
 	showMobileMenu: boolean;
+	hasLoaded: boolean;
 } 
 
 enum Choices {
@@ -35,35 +36,44 @@ class NightCity extends Component<{}, NightCityState> {
 
 		this.state = {
 			selection: Choices.Introduction,
-			showMobileMenu: false
+			showMobileMenu: false,
+			hasLoaded: false
 		}
 	}
 
 	public changeSelection = (newSelection: string) => {
 		this.setState({
 			selection: newSelection,
-			showMobileMenu: false
+			showMobileMenu: false,
+			hasLoaded: false
+		});
+	}
+
+	public setLoading = (hasRendered: boolean) => {
+		console.log("HAS RENDERED:" + hasRendered);
+		this.setState({
+			hasLoaded: hasRendered
 		});
 	}
 
 	public getCurrentSelection = () => {
 		switch(this.state.selection) {
             case Choices.Introduction:
-                return <NightCityIntroduction />
+                return <NightCityIntroduction hasLoaded={this.setLoading} />
             case Choices.GetStarted:
-                return <NightCityStartingOut />
+                return <NightCityStartingOut hasLoaded={this.setLoading} />
             case Choices.TheEdge:
-                return <NightCityTheEdge />
+                return <NightCityTheEdge hasLoaded={this.setLoading} />
             case Choices.History:
-                return <NightCityHistory />
+                return <NightCityHistory hasLoaded={this.setLoading} />
 			case Choices.America:
-				return <NightCityAmerica />
+				return <NightCityAmerica hasLoaded={this.setLoading} />
 			case Choices.Slang:
-				return <NightCitySlang />
+				return <NightCitySlang hasLoaded={this.setLoading} />
 			case Choices.Corporations:
-				return <NightCityCorporations />
+				return <NightCityCorporations hasLoaded={this.setLoading} />
 			case Choices.Maps: 
-				return <NightCityMaps />
+				return <NightCityMaps hasLoaded={this.setLoading} />
 			default:
 				return <div/>;
 		}
@@ -86,12 +96,16 @@ class NightCity extends Component<{}, NightCityState> {
 							preDetermined={Choices.Introduction}
 							toggleMobile={this.toggleMobileView}
 					/>
-					<div className={styles.NightCityMain}>
-						<Suspense fallback={<Loading/>}>
-							{this.getCurrentSelection()}
-						</Suspense>
-					</div>
+					<Suspense fallback={<Loading hasLoaded={this.state.hasLoaded } />}>
+						<div className={styles.NightCityMain}>
+							<div className={this.state.hasLoaded ? "" : styles.NotLoaded}>
+								{this.getCurrentSelection()}
+							</div>
+							<Loading hasLoaded={this.state.hasLoaded} />
+						</div>
+					</Suspense>
 				</div>
+
 			</div>
 		);
 	}
