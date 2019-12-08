@@ -1,12 +1,12 @@
 import React, { Component } from 'react'
 import styles from '../StyleModules/Pictures.module.css';
+import Loading from './Loading';
 
 interface CyberPictureProps {
     src: string;
     alt: string;
     title: string;
-    mobile?: string;
-    hasLoaded: (hasLoaded: boolean) => void;
+    mobile?: string; 
 }
 
 interface CyberPictureState {
@@ -23,7 +23,14 @@ class FadeInPicture extends Component<CyberPictureProps, CyberPictureState> {
   }
 
   public hasLoaded = () => {
-    this.props.hasLoaded(true);
+    this.setState({ hasLoaded: true });
+  }
+
+  public renderLoading = () => {
+    if(!this.state.hasLoaded) {
+      return <Loading />
+    }
+    return <div/>;
   }
 
   render() {
@@ -35,7 +42,8 @@ class FadeInPicture extends Component<CyberPictureProps, CyberPictureState> {
 
     return (
       <div>
-          <div className={styles.PictureAnimationWrap}>
+        {this.renderLoading()}
+          <div className={styles.PictureAnimationWrap + " " + (!this.state.hasLoaded ? styles.NonloadedPicture : "")}>
             <img className={styles.InterlacedPicture} onLoad={() => this.hasLoaded()} src={this.props.src} title={this.props.title} alt={this.props.alt} />
           </div>
       </div>

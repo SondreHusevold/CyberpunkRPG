@@ -1,17 +1,8 @@
 import React, { Component } from 'react';
 import styles from './NightCity.module.css';
 
-interface NightCitySlangProps {
-	hasLoaded: (hasLoaded: boolean) => void;
-}
+class NightCitySlang extends Component<{}> {
 
-class NightCitySlang extends Component<NightCitySlangProps> {
-
-    constructor(props: NightCitySlangProps) {
-        super(props);
-        this.props.hasLoaded(true);
-    }
-    
 	public render() {
 		return (
             <div>

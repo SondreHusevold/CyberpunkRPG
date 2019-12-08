@@ -1,17 +1,10 @@
 import React, { Component } from 'react'
 import animations from '../StyleModules/Animations.module.css';
 
-interface LoadingProps {
-  hasLoaded: boolean;
-}
-
-class Loading extends Component<LoadingProps, {}> {
+class Loading extends Component {
 
   render() {
-    if(!this.props.hasLoaded) {
-      return <div className={animations.FadeInSlow + " " + animations.loading}><div></div><div></div></div>
-    }
-    return <div/>
+    return <div className={animations.loading}><div></div><div></div></div>
   }
 }
 

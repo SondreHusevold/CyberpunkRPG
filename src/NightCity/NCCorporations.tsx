@@ -4,17 +4,13 @@ import styles from './NCCorporations.module.css';
 import animation from '../StyleModules/Animations.module.css';
 import { Corporation, CorporationService } from '../Services/CorporationService';
 
-interface CorporationProps {
-	hasLoaded: (hasLoaded: boolean) => void;
-}
-
 interface CorporationState {
     corporations: Corporation[];
     selected: Corporation | null;
 }
 
-class NightCityCorporations extends Component<CorporationProps, CorporationState> {
-    public constructor(props: CorporationProps) {
+class NightCityCorporations extends Component<{}, CorporationState> {
+    public constructor(props: {}) {
         super(props);
 
         this.state = {
@@ -28,9 +24,7 @@ class NightCityCorporations extends Component<CorporationProps, CorporationState
     public async getCorporations() {
         this.setState({
             corporations: await CorporationService.getCorporations()
-        }, () => {
-            this.props.hasLoaded(true);
-        }); 
+        });
     }
 
     public setCorporation = (corpo: Corporation) => {

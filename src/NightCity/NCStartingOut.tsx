@@ -1,20 +1,14 @@
 import React, { Component } from 'react';
 import pictureAnimation from '../StyleModules/Pictures.module.css';
 import styles from './NightCity.module.css';
-import FadeInPicture from '../Common/FadeInPicture';
 
-interface NightCityStartingOutProps {
-	hasLoaded: (hasLoaded: boolean) => void;
-}
-
-class NightCityStartingOut extends Component<NightCityStartingOutProps> {
+class NightCityStartingOut extends Component<{}> {
 
 	public render() {
 		return (
 			<div className={styles.NightCityIntroduction}>
 				<div className={styles.NightCityIntroductionText}>
 					<h1>The First Session:</h1>
-					<FadeInPicture hasLoaded={this.props.hasLoaded} mobile="100% 30%" title="Let's get started." alt="Let's get started." src="assets/Visuals/FirstSession.webp"/>
 					<img className={styles.FirstSessionPictureMobile + " " + pictureAnimation.PictureMobileOnly} alt="Let's get started." src="assets/Visuals/FirstSession.webp"/>
                     <p>Like when we've been learning other systems - We'll start off by having the first session dedicated to character creation, filling out character sheets and an introduction.</p>
                     <p>The intro will not be individual like in the World of Darkness games. This time, we'll do it as a team.</p>
@@ -35,7 +29,7 @@ class NightCityStartingOut extends Component<NightCityStartingOutProps> {
 
 				</div>
 				<div className={styles.NightCityIntroductionPicture}>
-					<FadeInPicture hasLoaded={this.props.hasLoaded} title="Let's get started." alt="Let's get started." src="assets/Visuals/FirstSession.webp"/>
+					<img className={pictureAnimation.InterlacedPicture} alt="Let's get started." src="assets/Visuals/FirstSession.webp"/>
 				</div>
 			</div>
 		);
