@@ -10,6 +10,15 @@
    animation: slideInterlace 40s infinite linear backwards;
    margin: 10px;
    border: 1px solid red;
+   padding: 10px;
+}
+
+:local .NonloadedPicture {
+    opacity: 0;
+}
+
+:local .PictureAnimationWrap {
+    transition: all 0.2s ease-in-out;
 }
 
 @keyframes slideInterlace {

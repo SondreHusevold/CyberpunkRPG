@@ -59,7 +59,7 @@ class Login extends Component<ILoginProps, ILoginState> {
 	}
 
 	public onEnterLogin = (e: React.KeyboardEvent<HTMLInputElement>) => {
-		if(e.key == "Enter") {
+		if(e.key === "Enter") {
 			this.login();
 		}
 	}
