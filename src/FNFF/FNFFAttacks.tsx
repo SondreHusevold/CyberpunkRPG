@@ -131,7 +131,7 @@ class FNFFAttacks extends Component<{}, FNFFAttacksState> {
 		return (
 			<div className={animations.FadeInFast + " " + styles.FNFFAttacksInformation}>
 				<h1>Making Attacks:</h1>
-				<FadeInPicture mobile="100% 30%" title="" alt="Friday Night Firefight" src="assets/Visuals/FNFF.webp"/>
+				<FadeInPicture mobile="100% 0%" title="" alt="Friday Night Firefight" src="assets/Visuals/FNFF.webp"/>
 				<p>This section covers the basics of how to make attacks:</p>
 				<hr/>
 				<div className={ styles.FNFFAttackMenu }>

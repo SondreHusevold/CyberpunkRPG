@@ -9,7 +9,7 @@ class CyberwareHumanity extends Component<{}> {
 			<div className={animations.FadeInFast + " " + styles.IntroductionSplit}>
 				<div>
 					<h1>Humanity:</h1>
-                    <FadeInPicture mobile="100% 0%" title="s" 
+                    <FadeInPicture mobile="100% 15%" title="s" 
                         alt="Do not forget your humanity." src="assets/Visuals/Humanity.webp" 
                     />
                     <p>Each time you add on a cybernetic enhancement, there’s a corresponding loss of humanity. But it’s not simple, linear, or nice.</p>

@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import animations from '../StyleModules/Animations.module.css';
 import styles from './InterlockSkillList.module.css';
 import { StatService, SkillList, Skill } from '../Services/StatsAndSkillsService';
 
@@ -84,7 +85,7 @@ class InterlockSkillList extends Component<{}, InterlockSkillsState> {
 
 	public render() {
 		return (
-			<div className={styles.SkillList}>
+			<div className={animations.FadeInFast + " " + styles.SkillList}>
 				{ this.renderSkill() }
 				{
 					this.state.list.map((skillList) => {
