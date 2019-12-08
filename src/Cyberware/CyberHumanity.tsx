@@ -1,14 +1,15 @@
 import React, { Component } from 'react';
 import styles from './Cyberware.module.css';
-import pictureAnimation from '../StyleModules/Pictures.module.css';
+import animations from '../StyleModules/Animations.module.css';
+import FadeInPicture from '../Common/FadeInPicture';
 
 class CyberwareHumanity extends Component<{}> {
 	public render() {
 		return (
-			<div className={styles.IntroductionSplit}>
+			<div className={animations.FadeInFast + " " + styles.IntroductionSplit}>
 				<div>
 					<h1>Humanity:</h1>
-                    <img className={styles.HumanityPictureMobile + " " + pictureAnimation.PictureMobileOnly} 
+                    <FadeInPicture mobile="100% 0%" title="s" 
                         alt="Do not forget your humanity." src="assets/Visuals/Humanity.webp" 
                     />
                     <p>Each time you add on a cybernetic enhancement, there’s a corresponding loss of humanity. But it’s not simple, linear, or nice.</p>
@@ -45,7 +46,7 @@ class CyberwareHumanity extends Component<{}> {
                     </div>
 				</div>
 				<div className={styles.IntroductionImage}>
-					<img className={pictureAnimation.InterlacedPicture} alt="Do not forget your humanity" src="assets/Visuals/Humanity.webp" />
+					<FadeInPicture alt="humanity" title="Do not forget your humanity" src="assets/Visuals/Humanity.webp" />
 				</div>
 			</div>
 		);

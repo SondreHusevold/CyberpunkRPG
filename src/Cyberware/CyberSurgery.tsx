@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import styles from './CyberSurgery.module.css';
-import pictureAnimation from '../StyleModules/Pictures.module.css';
+import animations from '../StyleModules/Animations.module.css';
 import { SurgeryCode, CyberwareService } from '../Services/CyberwareService';
+import FadeInPicture from '../Common/FadeInPicture';
 
 interface SurgeryState {
 	surgeryCodes: SurgeryCode[];
@@ -27,10 +28,10 @@ class CyberSurgery extends Component<{}, SurgeryState> {
 
 	public render() {
 		return (
-			<div className={styles.SurgeryMain}>
+			<div className={animations.FadeInFast + " " + styles.SurgeryMain}>
 				<div>
 					<h1>Surgery:</h1>
-					<img className={styles.SurgeryMobilePicture + " " + pictureAnimation.PictureMobileOnly} 
+					<FadeInPicture mobile="100% 30%" title="d" 
 						alt="Surgery is dangerous." src="assets/Visuals/Surgery.webp" 
 					/>
                     <p>Not all medical care is the result of accidents or combat. This is the Metal Age, and when you want to get cybered up, you gotta pay a price in blood.</p>
@@ -70,7 +71,7 @@ class CyberSurgery extends Component<{}, SurgeryState> {
 					</div>
 				</div>
 				<div className={styles.SurgeryImage}>
-					<img className={pictureAnimation.InterlacedPicture} alt="Surgery is dangerous." src="assets/Visuals/Surgery.webp" />
+					<FadeInPicture title="Surgery is dangerous, but normal." alt="Surgery is dangerous." src="assets/Visuals/Surgery.webp" />
 				</div>
 			</div>
 		);

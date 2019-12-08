@@ -1,12 +1,14 @@
 import React, { Component } from 'react';
 import styles from './CyberSurgery.module.css';
+import animations from '../StyleModules/Animations.module.css';
 import pictureAnimation from '../StyleModules/Pictures.module.css';
+import FadeInPicture from '../Common/FadeInPicture';
 
 class CyberPieces extends Component<{}> {
 
 	public render() {
 		return (
-			<div className={styles.SurgeryMain}>
+			<div className={animations.FadeInFast + " " + styles.SurgeryMain}>
 				<div>
 					<h1>Pieces of Cyberware:</h1>
                     <img className={pictureAnimation.PictureMobileOnly} alt="Buy now!." title="Buy now!." src="assets/Visuals/CyberPieces2.webp" />
@@ -67,16 +69,16 @@ class CyberPieces extends Component<{}> {
 				</div>
                 <div>
                     <div className={styles.SurgeryImage}>
-                        <img className={pictureAnimation.InterlacedPicture} alt="Get it today!." title="Get it today!." src="assets/Visuals/CyberPieces.webp" />
+                        <FadeInPicture alt="Get it today!." title="Get it today!." src="assets/Visuals/CyberPieces.webp" />
                     </div>
                     <div className={styles.SurgeryImage}>
-                        <img className={pictureAnimation.InterlacedPicture} alt="Buy now!." title="Buy now!." src="assets/Visuals/CyberPieces2.webp" />
+                        <FadeInPicture alt="Buy now!." title="Buy now!." src="assets/Visuals/CyberPieces2.webp" />
                     </div>
                     <div className={styles.SurgeryImage}>
-                        <img className={pictureAnimation.InterlacedPicture} alt="Soon out of stock!." title="Soon out of stock!." src="assets/Visuals/CyberPieces3.webp" />
+                        <FadeInPicture alt="Soon out of stock!." title="Soon out of stock!." src="assets/Visuals/CyberPieces3.webp" />
                     </div>
                     <div className={styles.SurgeryImage}>
-                        <img className={pictureAnimation.InterlacedPicture} alt="Can't live without it!" title="Can't live without it!" src="assets/Visuals/CyberPieces4.webp" />
+                        <FadeInPicture alt="Can't live without it!" title="Can't live without it!" src="assets/Visuals/CyberPieces4.webp" />
                     </div>
                 </div>
 
