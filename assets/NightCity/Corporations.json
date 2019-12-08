@@ -3,7 +3,7 @@
         {
             "name": "Arasaka",
             "shortname": "Arasaka",
-            "logo": "Arasaka.png",
+            "logo": "Arasaka.webp",
             "description": "Corporate security, corporate police and various corporate suboperations.",
             "headquarters": "Tokyo",
             "regionalOffices": ["Singapore", "Hong Kong", "Osaka", "Kyoto", 
@@ -24,7 +24,7 @@
         {
             "name": "Euro Business Machines",
             "shortname": "EBM",
-            "logo": "EBM.png",
+            "logo": "EBM.webp",
             "description": "Multi-role computer and eletronics manufacturer.",
             "headquarters": "Hamburg",
             "regionalOffices": ["W. Berlin", "Rome", "Madrid", "Paris", "Stockholm", "Geneva", "Oslo", "Helsinki", "London", "Tokyo", "Cairo", "Jerusalem", "Los Angeles", "San Francisco", "Washington", "Chicago", "Dallas", "New York", "Hong Kong"],
@@ -40,7 +40,7 @@
         {
             "name": "Zetatech",
             "shortname": "ZETATECH",
-            "logo": "Zetatech.png",
+            "logo": "Zetatech.webp",
             "description": "Wetware and computer hardware and software design.",
             "headquarters": "Cupertino, California (Silicon Valley).",
             "regionalOffices": ["San Francisco, San Jose."],
@@ -56,7 +56,7 @@
         {
             "name": "Militech",
             "shortname": "Militech",
-            "logo": "Militech.png",
+            "logo": "Militech.webp",
             "description": "Arms manufacturing and distribution, mercenaries.",
             "headquarters": "Washington D.C.",
             "regionalOffices": ["New York", "Miami", "Chicago", "Montreal", "London", "Rome", "Zurich", "Night City", "Washington", "Los Angeles", "Toronto", "Tokyo", "Beijing", "Hong Kong"],
@@ -72,7 +72,7 @@
         {
             "name": "Microtech",
             "shortname": "Microtech",
-            "logo": "Microtech.png",
+            "logo": "Microtech.webp",
             "description": "Ultra-sophisticated mainframes and workstations.",
             "headquarters": "Dallas, Texas.",
             "regionalOffices": ["Sunnyvale", "California", "Miami", "London", "Tokyo"],
@@ -88,7 +88,7 @@
         {
             "name": "Biotechnica",
             "shortname": "Biotechnica",
-            "logo": "Biotechnica.png",
+            "logo": "Biotechnica.webp",
             "description": "Genetic engineering, microbiological and biochemical research.",
             "headquarters": "Rome.",
             "regionalOffices": ["London", "Bonn", "Paris", "La Jolla California"],
@@ -104,7 +104,7 @@
         {
             "name": "Petrochem",
             "shortname": "Petrochem",
-            "logo": "Petrochem.png",
+            "logo": "Petrochem.webp",
             "description": "Petrochemical products and agribusiness. Worlds' largest CHOOH2 producer.",
             "headquarters": "Dallas, Texas.",
             "regionalOffices": ["New York", "Washington", "Miami", "Chicago", "San Francisco", "Tokyo", "London", "Hamburg", "Hong Kong", "Paris", "Rome. Oil fields in Canada", "Texas", "Alaska", "California", "Antarctica", "Agricultural areas in California and the Midwest and Southeast"],
@@ -120,7 +120,7 @@
         {
             "name": "Network News 54",
             "shortname": "Network News 54",
-            "logo": "NetworkNews54.png",
+            "logo": "NetworkNews54.webp",
             "description": "Nationwide broadcasting service.",
             "headquarters": "New York",
             "regionalOffices": ["Atlanta", "Chicago", "New Orleans", "Dallas", "Indianapolis", "Denver", "Arizona", "Portland", "Seattle", "Los Angeles", "San Francisco", "Detroit", "Washington", "subsidiary stations in most major cities."],
@@ -136,7 +136,7 @@
         {
             "name": "Orbital Air",
             "shortname": "Orbital Air",
-            "logo": "OrbitalAir.png",
+            "logo": "OrbitalAir.webp",
             "description": "Cargo and passenger transport to Earth orbit, and maintenance of commercial orbital facilities.",
             "headquarters": "Nairobi, Kenya.",
             "regionalOffices": ["Anchorage", "Vancouver", "Montreal", "New York", "Washington", "Miami", "Houston", "St. Louis", "Chicago", "Denver", "Portland", "San Francisco", "Los Angeles", "Mexico City", "Rio De Janiero", "London", "Paris", "Madrid", "Cairo", "Sydney", "Singapore", "Tokyo", "Honolulu", "the Johnson Orbital Facility in low Earth orbit."],
@@ -152,7 +152,7 @@
         {
             "name": "Infocomp",
             "shortname": "Infocomp",
-            "logo": "Infocomp.png",
+            "logo": "Infocomp.webp",
             "description": "Corporate think-tank and information brokers.",
             "headquarters": "Los Angeles.",
             "regionalOffices": ["San Francisco", "New York", "Washington", "Chicago", "Denver", "Vancouver", "London", "Honolulu"],
@@ -168,7 +168,7 @@
         {
             "name": "Merill Asukaga & Finch",
             "shortname": "MA & F",
-            "logo": "MAF.png",
+            "logo": "MAF.webp",
             "description": "Exclusive investment and finational counselling firm.",
             "headquarters": "New York.",
             "regionalOffices": ["San Francisco", "Los Angeles", "Chicago", "Hong Kong", "Tokyo", "London", "Paris", "Munich", "Rome"],
@@ -184,7 +184,7 @@
         {
             "name": "World News Service",
             "shortname": "WNS",
-            "logo": "WNS.png",
+            "logo": "WNS.webp",
             "description": "Worldwide News Service",
             "headquarters": "London.",
             "regionalOffices": [" Anchorage", "Seattle", "Ottowa", "New York", "Washington", "Miami", "Dallas", "St. Louis", "Chicago", "Denver", "Portland", "San Francisco", "Los Angeles", "Phoenix", "Mexico City", "Caracas", "Rio De Janiero", "Oslo", "Stockholm", "Helsinki", "London", "Berlin", "Jerusalem", "Cairo", "Tokyo", "Honoluly", "Tangier", "Beijing", "Shanghai", "Crystal Tower"],
@@ -200,7 +200,7 @@
         {
             "name": "Trauma Team International",
             "shortname": "Trauma Team",
-            "logo": "TraumaTeam.png",
+            "logo": "TraumaTeam.webp",
             "description": "Ambulance and paramedical services.",
             "headquarters": "Los Angeles.",
             "regionalOffices": ["World wide in all major cities."],
@@ -216,7 +216,7 @@
         {
             "name": "WorldSat Communcations Network",
             "shortname": "WorldSat",
-            "logo": "WorldSat.png",
+            "logo": "WorldSat.webp",
             "description": "Satellite transmission and communications.",
             "headquarters": "Paris",
             "regionalOffices": ["London", "Rome", "Madrid", "Stockholm", "Bonn", "Cairo", "Nairobi", "Brasilia", "Washington", "Los Angeles", "Toronto", "Tokyo", "Beijing", "Hong Kong"],
