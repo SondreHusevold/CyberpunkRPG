@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
-import pictureAnimation from '../StyleModules/Pictures.module.css';
+import animations from '../StyleModules/Animations.module.css';
 import styles from './FNFFIntroduction.module.css';
+import FadeInPicture from '../Common/FadeInPicture';
 
 class FNFFVehicles extends Component<{}> {
 
 	public render() {
 		return (
-			<div className={styles.FNFFIntroduction}>
+			<div className={animations.FadeInFast + " " + styles.FNFFIntroduction}>
 				<div className={styles.FNFFIntroductionText}>
 					<h1>Vehicles:</h1>
                     <p>Vehicles involve two elements. The first is control of the vehicle; the second is attacks and damage.</p>
@@ -37,7 +38,7 @@ class FNFFVehicles extends Component<{}> {
                     <p>The vehicle takes this many dice in damage to its SDP, while all occupants take one-half of this die amount.</p>
 				</div>
 				<div className={styles.FNFFIntroductionPicture}>
-					<img className={pictureAnimation.InterlacedPicture} alt="Friday Night Firefight" src="assets/Visuals/Vehicles.webp"/>
+					<FadeInPicture title="Cars of the future runs on CHOOH2." alt="Friday Night Firefight" src="assets/Visuals/Vehicles.webp"/>
 				</div>
 			</div>
 		);

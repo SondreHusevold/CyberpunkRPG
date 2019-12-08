@@ -4,6 +4,7 @@ import tabbedpanel from '../StyleModules/TabbedPanel.module.css';
 import splitter from '../StyleModules/Splitter.module.css';
 import styles from './FNFFActions.module.css';
 import Tabs from '../Common/Tabs';
+import FadeInPicture from '../Common/FadeInPicture';
 
 enum ActionsSections {
 	About = "An Action",
@@ -37,7 +38,7 @@ class FNFFActions extends Component<{}, FNFFActionsState> {
 	public renderAbout = () => {
 		return (
 			<div className={styles.SingleColumnGrid}>
-				<img className={styles.ActionPictureMobile + " " + pictureAnimation.PictureMobileOnly} alt="Action!" src="assets/Visuals/Actions.webp"/>
+				<FadeInPicture mobile="100% 50%" title="Action" alt="Action!" src="assets/Visuals/Actions.webp"/>
 				<p>During your part of the round, you may perform one <b>action</b> without penalty.</p>
 				<div className={splitter.TwoColumnSplit}>
 					<div className={styles.ActionText}>
@@ -58,7 +59,7 @@ class FNFFActions extends Component<{}, FNFFActionsState> {
 						</div>
 					</div>
 					<div className={styles.ActionPicture}>
-						<img className={pictureAnimation.InterlacedPicture} alt="Action!" src="assets/Visuals/Actions.webp"/>
+						<FadeInPicture title="Three, two, one, ACTION!" alt="Action!" src="assets/Visuals/Actions.webp"/>
 					</div>
 				</div>
 			</div>

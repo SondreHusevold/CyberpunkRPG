@@ -9,12 +9,6 @@
     max-width: 550px;
 }
 
-:local .ActionPictureMobile {
-    object-fit: cover;
-    width: 99.5%;
-    object-position: 100% 50%;
-}
-
 :local .SingleColumnGrid {
     display: grid;
     grid-template-columns: 1fr;

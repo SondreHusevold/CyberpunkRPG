@@ -103,12 +103,6 @@
         display: none;
     }    
 
-    :local .FNFFIntroductionPictureMobile {
-        display: block;
-        object-fit: cover;
-        object-position: 100% 30%;
-    }    
-
     :local .FNFFHitLocationMobile {
         display: block;
         max-width: 100%;

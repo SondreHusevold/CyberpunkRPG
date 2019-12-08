@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import pictureAnimation from '../StyleModules/Pictures.module.css';
 import styles from './FNFFAttacks.module.css';
 import FNFFAttacksRanged from './FNFFAttacksRanged';
 import FNFFAttacksAuto from './FNFFAttacksAuto';
@@ -7,6 +6,8 @@ import FNFFAttacksLaser from './FNFFAttacksLaser';
 import FNFFAttacksAoE from './FNFFAttacksAoE';
 import FNFFAttacksMartialArts from './FNFFAttacksMartialArts';
 import FNFFAttacksMelee from './FNFFAttacksMelee';
+import animations from '../StyleModules/Animations.module.css';
+import FadeInPicture from '../Common/FadeInPicture';
 
 enum AttackMethods {
 	Ranged = "Ranged Weapons",
@@ -59,7 +60,7 @@ class FNFFAttacks extends Component<{}, FNFFAttacksState> {
 
 		return (
 			<div className={styles.FNFFAttacksPicture}>
-				<img className={pictureAnimation.InterlacedPicture} alt="Friday Night Firefight" src={url}/>
+				<FadeInPicture title="" alt="Friday Night Firefight" src={url}/>
 			</div>
 		)
 	}
@@ -128,9 +129,9 @@ class FNFFAttacks extends Component<{}, FNFFAttacksState> {
 		}
 
 		return (
-			<div className={styles.FNFFAttacksInformation}>
+			<div className={animations.FadeInFast + " " + styles.FNFFAttacksInformation}>
 				<h1>Making Attacks:</h1>
-				<img className={styles.AttacksMobilePicture + " " + pictureAnimation.PictureMobileOnly} alt="Friday Night Firefight" src="assets/Visuals/FNFF.webp"/>
+				<FadeInPicture mobile="100% 30%" title="" alt="Friday Night Firefight" src="assets/Visuals/FNFF.webp"/>
 				<p>This section covers the basics of how to make attacks:</p>
 				<hr/>
 				<div className={ styles.FNFFAttackMenu }>

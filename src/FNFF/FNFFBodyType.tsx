@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
-import pictureAnimation from '../StyleModules/Pictures.module.css';
+import animations from '../StyleModules/Animations.module.css';
 import styles from './FNFFIntroduction.module.css';
+import FadeInPicture from '../Common/FadeInPicture';
 
 class FNFFBodyType extends Component<{}> {
 
 	public render() {
 		return (
-			<div className={styles.FNFFIntroduction}>
+			<div className={animations.FadeInFast + " " + styles.FNFFIntroduction}>
 				<div className={styles.FNFFIntroductionText}>
 					<h1>The Body Type Modifier:</h1>
                     <p>The next step after Armor is to apply your character's Body Type Modifier to the damage. </p>
@@ -50,7 +51,7 @@ class FNFFBodyType extends Component<{}> {
                     </div>
 				</div>
 				<div className={styles.FNFFIntroductionPicture}>
-					<img className={pictureAnimation.InterlacedPicture} alt="BodyType" src="assets/Visuals/BodyType.webp"/>
+					<FadeInPicture title="Higher body type = Less ouch" alt="BodyType" src="assets/Visuals/BodyType.webp"/>
 				</div>
 			</div>
 		);

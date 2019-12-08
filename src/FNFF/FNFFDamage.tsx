@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
-import pictureAnimation from '../StyleModules/Pictures.module.css';
+import animations from '../StyleModules/Animations.module.css';
 import styles from './FNFFIntroduction.module.css';
+import FadeInPicture from '../Common/FadeInPicture';
 
 class FNFFDamage extends Component<{}> {
 
 	public render() {
 		return (
-			<div className={styles.FNFFIntroduction}>
+			<div className={animations.FadeInFast + " " + styles.FNFFIntroduction}>
 				<div className={styles.FNFFIntroductionText}>
 					<h1>Damage:</h1>
                     <p>Damage in combat is determined by rolling groups of six-sided dice.</p> 
@@ -25,7 +26,7 @@ class FNFFDamage extends Component<{}> {
                     </div>
 				</div>
 				<div className={styles.FNFFIntroductionPicture}>
-					<img className={pictureAnimation.InterlacedPicture} alt="Friday Night Firefight" src="assets/Visuals/HitLocations.webp"/>
+					<FadeInPicture title="Hit locations" alt="Friday Night Firefight" src="assets/Visuals/HitLocations.webp"/>
 				</div>
 			</div>
 		);
