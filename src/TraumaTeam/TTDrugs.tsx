@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
-import pictureAnimation from '../StyleModules/Pictures.module.css';
+import animations from '../StyleModules/Animations.module.css';
 import styles from './TraumaTeam.module.css';
 import drugcss from './TTDrugs.module.css';
 import { Drug, TraumaTeamService } from '../Services/TraumaTeamService';
+import FadeInPicture from '../Common/FadeInPicture';
 
 interface DrugState {
     drugs: Drug[]
@@ -59,10 +60,10 @@ class TTDrugs extends Component<{}, DrugState> {
 
 	public render() {
 		return (
-			<div className={styles.TTIntroduction}>
+			<div className={animations.FadeInFast + " " + styles.TTIntroduction}>
 				<div className={styles.TTIntroductionText}>
 					<h1>Drugs:</h1>
-					<img className={styles.DrugsPictureMobile + " " + pictureAnimation.PictureMobileOnly} alt="Stop it." src="assets/Visuals/TTDrugs.webp"/>
+					<FadeInPicture mobile="100% 50%" title="" alt="Stop it." src="assets/Visuals/TTDrugs.webp"/>
                     { this.renderDrug() }
                     <p>The drugs of the future are far more lethal than their 20th century counterparts. Many are experimental chemicals dumped on the Street by unscrupulous Corporations looking for guinea pigs.</p>
                     <p>Some are homebrewed horrors designed in basement labs. Still others are military designed combat drugs designed to create armies of zombie killing machines. All of them are bad news.</p>
@@ -77,7 +78,7 @@ class TTDrugs extends Component<{}, DrugState> {
                     </div>
 				</div>
 				<div className={styles.TTIntroductionPicture}>
-                    <img className={pictureAnimation.InterlacedPicture} alt="Stop it." 
+                    <FadeInPicture alt="Stop it." 
                         title="Stop it. Get some help and a burger from McDonalds®" src="assets/Visuals/TTDrugs.webp"
                     />
 				</div>
