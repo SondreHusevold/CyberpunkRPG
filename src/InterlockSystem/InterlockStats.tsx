@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import { StatService } from '../Services/StatsAndSkillsService';
-import pictureAnimation from '../StyleModules/Pictures.module.css';
+import animations from '../StyleModules/Animations.module.css';
 import styles from './Interlock.module.css';
+import FadeInPicture from '../Common/FadeInPicture';
 
 export interface Stat {
     name: string;
@@ -60,7 +61,7 @@ class InterlockStats extends Component<{}, InterlockStatsState> {
 	public render() {
 
 		return (
-			<div className={styles.InterlockStats}>
+			<div className={animations.FadeInFast + " " + styles.InterlockStats}>
 				<div className={styles.InterlockIntroductionText}>
 					<h1>Stats:</h1>
                     <p>Each Cyberpunk character has nine Statistics values representing the level of native ability of the character in specific areas of activity.</p>
@@ -73,7 +74,7 @@ class InterlockStats extends Component<{}, InterlockStatsState> {
                     <hr/>
 				</div>
 				<div className={styles.InterlockIntroductionPicture}>
-					<img className={pictureAnimation.InterlacedPicture} alt="Stats" src="assets/Visuals/Stats.webp"/>
+					<FadeInPicture title="Stats" alt="Stats" src="assets/Visuals/Stats.webp"/>
 				</div>
 			</div>
 		);

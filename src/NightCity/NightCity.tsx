@@ -1,7 +1,6 @@
 import React, { Component, Suspense } from 'react';
 import styles from './NightCity.module.css';
 import Sidebar from '../Common/Sidebar.Navigation';
-import Loading from '../Common/Loading';
 
 const NightCityIntroduction = React.lazy(() => import('./NCIntroduction'));
 const NightCityStartingOut = React.lazy(() => import('./NCStartingOut'));
@@ -87,7 +86,7 @@ class NightCity extends Component<{}, NightCityState> {
 							toggleMobile={this.toggleMobileView}
 					/>
 					<div className={styles.NightCityMain}>
-						<Suspense fallback={<Loading/>}>
+						<Suspense fallback={<div/>}>
 							{this.getCurrentSelection()}
 						</Suspense>
 					</div>

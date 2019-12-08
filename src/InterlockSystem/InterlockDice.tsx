@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
-import pictureAnimation from '../StyleModules/Pictures.module.css';
 import styles from './Interlock.module.css';
+import animations from '../StyleModules/Animations.module.css';
+import FadeInPicture from '../Common/FadeInPicture';
 
 class InterlockDice extends Component<{}, {}> {
 
 	public render() {
 		return (
-			<div className={styles.InterlockIntroduction}>
+			<div className={animations.FadeInFast + " " + styles.InterlockIntroduction}>
 				<div className={styles.InterlockIntroductionText}>
 					<h1>Dice:</h1>
                     <p>All systems in Cyberpunk use two types of dice; the common, garden variety six sided die (found in most popular games and in Las Vegas), and the more esoteric ten sided die (used excluslvely by the japanese Imperial Navy and in many roleplaying games).</p>
@@ -21,7 +22,7 @@ class InterlockDice extends Component<{}, {}> {
 					<p>If a modified value (such as 1D6-4) comes out equal to, or below zero, It is automatically equal to 1 unless otherwise specified.</p>
 				</div>
 				<div className={styles.InterlockIntroductionPicture}>
-					<img className={pictureAnimation.InterlacedPicture} alt="D6 and D10" src="assets/Visuals/D10.webp"/>
+					<FadeInPicture title="D6 and D10" alt="D6 and D10" src="assets/Visuals/D10.webp"/>
 				</div>
 			</div>
 		);

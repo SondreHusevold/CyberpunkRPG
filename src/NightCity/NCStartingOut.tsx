@@ -7,7 +7,7 @@ class NightCityStartingOut extends Component<{}> {
 
 	public render() {
 		return (
-			<div className={animations.FadeInFast + " " +styles.NightCityIntroduction}>
+			<div className={animations.FadeInFast + " " + styles.NightCityIntroduction}>
 				<div className={styles.NightCityIntroductionText}>
 					<h1>The First Session:</h1>
 					<FadeInPicture mobile="100% 15%" title="Let's get started." alt="Let's get started." src="assets/Visuals/FirstSession.webp"/>
