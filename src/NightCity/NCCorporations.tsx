@@ -3,6 +3,7 @@ import pictureAnimation from '../StyleModules/Pictures.module.css';
 import styles from './NCCorporations.module.css';
 import animation from '../StyleModules/Animations.module.css';
 import { Corporation, CorporationService } from '../Services/CorporationService';
+import FadeInPicture from '../Common/FadeInPicture';
 
 interface CorporationState {
     corporations: Corporation[];
@@ -59,7 +60,7 @@ class NightCityCorporations extends Component<{}, CorporationState> {
                     </div>
                 </div>
                 <div className={styles.NightCityCorporationPicture + " " + animation.FadeInVerySlow}>
-                    <img className={pictureAnimation.InterlacedPicture} alt="Corporate Center." title="Corporate Center." src="assets/Visuals/Corporations.webp"/>
+                    <FadeInPicture alt="Corporate Center." title="Corporate Center." src="assets/Visuals/Corporations.webp"/>
                 </div>
             </div>
         )

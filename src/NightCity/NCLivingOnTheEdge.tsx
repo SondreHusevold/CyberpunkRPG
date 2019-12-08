@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import styles from './NightCity.module.css';
+import animations from '../StyleModules/Animations.module.css';
+
 
 const FadeInPicture = React.lazy(() => import('../Common/FadeInPicture'));
 
@@ -7,7 +9,7 @@ class NightCityTheEdge extends Component<{}> {
 
 	public render() {
 		return (
-			<div className={styles.NightCityLivingOnTheEdge}>
+			<div className={animations.FadeInFast + " " + styles.NightCityLivingOnTheEdge}>
                 <div className={styles.NightCityOnTheEdgeSplitter}>
                     <h1>Living on the Edge:</h1>
                     <FadeInPicture mobile="100% 15%" alt="Living on the Edge" title="Living on the Edge" src="assets/Visuals/OnTheEdgeSide.webp"/>

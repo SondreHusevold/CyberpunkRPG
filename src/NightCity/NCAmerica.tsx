@@ -1,15 +1,16 @@
 import React, { Component } from 'react';
-import pictureAnimation from '../StyleModules/Pictures.module.css';
 import styles from './NightCity.module.css';
+import FadeInPicture from '../Common/FadeInPicture';
+import animations from '../StyleModules/Animations.module.css';
 
 class NightCityAmerica extends Component<{}> {
 
 	public render() {
 		return (
-			<div className={styles.NightCityIntroduction}>
+			<div className={animations.FadeInFast + " " + styles.NightCityIntroduction}>
 				<div className={styles.NightCityIntroductionText}>
 					<h1>America in 2020:</h1>
-					<img className={styles.FirstSessionPictureMobile + " " + pictureAnimation.PictureMobileOnly} alt="Map of the United States." src="assets/Visuals/MapOfUS.webp"/>
+					<FadeInPicture mobile="100% 30%" title="Map of the US" alt="Map of the United States." src="assets/Visuals/MapOfUS.webp"/>
 					<p>If you listen to the Euro-trash, the United States is a seething hellhole of drug addicts, psychopathic killers and wandering homeless packs armed to the teeth.</p>
 					<p>If you listen to the corporate-controlled media, it's a place of "new challenges and exciting beginnings.</p>
 					<p>If you listen to the punk on the Street, it's neither one, but a mix of both.</p>
@@ -43,7 +44,7 @@ class NightCityAmerica extends Component<{}> {
 					<h3>Referee note: Check out the Night City sourcebook if you want to learn more about Night City.</h3>
 				</div>
 				<div className={styles.NightCityIntroductionPicture}>
-					<img className={pictureAnimation.InterlacedPicture} alt="Night City from NCU." title="Night City as seen from NCU." src="assets/Visuals/MapOfUS.webp"/>
+					<FadeInPicture title="Map of the US" alt="Map of the United States." src="assets/Visuals/MapOfUS.webp"/>					
 				</div>
 			</div>
 		);

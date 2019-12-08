@@ -25,8 +25,6 @@
 
 :local .loading div {
     position: absolute;
-    left: 50%;
-    top: 30%;
     width: 64px;
     height: 64px;
     border: 10px solid red;
@@ -41,6 +39,10 @@
 :local .loading div:nth-child(2) {
     animation-delay: -0.2s;
   }
+
+:local .Blurry {
+    filter: blur(50px);
+}
 
 
 @media screen and (max-width: 1000px) {
