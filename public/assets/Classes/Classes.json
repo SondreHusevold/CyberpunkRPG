@@ -4,55 +4,55 @@
 			"name": "Rockerboy",
 			"description": "Rebel rockers who use music and revolt to fight authority.",
 			"quote": "Music always gets hammered down to the Three A's. Axe, Attitude and Audience. Me, I had an Axe and an Attitude. All I had to do was get the third one.",
-			"artwork": "Rockerboy.png"
+			"artwork": "Rockerboy.webp"
 		},
 		{
 			"name": "Solo",
 			"description": "Hired assassins, bodyguards, killers, soldiers.",
 			"quote": "After a few months on the street, I got into a dustdown with a local Booster lord.\n I flatlined him and went back to my drink. Within ten minutes, the recruiter from Militech came up to me and dropped a business card.",
-			"artwork": "Solo.png"
+			"artwork": "Solo.webp"
 		}
 ,		{
 			"name": "Netrunner",
 			"description": "Cybernetic computer hackers.",
 			"quote": "First system I ever hit, I  think they had some weeflerunner playin' Sysop for  them. I burned in, jolted the guy with a borrowed Hellbolt, and did the major plunder action all over the Data Fortress.\nSomewhere out there is a guy with half his forebrain burned out.\nI wonder if they ever found the body.\nI wonder if they'll find mine the same way...",
-			"artwork": "Netrunner.png"
+			"artwork": "Netrunner.webp"
 		},
 		{
 			"name": "Techie",
 			"description": "Renegade mechanics and doctors.",
 			"quote": "So you want me to build a delay switch into the thing? And you don't care about the explosion radius?\nNo problem. At least you got a simple job. Last guy in here, he wanted me to build him a cyberhand that had a built-in ...aw, fuck, you don't wanna know.",
-			"artwork": "Techie.png"
+			"artwork": "Techie.webp"
 		},
 		{
 			"name": "Media",
 			"description": "Newsmen and reporters who go to the wall for the truth.",
 			"quote": "Okey, so it's dangerous. When I was a kid, I used to watch those reporters on the TV news. Always broadcasting from some exotic place like Mozambique or Saigon.\nThey went straight into the Central American warzones with the cybergrunts, and they got the story even when the shooting was maximally fierece.\nThat's the part I like; the danger.",
-			"artwork": "Media.png"
+			"artwork": "Media.webp"
 		},
 		{
 			"name": "Cop",
 			"description": "Maximum lawmen on mean 21st century streets.",
 			"quote": "Drop it, punk. I don't wanna hear your life story and I don't care about what society did to you. I just wanna see that gun hit the floor. Now, before I give you an extra nostrill.",
-			"artwork": "Cop.png"
+			"artwork": "Cop.webp"
 		},
 		{
 			"name": "Corporate",
 			"description": "Slick business raiders and multi-millionaires.",
 			"quote": "Money. Yeah, I got money: A new BMW aerodyne and a penthouse flat in the Corporate Zone.\nAll the money ain't worth frack. You play this game for power. The power to get things done; to make the big decisions; to affects things.\nYou make a phone call, and the next thing you know, you're telling the president of some bushleague Euronation that he'd better play it your way, or he's history.",
-			"artwork": "Corporate.png"
+			"artwork": "Corporate.webp"
 		},
 		{
 			"name": "Fixer",
 			"description": "Deal makers, smugglers, organizers and information brokers.",
 			"quote": "Don't give me this 'Robin Hood' stuff. I'm doin' a job, no more. I give people what they want, an' they pay me out.",
-			"artwork": "Fixer.png"
+			"artwork": "Fixer.webp"
 		},
 		{
 			"name": "Nomad",
 			"description": "Road warriors and gypsies who roam the highways.",
 			"quote": "Guns. Guns and cyberbikes. That's how we hold the line.\nWe don't have any home except the Caravan. We don't have any rights except what we take. We get run out of town by the cops; we get raided by the roadwarrior packs, and we survive because we've got guns and bikes...",
-			"artwork": "Nomad.png"
+			"artwork": "Nomad.webp"
 		}
 	]
 }

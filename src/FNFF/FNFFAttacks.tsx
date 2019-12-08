@@ -35,25 +35,25 @@ class FNFFAttacks extends Component<{}, FNFFAttacksState> {
 		let url = "";
 		switch (this.state.currentSelection) {
 			case AttackMethods.Ranged:
-				url = "assets/Visuals/RangedWeapon.png"
+				url = "assets/Visuals/RangedWeapon.webp"
 				break;
 			case AttackMethods.Martial:
-				url = "assets/Visuals/MartialArts.png"
+				url = "assets/Visuals/MartialArts.webp"
 				break;
 			case AttackMethods.Melee:
-				url = "assets/Visuals/MeleeWeapons.png"
+				url = "assets/Visuals/MeleeWeapons.webp"
 				break;
 			case AttackMethods.Automatic:
-				url = "assets/Visuals/AutomaticWeapons.png"
+				url = "assets/Visuals/AutomaticWeapons.webp"
 				break;
 			case AttackMethods.AoE:
-				url = "assets/Visuals/AoEWeapons.png"
+				url = "assets/Visuals/AoEWeapons.webp"
 				break;
 			case AttackMethods.Laser:
-				url = "assets/Visuals/LaserWeapon.png"
+				url = "assets/Visuals/LaserWeapon.webp"
 				break;
 			default:
-				url = "assets/Visuals/FNFF.png";
+				url = "assets/Visuals/FNFF.webp";
 				break;
 		}
 
@@ -130,7 +130,7 @@ class FNFFAttacks extends Component<{}, FNFFAttacksState> {
 		return (
 			<div className={styles.FNFFAttacksInformation}>
 				<h1>Making Attacks:</h1>
-				<img className={styles.AttacksMobilePicture + " " + pictureAnimation.PictureMobileOnly} alt="Friday Night Firefight" src="assets/Visuals/FNFF.png"/>
+				<img className={styles.AttacksMobilePicture + " " + pictureAnimation.PictureMobileOnly} alt="Friday Night Firefight" src="assets/Visuals/FNFF.webp"/>
 				<p>This section covers the basics of how to make attacks:</p>
 				<hr/>
 				<div className={ styles.FNFFAttackMenu }>

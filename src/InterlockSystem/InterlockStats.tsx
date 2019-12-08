@@ -73,7 +73,7 @@ class InterlockStats extends Component<{}, InterlockStatsState> {
                     <hr/>
 				</div>
 				<div className={styles.InterlockIntroductionPicture}>
-					<img className={pictureAnimation.InterlacedPicture} alt="Stats" src="assets/Visuals/Stats.png"/>
+					<img className={pictureAnimation.InterlacedPicture} alt="Stats" src="assets/Visuals/Stats.webp"/>
 				</div>
 			</div>
 		);

@@ -37,7 +37,7 @@ class FNFFActions extends Component<{}, FNFFActionsState> {
 	public renderAbout = () => {
 		return (
 			<div className={styles.SingleColumnGrid}>
-				<img className={styles.ActionPictureMobile + " " + pictureAnimation.PictureMobileOnly} alt="Action!" src="assets/Visuals/Actions.jpg"/>
+				<img className={styles.ActionPictureMobile + " " + pictureAnimation.PictureMobileOnly} alt="Action!" src="assets/Visuals/Actions.webp"/>
 				<p>During your part of the round, you may perform one <b>action</b> without penalty.</p>
 				<div className={splitter.TwoColumnSplit}>
 					<div className={styles.ActionText}>
@@ -58,7 +58,7 @@ class FNFFActions extends Component<{}, FNFFActionsState> {
 						</div>
 					</div>
 					<div className={styles.ActionPicture}>
-						<img className={pictureAnimation.InterlacedPicture} alt="Action!" src="assets/Visuals/Actions.jpg"/>
+						<img className={pictureAnimation.InterlacedPicture} alt="Action!" src="assets/Visuals/Actions.webp"/>
 					</div>
 				</div>
 			</div>
@@ -113,7 +113,7 @@ class FNFFActions extends Component<{}, FNFFActionsState> {
 					{this.renderImage()}
 				</div>
 				<img className={styles.LoSPicture + " " + pictureAnimation.InterlacedPicture} style={{ cursor: "pointer" }} 
-					onClick={this.openPictureInNewTab} alt="Line of sight" title="Click to remove background." src="assets/Visuals/LineOfSight.png"
+					onClick={this.openPictureInNewTab} alt="Line of sight" title="Click to remove background." src="assets/Visuals/LineOfSight.webp"
 				/>
 				
 			</React.Fragment>
@@ -121,16 +121,16 @@ class FNFFActions extends Component<{}, FNFFActionsState> {
 	}
 
 	public openPictureInNewTab = () => {
-        window.open("assets/Visuals/LineOfSightNo3D.png", "_blank"); 		
+        window.open("assets/Visuals/LineOfSightNo3D.webp", "_blank"); 		
 	}
 
 	public renderImage = () => {
 		if(this.state.imageAnimation) {
 			return <img className={pictureAnimation.InterlacedPicture} style={{ cursor: "pointer" }} 
-					onClick={this.toggleImageAnimation} alt="Line of sight" title="Click to remove background." src="assets/Visuals/LineOfSight.png"
+					onClick={this.toggleImageAnimation} alt="Line of sight" title="Click to remove background." src="assets/Visuals/LineOfSight.webp"
 					/>
 		}
-		return <img onClick={this.toggleImageAnimation} style={{ cursor: "pointer" }} alt="Line of sight" src="assets/Visuals/LineOfSightNo3D.png"/>
+		return <img onClick={this.toggleImageAnimation} style={{ cursor: "pointer" }} alt="Line of sight" src="assets/Visuals/LineOfSightNo3D.webp"/>
 	}
 
 	public toggleImageAnimation = () => {

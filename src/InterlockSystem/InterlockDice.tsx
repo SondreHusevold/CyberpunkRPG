@@ -21,7 +21,7 @@ class InterlockDice extends Component<{}, {}> {
 					<p>If a modified value (such as 1D6-4) comes out equal to, or below zero, It is automatically equal to 1 unless otherwise specified.</p>
 				</div>
 				<div className={styles.InterlockIntroductionPicture}>
-					<img className={pictureAnimation.InterlacedPicture} alt="D6 and D10" src="assets/Visuals/D10.png"/>
+					<img className={pictureAnimation.InterlacedPicture} alt="D6 and D10" src="assets/Visuals/D10.webp"/>
 				</div>
 			</div>
 		);

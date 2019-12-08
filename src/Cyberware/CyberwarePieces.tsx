@@ -9,13 +9,13 @@ class CyberPieces extends Component<{}> {
 			<div className={styles.SurgeryMain}>
 				<div>
 					<h1>Pieces of Cyberware:</h1>
-                    <img className={pictureAnimation.PictureMobileOnly} alt="Buy now!." title="Buy now!." src="assets/Visuals/CyberPieces2.png" />
+                    <img className={pictureAnimation.PictureMobileOnly} alt="Buy now!." title="Buy now!." src="assets/Visuals/CyberPieces2.webp" />
                     <p>All available Cyberware are described both in the core rulebook (page 76) and Chrome books 1-4. The latter is highly recommended as they contain all kinds of cyberware and also weapons and vehicles.</p>
                     <p>However you might be wondering what kind of Cyberware there is, and here are some examples of cyberware types:</p>
                     
                     <h2>Fashionware:</h2>
                     <p>These are typical hi-tech gadgets. Biomonitors, skinwatches (clocks with LEDs under your skin), Techhair that changes your hair color depending on the weather, light tattoos that glow and more.</p>
-                    <img className={pictureAnimation.PictureMobileOnly} alt="Get it today!." title="Get it today!." src="assets/Visuals/CyberPieces.png" />
+                    <img className={pictureAnimation.PictureMobileOnly} alt="Get it today!." title="Get it today!." src="assets/Visuals/CyberPieces.webp" />
                     
                     <h2>Neuralware (Processor):</h2>
                     <p>Invisible cyberware that amplifies your existing abilities. Reflex boosters, pain editors, Cybermodem links, smartgun links, interface plugs and so on.</p>
@@ -47,7 +47,7 @@ class CyberPieces extends Component<{}> {
                     <h2>Cyberaudio:</h2>
                     <p>This enhancement affects both ears, and also includes a subvocalizing mike on the mastoid bone. There is no visible change to the outer ear, although some cyberpunks replace the outer ear with a set of mechanical speaker pickups for max effect.</p>
                     <p>Radio links, ECM Scramblers, amplified hearing, voice stress analyzers, sound editing, volume level dampner, and various recorders are typically in this category.</p>
-                    <img className={pictureAnimation.PictureMobileOnly} alt="Get it today!." title="Get it today!." src="assets/Visuals/CyberPieces4.png" />
+                    <img className={pictureAnimation.PictureMobileOnly} alt="Get it today!." title="Get it today!." src="assets/Visuals/CyberPieces4.webp" />
                     
                     <h2>Cyberlimbs:</h2>
                     <p>Still a popular fad in the Cyberpunk future. They are chromed, airbrushed, jeweled, lighted, and even sculpted in the pursuit of true cybertech chic.</p>
@@ -67,16 +67,16 @@ class CyberPieces extends Component<{}> {
 				</div>
                 <div>
                     <div className={styles.SurgeryImage}>
-                        <img className={pictureAnimation.InterlacedPicture} alt="Get it today!." title="Get it today!." src="assets/Visuals/CyberPieces.png" />
+                        <img className={pictureAnimation.InterlacedPicture} alt="Get it today!." title="Get it today!." src="assets/Visuals/CyberPieces.webp" />
                     </div>
                     <div className={styles.SurgeryImage}>
-                        <img className={pictureAnimation.InterlacedPicture} alt="Buy now!." title="Buy now!." src="assets/Visuals/CyberPieces2.png" />
+                        <img className={pictureAnimation.InterlacedPicture} alt="Buy now!." title="Buy now!." src="assets/Visuals/CyberPieces2.webp" />
                     </div>
                     <div className={styles.SurgeryImage}>
-                        <img className={pictureAnimation.InterlacedPicture} alt="Soon out of stock!." title="Soon out of stock!." src="assets/Visuals/CyberPieces3.png" />
+                        <img className={pictureAnimation.InterlacedPicture} alt="Soon out of stock!." title="Soon out of stock!." src="assets/Visuals/CyberPieces3.webp" />
                     </div>
                     <div className={styles.SurgeryImage}>
-                        <img className={pictureAnimation.InterlacedPicture} alt="Can't live without it!" title="Can't live without it!" src="assets/Visuals/CyberPieces4.png" />
+                        <img className={pictureAnimation.InterlacedPicture} alt="Can't live without it!" title="Can't live without it!" src="assets/Visuals/CyberPieces4.webp" />
                     </div>
                 </div>
 

@@ -35,8 +35,14 @@
 
 /* Mobile pictures */
 @media screen and (max-width: 1050px) {
+    :local .InterlacedPicture {
+        display: none;
+    }
+
     :local .PictureMobileOnly {
         display: block;
+        object-fit: cover;
+        object-position: 100% 100%;
     }
     
     :local .PictureMobileOnly img {

@@ -11,7 +11,7 @@ class InterlockLifepath extends Component<{}, {}> {
                 <div className={styles.Explanations}>
                     <h1>Lifepath:</h1>
                     <div className={styles.MobilePicture + " " + pictureAnimation.PictureMobileOnly}>
-                        <img alt="Lifepath" src="assets/Visuals/Lifepath.png"/>
+                        <img alt="Lifepath" src="assets/Visuals/Lifepath.webp"/>
                     </div>
                     <p>You got this half-formed person standing there. You got some stats, maybe an vague idea of where you're going with the character, but nothing else.</p>
                     <p>So how do you take this Blank and make him really Cyberpunk? You start with the Lifepath.</p>
@@ -42,7 +42,7 @@ class InterlockLifepath extends Component<{}, {}> {
                     </p>
                 </div>
                 <div className={styles.Picture}>
-                    <img className={pictureAnimation.InterlacedPicture} alt="Lifepath" src="assets/Visuals/Lifepath.png"/>
+                    <img className={pictureAnimation.InterlacedPicture} alt="Lifepath" src="assets/Visuals/Lifepath.webp"/>
                 </div>
             </div>
 		);

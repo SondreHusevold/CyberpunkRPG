@@ -22,8 +22,11 @@
     display: flex;
     justify-content: center;
   }
+
 :local .loading div {
     position: absolute;
+    left: 50%;
+    top: 30%;
     width: 64px;
     height: 64px;
     border: 10px solid red;
@@ -40,6 +43,14 @@
   }
 
 
+@media screen and (max-width: 1000px) {
+    :local .loading div {
+        left: 30%;
+        top: 30%;
+        width: 128px;
+        height: 128px;
+    }
+}
 @keyframes loadcircle {
     0% {
         transform: rotate(0deg);

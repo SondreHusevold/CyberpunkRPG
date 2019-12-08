@@ -1,14 +1,16 @@
-import React, { Component } from 'react';
+import React, { Component, Suspense } from 'react';
 import styles from './NightCity.module.css';
 import Sidebar from '../Common/Sidebar.Navigation';
-import NightCityIntroduction from './NCIntroduction';
-import NightCityStartingOut from './NCStartingOut';
-import NightCityTheEdge from './NCLivingOnTheEdge';
-import NightCityHistory from './NCHistory';
-import NightCityAmerica from './NCAmerica';
-import NightCitySlang from './NCSlang';
-import NightCityCorporations from './NCCorporations';
-import NightCityMaps from './NCMaps';
+import Loading from '../Common/Loading';
+
+const NightCityIntroduction = React.lazy(() => import('./NCIntroduction'));
+const NightCityStartingOut = React.lazy(() => import('./NCStartingOut'));
+const NightCityTheEdge = React.lazy(() => import('./NCLivingOnTheEdge'));
+const NightCityHistory = React.lazy(() => import('./NCHistory'));
+const NightCityAmerica = React.lazy(() => import('./NCAmerica'));
+const NightCitySlang = React.lazy(() => import('./NCSlang'));
+const NightCityCorporations = React.lazy(() => import('./NCCorporations'));
+const NightCityMaps = React.lazy(() => import('./NCMaps'));
 
 interface NightCityState {
 	selection: string | null;
@@ -63,7 +65,7 @@ class NightCity extends Component<{}, NightCityState> {
 			case Choices.Maps: 
 				return <NightCityMaps />
 			default:
-				return "";
+				return <div/>;
 		}
 	}
 
@@ -85,7 +87,9 @@ class NightCity extends Component<{}, NightCityState> {
 							toggleMobile={this.toggleMobileView}
 					/>
 					<div className={styles.NightCityMain}>
-						{this.getCurrentSelection()}
+						<Suspense fallback={<Loading/>}>
+							{this.getCurrentSelection()}
+						</Suspense>
 					</div>
 				</div>
 			</div>

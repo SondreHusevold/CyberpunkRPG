@@ -33,7 +33,6 @@
     margin-bottom: 30px;
 }
 
-
 :local .NightCityIntroductionPicture img {
     padding: 10px;
     margin: 0px;
@@ -77,18 +76,6 @@
 :local .DoubleSpan {
     grid-column: span 2;
 }
-
-
-:local .NightCityMobilePicture {
-    object-position: 100% 65%;
-    object-fit: cover;
-}
-
-:local .NightCityLivingOnTheEdgePicture {
-    object-position: 100% 15%;
-    object-fit: cover;
-}
-
 
 @media screen and (max-width: 1050px) {
 

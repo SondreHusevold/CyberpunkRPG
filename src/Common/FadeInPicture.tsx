@@ -1,18 +1,18 @@
 import React, { Component } from 'react'
 import styles from '../StyleModules/Pictures.module.css';
-import animations from '../StyleModules/Animations.module.css';
+import Loading from './Loading';
 
 interface CyberPictureProps {
     src: string;
     alt: string;
     title: string;
+    mobile?: string; 
 }
 
 interface CyberPictureState {
   hasLoaded: boolean;
 }
 
-// This component is used to fade in the images, mostly due to InterlacedPicture looking awful when the picture hasn't loaded yet.
 class FadeInPicture extends Component<CyberPictureProps, CyberPictureState> {
   constructor(props: CyberPictureProps) {
       super(props);
@@ -28,20 +28,24 @@ class FadeInPicture extends Component<CyberPictureProps, CyberPictureState> {
 
   public renderLoading = () => {
     if(!this.state.hasLoaded) {
-      return (
-        <div className={animations.loading}><div></div><div></div></div>
-      )
+      return <Loading />
     }
-    return "";
+    return <div/>;
   }
 
   render() {
+    if(this.props.mobile != null && this.props.mobile.toLowerCase() != "") {
+      return (
+        <img className={styles.PictureMobileOnly} style={{objectPosition: this.props.mobile}} onLoad={() => this.hasLoaded()} src={this.props.src} title={this.props.title} alt={this.props.alt} />
+      )
+    }
+
     return (
       <div>
         {this.renderLoading()}
-        <div className={styles.PictureAnimationWrap + " " + (!this.state.hasLoaded ? styles.NonloadedPicture : "")}>
+          <div className={styles.PictureAnimationWrap + " " + (!this.state.hasLoaded ? styles.NonloadedPicture : "")}>
             <img className={styles.InterlacedPicture} onLoad={() => this.hasLoaded()} src={this.props.src} title={this.props.title} alt={this.props.alt} />
-        </div>
+          </div>
       </div>
     );
   }
