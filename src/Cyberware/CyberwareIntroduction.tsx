@@ -9,7 +9,7 @@ class CyberwareIntroduction extends Component<{}> {
 			<div className={animations.FadeInFast + " " + styles.IntroductionSplit}>
 				<div>
 					<h1>Introduction:</h1>
-					<FadeInPicture mobile="100% 20%" title="Alt Cunningham. Johnny Silverhand's input." 
+					<FadeInPicture mobile="100% 10%" title="Alt Cunningham. Johnny Silverhand's input." 
 					alt="Alt Cunningham." src="assets/Visuals/Cyberware.webp" />
 					<p>Forget everything you ever thought about cyborgs. Everything. </p>
 					<p>This is the 2000's. Today’s cyborg is stylish.</p>

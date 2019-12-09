@@ -11,7 +11,7 @@ class InterlockLifepath extends Component<{}, {}> {
             <div className={animations.FadeInFast + " " + styles.Lifepath}>
                 <div className={styles.Explanations}>
                     <h1>Lifepath:</h1>
-                    <FadeInPicture mobile="100% 0%" title="Choose your path." alt="Lifepath" src="assets/Visuals/Lifepath.webp"/>
+                    <FadeInPicture mobile="100% 55%" title="Choose your path." alt="Lifepath" src="assets/Visuals/Lifepath.webp"/>
                     <p>You got this half-formed person standing there. You got some stats, maybe an vague idea of where you're going with the character, but nothing else.</p>
                     <p>So how do you take this Blank and make him really Cyberpunk? You start with the Lifepath.</p>
                     <p>Lifepath is a flow chart of "plot complications", designed to help you give your Cyberpunk character an authentically dark future background.

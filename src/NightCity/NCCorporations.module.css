@@ -108,7 +108,7 @@
 
     :local .NightCityCorporationLogo img {
         padding: 0px;
-        margin: 00px;
+        margin: 0px;
         max-width: 300px;
         max-height: 200px;
     }
@@ -137,13 +137,7 @@
     }
 
     :local .NightCityCorporationGrid button {
-        background: repeating-linear-gradient(0deg,
-        transparent 0px, 
-        transparent 4px, 
-         red 6px, 
-         red 1px
-       );
-       text-shadow: 1px 1px 4px black;
+        background: #202020;
     }
 
     :local .PadOutCorporation {
@@ -162,7 +156,6 @@
     }
 
     :local .BackButtonMobile {
-
        text-shadow: 1px 1px 4px black;
        display: block;
        height: 70px;
@@ -171,14 +164,21 @@
        z-index: 2020;
     }
 
+    :local .BackButtonMobile:hover {
+        border-top: 2px solid red;
+        border-left:0px;
+        border-bottom: 0px;
+        border-right: 0px;
+        padding: 0px;
+     }
+
     :local .BackButtonMobileBackground {
         background: #202020;
         display: block;
         position: fixed;
         bottom: 0;
         left: 0;
-       width: 100%;
-
+        width: 100%;
     }
 
 

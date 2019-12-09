@@ -50,11 +50,14 @@
     border: 1px solid red;
 }
 
+:local .Slang {
+    width: 70%;
+}
+
 :local .SlangSplit {
     display: grid;
     grid-template-columns: 0.5fr 0.5fr;
     column-gap: 2%;
-    margin-right: 20%;
 }
 
 :local .SlangSplit div {
@@ -84,6 +87,12 @@
         padding-right: 0%;
         margin-bottom: 0%;
     }
+
+
+    :local .Slang {
+        width: 100%;
+    }
+
 
     :local .SlangSplit {
         grid-template-columns: 1fr;

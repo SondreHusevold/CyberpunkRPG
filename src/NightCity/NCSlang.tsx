@@ -26,7 +26,7 @@ class NightCitySlang extends Component<{}, NightCitySlangState> {
 
 	public render() {
 		return (
-            <div>
+            <div className={styles.Slang}>
                 <div className={styles.NightCityIntroductionText}>
 					<h1>Slang and terms:</h1>
                     <p>Let's chat, choomba. It's a large world out there, and you need to know the lingo. You can't take your input or local Call-girl to the ripperdoc when you are nearly out of eddies and a fodder is waiting to flatline you.</p>

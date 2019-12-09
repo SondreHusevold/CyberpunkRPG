@@ -10,6 +10,11 @@
     grid-gap: 5%;
 }
 
+
+:local .TTIntroMobilePicture {
+    display: none;
+}
+
 :local .TTIntroductionText {
     grid-column: 1;
 }
@@ -121,8 +126,19 @@
     }    
 
     :local .TTIntroMobilePicture {
-        object-fit: scale-down;
-        border: 0px;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        padding: 0px;
+    }
+
+    :local .TTIntroMobilePicture img {
+        border: 1px solid red;
+        max-height: 200px;
+    }
+
+    :local .TTDeathMobilePicture img {
+        border: 1px solid red;
     }
 
     :local .TTDeathMobilePicture {

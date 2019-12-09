@@ -123,8 +123,6 @@ class TTHealing extends Component<{}, TTHealingState> {
             case HealingSections.Nanomachines:
                 return this.renderNanotech();
 		}
-
-		return "";
 	}
 
 	public isActive = (selection: HealingSections) => {

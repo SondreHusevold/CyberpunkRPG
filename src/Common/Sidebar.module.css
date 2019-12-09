@@ -34,6 +34,14 @@
     :local .MobileHidden {
         display: none;
     }
+
+    :local .SidebarButton {
+        width: 100%;
+    }
+
+    :local .SidebarButton:hover {
+        border-left: 7px solid transparent;
+    }
 }
 
 :local .SidebarButton:hover {

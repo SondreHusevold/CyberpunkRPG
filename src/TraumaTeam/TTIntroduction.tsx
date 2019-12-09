@@ -15,7 +15,9 @@ class TTIntroduction extends Component<{}> {
 			<div className={animations.FadeInFast + " " + styles.TTIntroduction}>
 				<div className={styles.TTIntroductionText}>
 					<h1>Heal. Diagnose. Extract.</h1>
-					<FadeInPicture mobile="100% 0%" title="Trauma Team" alt="Logo" src="assets/Visuals/TraumaTeam.webp"/>
+                    <div className={styles.TTIntroMobilePicture} >
+					    <img title="Trauma Team" alt="Logo" src="assets/Visuals/TraumaTeam.webp"/>
+                    </div>
 					<p>One of the most powerful Corporations of the Cyber Age is the Trauma Team™; a bonded and licensed paramedical franchise operating throughout the U.S., Canada and parts of Europe.</p>
                     <p>These crack ambulance units are specifically designed to get to the scene of a fatality within seven minutes (or your money back).</p>
                     <p>Trauma Team's crews are made up of the best paramedical techs and staff available. The teams are usually made up of a driver, a senior Medtechie, an assistant and two security officers. They normally travel in a heavily armored AV-4 aircraft, supported by mobile tanker trucks and ground refuelling stations. </p>
