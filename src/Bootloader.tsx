@@ -93,7 +93,7 @@ class Bootloader extends Component<{}, IBootloaderState> {
 
 		return (
 			<div className={styles.Zetatech}>
-				<header>
+				<header className={this.state.loggedIn != "TopSecret" ? "" : styles.HideHeader}>
 					<video src="assets/Background.mp4" autoPlay={true} className={styles.Background} loop={true} />
 				</header>
 				{this.renderPlayer()}

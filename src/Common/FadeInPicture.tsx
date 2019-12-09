@@ -34,7 +34,7 @@ class FadeInPicture extends Component<CyberPictureProps, CyberPictureState> {
   }
 
   render() {
-    if(this.props.mobile != null && this.props.mobile.toLowerCase() != "") {
+    if(this.props.mobile != null && this.props.mobile.toLowerCase() !== "") {
       return (
         <img className={styles.PictureMobileOnly} style={{objectPosition: this.props.mobile}} onLoad={() => this.hasLoaded()} src={this.props.src} title={this.props.title} alt={this.props.alt} />
       )

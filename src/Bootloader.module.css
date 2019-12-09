@@ -33,3 +33,7 @@
 	grid-area: Footer;
 	color: darkred;
 }
+
+:local .HideHeader {
+	display: none;
+}

@@ -1,7 +1,7 @@
 :local .SidebarButton {
-    width: 100%;
+    width: 230px;
     padding: 5px;
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     margin: 10px;
     transition: background 0.25s ease-in-out, color 0.25s ease-in-out;
     background-image: linear-gradient(to right, red 0%,#202020 48% );

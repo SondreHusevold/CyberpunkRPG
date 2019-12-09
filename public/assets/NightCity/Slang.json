@@ -1,0 +1,352 @@
+{
+    "slang": [
+        { 
+        "name": "ACPA:",
+        "description": "Assisted Combat Personell Armor aka Power Armor."
+        },
+        { 
+        "name": "Amped Out:",
+        "description": "Fatigue after being under the influence of combat drugs."
+        },
+        { 
+        "name": "AV/Aerodynes:",
+        "description": "Aerovehicles and aerodynes are flying cars."
+        },
+        { 
+        "name": "Bag man:",
+        "description": "Fixers who orchestrate deals with mercenaries."
+        },
+        { 
+        "name": "Borgs / Full body conversations:",
+        "description": "People who have opted to replace most of their body with cybernetic conversions."
+        },
+        { 
+        "name": "Badges:",
+        "description": "Slang for the Night City Police Department (NCPD)."
+        },
+        { 
+        "name": "Big hats:",
+        "description": "State police men."
+        },
+        { 
+        "name": "Bioware:",
+        "description": "Body enhancements that are based around biology instead of electronics."
+        },
+        { 
+        "name": "Body Sculpting:",
+        "description": "Altering your appearance through cosmetic surgery and cybernetics."
+        },
+        { 
+        "name": "Body banks:",
+        "description": "Medical centers that store, preserve and grow body parts."
+        },
+        { 
+        "name": "Boosters:",
+        "description": "Boostergang members who use cyberware, leather jackets and has an affinity for violence."
+        },
+        { 
+        "name": "Braindance:",
+        "description": "A type of recorded immmersive virtual reality where you feel all sensations of the recorder."
+        },
+        { 
+        "name": "Brain Potato:",
+        "description": "Braindance addicts."
+        },
+        { 
+        "name": "Button head:",
+        "description": "Addicts who stimulate their brain through interface sockets."
+        },
+        { 
+        "name": "Cams:",
+        "description": "Braindance recordings."
+        },
+        { 
+        "name": "Call girls:",
+        "description": "High-priced prositutes."
+        },
+        { 
+        "name": "Choomba / Choombatta:",
+        "description": "Neo-African slang for friend/family member."
+        },
+        { 
+        "name": "Chippin' in:",
+        "description": "Getting your first cyberware."
+        },
+        { 
+        "name": "Chairjocks:",
+        "description": "Netrunner."
+        },
+        { 
+        "name": "CHOOH2:",
+        "description": "Superfuel of the future engineered by Biotechnica and licensed by Petrochem."
+        },
+        { 
+        "name": "Chrome:",
+        "description": "Cyberware"
+        },
+        { 
+        "name": "Chromed out:",
+        "description": "Being full of Cyberware."
+        },
+        { 
+        "name": "Chrome bangers:",
+        "description": "Slang for the C-SWAT aka Cyberpsycho Squad / MAX-TAC who take down and kill Cyberpsychos. "
+        },
+        { 
+        "name": "Combat drugs:",
+        "description": "Designer drugs created to make you into a killer."
+        },
+        { 
+        "name": "Combat zone:",
+        "description": "Places of urban decay in cities characterized by high crime, violence and tattered infrastructure."
+        },
+        { 
+        "name": "Credchip / Chop:",
+        "description": "A chip with eurodollars."
+        },
+        { 
+        "name": "Crystal Jock:",
+        "description": "Netrunner."
+        },
+        { 
+        "name": "Cyberpsychos:",
+        "description": "Individuals who are mentally ill due to excessive cyberware implants."
+        },
+        { 
+        "name": "Cyberdeck:",
+        "description": "A hardware device required for you to enter Cyberspace aka The Net."
+        },
+        { 
+        "name": "Data Fortress:",
+        "description": "3D Representation of a computer system on the net. Usually looks like something out of Tron."
+        },
+        { 
+        "name": "Dataterm:",
+        "description": "Public information access computers placed in heavily armored cases on most US street corners."
+        },
+        { 
+        "name": "Dirtgirl / Dirtboy:",
+        "description": "Orbital slang for earthmen and women."
+        },
+        { 
+        "name": "Dock:",
+        "description": "Intercourse."
+        },
+        { 
+        "name": "Dragon Piss:",
+        "description": "Any form of oriental beer."
+        },
+        { 
+        "name": "Dream time:",
+        "description": "Being jailed and confined inside a braindance."
+        },
+        { 
+        "name": "Eddies:",
+        "description": "Eurodollars / Eurobucks."
+        },
+        { 
+        "name": "Edgerunners:",
+        "description": "People living on The Edge."
+        },
+        { 
+        "name": "Eurobucks:",
+        "description": "Other word for Eurodollars."
+        },
+        { 
+        "name": "Eurodollars:",
+        "description": "The european currency unit, which is one of the most used currencies in Night City and all over the world. "
+        },
+        { 
+        "name": "Exotics:",
+        "description": "Biosculpted individuals who typically have non-human features like fur, fangs and/or tails."
+        },
+        { 
+        "name": "Face:",
+        "description": "Interface or jacking into the net."
+        },
+        { 
+        "name": "Flatbacker:",
+        "description": "A prostitute."
+        },
+        { 
+        "name": "Flatline:",
+        "description": "To kill."
+        },
+        { 
+        "name": "Fixers:",
+        "description": "Information brokers and a class. Make deals and facilitates mercenaries."
+        },
+        { 
+        "name": "Fodder:",
+        "description": "Derogatory term for the Solo class."
+        },
+        { 
+        "name": "Gonks:",
+        "description": "Idiots."
+        },
+        { 
+        "name": "Gonked out:",
+        "description": "Broken/Defective."
+        },
+        { 
+        "name": "Handle:",
+        "description": "Your working name on the street."
+        },
+        { 
+        "name": "Hexed:",
+        "description": "Cyberpsychosis or obsessed with the net."
+        },
+        { 
+        "name": "Hotdoggers:",
+        "description": "Inexperienced netrunners."
+        },
+        { 
+        "name": "Hosho Kaisha:",
+        "description": "Japanese slang for hired muscle."
+        },
+        { 
+        "name": "I.C.E:",
+        "description": "Intrusion Countermeasure Electronics."
+        },
+        { 
+        "name": "Input:",
+        "description": "Girlfriend."
+        },
+        { 
+        "name": "Joygirl/boys:",
+        "description": "Prostitutes who have been sculpted to meet the user."
+        },
+        { 
+        "name": "Kibble:",
+        "description": "Cheaply produced food that resemble cat/dog food."
+        },
+        { 
+        "name": "Linefoot:",
+        "description": "Nomad slang for anyone who isn't a nomad."
+        },
+        { 
+        "name": "Meat Puppets:",
+        "description": "Prostitutes who are connected to brain dances while being banged."
+        },
+        { 
+        "name": "Metal Head:",
+        "description": "People undergone full cyborg conversion."
+        },
+        { 
+        "name": "Mizu Shobai:",
+        "description": "Water industries like nightclubs, bars, resturants."
+        },
+        { 
+        "name": "Monkey:",
+        "description": "ACPA user who isn't well trained."
+        },
+        { 
+        "name": "NCART:",
+        "description": "Night City Area Rapid Transit aka monorail train system."
+        },
+        { 
+        "name": "Netwatch:",
+        "description": "Policing organization looking in The Net for illegal activities. They use programs to kill or maim opposition."
+        },
+        { 
+        "name": "Netpig:",
+        "description": "Derogatory term for Netwatch."
+        },
+        { 
+        "name": "Nudies:",
+        "description": "People without power armor or exoskeletons."
+        },
+        { 
+        "name": "Output:",
+        "description": "Boyfriend."
+        },
+        { 
+        "name": "Paintboys:",
+        "description": "Yakuza"
+        },
+        { 
+        "name": "Pastaboys:",
+        "description": "Italian Mafia."
+        },
+        { 
+        "name": "Panzerboys:",
+        "description": "Smugglers."
+        },
+        { 
+        "name": "Polymer-One shots:",
+        "description": "Cheap unreliable non-reloadable handguns."
+        },
+        { 
+        "name": "Posergangs:",
+        "description": "A gang that sculpe their body to look a certain way."
+        },
+        { 
+        "name": "Psychogang:",
+        "description": "A combat gang that is very near cyberpsychosis."
+        },
+        { 
+        "name": "Puppets:",
+        "description": "Gang members who have sold out to the corpos or organized crime syndicates."
+        },
+        { 
+        "name": "Reality junkies:",
+        "description": "Addicts to Virtual Reality, braindance, The Net or video games."
+        },
+        { 
+        "name": "Ripperdocs:",
+        "description": "Surgeons who specialize in installing Cyberware."
+        },
+        { 
+        "name": "Rin Tin Tin:",
+        "description": "A robot dog, usually a police K9."
+        },
+        { 
+        "name": "Ronins:",
+        "description": "Freelance mercenaries."
+        },
+        { 
+        "name": "Samurai:",
+        "description": "Corporate assassin or mercenary, hired to hit corporate property or make strikes against other corpo holdings."
+        },
+        { 
+        "name": "Screamsheets:",
+        "description": "Newspapers that can be printed at Dataterms."
+        },
+        { 
+        "name": "Shards:",
+        "description": "Cyberchips that store programs."
+        },
+        { 
+        "name": "Skagman:",
+        "description": "Wired illegal seller."
+        },
+        { 
+        "name": "Spook:",
+        "description": "An intelligence or espionage agent"
+        },
+        { 
+        "name": "Taking sake:",
+        "description": "Working for Japanese organizations or crime syndicates."
+        },
+        { 
+        "name": "Tiger:",
+        "description": "Military netrunner."
+        },
+        { 
+        "name": "Throwbacks:",
+        "description": "Another word for Exotics."
+        },
+        { 
+        "name": "Vatjobs:",
+        "description": "People with excessive cyberware replacements."
+        },
+        { 
+        "name": "Wilson:",
+        "description": "A screwup."
+        },
+        { 
+        "name": "Zipgun:",
+        "description": "Home made firarm."
+        }
+    ]
+}

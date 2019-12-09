@@ -1,12 +1,10 @@
 :local .NightCityMaps {
     display: flex;
     flex-direction: column;
-    width: 70%;
+    width: 50%;
 }
 
 :local .MapPicture {
-    max-width: 1200px;
-    border: 1px solid red;
     cursor: pointer;
 }
 
@@ -15,8 +13,8 @@
         width: 100%;
     }
 
-    :local .MapPicture {
-        max-width: 100%;
-        border: 1px solid red;
+    :local .MapPicture img {
+        display: block;
+        max-width: 80%;
     }
 }

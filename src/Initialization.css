@@ -10,6 +10,7 @@ button {
     font-family: recharge;
     font-size: 18px;
     padding: 0px 15px 0px 7px;
+    outline: 0;
 }
 
 button:hover {
