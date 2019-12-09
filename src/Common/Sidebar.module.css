@@ -37,10 +37,26 @@
 
     :local .SidebarButton {
         width: 100%;
+        transition: none;
+        background-image: #202020;
     }
 
     :local .SidebarButton:hover {
         border-left: 7px solid transparent;
+    }
+
+    :local .SidebarButtonActive {
+        color: #202020;
+        box-shadow: 0px 0px 0 0 red;
+        border-left: 0px;
+        padding-left: 0px;
+    }
+
+    :local .SidebarButtonActive:hover {
+        color: #202020;
+        background-position: left center;
+        box-shadow: -0px 0px 0 0 red;
+        border-left: 0px;
     }
 }
 

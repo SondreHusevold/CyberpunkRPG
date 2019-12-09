@@ -20,7 +20,6 @@ button:hover {
     border-left: 7px solid red;
 }
 
-  
 button:active {
     cursor: pointer;
     border-top: 1px solid red;
@@ -39,6 +38,28 @@ button:active {
     border-top: 1px solid transparent;
     border-bottom: 1px solid transparent;
     border-left: 7px solid transparent;
+}
+
+@media screen and (max-width: 1000px) {
+    button {
+        background: transparent;
+        color: red;
+        border: 1px solid transparent;
+        font-family: recharge;
+        font-size: 18px;
+        padding: 0px 15px 0px 7px;
+        outline: 0;
+    }
+    button:hover {
+        cursor: pointer;
+        border: 1px solid red;
+    }
+    
+    button:active {
+        cursor: pointer;
+        border: 1px solid red;
+    }
+      
 }
   
 /** Glitch when buttons are clicked. **/

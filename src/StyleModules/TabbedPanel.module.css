@@ -58,7 +58,6 @@
 }
 
 
-
 :local .ExampleBorder {
     border: 1px solid red;
     padding: 20px;
@@ -166,11 +165,23 @@
     }
 
     :local .NavLink {
-        border-bottom: 1px solid red;
+        transition: none;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-bottom: 0px;
+        border: 0px solid red;
     }
 
     :local .FourTabs span {
         padding: 20px;
+    }
+
+    :local .ActiveNav {
+        transition: none;
+        border: 0px;
+        background: red;
+        color: #202020;
+        cursor: pointer;
     }
     
 }
