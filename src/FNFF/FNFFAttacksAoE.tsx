@@ -1,11 +1,12 @@
 
 import React, { Component } from 'react';
+import animations from '../StyleModules/Animations.module.css';
 import styles from './FNFFAttacks.module.css';
 
 class FNFFAttacksAoE extends Component<{}, {}> {
 	public render() {
 		return (
-			<div className={styles.FNFFAttacks}>
+			<div className={animations.FadeInFast + " " + styles.FNFFAttacks}>
 				<h1>Area of Effect attacks:</h1>
 				<p>Area Effect weapons are fired just like any other type of ranged weapon. However, they are capable of covering more than one target at a time with a cloud of pellets, flame, explosive force or gas. </p>
 				<p>Area effect weapons include shotguns, grenades and explosives, flamethrowers, missiles and rockets, mines and rocket powered grenades (RPGs).</p>

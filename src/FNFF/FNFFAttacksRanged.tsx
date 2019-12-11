@@ -1,11 +1,12 @@
 
 import React, { Component } from 'react';
+import animations from '../StyleModules/Animations.module.css';
 import styles from './FNFFAttacks.module.css';
 
 class FNFFAttacksRanged extends Component<{}, {}> {
 	public render() {
 		return (
-			<div className={styles.FNFFAttacks}>
+			<div className={animations.FadeInFast + " " + styles.FNFFAttacks}>
 				<h1>Ranged attacks:</h1>
 				<p>Ranged weapons are anything that is shot or thrown over a distance at the target.</p>
 				<p>To make a ranged weapon attack (guns, bows, thrown objects, etc.) you must roll a combination of your:</p>

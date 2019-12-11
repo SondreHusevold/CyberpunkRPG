@@ -1,11 +1,12 @@
 
 import React, { Component } from 'react';
+import animations from '../StyleModules/Animations.module.css';
 import styles from './FNFFAttacks.module.css';
 
 class FNFFAttacksAuto extends Component<{}, {}> {
 	public render() {
 		return (
-			<div className={styles.FNFFAttacks}>
+			<div className={animations.FadeInFast + " " + styles.FNFFAttacks}>
 				<h1>Automatic Weapon attacks:</h1>
 				<p>There are three ways to use automatic weapons.</p>
 				<ul>

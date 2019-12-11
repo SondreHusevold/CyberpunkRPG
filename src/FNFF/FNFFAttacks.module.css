@@ -136,6 +136,28 @@
         border: 1px solid red;
     }
 
+    :local .FNFFAttackSmallerMenu {
+        margin: 0px;
+        position: fixed;
+        bottom:0;
+        left: 0px;
+        width: 100%;
+    }
+    
+    :local .FNFFAttackSmallerMenu button {
+        height: 60px;
+        width: 100%;
+        border-left: 0px;
+        border-right: 0px;
+        padding: 10px;
+        margin: 0px;
+        display: block;
+    }
+
+    :local .FNFFAttackMenu button {
+        background: #202020;
+    }
+
     :local .SplitIntoTwo {
         grid-gap: 0px;
         grid-template-columns: 1fr;
@@ -147,6 +169,7 @@
 
     :local .FNFFAttacksSplit {
         grid-template-columns: 1fr;
+        margin-bottom: 80px;
     }
 
     :local .FNFFAttackMenu {

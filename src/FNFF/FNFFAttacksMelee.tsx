@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
+import animations from '../StyleModules/Animations.module.css';
 import styles from './FNFFAttacks.module.css';
 
 class FNFFAttacksMelee extends Component<{}, {}> {
 	public render() {
 		return (
-			<div className={styles.FNFFAttacks}>
+			<div className={animations.FadeInFast + " " + styles.FNFFAttacks}>
 				<h1>Melee attacks:</h1>
                 <p>Melee attacks include clubs, knives, swords, axes, chainsaws, sledgehammers, monokatanas and monoknives, monomolecular chains, cyberbeasts, battlegloves, rippers, scratchers, martial arts weapons, hand to hand attacks and brawling.</p>
                 <p>Melee attacks differ from ranged attacks in that you are opposing a person, instead of a target. To make a melee attack, the formula is:</p>

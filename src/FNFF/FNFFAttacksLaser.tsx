@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
+import animations from '../StyleModules/Animations.module.css';
 import styles from './FNFFAttacks.module.css';
 
 class FNFFAttacksLaser extends Component<{}, {}> {
 	public render() {
 		return (
-			<div className={styles.FNFFAttacks}>
+			<div className={animations.FadeInFast + " " + styles.FNFFAttacks}>
 				<h1>Laser attacks:</h1>
 				<p>Beam Weapons include lasers and microwave weapons.</p>
 				<p>Powerful beam weapons are extremely rare in the Cyberpunk universe (1 in 10 chance of availability, and even then only from major Corporations and/or governments).</p>
