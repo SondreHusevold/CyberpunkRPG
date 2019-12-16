@@ -5,8 +5,8 @@ import Tabs from '../Common/Tabs';
 enum SkillSections {
 	About = "About",
 	Starting = "Starting Skills",
-	Pickup = "Pickup Skills",
-	House = "House Rules"
+	Pickup = "Pickup Skills"
+	//House = "House Rules"
 }
 
 interface InterlockSkillsState {
@@ -97,8 +97,8 @@ class InterlockSkills extends Component<{}, InterlockSkillsState> {
 				return this.renderStartingSkills();
 			case SkillSections.Pickup:
 				return this.renderPickupSkills();
-			case SkillSections.House:
-				return this.renderHouseRuled();
+			//case SkillSections.House:
+			//	return this.renderHouseRuled();
 		}
 
 		return "";
