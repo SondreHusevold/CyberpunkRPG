@@ -22,7 +22,7 @@ class NightCityTheEdge extends Component<{}> {
                             <p>Normally, clothes and looks don’t matter in an adventure - in this world, having a leather armor jacket and mirrorshades is a serious consideration.</p>
                             
                             <h2>2) Attitude is Everything</h2>
-                            <p>Think dangerous; be dangerous. Think weak; be weak. Remember, every. one in the 2000's is carrying lots of lethal hardware and high-tech enhancements.</p>
+                            <p>Think dangerous; be dangerous. Think weak; be weak. Remember, everyone in the 2000's is carrying lots of lethal hardware and high-tech enhancements.</p>
                             <p>{"They won’t be impressed by your new H&K smartgun unless you swagger into the club looking like you know how to use it - and are just itching for an excuse."}</p>
                             <p>Never walk into a room when you can stride in. Never look at someone unless you can make it your best "killer" look. Use your best "I'm bad and you aren't.” smile. Don't sit around the flat or cube waiting for the next job.</p>
                             <p>Get on out and hit the clubs and hangouts.</p>

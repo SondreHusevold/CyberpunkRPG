@@ -51,6 +51,10 @@
    );
 }
 
+:local .InterlockReturnDesktop {
+    cursor: pointer;
+}
+
 :local .InterlockStatsSubmenu button:hover {
     background: red;
     color: #202020;

@@ -145,17 +145,14 @@ class StatRender extends Component<StatProp, {}> {
     public render() {
         return (
             <div className={styles.InterlockStatSubmenuDetails}>
-
+                <div className={styles.InterlockReturnDesktop} onClick={this.props.back}>
+                    > [<span className={styles.InterlockReturnSubmenu}> RETURN </span>]
+                </div>
                 <h2>{this.props.chosen.name}:</h2>
                 { this.renderText() }
-                <div className={styles.InterlockReturnSubmenuWrapper} onClick={this.props.back}>
-                    <div className={styles.InterlockReturnDesktop}>
-                        > [<span className={styles.InterlockReturnSubmenu}> RETURN </span>]
-                    </div>
-                    <button className={styles.InterlockReturnMobile}>
-                        RETURN
-                    </button>
-                </div>
+                <button className={styles.InterlockReturnMobile} onClick={this.props.back}>
+                    RETURN
+                </button>
             </div>
         )
     }
