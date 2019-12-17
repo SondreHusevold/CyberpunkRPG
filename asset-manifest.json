@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/CyberpunkRPG/static/css/main.62bde1f4.chunk.css",
-    "main.js": "/CyberpunkRPG/static/js/main.6c2a911c.chunk.js",
-    "main.js.map": "/CyberpunkRPG/static/js/main.6c2a911c.chunk.js.map",
-    "runtime-main.js": "/CyberpunkRPG/static/js/runtime-main.07385f2f.js",
-    "runtime-main.js.map": "/CyberpunkRPG/static/js/runtime-main.07385f2f.js.map",
+    "main.css": "/CyberpunkRPG/static/css/main.0b8cb4e4.chunk.css",
+    "main.js": "/CyberpunkRPG/static/js/main.0d79b13d.chunk.js",
+    "main.js.map": "/CyberpunkRPG/static/js/main.0d79b13d.chunk.js.map",
+    "runtime-main.js": "/CyberpunkRPG/static/js/runtime-main.edd8bbc0.js",
+    "runtime-main.js.map": "/CyberpunkRPG/static/js/runtime-main.edd8bbc0.js.map",
     "static/css/2.b4e2f5db.chunk.css": "/CyberpunkRPG/static/css/2.b4e2f5db.chunk.css",
     "static/js/2.133842ee.chunk.js": "/CyberpunkRPG/static/js/2.133842ee.chunk.js",
     "static/js/2.133842ee.chunk.js.map": "/CyberpunkRPG/static/js/2.133842ee.chunk.js.map",
@@ -20,27 +20,27 @@
     "static/js/6.e573e1e8.chunk.js.map": "/CyberpunkRPG/static/js/6.e573e1e8.chunk.js.map",
     "static/js/7.bc7e42e6.chunk.js": "/CyberpunkRPG/static/js/7.bc7e42e6.chunk.js",
     "static/js/7.bc7e42e6.chunk.js.map": "/CyberpunkRPG/static/js/7.bc7e42e6.chunk.js.map",
-    "static/js/8.8a476d69.chunk.js": "/CyberpunkRPG/static/js/8.8a476d69.chunk.js",
-    "static/js/8.8a476d69.chunk.js.map": "/CyberpunkRPG/static/js/8.8a476d69.chunk.js.map",
+    "static/js/8.68f02c9c.chunk.js": "/CyberpunkRPG/static/js/8.68f02c9c.chunk.js",
+    "static/js/8.68f02c9c.chunk.js.map": "/CyberpunkRPG/static/js/8.68f02c9c.chunk.js.map",
     "static/js/9.a1daaedc.chunk.js": "/CyberpunkRPG/static/js/9.a1daaedc.chunk.js",
     "static/js/9.a1daaedc.chunk.js.map": "/CyberpunkRPG/static/js/9.a1daaedc.chunk.js.map",
     "static/js/10.c8a71741.chunk.js": "/CyberpunkRPG/static/js/10.c8a71741.chunk.js",
     "static/js/10.c8a71741.chunk.js.map": "/CyberpunkRPG/static/js/10.c8a71741.chunk.js.map",
     "index.html": "/CyberpunkRPG/index.html",
-    "precache-manifest.09099efaee19e5605790ce45c8769327.js": "/CyberpunkRPG/precache-manifest.09099efaee19e5605790ce45c8769327.js",
+    "precache-manifest.62b471cf6d871c86d532a97732e710b6.js": "/CyberpunkRPG/precache-manifest.62b471cf6d871c86d532a97732e710b6.js",
     "service-worker.js": "/CyberpunkRPG/service-worker.js",
     "static/css/2.b4e2f5db.chunk.css.map": "/CyberpunkRPG/static/css/2.b4e2f5db.chunk.css.map",
     "static/css/3.330b7776.chunk.css.map": "/CyberpunkRPG/static/css/3.330b7776.chunk.css.map",
     "static/css/4.4fb9e625.chunk.css.map": "/CyberpunkRPG/static/css/4.4fb9e625.chunk.css.map",
-    "static/css/main.62bde1f4.chunk.css.map": "/CyberpunkRPG/static/css/main.62bde1f4.chunk.css.map",
+    "static/css/main.0b8cb4e4.chunk.css.map": "/CyberpunkRPG/static/css/main.0b8cb4e4.chunk.css.map",
     "static/js/2.133842ee.chunk.js.LICENSE": "/CyberpunkRPG/static/js/2.133842ee.chunk.js.LICENSE",
     "static/media/material-icons.css": "/CyberpunkRPG/static/media/MaterialIcons-Regular.e79bfd88.eot"
   },
   "entrypoints": [
-    "static/js/runtime-main.07385f2f.js",
+    "static/js/runtime-main.edd8bbc0.js",
     "static/css/2.b4e2f5db.chunk.css",
     "static/js/2.133842ee.chunk.js",
-    "static/css/main.62bde1f4.chunk.css",
-    "static/js/main.6c2a911c.chunk.js"
+    "static/css/main.0b8cb4e4.chunk.css",
+    "static/js/main.0d79b13d.chunk.js"
   ]
 }
