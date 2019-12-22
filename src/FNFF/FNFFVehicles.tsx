@@ -38,7 +38,7 @@ class FNFFVehicles extends Component<{}> {
                     <p>The vehicle takes this many dice in damage to its SDP, while all occupants take one-half of this die amount.</p>
 				</div>
 				<div className={styles.FNFFIntroductionPicture}>
-					<FadeInPicture title="Cars of the future runs on CHOOH2." alt="Friday Night Firefight" src="assets/Visuals/Vehicles.webp"/>
+					<FadeInPicture title="Cars of the future runs on CHOOH2." alt="Friday Night Firefight" src="../../assets/Visuals/Vehicles.webp"/>
 				</div>
 			</div>
 		);

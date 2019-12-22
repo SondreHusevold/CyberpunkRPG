@@ -26,10 +26,18 @@ button:active {
     border-bottom: 1px solid red;
     border-left: 7px solid red;
 }
+
+button a {
+    color: red;
+    outline: 0;
+    text-decoration: none;
+}
   
 .selectedButton {
     animation-name: redGlitch;
     animation-duration: 0.25s;
+    color: #202020;
+    text-decoration: none;
     color: #202020;
     background-color: red;
 }
@@ -38,6 +46,10 @@ button:active {
     border-top: 1px solid transparent;
     border-bottom: 1px solid transparent;
     border-left: 7px solid transparent;
+}
+
+.selectedButton a {
+
 }
 
 @media screen and (max-width: 1000px) {

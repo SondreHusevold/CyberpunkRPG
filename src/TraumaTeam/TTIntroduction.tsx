@@ -16,7 +16,7 @@ class TTIntroduction extends Component<{}> {
 				<div className={styles.TTIntroductionText}>
 					<h1>Heal. Diagnose. Extract.</h1>
                     <div className={styles.TTIntroMobilePicture} >
-					    <img title="Trauma Team" alt="Logo" src="assets/Visuals/TraumaTeam.webp"/>
+					    <img title="Trauma Team" alt="Logo" src="../../assets/Visuals/TraumaTeam.webp"/>
                     </div>
 					<p>One of the most powerful Corporations of the Cyber Age is the Trauma Team™; a bonded and licensed paramedical franchise operating throughout the U.S., Canada and parts of Europe.</p>
                     <p>These crack ambulance units are specifically designed to get to the scene of a fatality within seven minutes (or your money back).</p>
@@ -48,7 +48,7 @@ class TTIntroduction extends Component<{}> {
                     <p>As a privately owned concern, Trauma Teams™ are not under any obligation to transport a casualty to a hospital, although they are responsible for reviving and stabilizing critically wounded patients. </p>
 				</div>
 				<div className={styles.TTIntroductionPicture}>
-					<FadeInPicture title="Logo of Trauma Team International" alt="Logo" src="assets/Visuals/TraumaTeam.webp"/>
+					<FadeInPicture title="Logo of Trauma Team International" alt="Logo" src="../../assets/Visuals/TraumaTeam.webp"/>
 				</div>
 			</div>
 		);

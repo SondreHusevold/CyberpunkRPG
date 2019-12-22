@@ -54,13 +54,13 @@ class NightCityCorporations extends Component<{}, CorporationState> {
                     <div className={styles.NightCityCorporationGrid + " " + animation.FadeInSlow}>
                         {this.state.corporations.map((corp) => {
                             return (
-                                <button onClick={() => { this.setCorporation(corp); }}>{corp.shortname}</button>
+                                <button key={corp.shortname} onClick={() => { this.setCorporation(corp); }}>{corp.shortname}</button>
                             )
                         })}
                     </div>
                 </div>
                 <div className={styles.NightCityCorporationPicture + " " + animation.FadeInVerySlow}>
-                    <FadeInPicture alt="Corporate Center." title="Corporate Center." src="assets/Visuals/Corporations.webp"/>
+                    <FadeInPicture alt="Corporate Center." title="Corporate Center." src="../../assets/Visuals/Corporations.webp"/>
                 </div>
             </div>
         )
@@ -88,7 +88,7 @@ class NightCityCorporations extends Component<{}, CorporationState> {
                             <h1 className={styles.NoMarginHeader}>{corpo.name}</h1>
                             <h3>{corpo.description}</h3>
                             <div className={styles.NightCityCorporationLogo}>
-                                <img className={pictureAnimation.InterlacedPicture} alt={corpo.name} src={"assets/Visuals/CorporationLogos/" + corpo.logo}/>
+                                <img className={pictureAnimation.InterlacedPicture} alt={corpo.name} src={"../../assets/Visuals/CorporationLogos/" + corpo.logo}/>
                             </div>
                             <h2>General Information:</h2>
                             <p>Headerquarters: {corpo.headquarters}</p>

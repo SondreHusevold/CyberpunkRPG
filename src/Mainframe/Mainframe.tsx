@@ -8,6 +8,7 @@ import FridayNightFirefight from '../FNFF/FridayNightFirefight';
 import TraumaTeam from '../TraumaTeam/TraumaTeam';
 import Cyberware from '../Cyberware/Cyberware';
 import NightCity from '../NightCity/NightCity';
+import { Switch, Route, Router } from 'react-router-dom';
 
 enum Feeds {
 	Realspace = "Realspace",
@@ -16,6 +17,7 @@ enum Feeds {
 
 interface IMainframeProps {
 	currentSection: MainSection;
+	history: any;
 }
 
 interface IMainframeState {
@@ -52,42 +54,52 @@ class Mainframe extends Component<IMainframeProps, IMainframeState> {
 		return <video loop muted autoPlay className={styles.fullscreenbgvideo} src={videoLocation}/>
 	}
 
-	public renderSection() {
-		switch (this.props.currentSection) {
-			case MainSection.Classes:
-				return <Classes/>
-			case MainSection.InterlockSystem:
-				return <Interlock/>
-			case MainSection.NightCity:
-				return <NightCity />
-			case MainSection.FNFF:
-				return <FridayNightFirefight />
-			case MainSection.TraumaTeam:
-				return <TraumaTeam />
-			case MainSection.Cyberware:
-				return <Cyberware />
-			default:
-				return (
-					<div>
-						<h1 className="consoleText">Welcome, netrunner.</h1>
-						<div className={styles.mainframeVideo}>
-							<span className={styles.videoDescription}>{'>'} Current view from:</span>
-							{
-								Object.values(Feeds).map((feed) => {
-									return <span key={feed} className={styles.videoNav + " " + (this.state.selectedVideo === feed ? styles.activeVideo : "")} onClick={this.switchFeed}>{feed}</span>
-								})
-							}
-							{this.getFeed()}
-						</div>
-					</div>
-				)
-		}
+	public renderHome = () => {
+		return (
+			<React.Fragment>
+				<h1 className="consoleText">Welcome, netrunner.</h1>
+				<div className={styles.mainframeVideo}>
+					<span className={styles.videoDescription}>{'>'} Current view from:</span>
+					{
+						Object.values(Feeds).map((feed) => {
+							return <span key={feed} className={styles.videoNav + " " + (this.state.selectedVideo === feed ? styles.activeVideo : "")} 
+							onClick={this.switchFeed}>{feed}</span>
+						})
+					}
+					{this.getFeed()}
+				</div>
+			</React.Fragment>
+		)
 	}
 
 	public render() {		
 		return (
 			<div className={styles.Mainframe}>
-				{this.renderSection()}
+				<Router history={this.props.history}>
+					<Switch>
+						<Route exact path="/">
+							{this.renderHome()}
+						</Route>
+						<Route path="/nightcity">
+							<NightCity history={this.props.history} />
+						</Route>
+						<Route path="/classes">
+							<Classes history={this.props.history} />
+						</Route>
+						<Route path="/interlocksystem">
+							<Interlock history={this.props.history} />
+						</Route>
+						<Route path="/fnff">
+							<FridayNightFirefight history={this.props.history} />
+						</Route>
+						<Route path="/traumateam">
+							<TraumaTeam history={this.props.history} />
+						</Route>
+						<Route path="/cyberware">
+							<Cyberware history={this.props.history} />
+						</Route>
+					</Switch>
+				</Router>
 			</div>
 		);
 	}

@@ -51,7 +51,7 @@ export class ClassIntroduction extends Component<ClassIntroductionProps, ClassIn
     render() {
         return (
             <div>
-                <img className={styles.ClassPictureMobile + " " + pictureAnimation.PictureMobileOnly} alt="Class" src={`assets/Classes/${this.props.characterClass.name}/Picture.webp`}/>
+                <img className={styles.ClassPictureMobile + " " + pictureAnimation.PictureMobileOnly} alt="Class" src={`../../assets/Classes/${this.props.characterClass.name}/Picture.webp`}/>
                 {this.getInformation()}
             </div>
         )

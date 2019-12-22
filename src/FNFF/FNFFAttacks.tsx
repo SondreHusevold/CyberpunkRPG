@@ -36,25 +36,25 @@ class FNFFAttacks extends Component<{}, FNFFAttacksState> {
 		let url = "";
 		switch (this.state.currentSelection) {
 			case AttackMethods.Ranged:
-				url = "assets/Visuals/RangedWeapon.webp"
+				url = "../../assets/Visuals/RangedWeapon.webp"
 				break;
 			case AttackMethods.Martial:
-				url = "assets/Visuals/MartialArts.webp"
+				url = "../../assets/Visuals/MartialArts.webp"
 				break;
 			case AttackMethods.Melee:
-				url = "assets/Visuals/MeleeWeapons.webp"
+				url = "../../assets/Visuals/MeleeWeapons.webp"
 				break;
 			case AttackMethods.Automatic:
-				url = "assets/Visuals/AutomaticWeapons.webp"
+				url = "../../assets/Visuals/AutomaticWeapons.webp"
 				break;
 			case AttackMethods.AoE:
-				url = "assets/Visuals/AoEWeapons.webp"
+				url = "../../assets/Visuals/AoEWeapons.webp"
 				break;
 			case AttackMethods.Laser:
-				url = "assets/Visuals/LaserWeapon.webp"
+				url = "../../assets/Visuals/LaserWeapon.webp"
 				break;
 			default:
-				url = "assets/Visuals/FNFF.webp";
+				url = "../../assets/Visuals/FNFF.webp";
 				break;
 		}
 
@@ -131,7 +131,7 @@ class FNFFAttacks extends Component<{}, FNFFAttacksState> {
 		return (
 			<div className={animations.FadeInFast + " " + styles.FNFFAttacksInformation}>
 				<h1>Making Attacks:</h1>
-				<FadeInPicture mobile="100% 0%" title="" alt="Friday Night Firefight" src="assets/Visuals/FNFF.webp"/>
+				<FadeInPicture mobile="100% 0%" title="" alt="Friday Night Firefight" src="../../assets/Visuals/FNFF.webp"/>
 				<p>This section covers the basics of how to make attacks:</p>
 				<hr/>
 				<div className={ styles.FNFFAttackMenu }>

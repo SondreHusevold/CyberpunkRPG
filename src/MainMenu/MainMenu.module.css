@@ -80,12 +80,37 @@
 		font-size: 25px;
 	}
 
+	:local .mainmenuMobileText {
+		padding: 25px;
+		outline: none;
+	}
+
+	:local .mainmenuList a {
+		text-align: center;
+		font-size: 25px;
+		padding: 1em;
+		color: red;
+		text-decoration: none;
+		outline: none;
+		background-color: none;
+		-webkit-touch-callout: none;
+		-webkit-user-select: none;
+		user-select: none;
+		-webkit-tap-highlight-color: transparent;
+	}
+
+	:local .mainmenuList a:active {
+		outline: none;
+	}
+	
 	:local .mainmenuList p {
 		cursor: pointer;
 		padding: 15px 15px 15px 7px;
 		border-top: 1px solid transparent;
 		border-left: 3px solid transparent;
 		border-bottom: 1px solid transparent;
+		outline: none;
+
 	}
 
 	:local .activateMobileList {

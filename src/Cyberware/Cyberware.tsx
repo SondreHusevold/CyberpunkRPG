@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component, Suspense } from 'react';
 import styles from './Cyberware.module.css';
 import Sidebar from '../Common/Sidebar.Navigation';
 import CyberSurgery from './CyberSurgery';
@@ -6,11 +6,16 @@ import CyberwareIntroduction from './CyberwareIntroduction';
 import Cyberpsychosis from './Cyberpsychosis';
 import CyberwareHumanity from './CyberHumanity';
 import CyberPieces from './CyberwarePieces';
+import { Router, Switch, Route } from 'react-router-dom';
 
 interface CyberState {
 	selection: string | null;
 	showMobileMenu: boolean;
 } 
+
+interface CyberProps {
+	history: any;
+}
 
 enum Choices {
 	Introduction = "Introduction",
@@ -20,9 +25,9 @@ enum Choices {
 	Pieces = "Pieces"
 }
 
-class Cyberware extends Component<{}, CyberState> {
+class Cyberware extends Component<CyberProps, CyberState> {
 
-	public constructor(props: {}) {
+	public constructor(props: CyberProps) {
 		super(props);
 
 		this.state = {
@@ -41,15 +46,15 @@ class Cyberware extends Component<{}, CyberState> {
 	public getCurrentSelection = () => {
 		switch(this.state.selection) {
 			case Choices.Introduction:
-				return <CyberwareIntroduction />
+				return 
 			case Choices.Cyberpsychosis:
-				return <Cyberpsychosis />
+				return 
 			case Choices.Surgery:
-				return <CyberSurgery />
+				return 
 			case Choices.Humanity:
-				return <CyberwareHumanity />
+				return 
 			case Choices.Pieces:
-				return <CyberPieces />
+				return 
 			default:
 				return "";
 		}
@@ -61,19 +66,48 @@ class Cyberware extends Component<{}, CyberState> {
 		})
 	}
 
+	public findCurrentLocation = () => {
+		let location: string = this.props.history.location.pathname.split("/").pop();
+		let foundSection = Object.values(Choices).find(d => d.toLowerCase().startsWith(location.substring(0,4), 0));
+		if(foundSection != null) 
+			return foundSection.toString();
+		return Choices.Introduction;
+	}
+
 	public render() {
 		return (
 			<div>
 				<h1 className="consoleText" onClick={this.toggleMobileView}>Cyberware:</h1>
 				<div className={styles.CyberSplit}>
-					<Sidebar showMobile={this.state.showMobileMenu} 
+					<Sidebar origin="cyberware" 
+							showMobile={this.state.showMobileMenu} 
 							choices={Object.values(Choices)} 
 							clicked={this.changeSelection} 
-							preDetermined={Choices.Introduction}
+							preDetermined={this.findCurrentLocation()}
 							toggleMobile={this.toggleMobileView}
 					/>
 					<div className={styles.CyberMain}>
-						{this.getCurrentSelection()}
+						<Suspense fallback={<div/>}>
+							<Router history={this.props.history}>
+								<Switch>
+									<Route path="/cyberware/introduction">
+										<CyberwareIntroduction />
+									</Route>
+									<Route path="/cyberware/cyberpsychosis">
+										<Cyberpsychosis />
+									</Route>
+									<Route path="/cyberware/surgery">
+										<CyberSurgery />
+									</Route>
+									<Route path="/cyberware/humanity">
+										<CyberwareHumanity />
+									</Route>
+									<Route path="/cyberware/pieces">
+										<CyberPieces />
+									</Route>
+								</Switch>
+							</Router>
+						</Suspense>
 					</div>
 				</div>
 			</div>

@@ -156,7 +156,7 @@ class FNFFArmor extends Component<{}, FNFFArmorState> {
                     <p>You don't have to lug around an armor jacket with you—often the best armor is what you can find around you.</p>
                     <p>Cover allows you to move from place to place, letting something else soak up the gunfire.</p>
                     <div className={styles.CoverImageWrapper}>
-                        <img className={styles.CoverImage + " " + pictureAnimations.InterlacedPicture} alt="Covering yourself up prevents bullets to the face." src="assets/Visuals/FNFFCover.webp" />
+                        <img className={styles.CoverImage + " " + pictureAnimations.InterlacedPicture} alt="Covering yourself up prevents bullets to the face." src="../../assets/Visuals/FNFFCover.webp" />
                     </div>
                 </div>
                 <table className={styles.ArmorTable}>

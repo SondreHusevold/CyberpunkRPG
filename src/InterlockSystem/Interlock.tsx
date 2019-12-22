@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component, Suspense } from 'react';
 import styles from './Interlock.module.css';
 import InterlockIntroduction from './InterlockIntroduction';
 import InterlockDice from './InterlockDice';
@@ -10,11 +10,16 @@ import InterlockSkillList from './InterlockSkillList';
 import InterlockSkillsIP from './InterlockSkillsIP';
 import InterlockReputation from './InterlockReputation';
 import InterlockLifepath from './InterlockLifepath';
+import { Router, Switch, Route } from 'react-router-dom';
 
 interface InterlockState {
 	selection: string | null;
 	showMobileMenu: boolean;
-} 
+}
+
+interface InterlockProps {
+	history: any;
+}
 
 enum Choices {
 	Introduction = "Introduction",
@@ -28,9 +33,9 @@ enum Choices {
 	Starting = "Lifepath"
 }
 
-class Interlock extends Component<{}, InterlockState> {
+class Interlock extends Component<InterlockProps, InterlockState> {
 
-	public constructor(props: {}) {
+	public constructor(props: InterlockProps) {
 		super(props);
 
 		this.state = {
@@ -46,35 +51,18 @@ class Interlock extends Component<{}, InterlockState> {
 		});
 	}
 
-	public getCurrentSelection = () => {
-		switch(this.state.selection) {
-			case Choices.Introduction:
-				return <InterlockIntroduction />;
-			case Choices.Dice: 
-				return <InterlockDice />;
-			case Choices.Stats:
-				return <InterlockStats />;
-			case Choices.SkillCheck:
-				return <InterlockSkillCheck />
-			case Choices.Skills:
-				return <InterlockSkills />;
-			case Choices.Improvement:
-				return <InterlockSkillsIP/>;
-			case Choices.SkillList:
-				return <InterlockSkillList />
-			case Choices.Reputation:
-				return <InterlockReputation />
-			case Choices.Starting:
-				return <InterlockLifepath />
-			default:
-				return "";
-		}
-	}
-
 	public toggleMobileView = () => {
 		this.setState({
 			showMobileMenu: !this.state.showMobileMenu
 		})
+	}
+
+	public findCurrentLocation = () => {
+		let location: string = this.props.history.location.pathname.split("/").pop();
+		let foundSection = Object.values(Choices).find(d => d.toLowerCase().startsWith(location.substring(0,4), 0));
+		if(foundSection != null) 
+			return foundSection.toString();
+		return Choices.Introduction;
 	}
 
 	public render() {
@@ -82,13 +70,46 @@ class Interlock extends Component<{}, InterlockState> {
 			<React.Fragment>
 				<h1 className={"consoleText"} onClick={this.toggleMobileView}>Interlock System:</h1>
 				<div className={styles.InterlockSplit}>
-					<Sidebar showMobile={this.state.showMobileMenu} 
+					<Sidebar origin="interlocksystem" 
+							showMobile={this.state.showMobileMenu} 
 							choices={Object.values(Choices)} 
 							clicked={this.changeSelection} 
-							preDetermined={Choices.Introduction}
+							preDetermined={this.findCurrentLocation()}
 							toggleMobile={this.toggleMobileView}
 					/>
-					{this.getCurrentSelection()}
+					<Suspense fallback={<div/>}>
+						<Router history={this.props.history}>
+							<Switch>
+								<Route path="/interlocksystem/introduction">
+									<InterlockIntroduction />
+								</Route>
+								<Route path="/interlocksystem/dice">
+									<InterlockDice />
+								</Route>
+								<Route path="/interlocksystem/stats">
+									<InterlockStats />
+								</Route>
+								<Route path="/interlocksystem/skills">
+									<InterlockSkills />
+								</Route>
+								<Route path="/interlocksystem/imppoints">
+									<InterlockSkillsIP/>
+								</Route>
+								<Route path="/interlocksystem/skillcheck">
+									<InterlockSkillCheck />
+								</Route>
+								<Route path="/interlocksystem/skilllist">
+									<InterlockSkillList />
+								</Route>
+								<Route path="/interlocksystem/reputation">
+									<InterlockReputation />
+								</Route>
+								<Route path="/interlocksystem/lifepath">
+									<InterlockLifepath />
+								</Route>
+							</Switch>
+						</Router>
+					</Suspense>
 				</div>
 			</React.Fragment>
 		);

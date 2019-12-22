@@ -104,6 +104,8 @@
     :local .NightCityCorporations {
         grid-template-columns: 1fr;
         column-gap: 0%;
+        margin-bottom: 30px;
+
     }
 
     :local .NightCityCorporationLogo img {
@@ -143,7 +145,6 @@
     :local .PadOutCorporation {
         padding-right: 0%;
         margin-bottom: 80px;
-
     }
 
     :local .FirstSessionPictureMobile  {

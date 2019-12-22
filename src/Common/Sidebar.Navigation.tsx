@@ -1,7 +1,9 @@
 import React, { PureComponent } from 'react';
 import styles from "./Sidebar.module.css";
+import { Link } from 'react-router-dom';
 
 interface ISidebarProps {
+    origin: string; // For example: cyberware or nightcity.
     choices: string[];
     clicked: (chosen: string) => void;
     toggleMobile: () => void;
@@ -53,12 +55,17 @@ class Sidebar extends PureComponent<ISidebarProps, ISidebarState> {
                     <hr/>
                 </div>
                 { 
-                    this.props.choices.map((sector) => 
-                        <button key={sector} className={styles.SidebarButton + " " + this.IsTheActiveMenu(sector)} 
-                            onClick={() => { this.changeSelected(sector)} }>
-                            {sector}
-                        </button> 
-                    )
+                    this.props.choices.map((sector) => {
+                        let sectorLowerCaseWithoutSpacesAndDots = sector.toLowerCase().replace(/\s/g, "").replace(".", "");
+                        return (
+                            <Link to={`/${this.props.origin}/${sectorLowerCaseWithoutSpacesAndDots}`} key={sector}>
+                                <button className={styles.SidebarButton + " " + this.IsTheActiveMenu(sector)} 
+                                    onClick={() => { this.changeSelected(sector)} }>
+                                    {sector}
+                                </button> 
+                            </Link>
+                        )
+                    })
                 }
             </div>
 		);

@@ -10,9 +10,13 @@ interface ClassState {
 	showMobileMenu: boolean;
 } 
 
-class Classes extends Component<{}, ClassState> {
+interface ClassProps {
+	history: any;
+}
 
-	public constructor(props: {}) {
+class Classes extends Component<ClassProps, ClassState> {
+
+	public constructor(props: ClassProps) {
 		super(props);
 
 		this.state = {
@@ -26,8 +30,10 @@ class Classes extends Component<{}, ClassState> {
 
 	public async GetClasses() {
 		this.setState({
-			characterClasses: await ClassService.getClasses()
-		});
+			characterClasses: await ClassService.getClasses(),
+		}, () => this.setState({
+			selectedClass: this.useClassFromLocation()
+		}));
 	}
 
 	public GetDetails() {
@@ -60,15 +66,33 @@ class Classes extends Component<{}, ClassState> {
 		})
 	}
 
+	public useClassFromLocation() {
+		let location: string = this.props.history.location.pathname.split("/").pop();
+		let foundSection = this.state.characterClasses.find(d => d.name.toLowerCase().startsWith(location));
+		if(foundSection != null) 
+			return foundSection;
+		return this.state.characterClasses[0];
+	}
+
+	public getClassFromLocation = () => {
+		let location: string = this.props.history.location.pathname.split("/").pop();
+		if(location != null) {
+			// Capitalize first letter.
+			return location.charAt(0).toUpperCase().concat(location.slice(1).toLowerCase());
+		}
+		return "Rockerboy";
+	}
+
 	public render() {
 		return (
 			<div>
 				<h1 className="consoleText" onClick={this.toggleMobileView}>Classes:</h1>
 				<div className={styles.ClassSplit}>
-					<Sidebar showMobile={this.state.showMobileMenu} 
+					<Sidebar origin="classes" 
+							showMobile={this.state.showMobileMenu} 
 							choices={Object.values(this.state.characterClasses.map(x => x.name))} 
 							clicked={this.SetActiveClass} 
-							preDetermined=""
+							preDetermined={this.getClassFromLocation()}
 							toggleMobile={this.toggleMobileView}
 					/>
 

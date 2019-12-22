@@ -1,6 +1,7 @@
 import React, { Component, Suspense } from 'react';
 import styles from './NightCity.module.css';
 import Sidebar from '../Common/Sidebar.Navigation';
+import { Router, Switch, Route } from 'react-router-dom';
 
 const NightCityIntroduction = React.lazy(() => import('./NCIntroduction'));
 const NightCityStartingOut = React.lazy(() => import('./NCStartingOut'));
@@ -16,6 +17,10 @@ interface NightCityState {
 	showMobileMenu: boolean;
 } 
 
+interface NightCityProps {
+	history: any;
+}
+
 enum Choices {
     Introduction = "About",
     TheEdge = "Living on the Edge",
@@ -27,9 +32,9 @@ enum Choices {
 	Maps = "Map"
 }
 
-class NightCity extends Component<{}, NightCityState> {
+class NightCity extends Component<NightCityProps, NightCityState> {
 
-	public constructor(props: {}) {
+	public constructor(props: NightCityProps) {
 		super(props);
 
 		this.state = {
@@ -45,33 +50,18 @@ class NightCity extends Component<{}, NightCityState> {
 		});
 	}
 
-	public getCurrentSelection = () => {
-		switch(this.state.selection) {
-            case Choices.Introduction:
-                return <NightCityIntroduction />
-            case Choices.GetStarted:
-                return <NightCityStartingOut />
-            case Choices.TheEdge:
-                return <NightCityTheEdge />
-            case Choices.History:
-                return <NightCityHistory />
-			case Choices.America:
-				return <NightCityAmerica />
-			case Choices.Slang:
-				return <NightCitySlang />
-			case Choices.Corporations:
-				return <NightCityCorporations />
-			case Choices.Maps: 
-				return <NightCityMaps />
-			default:
-				return <div/>;
-		}
-	}
-
 	public toggleMobileView = () => {
 		this.setState({
 			showMobileMenu: !this.state.showMobileMenu
 		})
+	}
+
+	public findCurrentLocation = () => {
+		let location: string = this.props.history.location.pathname.split("/").pop();
+		let foundSection = Object.values(Choices).find(d => d.toLowerCase().startsWith(location.substring(0,4), 0));
+		if(foundSection != null) 
+			return foundSection.toString();
+		return "";
 	}
 
 	public render() {
@@ -79,15 +69,43 @@ class NightCity extends Component<{}, NightCityState> {
 			<div>
 				<h1 className="consoleText" onClick={this.toggleMobileView}>Night City:</h1>
 				<div className={styles.NightCitySplit}>
-					<Sidebar showMobile={this.state.showMobileMenu} 
+					<Sidebar origin="nightcity" 
+							showMobile={this.state.showMobileMenu} 
 							choices={Object.values(Choices)} 
 							clicked={this.changeSelection} 
-							preDetermined={Choices.Introduction}
+							preDetermined={this.findCurrentLocation()}
 							toggleMobile={this.toggleMobileView}
 					/>
 					<div className={styles.NightCityMain}>
 						<Suspense fallback={<div/>}>
-							{this.getCurrentSelection()}
+							<Router history={this.props.history}>
+								<Switch>
+									<Route path="/nightcity/about">
+										<NightCityIntroduction />
+									</Route>
+									<Route path="/nightcity/livingontheedge">
+										<NightCityTheEdge />
+									</Route>
+									<Route path="/nightcity/firstsession">
+										<NightCityStartingOut />
+									</Route>
+									<Route path="/nightcity/history">
+										<NightCityHistory />
+									</Route>
+									<Route path="/nightcity/america">
+										<NightCityAmerica />
+									</Route>
+									<Route path="/nightcity/corporations">
+										<NightCityCorporations />
+									</Route>
+									<Route path="/nightcity/slang">
+										<NightCitySlang />
+									</Route>
+									<Route path="/nightcity/map">
+										<NightCityMaps />
+									</Route>
+								</Switch>
+							</Router>
 						</Suspense>
 					</div>
 				</div>
