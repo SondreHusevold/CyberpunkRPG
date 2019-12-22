@@ -90,19 +90,19 @@ class Cyberware extends Component<CyberProps, CyberState> {
 						<Suspense fallback={<div/>}>
 							<Router history={this.props.history}>
 								<Switch>
-									<Route path="/cyberware/introduction">
+									<Route path="/CyberpunkRPG/cyberware/introduction">
 										<CyberwareIntroduction />
 									</Route>
-									<Route path="/cyberware/cyberpsychosis">
+									<Route path="/CyberpunkRPG/cyberware/cyberpsychosis">
 										<Cyberpsychosis />
 									</Route>
-									<Route path="/cyberware/surgery">
+									<Route path="/CyberpunkRPG/cyberware/surgery">
 										<CyberSurgery />
 									</Route>
-									<Route path="/cyberware/humanity">
+									<Route path="/CyberpunkRPG/cyberware/humanity">
 										<CyberwareHumanity />
 									</Route>
-									<Route path="/cyberware/pieces">
+									<Route path="/CyberpunkRPG/cyberware/pieces">
 										<CyberPieces />
 									</Route>
 								</Switch>

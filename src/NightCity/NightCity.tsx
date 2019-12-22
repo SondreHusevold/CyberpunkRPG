@@ -80,28 +80,28 @@ class NightCity extends Component<NightCityProps, NightCityState> {
 						<Suspense fallback={<div/>}>
 							<Router history={this.props.history}>
 								<Switch>
-									<Route path="/nightcity/about">
+									<Route path="/CyberpunkRPG/nightcity/about">
 										<NightCityIntroduction />
 									</Route>
-									<Route path="/nightcity/livingontheedge">
+									<Route path="/CyberpunkRPG/nightcity/livingontheedge">
 										<NightCityTheEdge />
 									</Route>
-									<Route path="/nightcity/firstsession">
+									<Route path="/CyberpunkRPG/nightcity/firstsession">
 										<NightCityStartingOut />
 									</Route>
-									<Route path="/nightcity/history">
+									<Route path="/CyberpunkRPG/nightcity/history">
 										<NightCityHistory />
 									</Route>
-									<Route path="/nightcity/america">
+									<Route path="/CyberpunkRPG/nightcity/america">
 										<NightCityAmerica />
 									</Route>
-									<Route path="/nightcity/corporations">
+									<Route path="/CyberpunkRPG/nightcity/corporations">
 										<NightCityCorporations />
 									</Route>
-									<Route path="/nightcity/slang">
+									<Route path="/CyberpunkRPG/nightcity/slang">
 										<NightCitySlang />
 									</Route>
-									<Route path="/nightcity/map">
+									<Route path="/CyberpunkRPG/nightcity/map">
 										<NightCityMaps />
 									</Route>
 								</Switch>

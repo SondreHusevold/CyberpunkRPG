@@ -80,31 +80,31 @@ class Interlock extends Component<InterlockProps, InterlockState> {
 					<Suspense fallback={<div/>}>
 						<Router history={this.props.history}>
 							<Switch>
-								<Route path="/interlocksystem/introduction">
+								<Route path="/CyberpunkRPG/interlocksystem/introduction">
 									<InterlockIntroduction />
 								</Route>
-								<Route path="/interlocksystem/dice">
+								<Route path="/CyberpunkRPG/interlocksystem/dice">
 									<InterlockDice />
 								</Route>
-								<Route path="/interlocksystem/stats">
+								<Route path="/CyberpunkRPG/interlocksystem/stats">
 									<InterlockStats />
 								</Route>
-								<Route path="/interlocksystem/skills">
+								<Route path="/CyberpunkRPG/interlocksystem/skills">
 									<InterlockSkills />
 								</Route>
-								<Route path="/interlocksystem/imppoints">
+								<Route path="/CyberpunkRPG/interlocksystem/imppoints">
 									<InterlockSkillsIP/>
 								</Route>
-								<Route path="/interlocksystem/skillcheck">
+								<Route path="/CyberpunkRPG/interlocksystem/skillcheck">
 									<InterlockSkillCheck />
 								</Route>
-								<Route path="/interlocksystem/skilllist">
+								<Route path="/CyberpunkRPG/interlocksystem/skilllist">
 									<InterlockSkillList />
 								</Route>
-								<Route path="/interlocksystem/reputation">
+								<Route path="/CyberpunkRPG/interlocksystem/reputation">
 									<InterlockReputation />
 								</Route>
-								<Route path="/interlocksystem/lifepath">
+								<Route path="/CyberpunkRPG/interlocksystem/lifepath">
 									<InterlockLifepath />
 								</Route>
 							</Switch>

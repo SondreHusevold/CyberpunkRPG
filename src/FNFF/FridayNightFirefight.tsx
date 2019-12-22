@@ -84,34 +84,34 @@ class FridayNightFirefight extends Component<FNFFProps, FNFFState> {
 						<Suspense fallback={<div/>}>
 							<Router history={this.props.history}>
 								<Switch>
-									<Route path="/fnff/introduction">
+									<Route path="/CyberpunkRPG/fnff/introduction">
 										<FNFFIntroduction />
 									</Route>
-									<Route path="/fnff/initiative">
+									<Route path="/CyberpunkRPG/fnff/initiative">
 										<FNFFTurns />
 									</Route>
-									<Route path="/fnff/actions">
+									<Route path="/CyberpunkRPG/fnff/actions">
 										<FNFFActions />
 									</Route>
-									<Route path="/fnff/damage">
+									<Route path="/CyberpunkRPG/fnff/damage">
 										<FNFFDamage />
 									</Route>
-									<Route path="/fnff/armor">
+									<Route path="/CyberpunkRPG/fnff/armor">
 										<FNFFArmor />
 									</Route>
-									<Route path="/fnff/bodytype">
+									<Route path="/CyberpunkRPG/fnff/bodytype">
 										<FNFFBodyType />
 									</Route>
-									<Route path="/fnff/woundeffects">
+									<Route path="/CyberpunkRPG/fnff/woundeffects">
 										<FNFFWounds />
 									</Route>
-									<Route path="/fnff/deathsaves">
+									<Route path="/CyberpunkRPG/fnff/deathsaves">
 										<FNFFDeathSaves />
 									</Route>
-									<Route path="/fnff/makingattacks">
+									<Route path="/CyberpunkRPG/fnff/makingattacks">
 										<FNFFAttacks />
 									</Route>
-									<Route path="/fnff/vehicles">
+									<Route path="/CyberpunkRPG/fnff/vehicles">
 										<FNFFVehicles />
 									</Route>
 								</Switch>

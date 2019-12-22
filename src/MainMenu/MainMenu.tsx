@@ -88,7 +88,7 @@ class MainMenu extends Component<IMainMenuProps, IMainMenuState> {
 					{ /* DESKTOP */ }
 					<div className={styles.Desktop}>
 						<button className={styles.cyberpunk_logo} tabIndex={1}>
-							<Link to="/" onClick={() => { this.changeSection(MainSection.Mainframe) }} >Cyberpunk 2020</Link>
+							<Link to="/CyberpunkRPG" onClick={() => { this.changeSection(MainSection.Mainframe) }} >Cyberpunk 2020</Link>
 						</button>
 						<div className={styles.mainmenuList}>
 							{Object.values(MainSection).map((section) => {
@@ -97,7 +97,7 @@ class MainMenu extends Component<IMainMenuProps, IMainMenuState> {
 
 									return (
 										<React.Fragment key={section}>
-											<Link to={`/${sectionLowerCaseNoSpaces}/${this.findSubSite(sectionLowerCaseNoSpaces)}`} onClick={() => { this.changeSection(section) }}>
+											<Link to={`/CyberpunkRPG/${sectionLowerCaseNoSpaces}/${this.findSubSite(sectionLowerCaseNoSpaces)}`} onClick={() => { this.changeSection(section) }}>
 												<button className={this.state.selectedSection === section ? "selectedButton" : ''}>
 													{section}
 												</button>
@@ -120,7 +120,7 @@ class MainMenu extends Component<IMainMenuProps, IMainMenuState> {
 									let sectionLowerCaseNoSpaces = section.toLowerCase().replace(" ", "");
 									return ( 
 										<div className={styles.mainmenuMobileText} key={section}>
-											<Link to={`/${sectionLowerCaseNoSpaces}/${this.findSubSite(sectionLowerCaseNoSpaces)}`} 
+											<Link to={`/CyberpunkRPG/${sectionLowerCaseNoSpaces}/${this.findSubSite(sectionLowerCaseNoSpaces)}`} 
 												onClick={() => { this.changeSection(section) }}
 												className={this.state.selectedSection === section ? styles.selectedSection : ''}>
 												{section}

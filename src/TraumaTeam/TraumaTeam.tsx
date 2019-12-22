@@ -74,19 +74,19 @@ class TraumaTeam extends Component<TTProps, TTState> {
 						<Suspense fallback={<div/>}>
 							<Router history={this.props.history}>
 								<Switch>
-									<Route path="/traumateam/introduction">
+									<Route path="/CyberpunkRPG/traumateam/introduction">
 										<TTIntroduction />
 									</Route>
-									<Route path="/traumateam/death">
+									<Route path="/CyberpunkRPG/traumateam/death">
 										<TTDeath />
 									</Route>
-									<Route path="/traumateam/healing">
+									<Route path="/CyberpunkRPG/traumateam/healing">
 										<TTHealing />
 									</Route>
-									<Route path="/traumateam/bodybank">
+									<Route path="/CyberpunkRPG/traumateam/bodybank">
 										<TTBodyBank />
 									</Route>
-									<Route path="/traumateam/drugs">
+									<Route path="/CyberpunkRPG/traumateam/drugs">
 										<TTDrugs />
 									</Route>
 								</Switch>

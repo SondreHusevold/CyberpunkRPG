@@ -77,25 +77,25 @@ class Mainframe extends Component<IMainframeProps, IMainframeState> {
 			<div className={styles.Mainframe}>
 				<Router history={this.props.history}>
 					<Switch>
-						<Route exact path="/">
+						<Route exact path="/CyberpunkRPG">
 							{this.renderHome()}
 						</Route>
-						<Route path="/nightcity">
+						<Route path="/CyberpunkRPG/nightcity">
 							<NightCity history={this.props.history} />
 						</Route>
-						<Route path="/classes">
+						<Route path="/CyberpunkRPG/classes">
 							<Classes history={this.props.history} />
 						</Route>
-						<Route path="/interlocksystem">
+						<Route path="/CyberpunkRPG/interlocksystem">
 							<Interlock history={this.props.history} />
 						</Route>
-						<Route path="/fnff">
+						<Route path="/CyberpunkRPG/fnff">
 							<FridayNightFirefight history={this.props.history} />
 						</Route>
-						<Route path="/traumateam">
+						<Route path="/CyberpunkRPG/traumateam">
 							<TraumaTeam history={this.props.history} />
 						</Route>
-						<Route path="/cyberware">
+						<Route path="/CyberpunkRPG/cyberware">
 							<Cyberware history={this.props.history} />
 						</Route>
 					</Switch>
