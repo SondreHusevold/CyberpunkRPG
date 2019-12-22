@@ -51,7 +51,7 @@ class FNFFBodyType extends Component<{}> {
                     </div>
 				</div>
 				<div className={styles.FNFFIntroductionPicture}>
-					<FadeInPicture title="Higher body type = Less ouch" alt="BodyType" src="../../assets/Visuals/BodyType.webp"/>
+					<FadeInPicture title="Higher body type = Less ouch" alt="BodyType" src="/CyberpunkRPG/assets/Visuals/BodyType.webp"/>
 				</div>
 			</div>
 		);

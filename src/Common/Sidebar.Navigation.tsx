@@ -58,7 +58,7 @@ class Sidebar extends PureComponent<ISidebarProps, ISidebarState> {
                     this.props.choices.map((sector) => {
                         let sectorLowerCaseWithoutSpacesAndDots = sector.toLowerCase().replace(/\s/g, "").replace(".", "");
                         return (
-                            <Link to={`/CyberpunkRPG/${this.props.origin}/${sectorLowerCaseWithoutSpacesAndDots}`} key={sector}>
+                            <Link to={`/${this.props.origin}/${sectorLowerCaseWithoutSpacesAndDots}`} key={sector}>
                                 <button className={styles.SidebarButton + " " + this.IsTheActiveMenu(sector)} 
                                     onClick={() => { this.changeSelected(sector)} }>
                                     {sector}

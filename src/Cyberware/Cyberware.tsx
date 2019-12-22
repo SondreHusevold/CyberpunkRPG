@@ -6,16 +6,13 @@ import CyberwareIntroduction from './CyberwareIntroduction';
 import Cyberpsychosis from './Cyberpsychosis';
 import CyberwareHumanity from './CyberHumanity';
 import CyberPieces from './CyberwarePieces';
-import { Router, Switch, Route } from 'react-router-dom';
+import { HashRouter, Switch, Route } from 'react-router-dom';
+import Loading from '../Common/Loading';
 
 interface CyberState {
 	selection: string | null;
 	showMobileMenu: boolean;
 } 
-
-interface CyberProps {
-	history: any;
-}
 
 enum Choices {
 	Introduction = "Introduction",
@@ -25,9 +22,9 @@ enum Choices {
 	Pieces = "Pieces"
 }
 
-class Cyberware extends Component<CyberProps, CyberState> {
+class Cyberware extends Component<{}, CyberState> {
 
-	public constructor(props: CyberProps) {
+	public constructor(props: {}) {
 		super(props);
 
 		this.state = {
@@ -67,8 +64,8 @@ class Cyberware extends Component<CyberProps, CyberState> {
 	}
 
 	public findCurrentLocation = () => {
-		let location: string = this.props.history.location.pathname.split("/").pop();
-		let foundSection = Object.values(Choices).find(d => d.toLowerCase().startsWith(location.substring(0,4), 0));
+		let location: string | undefined = window.location.hash.split("/").pop();
+		let foundSection = Object.values(Choices).find(d => d.toLowerCase().startsWith(location != null ? location.substring(0,4) : "", 0));
 		if(foundSection != null) 
 			return foundSection.toString();
 		return Choices.Introduction;
@@ -87,26 +84,26 @@ class Cyberware extends Component<CyberProps, CyberState> {
 							toggleMobile={this.toggleMobileView}
 					/>
 					<div className={styles.CyberMain}>
-						<Suspense fallback={<div/>}>
-							<Router history={this.props.history}>
+						<Suspense fallback={<Loading/>}>
+							<HashRouter >
 								<Switch>
-									<Route path="/CyberpunkRPG/cyberware/introduction">
+									<Route path="/cyberware/introduction">
 										<CyberwareIntroduction />
 									</Route>
-									<Route path="/CyberpunkRPG/cyberware/cyberpsychosis">
+									<Route path="/cyberware/cyberpsychosis">
 										<Cyberpsychosis />
 									</Route>
-									<Route path="/CyberpunkRPG/cyberware/surgery">
+									<Route path="/cyberware/surgery">
 										<CyberSurgery />
 									</Route>
-									<Route path="/CyberpunkRPG/cyberware/humanity">
+									<Route path="/cyberware/humanity">
 										<CyberwareHumanity />
 									</Route>
-									<Route path="/CyberpunkRPG/cyberware/pieces">
+									<Route path="/cyberware/pieces">
 										<CyberPieces />
 									</Route>
 								</Switch>
-							</Router>
+							</HashRouter>
 						</Suspense>
 					</div>
 				</div>

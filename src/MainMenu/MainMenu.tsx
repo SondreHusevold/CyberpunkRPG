@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import styles from './MainMenu.module.css';
-import { Router, Link } from 'react-router-dom';
+import { Link, HashRouter } from 'react-router-dom';
 
 export enum MainSection {
 	NightCity = "Night City",
@@ -33,7 +33,6 @@ interface IMainMenuState {
 
 interface IMainMenuProps {
 	changeSection: (section: MainSection) => void;
-	history: any;
 }
 
 class MainMenu extends Component<IMainMenuProps, IMainMenuState> {
@@ -69,9 +68,10 @@ class MainMenu extends Component<IMainMenuProps, IMainMenuState> {
 	}
 
 	public currentSectionFromLocation = () => {
-		let location: string[] = this.props.history.location.pathname.split("/");
+		let location: string[] = window.location.hash.split("/");
 		if(location != null) {
 			for (const possibleSection of Object.values(MainSection)) {
+				console.log(location);
 				let attemptFind = location.find(sec => sec.toLowerCase().replace(/\s/g, "").startsWith(possibleSection.toLowerCase().substr(0, 5)))
 				if(attemptFind != null && attemptFind.length !== 0) {
 					return possibleSection;
@@ -83,12 +83,12 @@ class MainMenu extends Component<IMainMenuProps, IMainMenuState> {
 
 	public render() {
 		return (
-			<Router history={this.props.history}>
+			<HashRouter>
 				<nav className={styles.MainMenu}>
 					{ /* DESKTOP */ }
 					<div className={styles.Desktop}>
 						<button className={styles.cyberpunk_logo} tabIndex={1}>
-							<Link to="/CyberpunkRPG" onClick={() => { this.changeSection(MainSection.Mainframe) }} >Cyberpunk 2020</Link>
+							<Link to="/" onClick={() => { this.changeSection(MainSection.Mainframe) }} >Cyberpunk 2020</Link>
 						</button>
 						<div className={styles.mainmenuList}>
 							{Object.values(MainSection).map((section) => {
@@ -97,7 +97,7 @@ class MainMenu extends Component<IMainMenuProps, IMainMenuState> {
 
 									return (
 										<React.Fragment key={section}>
-											<Link to={`/CyberpunkRPG/${sectionLowerCaseNoSpaces}/${this.findSubSite(sectionLowerCaseNoSpaces)}`} onClick={() => { this.changeSection(section) }}>
+											<Link to={`/${sectionLowerCaseNoSpaces}/${this.findSubSite(sectionLowerCaseNoSpaces)}`} onClick={() => { this.changeSection(section) }}>
 												<button className={this.state.selectedSection === section ? "selectedButton" : ''}>
 													{section}
 												</button>
@@ -120,7 +120,7 @@ class MainMenu extends Component<IMainMenuProps, IMainMenuState> {
 									let sectionLowerCaseNoSpaces = section.toLowerCase().replace(" ", "");
 									return ( 
 										<div className={styles.mainmenuMobileText} key={section}>
-											<Link to={`/CyberpunkRPG/${sectionLowerCaseNoSpaces}/${this.findSubSite(sectionLowerCaseNoSpaces)}`} 
+											<Link to={`/${sectionLowerCaseNoSpaces}/${this.findSubSite(sectionLowerCaseNoSpaces)}`} 
 												onClick={() => { this.changeSection(section) }}
 												className={this.state.selectedSection === section ? styles.selectedSection : ''}>
 												{section}
@@ -134,7 +134,7 @@ class MainMenu extends Component<IMainMenuProps, IMainMenuState> {
 						<hr/>
 					</div>
 				</nav>
-			</Router>
+			</HashRouter>
 		);
 	}
 }

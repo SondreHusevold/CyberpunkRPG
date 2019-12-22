@@ -8,7 +8,7 @@ import FridayNightFirefight from '../FNFF/FridayNightFirefight';
 import TraumaTeam from '../TraumaTeam/TraumaTeam';
 import Cyberware from '../Cyberware/Cyberware';
 import NightCity from '../NightCity/NightCity';
-import { Switch, Route, Router } from 'react-router-dom';
+import { Switch, Route, HashRouter } from 'react-router-dom';
 
 enum Feeds {
 	Realspace = "Realspace",
@@ -17,7 +17,6 @@ enum Feeds {
 
 interface IMainframeProps {
 	currentSection: MainSection;
-	history: any;
 }
 
 interface IMainframeState {
@@ -46,10 +45,10 @@ class Mainframe extends Component<IMainframeProps, IMainframeState> {
 	public getFeed = () => {
 		let videoLocation = "";
 		if(this.state.selectedVideo === Feeds.Realspace) {
-			videoLocation = "assets/Background/OutsideVideo.webm";
+			videoLocation = "/CyberpunkRPG/assets/Background/OutsideVideo.webm";
 		}
 		else {
-			videoLocation = "assets/Background.mp4"
+			videoLocation = "/CyberpunkRPG/assets/Background.mp4"
 		}
 		return <video loop muted autoPlay className={styles.fullscreenbgvideo} src={videoLocation}/>
 	}
@@ -75,31 +74,31 @@ class Mainframe extends Component<IMainframeProps, IMainframeState> {
 	public render() {		
 		return (
 			<div className={styles.Mainframe}>
-				<Router history={this.props.history}>
+				<HashRouter>
 					<Switch>
-						<Route exact path="/CyberpunkRPG">
+						<Route exact path="/">
 							{this.renderHome()}
 						</Route>
-						<Route path="/CyberpunkRPG/nightcity">
-							<NightCity history={this.props.history} />
+						<Route path="/nightcity">
+							<NightCity />
 						</Route>
-						<Route path="/CyberpunkRPG/classes">
-							<Classes history={this.props.history} />
+						<Route path="/classes">
+							<Classes />
 						</Route>
-						<Route path="/CyberpunkRPG/interlocksystem">
-							<Interlock history={this.props.history} />
+						<Route path="/interlocksystem">
+							<Interlock />
 						</Route>
-						<Route path="/CyberpunkRPG/fnff">
-							<FridayNightFirefight history={this.props.history} />
+						<Route path="/fnff">
+							<FridayNightFirefight />
 						</Route>
-						<Route path="/CyberpunkRPG/traumateam">
-							<TraumaTeam history={this.props.history} />
+						<Route path="/traumateam">
+							<TraumaTeam />
 						</Route>
-						<Route path="/CyberpunkRPG/cyberware">
-							<Cyberware history={this.props.history} />
+						<Route path="/cyberware">
+							<Cyberware />
 						</Route>
 					</Switch>
-				</Router>
+				</HashRouter>
 			</div>
 		);
 	}

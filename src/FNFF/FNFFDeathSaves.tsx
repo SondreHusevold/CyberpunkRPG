@@ -10,7 +10,7 @@ class FNFFDeathSaves extends Component<{}> {
 			<div className={animations.FadeInFast + " " + styles.FNFFIntroduction}>
 				<div className={styles.FNFFIntroductionText}>
 					<h1>Death Saves:</h1>
-					<FadeInPicture mobile="100% 30%" title="" alt="s" src="../../assets/Visuals/FNFFIntroduction.webp"/>
+					<FadeInPicture mobile="100% 30%" title="" alt="s" src="/CyberpunkRPG/assets/Visuals/FNFFIntroduction.webp"/>
                     <p>Unless you have taken a Mortal Wound, your character is in no danger of dying; he only needs to make his initial Stun save to remain conscious. But if the wound is a MORTAL one, he has a chance of dying.</p>
                     <p>Determining whether he survives requires that a Death Save be made, with a new save required every turn that the character remains untreated.</p>
                     <p>Like a Stun Save, a Death Save requires that you roll a value on 1D10 equal to or lower than your character’s Body Type score, 
@@ -51,7 +51,7 @@ class FNFFDeathSaves extends Component<{}> {
                     <p>Either way, to learn more about healing or spare parts brokering, check out the Trauma Team section.</p>
 				</div>
 				<div className={styles.FNFFIntroductionPicture}>
-					<FadeInPicture title="Fail and die." alt="Friday Night Firefight" src="../../assets/Visuals/FNFFIntroduction.webp"/>
+					<FadeInPicture title="Fail and die." alt="Friday Night Firefight" src="/CyberpunkRPG/assets/Visuals/FNFFIntroduction.webp"/>
 				</div>
 			</div>
 		);

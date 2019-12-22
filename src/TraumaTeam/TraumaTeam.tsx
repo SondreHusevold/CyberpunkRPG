@@ -6,17 +6,13 @@ import TTDeath from './TTDeath';
 import TTHealing from './TTHealing';
 import TTBodyBank from './TTBodyBank';
 import TTDrugs from './TTDrugs';
-import { Router, Switch, Route } from 'react-router-dom';
-
+import { HashRouter, Switch, Route } from 'react-router-dom';
+import Loading from '../Common/Loading';
 
 interface TTState {
 	selection: string | null;
 	showMobileMenu: boolean;
 } 
-
-interface TTProps {
-	history: any;
-}
 
 enum Choices {
 	Introduction = "Introduction",
@@ -26,9 +22,9 @@ enum Choices {
 	Drugs = "Drugs"
 }
 
-class TraumaTeam extends Component<TTProps, TTState> {
+class TraumaTeam extends Component<{}, TTState> {
 
-	public constructor(props: TTProps) {
+	public constructor(props: {}) {
 		super(props);
 
 		this.state = {
@@ -51,8 +47,8 @@ class TraumaTeam extends Component<TTProps, TTState> {
 	}
 
 	public findCurrentLocation = () => {
-		let location: string = this.props.history.location.pathname.split("/").pop();
-		let foundSection = Object.values(Choices).find(d => d.toLowerCase().startsWith(location.substring(0,4), 0));
+		let location: string | undefined = window.location.hash.split("/").pop();
+		let foundSection = Object.values(Choices).find(d => d.toLowerCase().startsWith(location != null ? location.substring(0,4) : "", 0));
 		if(foundSection != null) 
 			return foundSection.toString();
 		return Choices.Introduction;
@@ -71,26 +67,26 @@ class TraumaTeam extends Component<TTProps, TTState> {
 						toggleMobile={this.toggleMobileView}
 					/>
 					<div className={styles.TTMain}>
-						<Suspense fallback={<div/>}>
-							<Router history={this.props.history}>
+						<Suspense fallback={<Loading/>}>
+							<HashRouter>
 								<Switch>
-									<Route path="/CyberpunkRPG/traumateam/introduction">
+									<Route path="/traumateam/introduction">
 										<TTIntroduction />
 									</Route>
-									<Route path="/CyberpunkRPG/traumateam/death">
+									<Route path="/traumateam/death">
 										<TTDeath />
 									</Route>
-									<Route path="/CyberpunkRPG/traumateam/healing">
+									<Route path="/traumateam/healing">
 										<TTHealing />
 									</Route>
-									<Route path="/CyberpunkRPG/traumateam/bodybank">
+									<Route path="/traumateam/bodybank">
 										<TTBodyBank />
 									</Route>
-									<Route path="/CyberpunkRPG/traumateam/drugs">
+									<Route path="/traumateam/drugs">
 										<TTDrugs />
 									</Route>
 								</Switch>
-							</Router>
+							</HashRouter>
 						</Suspense>
 					</div>
 				</div>

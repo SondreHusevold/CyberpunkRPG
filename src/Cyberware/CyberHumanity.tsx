@@ -10,7 +10,7 @@ class CyberwareHumanity extends Component<{}> {
 				<div>
 					<h1>Humanity:</h1>
                     <FadeInPicture mobile="100% 15%" title="s" 
-                        alt="Do not forget your humanity." src="../../assets/Visuals/Humanity.webp" 
+                        alt="Do not forget your humanity." src="/CyberpunkRPG/assets/Visuals/Humanity.webp" 
                     />
                     <p>Each time you add on a cybernetic enhancement, there’s a corresponding loss of humanity. But it’s not simple, linear, or nice.</p>
                     <p>Different people react differently to the "cyborging" process. Therefore, your Humanity Cost is based on the throw of a random dice value for each enhancement.</p>
@@ -46,7 +46,7 @@ class CyberwareHumanity extends Component<{}> {
                     </div>
 				</div>
 				<div className={styles.IntroductionImage}>
-					<FadeInPicture alt="humanity" title="Do not forget your humanity" src="../../assets/Visuals/Humanity.webp" />
+					<FadeInPicture alt="humanity" title="Do not forget your humanity" src="/CyberpunkRPG/assets/Visuals/Humanity.webp" />
 				</div>
 			</div>
 		);

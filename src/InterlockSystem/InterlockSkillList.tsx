@@ -90,11 +90,11 @@ class InterlockSkillList extends Component<{}, InterlockSkillsState> {
 				{
 					this.state.list.map((skillList) => {
 						return (
-							<React.Fragment>
+							<React.Fragment key={Math.random() * 100}>
 								<h2 className={styles.InterlacedPicture}>{ skillList.category}:</h2>
 								<div className={styles.InterlockSkillList}>
 									{skillList.skills.map((skill) =>  {
-										return <button onClick={() => { this.setChoice(skill); } }>{skill.name}</button>
+										return <button key={skill.name} onClick={() => { this.setChoice(skill); } }>{skill.name}</button>
 									})}
 								</div>
 								<hr/>

@@ -21,6 +21,7 @@
 :local .loading {
     display: flex;
     justify-content: center;
+    animation: fadeInAnim 1.5s ease forwards;
   }
 
 :local .loading div {

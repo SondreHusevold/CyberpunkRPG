@@ -11,17 +11,13 @@ import FNFFWounds from './FNFFWounds';
 import FNFFDeathSaves from './FNFFDeathSaves';
 import FNFFAttacks from './FNFFAttacks';
 import FNFFVehicles from './FNFFVehicles';
-import { Router, Switch, Route } from 'react-router-dom';
+import { HashRouter, Switch, Route } from 'react-router-dom';
+import Loading from '../Common/Loading';
 
 interface FNFFState {
 	selection: string | null;
 	showMobileMenu: boolean;
 } 
-
-interface FNFFProps {
-	history: any;
-}
-
 enum Choices {
     Introduction = "Introduction",
     Initiative = "Initiative",
@@ -35,9 +31,9 @@ enum Choices {
     Vehicles = "Vehicles"
 }
 
-class FridayNightFirefight extends Component<FNFFProps, FNFFState> {
+class FridayNightFirefight extends Component<{}, FNFFState> {
 
-	public constructor(props: FNFFProps) {
+	public constructor(props: {}) {
 		super(props);
 
 		this.state = {
@@ -60,8 +56,8 @@ class FridayNightFirefight extends Component<FNFFProps, FNFFState> {
 	}
 
 	public findCurrentLocation = () => {
-		let location: string = this.props.history.location.pathname.split("/").pop();
-		let foundSection = Object.values(Choices).find(d => d.toLowerCase().startsWith(location.substring(0,4), 0));
+		let location: string | undefined = window.location.hash.split("/").pop();
+		let foundSection = Object.values(Choices).find(d => d.toLowerCase().startsWith(location != null ? location.substring(0,4) : "", 0));
 		if(foundSection != null) 
 			return foundSection.toString();
 		return Choices.Introduction;
@@ -81,41 +77,41 @@ class FridayNightFirefight extends Component<FNFFProps, FNFFState> {
 					/>
 
 					<div className={styles.FNFFMain}>
-						<Suspense fallback={<div/>}>
-							<Router history={this.props.history}>
+						<Suspense fallback={<Loading/>}>
+							<HashRouter>
 								<Switch>
-									<Route path="/CyberpunkRPG/fnff/introduction">
+									<Route path="/fnff/introduction">
 										<FNFFIntroduction />
 									</Route>
-									<Route path="/CyberpunkRPG/fnff/initiative">
+									<Route path="/fnff/initiative">
 										<FNFFTurns />
 									</Route>
-									<Route path="/CyberpunkRPG/fnff/actions">
+									<Route path="/fnff/actions">
 										<FNFFActions />
 									</Route>
-									<Route path="/CyberpunkRPG/fnff/damage">
+									<Route path="/fnff/damage">
 										<FNFFDamage />
 									</Route>
-									<Route path="/CyberpunkRPG/fnff/armor">
+									<Route path="/fnff/armor">
 										<FNFFArmor />
 									</Route>
-									<Route path="/CyberpunkRPG/fnff/bodytype">
+									<Route path="/fnff/bodytype">
 										<FNFFBodyType />
 									</Route>
-									<Route path="/CyberpunkRPG/fnff/woundeffects">
+									<Route path="/fnff/woundeffects">
 										<FNFFWounds />
 									</Route>
-									<Route path="/CyberpunkRPG/fnff/deathsaves">
+									<Route path="/fnff/deathsaves">
 										<FNFFDeathSaves />
 									</Route>
-									<Route path="/CyberpunkRPG/fnff/makingattacks">
+									<Route path="/fnff/makingattacks">
 										<FNFFAttacks />
 									</Route>
-									<Route path="/CyberpunkRPG/fnff/vehicles">
+									<Route path="/fnff/vehicles">
 										<FNFFVehicles />
 									</Route>
 								</Switch>
-							</Router>
+							</HashRouter>
 						</Suspense>
 					</div>
 				</div>

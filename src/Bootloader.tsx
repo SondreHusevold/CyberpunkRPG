@@ -6,7 +6,6 @@ import Mainframe from './Mainframe/Mainframe';
 import MainMenu, { MainSection } from './MainMenu/MainMenu';
 import Player from './Player/Player';
 import Terminal from './Terminal/Terminal';
-import { createBrowserHistory } from 'history';
 import './Initialization.css';
 
 interface IBootloaderState {
@@ -17,8 +16,6 @@ interface IBootloaderState {
 
 class Bootloader extends Component<{}, IBootloaderState> {
 	private development: boolean = process.env.NODE_ENV === 'development'; 
-	
-	history = createBrowserHistory();
 
 	public constructor(props: {}) {
 		super(props);
@@ -79,10 +76,10 @@ class Bootloader extends Component<{}, IBootloaderState> {
 			<div className={styles.ZetatechDevelopment }>
 				<header className={styles.Background + ' ' + styles.DevelopmentBackground} />
 
-				<MainMenu history={this.history} changeSection={this.setMainSection}/>
+				<MainMenu changeSection={this.setMainSection}/>
 
 				<div className={styles.mainContent}>
-					<Mainframe history={this.history} currentSection={this.state.currentSection} />
+					<Mainframe currentSection={this.state.currentSection} />
 				</div>
 			</div>
 		)

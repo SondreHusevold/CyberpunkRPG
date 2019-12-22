@@ -142,7 +142,7 @@ class ClassDetails extends Component<ClassDetailsProps, ClassDetailsState> {
 					{this.getContent()}
 					<div className={styles.ClassDetailPicture}>
 						<img className={pictureAnimation.InterlacedPicture} alt="Class" 
-							src={`../../assets/Classes/${this.props.characterClass.name}/Picture.webp`}
+							src={`/CyberpunkRPG/assets/Classes/${this.props.characterClass.name}/Picture.webp`}
 						/>
 					</div>
 				</div>

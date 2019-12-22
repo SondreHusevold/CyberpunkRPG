@@ -10,7 +10,7 @@ class InterlockIntroduction extends Component<{}> {
 			<div className={animations.FadeInFast + " " + styles.InterlockIntroduction}>
 				<div className={styles.InterlockIntroductionText}>
 					<h1>Introduction:</h1>
-					<FadeInPicture mobile="100% 13%" title="StandardInterlock" alt="Interlock system" src="../../assets/Visuals/InterlockSystem.webp"/>
+					<FadeInPicture mobile="100% 13%" title="StandardInterlock" alt="Interlock system" src="/CyberpunkRPG/assets/Visuals/InterlockSystem.webp"/>
 					<p>The interlock system is a simple die + bonus system using a D10. Cyberpunk 2020 is using a polished version of Interlock named "Standard Interlock".</p> 
 					<p>It is highly skilled-based where characters choose skills for them and advance those skills individually rather than choosing a character package to play.</p> 
 					<p>Stats and skills are both rated on a scale of 0-10 with zero representing no ability/no training while 10 being the maximum ability possible for a human being.</p>
@@ -19,7 +19,7 @@ class InterlockIntroduction extends Component<{}> {
 					<p>It is designed to cover all major elements of weapons combat in an easy to use format, allowing realistic firefight action without resorting to a lot of tables and charts.</p>
 				</div>
                 <div className={styles.InterlockIntroductionPicture}>
-					<FadeInPicture title="StandardInterlock" alt="Interlock system" src="../../assets/Visuals/InterlockSystem.webp"/>
+					<FadeInPicture title="StandardInterlock" alt="Interlock system" src="/CyberpunkRPG/assets/Visuals/InterlockSystem.webp"/>
 				</div>
 			</div>
 		);

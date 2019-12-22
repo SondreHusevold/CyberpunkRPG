@@ -10,15 +10,12 @@ import InterlockSkillList from './InterlockSkillList';
 import InterlockSkillsIP from './InterlockSkillsIP';
 import InterlockReputation from './InterlockReputation';
 import InterlockLifepath from './InterlockLifepath';
-import { Router, Switch, Route } from 'react-router-dom';
+import { HashRouter, Switch, Route } from 'react-router-dom';
+import Loading from '../Common/Loading';
 
 interface InterlockState {
 	selection: string | null;
 	showMobileMenu: boolean;
-}
-
-interface InterlockProps {
-	history: any;
 }
 
 enum Choices {
@@ -33,9 +30,9 @@ enum Choices {
 	Starting = "Lifepath"
 }
 
-class Interlock extends Component<InterlockProps, InterlockState> {
+class Interlock extends Component<{}, InterlockState> {
 
-	public constructor(props: InterlockProps) {
+	public constructor(props: {}) {
 		super(props);
 
 		this.state = {
@@ -58,8 +55,8 @@ class Interlock extends Component<InterlockProps, InterlockState> {
 	}
 
 	public findCurrentLocation = () => {
-		let location: string = this.props.history.location.pathname.split("/").pop();
-		let foundSection = Object.values(Choices).find(d => d.toLowerCase().startsWith(location.substring(0,4), 0));
+		let location: string | undefined = window.location.hash.split("/").pop();
+		let foundSection = Object.values(Choices).find(d => d.toLowerCase().startsWith(location != null ? location.substring(0,4) : "", 0));
 		if(foundSection != null) 
 			return foundSection.toString();
 		return Choices.Introduction;
@@ -77,38 +74,38 @@ class Interlock extends Component<InterlockProps, InterlockState> {
 							preDetermined={this.findCurrentLocation()}
 							toggleMobile={this.toggleMobileView}
 					/>
-					<Suspense fallback={<div/>}>
-						<Router history={this.props.history}>
+					<Suspense fallback={<Loading/>}>
+						<HashRouter>
 							<Switch>
-								<Route path="/CyberpunkRPG/interlocksystem/introduction">
+								<Route path="/interlocksystem/introduction">
 									<InterlockIntroduction />
 								</Route>
-								<Route path="/CyberpunkRPG/interlocksystem/dice">
+								<Route path="/interlocksystem/dice">
 									<InterlockDice />
 								</Route>
-								<Route path="/CyberpunkRPG/interlocksystem/stats">
+								<Route path="/interlocksystem/stats">
 									<InterlockStats />
 								</Route>
-								<Route path="/CyberpunkRPG/interlocksystem/skills">
+								<Route path="/interlocksystem/skills">
 									<InterlockSkills />
 								</Route>
-								<Route path="/CyberpunkRPG/interlocksystem/imppoints">
+								<Route path="/interlocksystem/imppoints">
 									<InterlockSkillsIP/>
 								</Route>
-								<Route path="/CyberpunkRPG/interlocksystem/skillcheck">
+								<Route path="/interlocksystem/skillcheck">
 									<InterlockSkillCheck />
 								</Route>
-								<Route path="/CyberpunkRPG/interlocksystem/skilllist">
+								<Route path="/interlocksystem/skilllist">
 									<InterlockSkillList />
 								</Route>
-								<Route path="/CyberpunkRPG/interlocksystem/reputation">
+								<Route path="/interlocksystem/reputation">
 									<InterlockReputation />
 								</Route>
-								<Route path="/CyberpunkRPG/interlocksystem/lifepath">
+								<Route path="/interlocksystem/lifepath">
 									<InterlockLifepath />
 								</Route>
 							</Switch>
-						</Router>
+						</HashRouter>
 					</Suspense>
 				</div>
 			</React.Fragment>

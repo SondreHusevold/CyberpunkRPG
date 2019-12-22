@@ -32,7 +32,7 @@ class CyberSurgery extends Component<{}, SurgeryState> {
 				<div>
 					<h1>Surgery:</h1>
 					<FadeInPicture mobile="100% 30%" title="d" 
-						alt="Surgery is dangerous." src="../../assets/Visuals/Surgery.webp" 
+						alt="Surgery is dangerous." src="/CyberpunkRPG/assets/Visuals/Surgery.webp" 
 					/>
                     <p>Not all medical care is the result of accidents or combat. This is the Metal Age, and when you want to get cybered up, you gotta pay a price in blood.</p>
 					<p>Surgery is usually done at ripperdocs who specialize in installing Cyberware. These can be smaller and independent ripperdocs, or more expensive and professional medical centers.</p>
@@ -71,7 +71,7 @@ class CyberSurgery extends Component<{}, SurgeryState> {
 					</div>
 				</div>
 				<div className={styles.SurgeryImage}>
-					<FadeInPicture title="Surgery is dangerous, but normal." alt="Surgery is dangerous." src="../../assets/Visuals/Surgery.webp" />
+					<FadeInPicture title="Surgery is dangerous, but normal." alt="Surgery is dangerous." src="/CyberpunkRPG/assets/Visuals/Surgery.webp" />
 				</div>
 			</div>
 		);

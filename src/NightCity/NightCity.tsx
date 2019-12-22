@@ -1,7 +1,8 @@
 import React, { Component, Suspense } from 'react';
 import styles from './NightCity.module.css';
 import Sidebar from '../Common/Sidebar.Navigation';
-import { Router, Switch, Route } from 'react-router-dom';
+import { Switch, Route, HashRouter } from 'react-router-dom';
+import Loading from '../Common/Loading';
 
 const NightCityIntroduction = React.lazy(() => import('./NCIntroduction'));
 const NightCityStartingOut = React.lazy(() => import('./NCStartingOut'));
@@ -17,10 +18,6 @@ interface NightCityState {
 	showMobileMenu: boolean;
 } 
 
-interface NightCityProps {
-	history: any;
-}
-
 enum Choices {
     Introduction = "About",
     TheEdge = "Living on the Edge",
@@ -32,9 +29,9 @@ enum Choices {
 	Maps = "Map"
 }
 
-class NightCity extends Component<NightCityProps, NightCityState> {
+class NightCity extends Component<{}, NightCityState> {
 
-	public constructor(props: NightCityProps) {
+	public constructor(props: {}) {
 		super(props);
 
 		this.state = {
@@ -57,8 +54,8 @@ class NightCity extends Component<NightCityProps, NightCityState> {
 	}
 
 	public findCurrentLocation = () => {
-		let location: string = this.props.history.location.pathname.split("/").pop();
-		let foundSection = Object.values(Choices).find(d => d.toLowerCase().startsWith(location.substring(0,4), 0));
+		let location: string | undefined = window.location.hash.split("/").pop();
+		let foundSection = Object.values(Choices).find(d => d.toLowerCase().startsWith(location != null ? location.substring(0,4) : "", 0));
 		if(foundSection != null) 
 			return foundSection.toString();
 		return "";
@@ -77,35 +74,35 @@ class NightCity extends Component<NightCityProps, NightCityState> {
 							toggleMobile={this.toggleMobileView}
 					/>
 					<div className={styles.NightCityMain}>
-						<Suspense fallback={<div/>}>
-							<Router history={this.props.history}>
+						<Suspense fallback={<Loading/>}>
+							<HashRouter>
 								<Switch>
-									<Route path="/CyberpunkRPG/nightcity/about">
+									<Route path="/nightcity/about">
 										<NightCityIntroduction />
 									</Route>
-									<Route path="/CyberpunkRPG/nightcity/livingontheedge">
+									<Route path="/nightcity/livingontheedge">
 										<NightCityTheEdge />
 									</Route>
-									<Route path="/CyberpunkRPG/nightcity/firstsession">
+									<Route path="/nightcity/firstsession">
 										<NightCityStartingOut />
 									</Route>
-									<Route path="/CyberpunkRPG/nightcity/history">
+									<Route path="/nightcity/history">
 										<NightCityHistory />
 									</Route>
-									<Route path="/CyberpunkRPG/nightcity/america">
+									<Route path="/nightcity/america">
 										<NightCityAmerica />
 									</Route>
-									<Route path="/CyberpunkRPG/nightcity/corporations">
+									<Route path="/nightcity/corporations">
 										<NightCityCorporations />
 									</Route>
-									<Route path="/CyberpunkRPG/nightcity/slang">
+									<Route path="/nightcity/slang">
 										<NightCitySlang />
 									</Route>
-									<Route path="/CyberpunkRPG/nightcity/map">
+									<Route path="/nightcity/map">
 										<NightCityMaps />
 									</Route>
 								</Switch>
-							</Router>
+							</HashRouter>
 						</Suspense>
 					</div>
 				</div>

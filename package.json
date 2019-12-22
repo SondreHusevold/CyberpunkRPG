@@ -21,7 +21,7 @@
   },
   "scripts": {
     "start": "PORT=2020 react-app-rewired start",
-    "build": "react-scripts build",
+    "build": "react-scripts build && mv build/CyberpunkRPG/assets build/assets",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",

@@ -63,7 +63,7 @@ class TTDrugs extends Component<{}, DrugState> {
 			<div className={animations.FadeInFast + " " + styles.TTIntroduction}>
 				<div className={styles.TTIntroductionText}>
 					<h1>Drugs:</h1>
-					<FadeInPicture mobile="100% 50%" title="" alt="Stop it." src="../../assets/Visuals/TTDrugs.webp"/>
+					<FadeInPicture mobile="100% 50%" title="" alt="Stop it." src="/CyberpunkRPG/assets/Visuals/TTDrugs.webp"/>
                     { this.renderDrug() }
                     <p>The drugs of the future are far more lethal than their 20th century counterparts. Many are experimental chemicals dumped on the Street by unscrupulous Corporations looking for guinea pigs.</p>
                     <p>Some are homebrewed horrors designed in basement labs. Still others are military designed combat drugs designed to create armies of zombie killing machines. All of them are bad news.</p>
@@ -79,7 +79,7 @@ class TTDrugs extends Component<{}, DrugState> {
 				</div>
 				<div className={styles.TTIntroductionPicture}>
                     <FadeInPicture alt="Stop it." 
-                        title="Stop it. Get some help and a burger from McDonalds®" src="../../assets/Visuals/TTDrugs.webp"
+                        title="Stop it. Get some help and a burger from McDonalds®" src="/CyberpunkRPG/assets/Visuals/TTDrugs.webp"
                     />
 				</div>
 			</div>

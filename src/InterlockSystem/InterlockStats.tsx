@@ -74,7 +74,7 @@ class InterlockStats extends Component<{}, InterlockStatsState> {
                     <hr/>
 				</div>
 				<div className={styles.InterlockIntroductionPicture}>
-					<FadeInPicture title="Stats" alt="Stats" src="../../assets/Visuals/Stats.webp"/>
+					<FadeInPicture title="Stats" alt="Stats" src="/CyberpunkRPG/assets/Visuals/Stats.webp"/>
 				</div>
 			</div>
 		);

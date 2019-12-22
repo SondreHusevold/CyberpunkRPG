@@ -10,13 +10,9 @@ interface ClassState {
 	showMobileMenu: boolean;
 } 
 
-interface ClassProps {
-	history: any;
-}
+class Classes extends Component<{}, ClassState> {
 
-class Classes extends Component<ClassProps, ClassState> {
-
-	public constructor(props: ClassProps) {
+	public constructor(props: {}) {
 		super(props);
 
 		this.state = {
@@ -67,15 +63,15 @@ class Classes extends Component<ClassProps, ClassState> {
 	}
 
 	public useClassFromLocation() {
-		let location: string = this.props.history.location.pathname.split("/").pop();
-		let foundSection = this.state.characterClasses.find(d => d.name.toLowerCase().startsWith(location));
+		let location: string | undefined = window.location.hash.split("/").pop();
+		let foundSection = this.state.characterClasses.find(d => d.name.toLowerCase().startsWith(location != null ? location : ""));
 		if(foundSection != null) 
 			return foundSection;
 		return this.state.characterClasses[0];
 	}
 
 	public getClassFromLocation = () => {
-		let location: string = this.props.history.location.pathname.split("/").pop();
+		let location: string | undefined = window.location.hash.split("/").pop();
 		if(location != null) {
 			// Capitalize first letter.
 			return location.charAt(0).toUpperCase().concat(location.slice(1).toLowerCase());
