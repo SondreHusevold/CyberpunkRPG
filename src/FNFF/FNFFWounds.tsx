@@ -32,9 +32,9 @@ class FNFFWounds extends Component<{}, FNFFWoundsState> {
 	public renderWoundEffects = () => {
 		return (
 			<div>
-				<p>Okay, so the Armor didn't stop all of the damage, and your Body Type Modifierwasn't enough to shrug off the rest. It's time to take a Wound.</p>
+				<p>Okay, so the Armor didn't stop all of the damage, and your Body Type Modifier wasn't enough to shrug off the rest. It's time to take a Wound.</p>
                 <p>The Wound section of the Hardcopy Form is used to record damage. For each point of damage taken, check off one box, moving from left to right, top to bottom. 
-                    The top line of this section (marked LIGHT, SERIOUs, CRITICAL, MORTAL, etc.) tells the overall state of the character’s health.</p>
+                    The top line of this section (marked LIGHT, SERIOUS, CRITICAL, MORTAL, etc.) tells the overall state of the character’s health.</p>
                 <div className={tabbedpanel.ExampleBorder}>
                 <h3>Wound Effects:</h3>
                 <ul>
@@ -54,10 +54,13 @@ class FNFFWounds extends Component<{}, FNFFWoundsState> {
                 <div>
                     <p>Being hit isn't always something you can shrug off. Friday Night Firefight is extremely deadly, often due to the rules below:</p>
                     <h2>Limb Loss:</h2>
-                    <p>If a character takes more than eight points of damage to a limb area in any one attack, the area is severed or crushed beyond recognition. The character must make an immediate Death Save at Mortal 0.</p>
+                    <p>If a character takes more than eight points of damage to a limb area in any one attack (one bullet), the area is severed or crushed beyond recognition. The character must make an immediate Death Save at Mortal 0.</p>
                     <p>A head wound of this type will kill automatically.</p>
                     <h2>Head Hits:</h2>
                     <p>A head hit always doubles damage.</p>
+                    <h3>Head hit house rule:</h3>
+                    <p>Because headshots are extremely deadly and random (which is the point) we'll have one single house rule on this:</p>
+                    <p>If you get hit in the head and instantly die, you can roll <b>1D10 equal or under your remaining luck</b> to fall unconcious and go into Mortal 0.</p>
                 </div>
                 <div className={tabbedpanel.ExampleBorder}>
                     <h3>Think about it:</h3>
@@ -77,12 +80,13 @@ class FNFFWounds extends Component<{}, FNFFWoundsState> {
                 <div>
                     <p>Every time a character takes damage, he must make a save against the effects of pain, shock, fear and blood loss. 
                     This is what you see in most Hollywood gunfights when the bad guy gets hit—staggering, falling back and so on, 
-                    all caused by pain and shock (see the sidebar for a general tirade about the fiction of knockback).
+                    all caused by pain and shock.
                     </p>
                     <p>The Stun Shock Save is a serious thing, because it can put an opponent out of the picture faster than the actual damage from the wound. Police officers have actually died from the shock of a minor bullet wound in the foot (but we won't do that to your character).</p>
                     <p>Other people have taken as many as thirty or forty gunshots and managed to keep moving for up to ten minutes before their minds got the message their bodies were telling them ("Hey Bob, you're dead!").</p>
                     <p>The Stun Save is equal to your character's Body Type value, minus a penalty based on his current Wound State.</p>
                     <p>A failed roll means the character is out of combat.</p>
+                    <p>A stun/shock roll can be recovered from by rolling a successful stun/shock check in a subsequent turn.</p>
                 </div>
                 <div className={styles.ModifierTableExtend}>
                     <h3>Stun/Shock Save Modifiers:</h3>

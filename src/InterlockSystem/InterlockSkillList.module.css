@@ -30,6 +30,7 @@
     top: 0;
     width: 100%;
     height: 100%;
+    z-index: 6000;
 }
 
 :local .WindowedInformation {
@@ -41,7 +42,7 @@
     border: 2px solid red;
     padding: 50px;
     background: #202020;
-    z-index: 5000;
+    z-index: 7000;
     animation: FadeIn 0.3s linear;
 }
 

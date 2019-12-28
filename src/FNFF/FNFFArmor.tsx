@@ -143,8 +143,8 @@ class FNFFArmor extends Component<{}, FNFFArmorState> {
                 <p>The same is true of knives, swords and other edged weapons. Note that armors marked with a check (✓) on the Armor Table are at half SP effectiveness against edged weapons.</p>
                 <p>The smart solution in a combat situation is to rely on the lightest armor you think you can get away with unless you're planning to take on a stationary position or go up against very heavy firepower.</p>
                 <h2>Staged Penetration:</h2>
-                <p>Armor doesn't just keep absorbing damage indefinitely. One option is to use the concept of Staged Penetration.</p>
-                <p>Each time the armor is struck by a pentrating attack (i.e., an attack that actually exceeds the armor's SP), it's SP is reduced by 1 point. When the SP reaches 0, the armor will no longer stop damage.</p>
+                <p>Armor doesn't just keep absorbing damage indefinitely thanks to Staged Penetration.</p>
+                <p>Each time the armor is struck by a pentrating attack (i.e., an attack that exceeds the armor's SP), its SP is reduced by 1 point. When the SP reaches 0, the armor will no longer stop damage.</p>
             </div>
         )
     }

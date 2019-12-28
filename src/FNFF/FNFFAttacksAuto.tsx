@@ -58,6 +58,36 @@ class FNFFAttacksAuto extends Component<{}, {}> {
 				<p>For example, two Uzis with an ROF of 32 would place 64 bullets into the fire zone.</p>
 				<p>Two rules are immediately apparent with suppressive fire. First, it's only useful when you can fire a LOT of rounds into a small space. This means teams should coordinate their actions and fire at the same time, placing the maximum number of rounds into thefire zone.</p>
 				<p>Also, the fire zone should be a tight as possible (the minimum width of a fire zone is two meters).</p>
+				<div className={styles.SplitIntoTwo}>
+					<div>
+						<h2>Reliability:</h2>
+						<p>Automatic weapons have the highest chance of fumbling, and will jam based on the Reliability of the weapon:</p>
+						<p>When a fumble is rolled while using an automatic weapon, ignore the table and roll a value on 1D10 higher 
+							than the Reliability value for the weapon.
+						</p>
+						<p>In total it takes 1D6 turns to unjam the weapon.</p>
+					</div>
+					<div>
+						<h3>Reliability table:</h3>
+						<table className={styles.ATable}>
+							<tr>
+								<th>Weapon:</th>
+								<th>Jams:</th>
+							</tr>
+							<td>
+								<tr>Very Reliable</tr>
+								<tr>Standard</tr>
+								<tr>Unreliable</tr>
+							</td>
+							<td>
+
+								<tr>3 or lower.</tr>
+								<tr>5 or lower.</tr>
+								<tr>8 or lower.</tr>
+							</td>
+						</table>
+					</div>
+				</div>
 			</div>
 		);
 	}
