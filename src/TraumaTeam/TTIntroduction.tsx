@@ -35,7 +35,7 @@ class TTIntroduction extends Component<{}> {
                     <p>The most common transmitter is in the form of a plastic credit card, which is activated by bending the card in half, and has a range of 20 miles.</p>
                     <p>Trauma cards can be transferred between members of a group as long as the card's owner s present to sign the charges off when the Team arrives.</p>
                     <div className={styles.InterlacedVideo} onClick={this.redirectToVideo}>
-                        <video loop muted autoPlay className={pictureAnimation.InterlacedPicture} src="assets/TRAUMA.webm"/>
+                        <video loop muted autoPlay className={pictureAnimation.InterlacedPicture} src="/CyberpunkRPG/assets/TRAUMA.webm"/>
                     </div>
                     <p>There are usually a dozen or more Trauma Teams on call at any time in a major city. Immediately after receiving an alert, the nearest Trauma Team™ unit goes airborne, their sophisticated tracking equipment homing in on the last known location of the patient.</p>
                     <p>The pilot (who is skilled enough to set his six-ton AV-4 on top of a parked car if need be), drops in as close as possible.

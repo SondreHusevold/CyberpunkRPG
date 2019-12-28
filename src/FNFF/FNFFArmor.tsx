@@ -137,7 +137,7 @@ class FNFFArmor extends Component<{}, FNFFArmorState> {
             <div>
                 <h2>Armor piercing:</h2>
                 <p>There's another reason why armor isn't the universal cure for flying lead, and it's called Armor Piercing (AP) rounds. These are bullets designed to deliver their full impact to a single point, instead of mushrooming out like a normal bullet. </p>
-                <p>They don't cause as much damage as a standard lead or hollow point round (1/2 norma! damage), but they cut through armor like a hot knife through cheese. As a result, whenever AP rounds are encountered, armor will have one half it's total SP value.</p>
+                <p>They don't cause as much damage as a standard lead or hollow point round (1/2 normal damage), but they cut through armor like a hot knife through cheese. As a result, whenever AP rounds are encountered, armor will have one half it's total SP value.</p>
                 <p>For example, say a 5.56 AP round causes 30 points of damage. It hits SP 10 armor, which reduces it by 5 (10/2=5).</p>
                 <p>The remaining 25 points are further reduced to 12 (25/2=12.5, rounded downto 12), based on an AP round's lower damage capacity.</p>
                 <p>The same is true of knives, swords and other edged weapons. Note that armors marked with a check (✓) on the Armor Table are at half SP effectiveness against edged weapons.</p>
