@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/CyberpunkRPG/static/css/main.73d9d599.chunk.css",
-    "main.js": "/CyberpunkRPG/static/js/main.e275c16b.chunk.js",
-    "main.js.map": "/CyberpunkRPG/static/js/main.e275c16b.chunk.js.map",
+    "main.css": "/CyberpunkRPG/static/css/main.510b667f.chunk.css",
+    "main.js": "/CyberpunkRPG/static/js/main.15eba3c1.chunk.js",
+    "main.js.map": "/CyberpunkRPG/static/js/main.15eba3c1.chunk.js.map",
     "runtime-main.js": "/CyberpunkRPG/static/js/runtime-main.0c88c2d7.js",
     "runtime-main.js.map": "/CyberpunkRPG/static/js/runtime-main.0c88c2d7.js.map",
     "static/css/2.b4e2f5db.chunk.css": "/CyberpunkRPG/static/css/2.b4e2f5db.chunk.css",
-    "static/js/2.48209ece.chunk.js": "/CyberpunkRPG/static/js/2.48209ece.chunk.js",
-    "static/js/2.48209ece.chunk.js.map": "/CyberpunkRPG/static/js/2.48209ece.chunk.js.map",
+    "static/js/2.066be436.chunk.js": "/CyberpunkRPG/static/js/2.066be436.chunk.js",
+    "static/js/2.066be436.chunk.js.map": "/CyberpunkRPG/static/js/2.066be436.chunk.js.map",
     "index.html": "/CyberpunkRPG/index.html",
-    "precache-manifest.707f6ab4ad5d817589a86d858ec222e1.js": "/CyberpunkRPG/precache-manifest.707f6ab4ad5d817589a86d858ec222e1.js",
+    "precache-manifest.aaa5926956cb200c9c2f79d6fa8c3417.js": "/CyberpunkRPG/precache-manifest.aaa5926956cb200c9c2f79d6fa8c3417.js",
     "service-worker.js": "/CyberpunkRPG/service-worker.js",
     "static/css/2.b4e2f5db.chunk.css.map": "/CyberpunkRPG/static/css/2.b4e2f5db.chunk.css.map",
-    "static/css/main.73d9d599.chunk.css.map": "/CyberpunkRPG/static/css/main.73d9d599.chunk.css.map",
-    "static/js/2.48209ece.chunk.js.LICENSE": "/CyberpunkRPG/static/js/2.48209ece.chunk.js.LICENSE",
+    "static/css/main.510b667f.chunk.css.map": "/CyberpunkRPG/static/css/main.510b667f.chunk.css.map",
+    "static/js/2.066be436.chunk.js.LICENSE": "/CyberpunkRPG/static/js/2.066be436.chunk.js.LICENSE",
     "static/media/material-icons.css": "/CyberpunkRPG/static/media/MaterialIcons-Regular.e79bfd88.eot"
   },
   "entrypoints": [
     "static/js/runtime-main.0c88c2d7.js",
     "static/css/2.b4e2f5db.chunk.css",
-    "static/js/2.48209ece.chunk.js",
-    "static/css/main.73d9d599.chunk.css",
-    "static/js/main.e275c16b.chunk.js"
+    "static/js/2.066be436.chunk.js",
+    "static/css/main.510b667f.chunk.css",
+    "static/js/main.15eba3c1.chunk.js"
   ]
 }

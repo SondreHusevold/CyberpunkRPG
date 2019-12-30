@@ -23,7 +23,7 @@
         {
             "name": "Luck",
             "short": "LK",
-            "description": "This is the intangible “something” that throws the balance of events into your favor. Your luck represents how many points you may use each game to influence the outcome of a critical event.\nTo use Luck, you may add any or all of the points of luck a character has to a critical die roll (declaring your inetntion to use Luck before the roll is made) until all of your Luck stat is used up.\nLuck is always restored at the end of each game session."
+            "description": "This is the intangible “something” that throws the balance of events into your favor. Your luck represents how many points you may use each game to influence the outcome of a critical event.\nTo use Luck, you may add any or all of the points of luck a character has to a critical die roll (declaring your intention to use Luck before the roll is made) until all of your Luck stat is used up.\nLuck is always restored at the end of each game session."
         },
         {
             "name": "Attractiveness",
