@@ -29,6 +29,21 @@
     grid-gap: 5em;
 }
 
+:local .NoGridGap {
+    grid-gap: 0em;
+}
+
+@media screen and (max-width :1600px) {
+    :local .IntroductionSplit {
+        grid-template-columns: 0.9fr 0.1fr;
+    }
+
+    :local .IntroductionImage img {
+        margin: 0px;
+    }
+}
+
+
 @media screen and (max-width: 1000px) {
     :local .CyberSplit {
         grid-template-columns: 1fr;

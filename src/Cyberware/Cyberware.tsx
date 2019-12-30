@@ -8,6 +8,7 @@ import CyberwareHumanity from './CyberHumanity';
 import CyberPieces from './CyberwarePieces';
 import { HashRouter, Switch, Route } from 'react-router-dom';
 import Loading from '../Common/Loading';
+import CyberwareLimbs from './Cyberlimbs';
 
 interface CyberState {
 	selection: string | null;
@@ -19,7 +20,8 @@ enum Choices {
 	Cyberpsychosis = "Cyberpsychosis",
 	Surgery = "Surgery",
 	Humanity = "Humanity",
-	Pieces = "Pieces"
+	Pieces = "Pieces",
+	Damage = "Limbs"
 }
 
 class Cyberware extends Component<{}, CyberState> {
@@ -101,6 +103,9 @@ class Cyberware extends Component<{}, CyberState> {
 									</Route>
 									<Route path="/cyberware/pieces">
 										<CyberPieces />
+									</Route>
+									<Route path="/cyberware/limbs">
+										<CyberwareLimbs />
 									</Route>
 								</Switch>
 							</HashRouter>

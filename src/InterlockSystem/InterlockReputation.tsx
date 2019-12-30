@@ -27,7 +27,8 @@ class InterlockReputation extends Component<{}, InterlockReputationState> {
 	public renderAbout = () => {
 		return (
 			<div>
-				<p>Reputation is a measure of things your character may do so well (or badly) that he has actually become well known for them. A reputation for something is always established by a character's actions, and is then awarded by the Referee. Whenever a character encounters new people in new situations , his reputation may actually influence how they react to him. Sometimes this can be very good. Other times, it can be very bad.</p>
+				<p>Reputation is a measure of things your character may do so well (or badly) that he has actually become well known for them. A reputation for something is always established by a character's actions, and is then awarded by the Referee. Whenever a character encounters new people in new situations, his reputation may actually influence how they react to him.</p>
+                <p>Sometimes this can be very good. Other times, it can be very bad.</p>
                 <div className={tabbedpanel.ExampleBorder}>
                     <p>Example:</p>
                     <p>Jake the Hammer is known far and wide as a streetfighter; he is feared throughout Night City for his trademark killer punch. Over time, the Referee has awarded Jake a Reputation of 6 points. Anyone who meets Jake for the first time must roll higher than 6 on 1D10 in order to have not heard of Jake's name.</p>

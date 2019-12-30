@@ -19,7 +19,7 @@ class InterlockDice extends Component<{}, {}> {
 						<p><li>Rolling two ten sided dice together, designating one to mark the tens place and the other to mark the ones place (rolling a percentage).</li></p>
 					</div>
 					<p>In Cyberpunk, if you are asked to divide something and you come up with a decimal value, you will automatically round the result down to the nearest whole number (such as 2.65352 becoming 2).</p>
-					<p>If a modified value (such as 1D6-4) comes out equal to, or below zero, It is automatically equal to 1 unless otherwise specified.</p>
+					<p>If a modified value (such as 1D6-4) comes out equal to, or below zero, it is automatically equal to 1 unless otherwise specified.</p>
 				</div>
 				<div className={styles.InterlockIntroductionPicture}>
 					<FadeInPicture title="D6 and D10" alt="D6 and D10" src="/CyberpunkRPG/assets/Visuals/D10.webp"/>

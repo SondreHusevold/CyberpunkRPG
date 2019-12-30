@@ -25,7 +25,7 @@ class CyberPieces extends Component<{}> {
                     
                     <h2>Chipware:</h2>
                     <p>Having chipware is like having instant skills whenever you want them. The problem is, chipware is expensive, and limited to only the lowest levels of a specific skill (from +1 to +3). To progress further, you would have to have a specially designed chip built at a higher level (not an easy proposition).</p>
-                    <p>Another problem with chips is that unlike natural skills, you can’tlearn to become better. If you're chipped for a Karate of +2, you'll be at that level of skill until you die, no matter how many fights you get into. </p>
+                    <p>Another problem with chips is that unlike natural skills, you can’t learn to become better. If you're chipped for a Karate of +2, you'll be at that level of skill until you die, no matter how many fights you get into. </p>
                     <p>You also can't combine natural and chipwared skills; for example, combining a chipped Karate of +2 and a natural Karate skill of +5 for a total of +7. The programmed responses of a chip will always override natural responses, setting the user’s level of skill equal to that of the chip.</p>
                     <p>You can only run as many chips as your INT stat simultanously, though you can change it out whenever you want (one turn in combat).</p>
                     

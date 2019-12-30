@@ -35,7 +35,7 @@ class InterlockLifepath extends Component<{}, {}> {
 
                     <hr/>
                     <h2>Using the Lifepath system:</h2>
-                    <p>The lifepath system is depicted on page 33-39 in the core rulebook. We will go through this it in the first session.</p>
+                    <p>The lifepath system is depicted on page 33-39 in the core rulebook. We will go through it during the character creation in the first session.</p>
                     <p>Since we will go through it during the initial session, it is not available on this website. 
                         Please look at the core rulebook at page 33-39 to see the flowcharts and how it might generate rad ideas for your character.
                     </p>

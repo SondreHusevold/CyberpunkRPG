@@ -114,8 +114,8 @@ class FNFFArmor extends Component<{}, FNFFArmorState> {
                     Theoretically, one should be able to layer protection upon itself until he becomes invulnerable.
                 </p>
                 <p>Wrongo.</p>
-                <p>First of all, let's look at reality. If the average cop could stack layers of armor on himself before tackling a domestic disturbance call, you can bet he'd do it. B
-                    ut he doesn't, because it just isn't practical. Here's why.
+                <p>First of all, let's look at reality. If the average cop could stack layers of armor on himself before tackling a domestic disturbance call, you can bet he'd do it. 
+                    But he doesn't, because it just isn't practical. Here's why.
                 </p>
                 <p>When you layer flack jackets, you aren't invulnerable; you're just immobile. While modern armor isn't as heavy as old fashioned armor plate, it's very encumbering from the movement angle.</p>
                 <p>Straps, buckles, padding and stiff plastic add up to restrict arm movement, chafe the torso, and weigh down the legs. </p>
@@ -124,10 +124,53 @@ class FNFFArmor extends Component<{}, FNFFArmorState> {
                 <div className={tabbedpanel.ExampleBorder}>
                     <p>REFLEX IN BODY ARMOR = REFLEX - TOTAL ARMOR EVS</p>
                 </div>
-                <p>In addition to Encumberance Values, only a <b>maximum of 3 layers of Armor</b> can be worn at any one time. No more than <b>one of these layers can be Hard Armor</b> (see Hard/Soft Armors Table). The 2nd layer has an extra EV penalty of -1; the 3rd layer, an additional penalty of -2.</p>
-                <p>Subdermal Armor and Bodyplating cyberware options are considered to be armor layers; Skinweave is considered a layer, but receives no penalty.</p>
-                <p>When layering armor, or wearing armor behind an obstacle or cover, subtract the smaller SP from the larger one. Find the difference on the table and read across to the other column. This is the bonus number you add to the larger SP to determine overall protection from the armor/ armor, or armor/cover combination. </p>
-                <p>If you have three or more layers of protection, calculate in pairs from the inside out. (example: For armors A, B, C, you compare A and B; determine the bonus number, and then compare the new strength of the larger of the pair to armor C.)</p>
+                <h3>Maximum Armor:</h3>
+                <p>In addition to Encumberance Values, only a <b><u>maximum of 3 layers of Armor</u></b> can be worn at any one time. No more than <b><u>one of these layers can be Hard Armor</u></b> (see Hard/Soft Armors Table). The 2nd layer has an extra EV penalty of -1; the 3rd layer, an additional penalty of -2.</p>
+                <p>Subdermal Armor and Bodyplating cyberware options are considered to be armor layers; Skinweave is considered a layer, but receives no EV penalty.</p>
+                <div className={styles.TwoColumnSplit}>
+                    <div>
+                        <h3>Proportional Armor:</h3>
+                        <p>When layering armor, or wearing armor behind an obstacle or cover, subtract the smaller SP from the larger one. Find the difference on the table and read across to the other column. This is the bonus number you add to the larger SP to determine overall protection from the armor/ armor, or armor/cover combination. </p>
+                        <div className={tabbedpanel.ExampleBorder}>
+                            <p>SP AFTER LAYER = LARGER SP ARMOR + BONUS NUMBER FROM TABLE</p>
+                        </div>
+                        <p>If you have three or more layers of protection, calculate in pairs from the inside out. (example: For armors A, B, C, you compare A and B; determine the bonus number, and then compare the new strength of the larger of the pair to armor C.)</p>
+                        
+                    </div>
+                    <div>
+                        <h3>Proportional Armor Table:</h3>
+                        <table className={styles.ArmorTable}>
+                            <tr>
+                                <th>Difference in SP:</th>
+                                <th>Bonus Number:</th>
+                            </tr>
+                            <tr>
+                                <td>0-4</td>
+                                <td>+5</td>
+                            </tr>
+                            <tr>
+                                <td>5-8</td>
+                                <td>+4</td>
+                            </tr>
+                            <tr>
+                                <td>9-14</td>
+                                <td>+3</td>
+                            </tr>
+                            <tr>
+                                <td>15-20</td>
+                                <td>+2</td>
+                            </tr>
+                            <tr>
+                                <td>21-26</td>
+                                <td>+1</td>
+                            </tr>
+                            <tr>
+                                <td>27+</td>
+                                <td>+0</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
 			</div>
 		)
     }
@@ -155,6 +198,7 @@ class FNFFArmor extends Component<{}, FNFFArmorState> {
                 <div>
                     <p>You don't have to lug around an armor jacket with you—often the best armor is what you can find around you.</p>
                     <p>Cover allows you to move from place to place, letting something else soak up the gunfire.</p>
+                    <p>Remember to use the Proportional Armor rule (Layering) which also is located on page 101 in the Core Rulebook.</p>
                     <div className={styles.CoverImageWrapper}>
                         <img className={styles.CoverImage + " " + pictureAnimations.InterlacedPicture} alt="Covering yourself up prevents bullets to the face." src="/CyberpunkRPG/assets/Visuals/FNFFCover.webp" />
                     </div>

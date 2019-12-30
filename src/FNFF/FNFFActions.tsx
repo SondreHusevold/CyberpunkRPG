@@ -108,7 +108,7 @@ class FNFFActions extends Component<{}, FNFFActionsState> {
 		return (
 			<React.Fragment>
                 <p>Whenever you are facing your target and have a clear path between you, you can attack.</p>
-                <p>You can clearly see anything forward of your shoulders.</p>
+                <p>You can clearly see anything forward of your shoulders, however head gear might obscure your vision significantly, causing skills like Awareness and/or Reflex and Cool stats to be reduced.</p>
                 <p>See image below for clear paths and facings:</p>
 				<div className={styles.DesktopOnly}>
 					{this.renderImage()}
