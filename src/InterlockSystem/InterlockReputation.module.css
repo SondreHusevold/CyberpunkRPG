@@ -9,6 +9,12 @@
     padding: 10px;
 }
 
+:local .ExampleBorder {
+    border: 1px solid red;
+    padding: 15px;
+    max-width: max-content;
+}
+
 @media screen and (max-width: 1000px) { 
     :local .AwardTable {
         display: grid;

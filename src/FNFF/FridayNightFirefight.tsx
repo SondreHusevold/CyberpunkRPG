@@ -25,7 +25,7 @@ enum Choices {
     Damage = "Damage",
     Armor = "Armor",
     BodyType = "Body Type",
-	Wounds = "Wound Effects",
+	Wounds = "Wounds",
 	Death = "Death Saves",
     Attacking = "Making Attacks",
     Vehicles = "Vehicles"
@@ -98,7 +98,7 @@ class FridayNightFirefight extends Component<{}, FNFFState> {
 									<Route path="/fnff/bodytype">
 										<FNFFBodyType />
 									</Route>
-									<Route path="/fnff/woundeffects">
+									<Route path="/fnff/wounds">
 										<FNFFWounds />
 									</Route>
 									<Route path="/fnff/deathsaves">

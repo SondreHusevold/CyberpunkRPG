@@ -7,7 +7,7 @@ class FNFFAttacksMartialArts extends Component<{}, {}> {
 		return (
 			<div className={animations.FadeInFast + " " + styles.FNFFAttacks}>
 				<h1>Martial Arts/Brawling attacks:</h1>
-				<p>Brawling and Martial Arts attacks are different from other melee attacks in that an attack can be made inanumber of ways.</p>
+				<p>Brawling and Martial Arts attacks are different from other melee attacks in that an attack can be made in a number of ways.</p>
 				<p>You could, as an attack, use:</p>
 				<ul>
 					<li>Strike: Cause 1D6/2 + Damage Modifier. </li>

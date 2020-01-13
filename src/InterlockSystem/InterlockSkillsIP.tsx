@@ -28,9 +28,11 @@ class InterlockSkillsIP extends Component<{}, InterlockSkillsIPState> {
 			<div className={splitter.TwoColumnSplit}>
                 <div>
                     <p>You can can improve your skills or begin new ones by accumulating Improvement Points (IP). As you gain more IP, you'll record these points in the area next to the skills listing on your Hardcopy Form. When you have collected enough Improvement Points in a skill, the skill's level increases by one.</p>
-                    <p>The first level of a skill will always cost 10 IP.</p> 
-                    <p>To determine how many points are required to raise a skill higher than this, multiply the current level of skill by 10. This is how many points are required to raise a simple (IP multiplier=1) skill to the next level.</p>
-                    <p>Example: My Brawling skill is +4. To move from +4 to +5 will require 40 IP. To move from +5 to +6 will require 50 IP.</p>
+                    <p>The first level of a skill will always cost 5 IP. This is usually 10, but will be house ruled due to being a relatively short campaign.</p> 
+                    <p>To determine how many points are required to raise a skill higher than this, multiply the current level of skill by 5. This is how many points are required to raise a simple (IP multiplier=1) skill to the next level.</p>
+                    <div className={styles.ExampleBorder}>
+                        <span>Next skill level = Current skill level * 5 * IP Multiplier</span>
+                    </div>
                     <h3>Chipware:</h3>
                     <p>A faster way to improve your skills is through chipware (see Cyberware).</p>
                     <p>You can essentially insert a chip in your head to for example pilot AVs without any previous knowledge. These chips can be swapped around at any time making them very flexible.</p>

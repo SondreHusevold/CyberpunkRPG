@@ -4,6 +4,12 @@
     column-gap: 5em;
 }
 
+:local .InterlockHalfSplit {
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr;
+    gap: 2em;
+}
+
 :local .InterlockMenu {
     padding-top: 5%;
     grid-column: 1;
@@ -83,6 +89,16 @@
     font-size: 14px;
     padding: 10px;
     max-width: 400px;
+}
+
+:local .ClickablePicture {
+    cursor: pointer;
+}
+
+:local .ExampleBorder {
+    border: 1px solid red;
+    padding: 15px;
+    max-width: max-content;
 }
 
 @keyframes StatsAnimation {

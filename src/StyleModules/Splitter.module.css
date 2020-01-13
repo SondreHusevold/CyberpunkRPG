@@ -4,10 +4,20 @@
     grid-gap: 2em;
 }
 
+:local .TwoColumnSplitSmall {
+    display: grid;
+    grid-template-columns: 0.4fr 0.4fr;
+    grid-gap: 0em;
+}
+
 @media screen and (max-width: 1050px) {
     :local .TwoColumnSplit {
-        display: grid;
         grid-template-columns: 1fr;
-        grid-gap: 0em;
+        grid-gap: 1em;
+    }
+
+    :local .TwoColumnSplitSmall {
+        grid-template-columns: 1fr;
+        grid-gap: 1em;
     }
 }

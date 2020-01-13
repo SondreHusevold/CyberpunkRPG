@@ -12,6 +12,7 @@ import InterlockReputation from './InterlockReputation';
 import InterlockLifepath from './InterlockLifepath';
 import { HashRouter, Switch, Route } from 'react-router-dom';
 import Loading from '../Common/Loading';
+import InterlockSheet from './InterlockSheet';
 
 interface InterlockState {
 	selection: string | null;
@@ -27,7 +28,8 @@ enum Choices {
 	Improvement = "Imp. Points",
 	SkillList = "Skill List", 
 	Reputation = "Reputation",
-	Starting = "Lifepath"
+	Starting = "Lifepath",
+	CharacterCreation = "Sheet"
 }
 
 class Interlock extends Component<{}, InterlockState> {
@@ -103,6 +105,9 @@ class Interlock extends Component<{}, InterlockState> {
 								</Route>
 								<Route path="/interlocksystem/lifepath">
 									<InterlockLifepath />
+								</Route>
+								<Route path="/interlocksystem/sheet">
+									<InterlockSheet />
 								</Route>
 							</Switch>
 						</HashRouter>
