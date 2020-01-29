@@ -7,8 +7,13 @@ import FadeInPicture from '../Common/FadeInPicture';
 class InterlockSheet extends Component<{}, {}> {
 
     public openSheetInNewWindow = () => {
+        window.open("/CyberpunkRPG/assets/CharacterSheet/ModernCharacterSheet.pdf", "_blank"); 
+    }
+
+    public openOldSheetInNewWindow = () => {
         window.open("/CyberpunkRPG/assets/CharacterSheet/CB2020CharacterSheet.pdf", "_blank"); 
     }
+
 
 	public render() {
 
@@ -17,15 +22,20 @@ class InterlockSheet extends Component<{}, {}> {
                 <div className={styles.Explanations}>
                     <h1>Character Sheet:</h1>
                     <div  onClick={this.openSheetInNewWindow}>
-                        <FadeInPicture mobile="100% 0%" title="Click me." alt="Lifepath" src="/CyberpunkRPG/assets/Visuals/CharacterSheet.webp" />
+                        <FadeInPicture mobile="100% 0%" title="Click me." alt="Lifepath" src="/CyberpunkRPG/assets/Visuals/CharacterSheetShowcase.webp" />
                     </div>
                     <p>We'll be going through this during the first session, but here's some information so you know how the character creation process is:</p>
                     <h2>Getting the sheet:</h2>
+                    <p>This is a fan modified, modern version of the {"<"}<u className={styles.ClickablePicture} onClick={this.openOldSheetInNewWindow}>original Cyberpunk 2020 character sheet</u>{">"}.</p>
+                    <p>It has the same information, but is more tidy and has additional spaces for ammo tracking and contacts.</p>
                     <p>Click on the character sheet to see it in full.</p>
-                    <p><u>You do not need to print it out.</u> The referee will print a copy for you.</p>
+                    <p>If you want the original Cyberpunk 2020 sheet instead of the modern, you'll need to provide it yourself.</p>
                     <p>We'll go through and fill in the sheet during the first session.</p>
+                    <h4>You do not need to print it out. The referee will print a copy for you.</h4>
+
                     <h2>Character points:</h2>
                     <p>Each character gets 50 character points to start with. The stats of the character will be bought using these points.</p>
+
                     <h3>Distribution:</h3>
                     <p>The stats you can buy are:</p>
                     <div className={styles.ExampleBorder}>
@@ -57,16 +67,20 @@ class InterlockSheet extends Component<{}, {}> {
                         </div>
                     </div>
                     <p>BTM is the Body Type Modifier and is determined by your Body Type. See stats for more information.</p>
+                    <p>CBT stands for Combat Base Total and is your:</p>
+                    <div className={styles.ExampleBorder}>
+                        <span>CBT = REF + Preferred Weapon Skill + Weapon Accuracy + Modifiers like smartchipping, targeting optic cyberoptics and laser sights.</span>
+                    </div>
+                    
 
-                    <h3>REP, Humanity and IP:</h3>
-                    <p>On the right side there are REP, Current IP and Humanity.</p>
+                    <h3>Reputation, Humanity and IP:</h3>
                     <p>Your starting reputation will be determined by the referee based on your character's background story. Being well known can be both a blessing and a curse.</p>
                     <p>The Humanity of your character is determined by:</p>
                     <div className={styles.ExampleBorder}>
                         <span>Humanity = EMP * 10</span>
                     </div>
                     <p>Remember, for every 10 points of humanity lost, you will lose a point of EMP.</p>
-                    <p>Current IPs is what you have in IPs. Though these might be written at other parts of the sheet instead as they are connected to the skill you got IPs in.</p>
+                    <p>Current IPs is what you have in IPs. Though these might be written at other parts of the sheet instead as they are usually connected to the skill you got IPs in.</p>
 
                     <h2>Skill points:</h2>
                     <p>You are given 40 points to distribute among your 10 career skills. At least one of these must be your special ability</p>
@@ -81,12 +95,12 @@ class InterlockSheet extends Component<{}, {}> {
 
                     <h2>Starting gear/cash/cybernetics:</h2>
                     <p>You're currently at Zetatech and have no possessions.</p>
-                    <p>You do however have a Neuralware Processor and a Cybermodem Link, courtesy of Zetatech.</p>
-                    <p>These are Neuralware and can be written under Cybernetics.</p>
-                    <p>If you had cyberware before you came to be at Zetatech, they have been taken away from you and either given away or sold for cash.</p>
+                    <p>You do however have a Neuralware Processor (1000eb) and a Cybermodem Link (100eb), courtesy of Zetatech.</p>
+                    <p>These are Neuralware and can be written under Cybernetics. There is no initial humanity loss for having these.</p>
+                    <p>If you had cyberware before you came to be at Zetatech, they have been taken away from you and have either given away during the last company christmas party or simply sold for cash.</p>
                 </div>
                 <div className={styles.ClickablePicture} onClick={this.openSheetInNewWindow}>
-                    <FadeInPicture title="Click me to see the entire sheet" alt="Sheet" src="/CyberpunkRPG/assets/Visuals/CharacterSheet.webp"/>
+                    <FadeInPicture title="Click me to see the entire sheet" alt="Sheet" src="/CyberpunkRPG/assets/Visuals/CharacterSheetShowcase.webp"/>
                 </div>
             </div>
 		);

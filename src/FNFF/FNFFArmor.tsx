@@ -40,12 +40,13 @@ class FNFFArmor extends Component<{}, FNFFArmorState> {
                 <p>When the armor is struck by a round, the armor's SP is subtracted from the total amount of damage done by the hit. 
                     The remaining damage is then applied to the target area. If the damage done is less than the SP of the armor, no damage is done.
                 </p>
+                <p>The final damage is always subtracted by the Body Type Modifier. Unlike SP, if the Body Type Modifier reduces it down to 0 you'll still take one point of damage.</p>
                 <div className={tabbedpanel.ExampleBorder}>
                     <h4>Example:</h4>
                     <p>Ripperjack is wearing a Kevlar jacket with an SP of 18.</p>
                     <p>A 5.56 round strikes him in the chest, causing 14 points of damage. The armor's higher SP thwarts the attack.</p>
                     <p>The next shot does 22 points of damage. The armor reduces this by 18 points.</p>
-                    <p>Only 4 points get through to cause Ripperjack harm.</p>
+                    <p>Only 4 points get through to cause Ripperjack harm. This damage is then reduced by Ripperjack's Body Type Modifier of -2.</p>
                 </div>
 			</div>
 		)
@@ -182,9 +183,13 @@ class FNFFArmor extends Component<{}, FNFFArmorState> {
                 <p>There's another reason why armor isn't the universal cure for flying lead, and it's called Armor Piercing (AP) rounds. These are bullets designed to deliver their full impact to a single point, instead of mushrooming out like a normal bullet. </p>
                 <p>They don't cause as much damage as a standard lead or hollow point round (1/2 normal damage), but they cut through armor like a hot knife through cheese. As a result, whenever AP rounds are encountered, armor will have one half it's total SP value.</p>
                 <p>For example, say a 5.56 AP round causes 30 points of damage. It hits SP 10 armor, which reduces it by 5 (10/2=5).</p>
-                <p>The remaining 25 points are further reduced to 12 (25/2=12.5, rounded downto 12), based on an AP round's lower damage capacity.</p>
+                <p>The remaining 25 points are further reduced to 12 (25/2=12.5, rounded down to 12), based on an AP round's lower damage capacity.</p>
                 <p>The same is true of knives, swords and other edged weapons. Note that armors marked with a check (✓) on the Armor Table are at half SP effectiveness against edged weapons.</p>
                 <p>The smart solution in a combat situation is to rely on the lightest armor you think you can get away with unless you're planning to take on a stationary position or go up against very heavy firepower.</p>
+                <p>Remember to always subtract your body type modifier after shot as per usual.</p>
+                <div className={tabbedpanel.ExampleBorder}>
+                    <span>AP damage = ((1/2 Total SP - Damage) / 2) - BTM</span>
+                </div>
                 <h2>Staged Penetration:</h2>
                 <p>Armor doesn't just keep absorbing damage indefinitely thanks to Staged Penetration.</p>
                 <p>Each time the armor is struck by a pentrating attack (i.e., an attack that exceeds the armor's SP), its SP is reduced by 1 point. When the SP reaches 0, the armor will no longer stop damage.</p>
@@ -242,7 +247,7 @@ class FNFFArmor extends Component<{}, FNFFArmorState> {
                         <td>20</td>
                     </tr> 
                     <tr>
-                        <td>Concrete Ultility Pole </td>
+                        <td>Concrete Utility Pole </td>
                         <td>35</td>
                     </tr>
                     <tr>

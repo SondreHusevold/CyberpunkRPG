@@ -110,8 +110,10 @@ class StatRender extends Component<StatProp, {}> {
     public renderBTM = () => {
         return (
             <div>
-                <p>Not all people take damage the same way. For example, it takes a lot more damage to stop Arnold The Terminator than it does Arnold the Nerd. This is reflected by the Body Type Modifier, a special bonus used by your character to reduce the effects of damage. The Body type modifier is subtracted from any damage your character takes in combat.</p>
-                <h2>{'Body type modified table'}</h2>
+                <p>Not all people take damage the same way. For example, it takes a lot more damage to stop Arnold The Terminator than it does Arnold the Nerd.</p>
+                <p>This is reflected by the Body Type Modifier, a special bonus used by your character to reduce the effects of damage. The Body type modifier is subtracted from any damage your character takes in combat.</p>
+                <p>The body type modifier can never reduce the damage taken below 1.</p>
+                <h2>{'Body type modifier table'}</h2>
                 <div className={styles.InterlockStatsBTModifiedTable}>
                     <p>Very Weak...................... -0</p>
                     <p>Weak ...................... -1</p>
