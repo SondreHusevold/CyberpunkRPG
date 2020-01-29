@@ -37,8 +37,8 @@
         },
         {
             "name": "Empathy",
-            "short": "EM",
-            "description": "This Stat represents how well you relate to otherliving things—a measure of charisma and sympathetic emotions. In a world of alienated, future-shocked survivors, the ability to be “human” can no longer be taken for granted.\nEmpathy (EM) is critical when leading, convincing, seducing or perceiving emotional undercurrents. Empathy is also a measure of how close he/she is to the line between feeling human being and cold blooded cyber-monster (see pg. 73 in rulebook for details)."
+            "short": "EMP",
+            "description": "This Stat represents how well you relate to otherliving things—a measure of charisma and sympathetic emotions. In a world of alienated, future-shocked survivors, the ability to be “human” can no longer be taken for granted.\nEmpathy (EMP) is critical when leading, convincing, seducing or perceiving emotional undercurrents. Empathy is also a measure of how close he/she is to the line between feeling human being and cold blooded cyber-monster (see Cyberpsychosis under Cyberware).\nSo if you're planning on gearing up on cyberware, this stat will determine your ability to do so."
         },
         {
             "name": "Body Type",
