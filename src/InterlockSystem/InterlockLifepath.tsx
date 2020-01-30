@@ -31,7 +31,7 @@ class InterlockLifepath extends Component<{}, {}> {
                     <p>Don't like the available choices? Make something up. It is supposed to be your character.
                         Don't choose something that doesn't fit your vision because you feel the need to.</p>
                     <p>Maybe you get some ideas? Maybe it will  trigger some thoughts about your character's background story?</p>
-                    <p>Take it for a spin and see where you land.</p>
+                    <p>Take it for a spin and see where you land as the Lifepath system is a highly loved system by many role players around the world.</p>
 
                     <hr/>
                     <h2>Using the Lifepath system:</h2>

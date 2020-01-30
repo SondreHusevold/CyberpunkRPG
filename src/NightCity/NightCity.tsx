@@ -11,6 +11,7 @@ import NightCityAmerica from './NCAmerica';
 import NightCityCorporations from './NCCorporations';
 import NightCitySlang from './NCSlang';
 import NightCityMaps from './NCMaps';
+import NightCityBooks from './NCBooks';
 
 interface NightCityState {
 	selection: string | null;
@@ -25,7 +26,8 @@ enum Choices {
     America = "America",
 	Corporations = "Corporations",
     Slang = "Slang",	
-	Maps = "Map"
+	Maps = "Map",
+	Books = "Books"
 }
 
 class NightCity extends Component<{}, NightCityState> {
@@ -99,6 +101,9 @@ class NightCity extends Component<{}, NightCityState> {
 									</Route>
 									<Route path="/nightcity/map">
 										<NightCityMaps />
+									</Route>
+									<Route path="/nightcity/books">
+										<NightCityBooks />
 									</Route>
 								</Switch>
 							</HashRouter>

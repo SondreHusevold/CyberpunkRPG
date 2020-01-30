@@ -69,7 +69,7 @@ class InterlockSheet extends Component<{}, {}> {
                     <p>BTM is the Body Type Modifier and is determined by your Body Type. See stats for more information.</p>
                     <p>CBT stands for Combat Base Total and is your:</p>
                     <div className={styles.ExampleBorder}>
-                        <span>CBT = REF + Preferred Weapon Skill + Weapon Accuracy + Modifiers like smartchipping, targeting optic cyberoptics and laser sights.</span>
+                        <span>CBT = REF + Preferred Weapon Skill + Weapon Accuracy + Modifiers like smartchipping, targeting cyberoptics and laser sights.</span>
                     </div>
                     
 

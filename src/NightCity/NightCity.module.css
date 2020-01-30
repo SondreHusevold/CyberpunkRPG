@@ -80,6 +80,10 @@
     grid-column: span 2;
 }
 
+:local .ClickableLink {
+    cursor: pointer;
+}
+
 @media screen and (max-width: 1050px) {
 
     :local .NightCityLivingOnTheEdge {
