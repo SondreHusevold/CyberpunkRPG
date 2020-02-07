@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/CyberpunkRPG/precache-manifest.ffb6f6a01954234efe8ea28038cc3957.js"
+  "/CyberpunkRPG/precache-manifest.18ea3c94be2238c78bd173c19ca40a8d.js"
 );
 
 self.addEventListener('message', (event) => {

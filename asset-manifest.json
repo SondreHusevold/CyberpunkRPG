@@ -1,26 +1,26 @@
 {
   "files": {
     "main.css": "/CyberpunkRPG/static/css/main.5e6adca2.chunk.css",
-    "main.js": "/CyberpunkRPG/static/js/main.e3420a8c.chunk.js",
-    "main.js.map": "/CyberpunkRPG/static/js/main.e3420a8c.chunk.js.map",
+    "main.js": "/CyberpunkRPG/static/js/main.b316414a.chunk.js",
+    "main.js.map": "/CyberpunkRPG/static/js/main.b316414a.chunk.js.map",
     "runtime-main.js": "/CyberpunkRPG/static/js/runtime-main.0c88c2d7.js",
     "runtime-main.js.map": "/CyberpunkRPG/static/js/runtime-main.0c88c2d7.js.map",
     "static/css/2.b4e2f5db.chunk.css": "/CyberpunkRPG/static/css/2.b4e2f5db.chunk.css",
-    "static/js/2.563edaf3.chunk.js": "/CyberpunkRPG/static/js/2.563edaf3.chunk.js",
-    "static/js/2.563edaf3.chunk.js.map": "/CyberpunkRPG/static/js/2.563edaf3.chunk.js.map",
+    "static/js/2.2ae84a86.chunk.js": "/CyberpunkRPG/static/js/2.2ae84a86.chunk.js",
+    "static/js/2.2ae84a86.chunk.js.map": "/CyberpunkRPG/static/js/2.2ae84a86.chunk.js.map",
     "index.html": "/CyberpunkRPG/index.html",
-    "precache-manifest.ffb6f6a01954234efe8ea28038cc3957.js": "/CyberpunkRPG/precache-manifest.ffb6f6a01954234efe8ea28038cc3957.js",
+    "precache-manifest.18ea3c94be2238c78bd173c19ca40a8d.js": "/CyberpunkRPG/precache-manifest.18ea3c94be2238c78bd173c19ca40a8d.js",
     "service-worker.js": "/CyberpunkRPG/service-worker.js",
     "static/css/2.b4e2f5db.chunk.css.map": "/CyberpunkRPG/static/css/2.b4e2f5db.chunk.css.map",
     "static/css/main.5e6adca2.chunk.css.map": "/CyberpunkRPG/static/css/main.5e6adca2.chunk.css.map",
-    "static/js/2.563edaf3.chunk.js.LICENSE": "/CyberpunkRPG/static/js/2.563edaf3.chunk.js.LICENSE",
+    "static/js/2.2ae84a86.chunk.js.LICENSE": "/CyberpunkRPG/static/js/2.2ae84a86.chunk.js.LICENSE",
     "static/media/material-icons.css": "/CyberpunkRPG/static/media/MaterialIcons-Regular.e79bfd88.eot"
   },
   "entrypoints": [
     "static/js/runtime-main.0c88c2d7.js",
     "static/css/2.b4e2f5db.chunk.css",
-    "static/js/2.563edaf3.chunk.js",
+    "static/js/2.2ae84a86.chunk.js",
     "static/css/main.5e6adca2.chunk.css",
-    "static/js/main.e3420a8c.chunk.js"
+    "static/js/main.b316414a.chunk.js"
   ]
 }
