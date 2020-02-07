@@ -19,7 +19,7 @@ class NightCityStartingOut extends Component<{}> {
                     <h2>Think about the following:</h2>
                     <p>> Choose a class you want to play.</p>
                     <p>> Think about your character; Who are you, and why are you at Zetatech?</p>
-                    <p>> What chain of events happened that ended with you being there, trapped inside wild simliations?</p>
+                    <p>> What chain of events happened that ended with you being there, trapped inside wild simulations?</p>
                     <p>> Were you living in Night City? Somewhere else?</p>
                     <p>> How old are you? Are you 20, 30 or maybe you were cryofrozen and revived into the year of 2020?</p>
                     <p>There are so many ways you can do this. But the information above is something to keep in mind. </p>
