@@ -27,7 +27,7 @@ class NightCityBooks extends Component<{}> {
                     <hr/>
                     <h3>Cyberpunk 2020 - Core Rulebook</h3>
                     <p>The core rulebook is filled to the brim with everything you need to play. Most of the information on this site is taken directly from this book.</p>
-                    <p>It also has a bunch of lore on Night City and its inhabitants. A bunch of modules are also ready for usage, the biggest and most important lorewise being "Never Fade Away".</p>
+                    <p>It also has a bunch of lore on Night City and its inhabitants. A bunch of modules are also ready for use, the biggest and most important lore wise being "Never Fade Away".</p>
                     <p>The Cyberpunk 2020 rulebook will also be included as a free PDF with the purchase of Cyberpunk 2077.</p>
                     <hr/>
                     <h3>Night City Sourcebook</h3>
@@ -42,7 +42,7 @@ class NightCityBooks extends Component<{}> {
                     </p>
                     <hr/>
                     <h3>Blackhand's Street Weapons</h3>
-                    <p>Also known as the big book of guns. It contains weapons from A-Z with pictures, prices and requirements for usage and is a shopping magazine just like the Chromebooks.</p>
+                    <p>Also known as the big book of guns. It is a shopping magazine just like the Chromebooks and contains weapons from A-Z with pictures, prices and requirements for use.</p>
                     <p>It has over 250 weapons compiled into a single book, everything from common as dirt pistols to the most exotic laser guns.</p>
                     <hr/>
                     <h3>Home of the Brave</h3>
@@ -50,7 +50,7 @@ class NightCityBooks extends Component<{}> {
                     <p>It goes into great detail about The Collapse, the aftermath and the new America that rose in its place. It also explains the American government and how it operates.</p>
                     <p>Fantastic book if you want to know more about nomads or what life is outside of Night City or other metropolitan cities.</p>
                     <hr/>
-                    <h3>Listen up you primitive screwheads!!!</h3>
+                    <h3>Listen Up You Primitive Screwheads!!!!</h3>
                     <p>This is a referee book which contains tips and tricks for newer referees.</p>
                     <p>It also contains some revised rules that Mike Pondsmith and other players house rule in their games.</p>
 				</div>
