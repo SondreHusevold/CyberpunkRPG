@@ -23,6 +23,7 @@ class NightCityStartingOut extends Component<{}> {
                     <p>> Were you living in Night City? Somewhere else?</p>
                     <p>> How old are you? Are you 20, 30 or maybe you were cryofrozen and revived into the year of 2020?</p>
                     <p>There are so many ways you can do this. But the information above is something to keep in mind. </p>
+                    <p>Also, if you had cyberware before, Zetatech has either sold it, or given it away at the latest company Christmas party. See: {"<"}<a href="#/interlocksystem/sheet">Sheet</a>{">"}</p>
                     <h2>Lifepath:</h2>
                     <p>We'll be doing details of your character through the Lifepath system (see Interlock System), however it should be <i>your</i> character. The Lifepath system is only a guide for fleshing out the backstory..</p>
                     <p>So if you have firm knowledge of your character, run with it and don't use everything the Lifepath system gives you.</p>

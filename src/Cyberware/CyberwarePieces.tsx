@@ -35,7 +35,7 @@ class CyberPieces extends Component<{}> {
                     
                     <h2>Bioware:</h2>
                     <p>Bioware is anything which is primarily low-impact technology that is designed along biological rather than mechanical lines by utilizing nanotechnology.</p>
-                    <p>Grafted muscle, bone lace, skinweave (increases your skin's Stopping Power by 12), enhanced antibodies, nanosurgeons etc.</p>
+                    <p>Grafted muscle, bone lace, skinweave (increases your skin's Stopping Power by 6), enhanced antibodies, nanosurgeons etc.</p>
                     
                     <h2>Cyberweapons:</h2>
                     <p>These are usually severely illegal black market cyberware and are hidden killing tools.</p>

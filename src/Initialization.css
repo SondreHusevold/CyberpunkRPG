@@ -40,6 +40,10 @@ button a {
     outline: 0;
     text-decoration: none;
 }
+
+a {
+    color: red;
+}
   
 .selectedButton {
     animation-name: redGlitch;
