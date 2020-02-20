@@ -41,6 +41,9 @@ class TTHealing extends Component<{}, TTHealingState> {
                     <p>Only one check need be made. You may (within reason and at Referee’s discretion), perform first aid on yourself. </p>
                     <p> On an unsuccessful roll, the patient regains no points. New attempts may be made once per day until a successful roll is made.</p>
                 </div>
+                <h2>Price:</h2>
+                <p>A day in the hospital is 300 eurodollars. In intensive care? 1000eb. This fee is of course after Trauma Team has helped you get there.</p>
+                <p>A first aid kit is 10eb, medkit is about 50eb and surgical kit is 400eb. The effects of these can be seen in the gear list from page 68 to 71 in the core rulebook.</p>
                 <h2>Speed heal drugs:</h2>
                 <p>Drugs can be used to speed the healing rate by 1 additional point per day.</p>
                 <p>Expensive and often proscribed, these drugs have a neural side effect of reducing the patient’s REF stat by 1D6/3 for a week after use.</p>
