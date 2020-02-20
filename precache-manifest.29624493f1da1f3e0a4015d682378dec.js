@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "bbb58eff2a577a1cb8dbd36e37c79e64",
+    "revision": "d8aafcc9ad6dddf2876b7dd368f0db09",
     "url": "/CyberpunkRPG/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/CyberpunkRPG/static/css/2.b4e2f5db.chunk.css"
   },
   {
-    "revision": "3f5d8ee890a7eb5ade9d",
+    "revision": "23fdbcb95f7d347ca17d",
     "url": "/CyberpunkRPG/static/css/main.c0016403.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/CyberpunkRPG/static/js/2.2ae84a86.chunk.js.LICENSE"
   },
   {
-    "revision": "3f5d8ee890a7eb5ade9d",
-    "url": "/CyberpunkRPG/static/js/main.e06c835d.chunk.js"
+    "revision": "23fdbcb95f7d347ca17d",
+    "url": "/CyberpunkRPG/static/js/main.f2e2b389.chunk.js"
   },
   {
     "revision": "788b985df060e1991b41",
