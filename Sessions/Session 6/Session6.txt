@@ -1,0 +1,262 @@
+> Alle får 10 IP i Cyberdeck. Caro får 15 for å holde en session.
+> Locke vil si "Soulkiller?" spørrende.
+- "Ja! Det er det Arasaka er ute etter! Men hvor er vi?!"
+- Locke "Hva er Soulkiller?!"
+- "Soulkiller er... Det er... [stille]. Jeg husker ikke. Jeg kan ikke... Hvor er vi? Hvem er dere?!"
+[ Litt roleplay ]
+- Locke: "Vi må pelle oss bort herfra! Jeg vet ikke hvor lenge vennene deres klarer å holde dem der nede, men vi må ut!"
+
+- Sudo: "Det er tight der nede nå. En kar jeg har blitt kjent med tittet litt rundt i Atlantis."
+	>(et av hovedseksjonene i The Net som spanner søratlanteren, søramerika og sentral amerika, ned til sørpolen og afrikanske kysten rundt kapp det gode håp).
+- "Zetatech har hyrt inn Militech Mercenary Troops. De har ground troops akkurat nå på stedet for å hjelpe til med å holde ro. Jeg vil påminne om at dette er soldater med Militech hardware. Det er ikke til å kødde med!"
+
+[ Så hva gjør de? Hinte til at Amund burde kanskje ta bilder? ]
+
+- "Har drone footage fra taket og det ser ut til at det er en AV-4 der. Men det er nok snakk om kort tid før Militech kommer opp bygningen også, noen vet på dette punktet at dere er der. Prøver å ikke sette av full alarm, men jeg kommer til å gå tom for ammo mot disse Bloodhoundene som kommer til å si ifra til sysop. Zetatech er ganske pissed etter de forrige gangene, og Lucy er nok heller ikke veldig glad. Hvis de kommer igjennom finner de en av proxy lokasjonene mine så kan det bli stygt."
+
+- "Det er seks etasjer til før dere er på taket."
+	- Dere er nå på 5 etasje - Research and Development 3. 
+	- 6 etasje er Reasearch and Development 4 & 5.
+	- 7 etasje er Testing and Quality Assurance 
+	- 8 etasje er Marketing
+	- 9 Etasje er HR & Administration
+	- 10 etasje er San Jose Head Office
+	- 11. etasje er AV-4 landing pad.
+
+- "Jeg har midlertidig access opp til 6 etasje. Etter det er dere helt på egenhånd."
+
+> [ 6. etasje har masse mainframes og PCer i åpent kontolandskap. ]
+> [ 7. etasje har masse cyberdecks som er under testing. ]
+> [ 8. etasje har kontorer ]
+> [ 9. etasje har kontorer - Her vil de møte Tracy. Ett av kontorene her har en safe med en credit chip på 10000 eddies. Må hackes. ]
+> [ 10. etasje krever authorization (hacking) det møterom med kontor og en PC ]
+> [ 11. etasje har en AV-4 der med en Militech pilot i. Trauma Team vil komme swooping down og lande. Sikte på de, men ikke angripe før de løper ned.]
+
+7. etasje:
+----------
+
+Det er 6 cyberdecks (3 hvis ingen har awareness over 20.) som er faktisk assembled. Mange har åpent electronics. 
+
+Alle har chipreader installert og kommer med interface cables.
+
+----- DECKS ----
+
+1: Shabby cyberdeck (5kg, 4 ports, 5mu)
+
+2-4: Standard Cyberdeck (5kg, 6 ports, 10mu)
+
+5-8: Portable Deck (4 hours)
+
+9: Combat Assault Deck (SP20)
+
+10: Sealed Combat Assault Deck (SP20, cellular)
+
+----------------
+
+--- SOFTWARE ---
+
+Luck roll for å se hva slags programmer som er på decket:
+
+1: Any software MU 4.
+2: Any software MU 1.
+3. Software MU 2.
+4. Software MU 3.
+5. Controller of your choice
+6. Utility of your choice
+7. Controller of your choice
+8. Utility of your choice
+9. Software MU 5.
+10. Anything at all.
+
+----------------
+
+--- Upgrades ---
+
+Det ligger memchips all over. Roll for å finne:
+
+1-2: Memory (+10MU)
+3-4 Tycho Memchip (+7MU)
+5-6 Zetatech Memchip (+5 MU);
+7-8: WuTech Memchip (2MU)
+9: Ingen fungerende;
+10: Fried memchip (Destroys Cyberdeck, kan bruke Tech + Cyberdeck for å ta en ekstra titt);
+
+----------------
+
+----------------------------------------
+
+Netrunning (The Menu):
+
+1: "Cyberdeck Design" skillen blir Netrunning skillen.
+
+2: Oppgradering av Cyberdeckets stats fungerer slik som vanlig.
+
+3: Når du vil hacke noe bruker du Tech + Netrunning (Cyberdeck Design) + 1D10. (Jeg setter difficulty). Du må ha et cyberdeck selvfølgelig for å putte programmer i.
+
+4: Når du først kommer inn i systemet skal jeg presentere for deg hva slags Intrusion Countermeasures Electronics (ICE) som er i systemet og dets strength. For hver av de, må du gi et countermeasure program. Strengthen til ditt countermeasure defense må match eller exceed systemets attacking programs.
+
+5: Alle programmer er one-use only per hack. Ingen rolls nødvendig, bare presenter programmet.
+
+5: Hvis du negater eller evader alle attacking programmene så får du tilgang til systemet og kan bruke Decryption, Controller og Utility programmer. Her er rolls required. Hvis du failer, så vil du bli kastet ut. Fumbler du så settes alarmen av.
+
+----------------------------------------
+
+.........
+
+9. etasje:
+---------
+
+Tracy og to guards.
+
+--------------
+
+Zetatech Guards:
+
+--------------
+
+STATS        SKILLS                      
+points 39    Authority   ......[1]            
+INT  [5]     Awareness/Notice{I[4]                   
+REF  [7/5]   Human Percep....{T[5]                         
+TECH [3]     Education.......{R[4]             
+COOL [3]     Athletics.......{R[5]                         
+ATTR [4]     Brawling........{R[4]                         
+EMP  [3/2]   Melee...........{R[4]                           
+BODY [8]     Handgun.........{R[5]                         
+MOVE [3]     Rifle...........{R[2]                         
+LUCK [3]     Submachinegun...{R[6]  
+
+WEAPONS          type skl  dmg  #/rof rly
+Arasaka Miniami10 SMG  11 2d6+3 40/20  V
+DaiLung Cybrmag15  P    9 1d6+1 10/2   U         
+
+CYBERWARE        
+Cyberarm - No modules except hand.
+Adrenal Boost - +1 REF,1d6+2turns,3x/day
+
+ARMOR: tank top, pants,
+Head  Torso  R.Arm            
+1     2-4    5       
+[0/0] [15]   [20]            
+
+L.Arm R.Leg  L.Leg                  
+6     7-8    9-0             
+[4]  [4]    [4]  
+
+COMPUTED STATS           
+run  [9]   leap [2]   lft [320]                              
+rep  [1]   hum [23.5]   dmg [+1]                           
+save [8]   BTM [-3]   
+
+---------------
+
+Tracy:
+
+---------------
+
+STATS        SKILLS                      
+points 39    Authority   ......[1]            
+INT  [5]     Awareness/Notice{I[4]                   
+REF  [7/5]   Human Percep....{T[5]                         
+TECH [3]     Education.......{R[4]             
+COOL [3]     Athletics.......{R[5]                         
+ATTR [4]     Brawling........{R[4]                         
+EMP  [3/2]   Melee...........{R[4]                           
+BODY [8]     Handgun.........{R[5]                         
+MOVE [3]     Rifle...........{R[4]                         
+LUCK [3]     Submachinegun...{R[2]  
+
+WEAPONS          type skl  dmg  #/rof rly
+Sternmeyer S10    SHIT 11  4d6 40/20  V
+DaiLung Cybrmag15  P    9 1d6+1 10/2   U          
+
+CYBERWARE        
+Cyberarm - No modules except hand.
+Adrenal Boost - +1 REF,1d6+2turns,3x/day
+
+ARMOR: tank top, pants,
+Head  Torso  R.Arm            
+1     2-4    5       
+[0/0] [15]   [4]            
+
+L.Arm R.Leg  L.Leg                  
+6     7-8    9-0             
+[4]  [5]    [5]  
+
+COMPUTED STATS           
+run  [9]   leap [2]   lft [320]                              
+rep  [1]   hum [23.5]   dmg [+1]                           
+save [8]   BTM [-3]   
+
+--------------------
+
+Back to night city:
+
+> AVen kjører av gårde (13 diff) over San Jose.
+> Kaos under Zetatech, ting brenner. Militech driver å shover folk vekk fra bygningen.
+> Noen andre har begynt å kjøre sykkel fra området.
+> Kjører over Badlands, kaktuser og dust med en occasional nomad gang som kjører på motorsykler langs veien.
+> Store vindmøller som brer seg utover landskapet når man kommer nærmere Night City igjen.
+
+> De må nok parkere AVen et sted.
+> Locke og Sudo vil prate med de i morgen.
+> Hold hodet nede og prøv å lage lite oppmerksomhet.
+> Tyler sover over hos Sudo før han spør en venn (Kunero) av han om å kræsje der.
+> Matthew drar sikkert hjem, på veien finner Johnny Silverhand i bakgata
+	> Johnny lener seg mot den våte murveggen og ser opp på Matthew
+	> Han har et "gaping belly wound" og klarer såvidt å stå på beina.
+	> Hvis han sier noe før han besvimer så er det "Alt...".
+
+
+> Hos Sudo og Locke vil Tyler gå igjennom hva han så. 
+	> Han, Tim og deres siste venn Kunero har nettrunnet i årevis. Tilfeldigvis kom de over et data fortress i Atlantis.
+	> De kom bare igjennom første nivå, men la merke til at det var fylt med våpen. De prøvde å få med seg noe, men måtte løpe etter at alarmen gikk.
+	> De begynte å spørre rundt om hva dette fortresset er og hvem som eier det.
+	> Ble paranoide, tenkte NetWatch var ute etter dem.
+	> Tim tok en ny tur dit alene uten at noen andre visste, og fant en prototype til et nytt program som var kalt "Soulkiller".
+	> Programmet var designed til å suge en netrunners concience helt ut og trappe ham i The Net og deretter drepe kroppen. Dermed lagre "hjernen" til en netrunner for eventuell bruk, men drepe kroppen.
+	> Dette var designed til å gå igjennom alle sikkerhetsmekanismer.
+	> Etter at dette ble funnet tørte ikke Kunero lengere koble seg til The Net.
+	> Tyler lette litt ekstra etter informasjon om Soulkiller, men fant nesten ingenting. Dette var et masterpiece program. Kun få i verden kunne i det hele tatt laget dette, så hvem i så fall kunne det vært...
+	> Og kort tid etterpå fant de Tims døde kropp koblet opp mot et Cyberdeck.
+	> Etter begravelsen ble Tyler og Kunero enige om å aldri prate om dette igjen.
+	> Men det tok ikke mer enn et par uker før Tyler var kidnappet av Zetatech, sannsynligvis på grunn av at han hadde lett etter informasjon i ettertid. 
+	> Note: Kunero trodde at Tyler også ble drept av Soulkiller.
+
+	> Locke er helt sikker på at Arasaka er interessert i teknologien. De kunne muligens klart å hente alle Netrunners de ønsket, trap them og bruke de til nye research prosjekter.
+	> Er det en måte for dem å oppnå immortality? 
+	> Arasaka, selv med sine resurser, har ikke kapasitet til å lage et sånt program.
+	> Men hvem kan ha laget det? Arasaka er sikkert ute etter dem.
+
+
+> Lee vil bli kontaktet av [Insert name of gang here].
+	> Vil nevne ting som går opp til problemene med Italienske mafiaen i byen.
+		> To stk er drept
+		> Intern hacking
+		> Gangen gjorde det samme mot dem
+
+	> Uncle Dong vil spørre om hva som skjedde hos Zetatech
+		> Har øyne overalt. Ikke glem det.
+
+	> En guard kommer inn og hvisker noe inn i øret til Uncle Dong
+	> Uncle Dong vil at Lee skal bli igjen. Lar den feite mannen komme inn.
+	> "The Boss" Don Bruce Skiv kommer inn med solbriller.
+	> Advarer Uncle Dong om krig dersom ikke dette avsluttes asap og Sun Yee On peller seg ut av byen.
+	> Hvis han ser flere slit eyes i nærheten av hans territorie er Sun Yee On finished. 
+
+	> Uncle Dong kommer til å trenge hjelp
+	> Han tror det er folk høyt opp internt som har begynt å spise pasta. 
+	> Han stoler ikke på noen. Men Lee har vært borte såpass lenge, at han ikke kan være involvert.
+	> Å ta mafiaen alene er umulig med tanke på hvor lite assets de har. 
+	> Ønsker treaty med en annen asian gang. Tyger Claws.
+	> Vil at Lee og noen utenforstående drar til Tyger Claws og gir de et brev (en scroll).
+
+> At Tyger Claws vil det være en Oyabun Hidetsugu Okada.
+> Hans datter er Wakako Okada.
+> Tyger Claws vil prate med Uncle Dong, og sier også at asiatiske communitien må stå sammen
+> De vil se Senko (orange hår, turkise øyne og glødene arret) hos Tyger Claws. Hun driver å dealer store metallkasser med noen svært tatoverte menn og har med seg to men in black.
+
+> Hidetsugu vil ønske at Sun Yee går sammen med Tyger Claws om å beskytte Chinatown og Japantown fra Italienske mafiaen.
+> Eneste måten han ønsker at dette skal opprettholdes er via marriage. Han ønsker at Wakako skal gifte seg med direkte sønnen til Uncle Poe.
+> Uncle Dong vil ikke være happy over this. Vil tenke over det (og akseptere).
+

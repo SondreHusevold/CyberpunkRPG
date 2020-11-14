@@ -1,0 +1,229 @@
+Session 4 - Revengeance
+
+> Starte med å gjennomgå hva som skjedde sist
+> Både True og Storm skal gjøre awareness check (20)
+> Hvis de ikke klarer det, prøve igjen dagen etterpå
+> Hvis de klarer det, så si at det er noen i sort som går etter
+> De andre får også si hva de gjør.
+
+> Dagen etterpå vil de måtte prøve igjen, hvis de failer denne gangen så blir de grabbed med vått tørkle foran fjeset, forced til save.
+> Hvis de klarer det så blir det battle mot 4.
+
+> Vekket av isvann
+> De står bak hverandre slik at de ikke kan se hverandre
+> Området er på toppen av en bygning. Taket mangler delvis, og veggen på siden til Storm. Det er en PC og en desk på siden til True og en vei ned.
+> Tracy, og seks vakter.
+	> To står i første etasje.
+	> En står i trappa, synlig for True
+	> Tre stk står rundt i andre etasje.
+
+> Blendet, bundet. Dra håret tilbake på True og si "Wakie wakie!!"
+> Snakke om hvordan True våget å embarass Tracy på den måten
+> "Trodde du jeg ikke søkte opp hvem som var i prosjektet etterpå? Hmm?"
+> "Who the fuck have you talked to?"
+> "Hvor er Jack og Eclair?!"
+> Potensielle ting som kan skje:
+	> Holde hardt på kinnene til enten True eller Storm
+	> Dra en av de bort i stolen til åpne veggen med cyberarm, og henge de utenfor. Det er langt ned.
+	> Få en vakt til å extract videoen til True og se på den.
+	> Ringe Eclair på telefonen.
+	> Gjenta videoen igjennom telefonen på Storm
+	> Gi True en dose slow working gift (2 timer)
+	> Ta å true dem med forskjellige ting.
+
+> Tracy får call, må stikke.
+> Sier at fire skal være igjen.
+	> Responderer med at de ikke har fått betalt for å være vakthunder for to nobodies i midten av Combat Zone.
+	> Tracy gir de en credit chip på 8000 eddies reluctantly.
+	> Drar av gårde i en Aerovehicle med Zetatech logoen printet på siden.
+
+> Eclair og Jack må nå hjelpe de. Climbing gear? 
+> Tegne kart.
+
+> Prøve å anskaffe hjelp? 
+	> Cooper vil nekte å gi hjelp til Eclair etter Cheat.
+	> Sudo vil anbefale å høre med noen "andre" de har hjulpet og kanskje skylder dem en.
+	> Locke er i Pacifica nå og skal til Los Angeles hos Infocomp sitt hovedkvarter etter informasjonen Sudo har fått på Zetatech. Han kommer tilbake til Night City om en uke.
+	> Hvis de ringer Ashikaga, så vil han gi en prislapp på 50.000 eddies for et team på to per time. Combat zone er dyrt.
+	> Ringer de Ashikaga, så vil de få hjelp av Inari som vil dra utenfor jobben.
+
+> Klarer de dette, så vil de sannsynligvis gå incognito en ukes tid.
+> One week will pass, og Sudo og Locke vil ha funnet informasjon fra Zetatech sin nøkkel til Infocomp. (Forklare Infocomp)
+	> Infocomp er en megacorp som lagerer scientific, technical og personal data på en sikker måte. De er basically en cloud tjeneste.
+	> De er også en tenketank, og driver elite sceintific research og har ability til å "unearth cogitate and formulate and theorize".
+	> De har også et gigantisk library of existing information, men det må selvfølgelig det må betales for. 
+	> The tougher the problem, the higher the skill.
+
+> Yorinobu og Sudo setter opp et møte med party
+> De vet fortsatt ikke hva dette redacted greiene som Tyler vet om heter, men de vet at Arasaka er veldig veldig interessert i det.
+> Utifra hva informasjon som Infocom har, så er det sannsynligvis snakk om et superweapon eller noe i den duren. 
+> Det virker ikke som Arasaka har dette våpenet enda, men at det er bare matter of time.
+> Zetatech har ikke tilgang til Arasakas informasjon, og hvis de ønsket å få mer informasjon så hadde det kostet ikke bare en arm og ett bein.
+> De ønsker å finne ut av HVA dette er for noe, ettersom det kan ha gigantiske konsekvenser ikke bare for Night City, men hele kloden hvis Arasaka får hendene på et slikt våpen.
+> Får hjelp fra gangen til Yorinobu - Kotetsu no Ryu.
+
+> Now they need to get back to Zetatech and find out...
+
+> Hvis de drar til Zetatech igjen for å redde Tyler sammen med Locke vil de få låne motorsykler av Kotetsu no Ryu (Steel Dragons).
+> De burde possibly også anskaffe litt bedre gear? 
+> De må komme seg tilbake opp der Tyler er for så å få ending.
+
+--------------
+
+Boostergang people:
+
+--------------
+
+STATS        SKILLS                      
+points 39    Authority   ......[3]            
+INT  [3]     Awareness/Notice{I[4]                   
+REF  [6/5]   Human Percep....{T[6]                         
+TECH [4]     Education.......{R[1]             
+COOL [5]     Athletics.......{R[6]                         
+ATTR [3]     Brawling........{R[4]                         
+EMP  [3/2]   Melee...........{R[5]                           
+BODY [5]     Handgun.........{R[6]                         
+MOVE [4]     Rifle...........{R[4]                         
+LUCK [3]     Submachinegun...{R[3]  
+
+WEAPONS          type skl  dmg  #/rof rly
+Militech Avenger   P   10 2d6+1 10/2   V
+DaiLung Cybrmag15  P    9 1d6+1 10/2   U         
+
+(DUAL WIELD)
+
+CYBERWARE        
+Basic Neural Processor
+-Boosterware - +1 to initative
+
+ARMOR: tank top, pants,
+Head  Torso  R.Arm            
+1     2-4    5       
+[0/0] [2]   [2]            
+
+L.Arm R.Leg  L.Leg                  
+6     7-8    9-0             
+[2]  [0]    [0]  
+
+COMPUTED STATS           
+run  [12]   leap [2]   lft [130]                              
+rep  [0]   hum [21]   dmg [+1]                           
+save [4]   BTM [-1]   
+
+--------------
+
+STATS        SKILLS                      
+points 39    Authority   ......[5]            
+INT  [4]     Awareness/Notice{I[2]                   
+REF  [6/5]   Human Percep....{T[5]                         
+TECH [3]     Education.......{R[3]             
+COOL [4]     Athletics.......{R[5]                         
+ATTR [5]     Brawling........{R[6]                         
+EMP  [3/0]   Melee...........{R[5]                           
+BODY [6]     Handgun.........{R[5]                         
+MOVE [3]     Rifle...........{R[6]                         
+LUCK [3]     Submachinegun...{R[2]  
+
+WEAPONS          type skl  dmg  #/rof rly
+DaiLung St.Master  P   13 2d6+3 12/2   U 
+
+/ MonoKnife         MLE  10 2d6+1
+
+
+CYBERWARE        
+Smart Goggles
+-Ultraviolet - total darkness w/UV
+
+ARMOR: tank top, pants,
+Head  Torso  R.Arm            
+1     2-4    5       
+[0/0] [2]   [2]            
+
+L.Arm R.Leg  L.Leg                  
+6     7-8    9-0             
+[2]  [3]    [3]  
+
+COMPUTED STATS           
+run  [12]   leap [2]   lft [130]                              
+rep  [0]   hum [21]   dmg [+1]                           
+save [4]   BTM [-1]  
+
+
+
+
+--------------
+
+Zetatech Guards:
+
+--------------
+
+STATS        SKILLS                      
+points 39    Authority   ......[1]            
+INT  [5]     Awareness/Notice{I[4]                   
+REF  [7/5]   Human Percep....{T[5]                         
+TECH [3]     Education.......{R[4]             
+COOL [3]     Athletics.......{R[5]                         
+ATTR [4]     Brawling........{R[4]                         
+EMP  [3/2]   Melee...........{R[4]                           
+BODY [8]     Handgun.........{R[5]                         
+MOVE [3]     Rifle...........{R[2]                         
+LUCK [3]     Submachinegun...{R[6]  
+
+WEAPONS          type skl  dmg  #/rof rly
+Arasaka Miniami10 SMG  11 2d6+3 40/20  V
+DaiLung Cybrmag15  P    9 1d6+1 10/2   U         
+
+CYBERWARE        
+Cyberarm - No modules except hand.
+Adrenal Boost - +1 REF,1d6+2turns,3x/day
+
+ARMOR: tank top, pants,
+Head  Torso  R.Arm            
+1     2-4    5       
+[0/0] [4]   [20]            
+
+L.Arm R.Leg  L.Leg                  
+6     7-8    9-0             
+[4]  [4]    [4]  
+
+COMPUTED STATS           
+run  [9]   leap [2]   lft [320]                              
+rep  [1]   hum [23.5]   dmg [+1]                           
+save [8]   BTM [-3]   
+
+--------------
+
+STATS        SKILLS                      
+points 39    Authority   ......[1]            
+INT  [5]     Awareness/Notice{I[4]                   
+REF  [7/5]   Human Percep....{T[5]                         
+TECH [3]     Education.......{R[4]             
+COOL [3]     Athletics.......{R[5]                         
+ATTR [4]     Brawling........{R[4]                         
+EMP  [3/2]   Melee...........{R[4]                           
+BODY [8]     Handgun.........{R[5]                         
+MOVE [3]     Rifle...........{R[2]                         
+LUCK [3]     Submachinegun...{R[6]  
+
+WEAPONS          type skl  dmg  #/rof rly
+Tactical Baton    MLE  11  3d6-1   
+DaiLung St.Master  P   10 2d6+3 12/2   U
+
+CYBERWARE        
+Cyber Audio
+-Digital Recording Link
+-Homing Tracer - 1km range
+
+ARMOR: tank top, pants,
+Head  Torso  R.Arm            
+1     2-4    5       
+[0/0] [13]   [5]            
+
+L.Arm R.Leg  L.Leg                  
+6     7-8    9-0             
+[5]  [3]    [3]  
+
+COMPUTED STATS           
+run  [9]   leap [2]   lft [120]                              
+rep  [1]   hum [30]   dmg [-1]                           
+save [3]   BTM [-1]   

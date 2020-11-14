@@ -1,0 +1,352 @@
+> Start off med recap at Alt er på floor 101 i Arasaka Tower igjennom Tyger Claws sine servere.
+> Det var litt vanskelig å få til med en del surring rundt elektrisiteten. Men utover det gikk sermonien til Lee og konserten til radarparet Johnny Silverhand og Storm.
+> Den ansvarlige er Toshiro Arasaka, men utover det var sikkerheten såpass sterk at det var vanskelig å finne ut noe mer.
+
+> Yorinobu Arasaka - Locke - Ønsker et strategimøte dagen etterpå.
+	> Den kvelden hadde ikke gått uansett på grunn av sermonien.
+
+> Hvis de møter opp direkte så går vi direkte dit.
+> Strategimøte:
+> Målet er å redde Alt, ødelegge Soulkiller, og hvis mulig, få informasjon ut av og drepe Kei Arasaka
+> Arsaka tower ligger i Corporate Plaza
+> Det har 130 floors og er den høyeste bygningen i Night City
+> Det er strengt tatt to towers som er interconnected med walkways, men kun under floor 20.
+> Det er heliports og AV-4 pads på takene til begge towerne, og en svært restricted undergrunnsparkering og loading area.nnnn
+> Sudo skyter inn: Den er aller mest panseret i første etasje. Vestibylen har betraktlig med Arasaka security
+> Metalldetektorere ved inngangene. Folk med heavy weaponry vil bli shot on sight.
+
+> Yorinobu: Vi fikk vite fra Hiraga, vår insider som nå ikke de klarer å kontakte lengere.
+> De har ingen bilder eller schematics av bygningen. Men vet om noen forskjellige etasjer.
+> Sannsynligvis er Alt i det høyre toweret ettersom det er mer software division i det toweret.
+> Det er security troops både på ved gaten, taket, parkeringen og under tower 24 timer i døgnet.
+> Ingen kommer inn i bygningen uten grunn. 
+> Ingen uautoriserte vehicles kan komme på taket eller under bakken. 
+  >	Autorisasjon kan kun bli gitt hvis en person har 
+  : appointment
+  : Har trafikk / kommeriselt manifest eller schedule.
+  : Er klarer fra noen inne i firmaet.
+  > Samme gjelder alle som ønsker å komme forbi resepsjonen.
+> Arasaka Plaza, en liten park som er rundt bygningen er åpen for offentligheten, men patrulert av sikkerhetspersonell daglig.
+
+> Sudo:
+> Kameraer fra inngangen og i alle rom.
+> Data Fortresset deres er ekstremt godt laget.
+> "Dere måtte jo ha direkte kobling via Tyger Claws for å i det hele tatt komme inn."
+> Sudo har dermed bestemt seg for å bli med fysisk.
+> Locke uenig, men Sudo står fast på sitt.
+	> Hun har et combat assault deck nå takket være Eclair.
+
+> Johnny Silverhand skal være med.
+> Tyler ønsker å være med.
+> Sudo skal være med.
+> Yorinobu skal være med
+> Thompson skal være med.
+
+> Hva ønsker de å gjøre med dette? 
+	> Konsert?
+	> Inari?
+	> AV?
+	> Rykter om Adam Smasher?
+
+> River of Darkness imens de tar å kjøper sine siste ting.
+
+
+-- Arasaka Tower: --
+
+> Her er det mye som kan skje.
+
+-- Arasaka Tower Battles --
+> Battle vs rooftop guards f.eks.
+> Battle ca floor 22
+> Battle vs Inari
+> Easy battle vs Toshiro goons
+> Battle vs Adam Smasher
+---------------------------
+
+-- Battle vs. Rooftop guards:
+---------------
+
+Arasaka Guard:
+
+---------------
+
+STATS        SKILLS                      
+points 39    Authority   ......[1]            
+INT  [5]     Awareness/Notice{I[4]                   
+REF  [7/5]   Human Percep....{T[5]                         
+TECH [3]     Education.......{R[4]             
+COOL [3]     Athletics.......{R[5]                         
+ATTR [4]     Brawling........{R[4]                         
+EMP  [3/2]   Melee...........{R[4]                           
+BODY [8]     Handgun.........{R[5]                         
+MOVE [3]     Rifle...........{R[4]                         
+LUCK [3]     Submachinegun...{R[2]  
+
+WEAPONS          type skl  dmg  #/rof rly
+Arasaka WSA Autopistol  PIS  11   2d6  15/2  VR
+Arasaka Rapid Assault: SHT   11  4d6 20-2/10   VR          
+
+CYBERWARE        
+Cyberarm - No modules except hand.
+Cyberarm - No modules except hand.
+Adrenal Boost - +1 REF,1d6+2turns,3x/day
+
+ARMOR: tank top, pants,
+Head  Torso  R.Arm            
+1     2-4    5       
+[0/0] [10]   [20]            
+
+L.Arm R.Leg  L.Leg                  
+6     7-8    9-0             
+[20]  [5]    [5]  
+
+COMPUTED STATS           
+run  [9]   leap [2]   lft [320]                              
+rep  [1]   hum [23.5]   dmg [+1]                           
+save [8]   BTM [-3]   
+
+--------------------
+
+
+-- Battle vs Arasaka Guard 2 --
+
+---------------
+
+Arasaka Guard:
+
+---------------
+
+STATS        SKILLS                      
+points 39    Authority   ......[1]            
+INT  [5]     Awareness/Notice{I[4]                   
+REF  [7/5]   Human Percep....{T[5]                         
+TECH [3]     Education.......{R[4]             
+COOL [3]     Athletics.......{R[5]                         
+ATTR [4]     Brawling........{R[4]                         
+EMP  [3/2]   Melee...........{R[4]                           
+BODY [8]     Handgun.........{R[5]                         
+MOVE [3]     Rifle...........{R[4]                         
+LUCK [3]     Submachinegun...{R[2]  
+
+WEAPONS          type skl  dmg  #/rof rly
+Arasaka WSA Autopistol  PIS  11   2d6  15/2  VR
+Arasaka Bullpup Assault: RIF   11  5D6 15/3-3/30   VR          
+
+ARMOR: tank top, pants,
+Head  Torso  R.Arm            
+1     2-4    5       
+[10/0] [10]   [10]            
+
+L.Arm R.Leg  L.Leg                  
+6     7-8    9-0             
+[10]  [5]    [5]  
+
+COMPUTED STATS           
+run  [9]   leap [2]   lft [320]                              
+rep  [1]   hum [23.5]   dmg [+1]                           
+save [8]   BTM [-3]   
+
+--------------------
+
+
+> Møter Inari
+> Holografisk "Relaxation Green Lounge"
+> Ser ut som siste scenen fra Kill Bill.
+> Snø, japansk garden med store towers rundt med Arasaka på.
+> Bruker en Arasaka Monokatana i lyseblå farge. Glows orange rundt når skrudd på.
+> Disappointed i Nova
+> Forklarer at Kei er gone det momentet de landa.
+> Han var i det andre toweret. (Lie)
+> Morsomt at alle har kommet sammen igjen.
+> Alle var egentlig involvert i Soulkiller.
+> True hadde gravd litt for langt om de Netrunnerne som forsvant. Det kunne ikke Arasaka la skje.
+> Nova hadde egentlig en deal med Inari om å finne ut om Soulkiller. Men hadde tenkt til å selge det til noen andre instead.
+> Storm hadde skrevet lyrics om det at noen ønsket å dra sjela hans ut av kroppen hans og lagre den på disk. Arasaka var sikker på at det ikke var coincidence.
+> Lee hadde reparert bilen til Alt Cunningham og hadde funnet en diskett med noe smått av informasjon på. 
+> Tyler vet dere allerede.
+> Vi hadde tenkt til å ta de andre involvert også, men Armitage hadde preparert og gikk underground. Imens han andre var for redd til å si noe når våre agenter dro for å prøve å få informasjon ut av han. Så vi tenkte han kunne være perfekt target når vi fikk det vi ønsket.
+> Og de visste at Zetatech var ute etter prøvekaniner for 100 eddies i timen for en brain wipe i virtual reality *laughs*. 
+> Selvfølgelig ble de pengene sendt til Arasaka sin konto.
+> Så de sendte inn fake kontrakt, sendte dere av gårde til Zetatech ved å anklage dere for andre kriminelle handlinger og ta dere med dit, for så å bli kvitt dere og informasjonen.
+> Inari kunne ikke dy seg for å se hva som hadde skjedd, så hun brukte en bakdør for å ta en titt.
+> Koblet seg på og disconnected Nova en liten periode. Deretter fikk en av ingenørene her til å implementere minnene tilbake i Nova slik at det ikke var obvious.
+> Ingenting var ustabilt på det tidspunktet. Men noen andre fant visst samme bakdør kort tid etterpå. 
+> Det var soleklart at denne ingeniøren hadde plapret om bakdøren. Så vi fikk han "fjernet".
+> Sudo: "Så det er DU som drepte Hiraga!"
+> Det klarte han fint selv. Du fucker ikke med corpen. Corpen fucker med deg.
+> Jeg hoppet inn en gang etterpå for å se om bakdøren var mye brukt. Hele systemet var ustabilt siden sist gang jeg var der.
+> Så ustabilt at jeg ble lenket fast igjennom firewallen. Irriterende, men dere slapp meg løs. 
+> Men det ser ut til at dere husket mer enn de forventet på det tidspunktet. Så jeg logget av når jeg fikk muligheten.
+> Kei var uansett interessert i prosjektet. Så vi dro for å se på det, og jeg hadde tenkt til å plugge inn et virus som ga dere et godt støt før dere slapp fri.
+> Men som dere vet, så skjedde ikke det.
+> Jaja, det er ikke så farlig.
+> Vi har det vi trenger. Og det vi ikke trenger, er dere. Dessuten kan jeg ikke la dere hunte ned Kei, og pappa er nok veldig interessert i å høre fra Yorinobu igjen.
+
+---------------
+
+Inari Senko:
+
+---------------
+
+STATS        SKILLS                      
+points 39    Authority   ......[1]            
+INT  [5]     Awareness/Notice{I[4]                   
+REF  [7/5]   Human Percep....{T[5]                         
+TECH [3]     Education.......{R[4]             
+COOL [3]     Athletics.......{R[5]                         
+ATTR [4]     Brawling........{R[4]                         
+EMP  [3/2]   Melee...........{R[4]                           
+BODY [8]     Handgun.........{R[5]                         
+MOVE [3]     Rifle...........{R[4]                         
+LUCK [3]     Submachinegun...{R[2]  
+
+WEAPONS          type skl  dmg  #/rof rly
+Arasaka Monokatana  PIS  11   4d6  -  VR
++ Effect: 1/d10 bullets deflected 
+
+Skinweave.
+
+ARMOR: tank top, pants,
+Head  Torso  R.Arm            
+1     2-4    5       
+[12/0] [12]   [12]            
+
+L.Arm R.Leg  L.Leg                  
+6     7-8    9-0             
+[12]  [12]    [12]  
+
+COMPUTED STATS           
+run  [9]   leap [2]   lft [320]                              
+rep  [1]   hum [23.5]   dmg [+1]                           
+save [8]   BTM [-3]   
+
+--------------------
+
+---------------
+
+Arasaka Guard:
+
+---------------
+
+STATS        SKILLS                      
+points 39    Authority   ......[1]            
+INT  [5]     Awareness/Notice{I[4]                   
+REF  [7/5]   Human Percep....{T[5]                         
+TECH [3]     Education.......{R[4]             
+COOL [3]     Athletics.......{R[5]                         
+ATTR [4]     Brawling........{R[4]                         
+EMP  [3/2]   Melee...........{R[4]                           
+BODY [8]     Handgun.........{R[5]                         
+MOVE [3]     Rifle...........{R[4]                         
+LUCK [3]     Submachinegun...{R[2]  
+
+WEAPONS          type skl  dmg  #/rof rly
+Arasaka WSA Autopistol  PIS  11   2d6  15/2  VR
+Arasaka Rapid Assault: SHT   11  4d6 20-2/10   VR          
+
+CYBERWARE        
+Cyberarm - No modules except hand.
+Cyberarm - No modules except hand.
+Adrenal Boost - +1 REF,1d6+2turns,3x/day
+
+ARMOR: tank top, pants,
+Head  Torso  R.Arm            
+1     2-4    5       
+[0/0] [10]   [20]            
+
+L.Arm R.Leg  L.Leg                  
+6     7-8    9-0             
+[20]  [5]    [5]  
+
+COMPUTED STATS           
+run  [9]   leap [2]   lft [320]                              
+rep  [1]   hum [23.5]   dmg [+1]                           
+save [8]   BTM [-3]   
+
+--------------------
+
+
+> Thompson:
+> "Vel, vel. Hva har vi her? Kidnapping og muligens mord? Ser ut som du skal puttes bort en lang stund."
+> Kremter og gjør seg klar til sending og går litt rundt i rommet for å gjøre klar rutinen sin.
+> "Vi står her i Arasaka Tower hvor..."
+> Alt ligger på en rød sofa. Livløs, nesten kald, men noe varme gjenstår.
+> "Cut transmission." sier Johnny.
+> Han tar shotgunnen sin skjelvende og går bort til Toshiro i hjørnet hvor en rød prikk dukker opp på hodet hans.
+> "Bang." sier Johnny
+> "Bang" sier shotgunnen.
+> Han snur seg og plukker opp kroppen til Alt og prøver hardt å holde igjen tårene.
+
+> Sudo løper bort til en av terminalene for å se hva som foregår idet Johnny går ut av rommet.
+> Sudo er opptatt, og når snakket til så virker hun veldig opprørt. Før hun sier at hun er ferdig.
+> Drar opp, blir møtt av Adam Smasher (Muligens sløyfes basert på tid)
+> Fight vs. Adam
+
+---------------
+
+Adam Smasher:
+
+---------------
+
+STATS        SKILLS                      
+points 39    Authority   ......[1]            
+INT  [5]     Awareness/Notice{I[4]                   
+REF  [7/5]   Human Percep....{T[5]                         
+TECH [3]     Education.......{R[4]             
+COOL [3]     Athletics.......{R[5]                         
+ATTR [4]     Brawling........{R[4]                         
+EMP  [3/2]   Melee...........{R[4]                           
+BODY [8]     Handgun.........{R[5]                         
+MOVE [3]     Rifle...........{R[4]                         
+LUCK [3]     Submachinegun...{R[2]  
+
+WEAPONS          type skl  dmg  #/rof rly
+Arasaka "Rage"  PIS  11  4d10+3  20-1/10  VR
+
+CYBERWARE        
+
+ARMOR: tank top, pants,
+Head  Torso  R.Arm            
+1     2-4    5       
+[12/0] [20]   [20]            
+
+L.Arm R.Leg  L.Leg                  
+6     7-8    9-0             
+[20]  [20]    [20]  
+
+COMPUTED STATS           
+run  [9]   leap [2]   lft [320]                              
+rep  [1]   hum [23.5]   dmg [+1]                           
+save [8]   BTM [-3]   
+
+--------------------
+
+
+> Etter at det er over eller de løper fra drar de med AV4-en tilbake.
+> Johnny setter Alt sin kropp i et av setene og setter seg ved siden av. Stirrende på kroppen hennes.
+> Reiser av gårde. Alle settes av en etter en.
+> Johnny tar med seg kroppen til Alt over til Crisis Medical Center, i Medical Center seksjonen av Night City. Et av de mest moderne, men dyreste Trauma Centers i Amerika.
+
+> Hva gjør de nå?
+> Noen dager senere vil Sudo kontakte de og ønsker å møte de hjemme i leiligheten sin.
+> Yorinobu er også der.
+> Hun har sorte ringer under øynene. Har sannsynligvis ikke sovet på dagesvis.
+> Forklare hvordan når hun koblet til så hørte hun en recording av Alt, begging Johnny om å ikke koble henne ut, og når han faktisk gjorde det så var det et skrik som hun ikke engang klarer å si hvor ille hørtes ut.
+> Nevner at hun hadde satt opp protections slik at når Arasaka bestemte seg for å bruke Soulkiller mot henne, så ble hun bare midlertidig "drept" og kunne fortsatt transferre seg selv til kroppen sin igjen.
+> Men når Johnny koblet henne vekk fra kroppen hennes, så døde kroppen hennes for real.
+> Må ikke si noe til Johnny. Han har tatt det ekstremt tungt så langt, og å si til han at han strengt tatt drepte henne vil ødelegge han.
+> Sudo klarer ikke sove etter å ha hørt den recordingen. Det er noe av det verste hun har opplevd.
+
+> Yorinobu skal tilbake til Japan for å finne Kei. 
+> Sudo sier hun ikke blir med, og forblir i Night City for å holde et øye med Arasaka, og finne ut om Alt faktisk er helt død, eller om hun drifter i cyberspace i mainframen til Arasaka.
+> Locke aksepterer det. 
+> Takker for samarbeidet med party.
+
+> Hva gjør party nå?
+> Sudo ringer igjen et par uker senere.
+> Har fått tak i en braindance distributor som er veldig interessert i å få flere av disse braindancene som har blitt produsert og gitt ut på black market.
+> Ønsker å distribuere de og nye braindances på vanlige markedet. Og er villig til å betale ekstreme mengder eddies for det.
+> Sudo har schematics til Zetatech
+> Mainframen kan distributøren ordne.
+> Distributøren er ekstremt keen på fortsettelse av denne varulv historien ettersom den har solgt veldig bra.
+> Trenger ikke wipe memory, men bare midlertidig for realismens skyld. Noen runder i virtual reality i ny og ne og 200.000 eddies delt på fem personer per komplett verk.

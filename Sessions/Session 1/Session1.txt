@@ -1,0 +1,105 @@
+Session 1: Locke.
+
+
+[Drone Racing League]
+> Forklare hvordan det er å kjøre med Locke til Night City. Forklare atmosfæren i Night City, at det regner, neon lysene, reklamen.
+	- Forklar skiltene de kjører forbi, områder.
+	- Viktig å forklare hvor de kommer inn fra
+	- De som kjører selv skal ta en drive check (Diff 15)
+
+> Fremme hos Lockes hus say goodbye til Alloy og gå inn i leiligheten
+	- Alloy skal ta å hente sykkelen til Zen Shadow i morgen.
+	- De kan være der en dag
+	- Forklar når de går inn hvordan en dårlig synthesized stemme sier "Welcome, NULL" og "Welcome home, Locke.", noe Locke er litt "WTF" til.
+	- Veien opp til Locke sitt rom har metall dører på hver side, og hele området ser ganske shabby ut. Det er tagging på veggene noen steder og det er soleklart ikke det fineste nabolaget.
+	- Locke bruker keycard for å komme inn ståldøra. Bor i 7 etasje.
+
+> Inne hos Locke
+	- Locke skal ta av seg hjelmen, han er asian (hvis noen vil prøve å gjette orginal opprinnelse så vil man få japan).
+		- Litt kortere hår enn meg atm, svartbrunt, rødbrune øyne (ikke helt rødt). Ikke noe visible cyberware. Alder er 20årene (25 på dette tidspunktet).
+		- (Han er medlem av Kōtetsu no Ryū, aka Steel Dragons.)
+	- Sudo vil si at hun logger av for i dag, og kontakter dere nærmere i morgen.
+	- Locke tar seg en dusj, de kan feel at home. 
+		- Leiligheten hans er omtrent på sizen med Amund sin leilighet. 
+			- Den har et kjøkken og stue i ett
+			- Badet er i gangen, soverommet hans er relativt stort
+			- Store vinduer med persienner. Utsikt mot byen, dere kan se masse neonlys og aerodynes som kjører rundt i lufta pluss byen nedenfor. 
+			- Benken hans er grønt metall. Badet hans er relativt dirty.
+
+> Locke kommer ut av dusjen, fått på seg noe mer comfortable
+	- Hvit v-hals, blå bukser og en genser med ganske høy collar. Det er en drage på armen.
+
+> Locke tar seg en whiskey fra skapet over benken og pourer til seg selv.
+	> Never også at det er Smash i det lilla kjøleskapet på benken og noe vann, men ikke en flakse til hver.
+	> Setter seg med whiskey i en rød sofa med bord som er ved vinduene.
+	> Spør litt PCs hvordan de kom opp i dette. De har sikkert en del spørsmål også.
+		- Revealer ikke hvem han egentlig er, men at Kei var target.
+		- Prat gjerne litt med PCs om Night City og hvem Arasaka og Zetatech er.
+
+> De kan stay here for the night, han drar rundt 15 i morgen. 
+	- Han kan ikke la de være der på grunn av at det er en mulighet at NCPD kommer selv om det er lavt. Men at de er der øker chancen.
+
+Next day:
+
+> Våkner opp (????)
+> Locke vil ønske dem god morgen, flatskjerm TVen hans står på Network News 54.
+	- Locke har på seg motorsykkel antrekket sitt igjen, bortsett fra hjelmen
+	- Weather: Regner smått og det er dermed også mørkt, delvis takket være smog.
+	- De vil ha en rapportasje om det som skjedde i går
+	- PCs vil ikke bli nevnt, men Samuraiene vil bli nevnt. Vise bilder av Locke i full motorsykkel outfit og gun fra cameras.
+	- Nevne at Zen Shadow var utbrent og umulig å identifisere.
+
+> Locke vil nevne til Sudo om camera footagen.
+	- Vil si noe ala "Mornin' boss." og unnskylde seg.
+
+> Sulten? Kibble? 
+	- Er det hund på det? No? Then it's fine.
+
+> Det ligger faktisk klær der.
+	- Locke dro innom Zen Shadow og henta noen klær han hadde og forklarte Inputen hans hva som har skjedd.
+
+> Sudo vil nevne at hun har funnet ut hva deres ekte navn er.
+	- Ikke mye mer blir nevnt egentlig.
+	- Hun nevner filene hun anskaffet før Tigerne kom.
+	- Nevner også at hun måtte cleane stuff ut før Netpig (Netwatch) kom.
+	- Filene er heavily encrypted og har ikke blitt cracked.
+
+> Alle gjør seg klar for å ta turen ut. Locke vil gi de 500eb hver (forklare at dette faktisk er nærmere hva en real dollar koster).
+	- Si at de ikke må bruke det på alt. De burde ha et sted to stay. Food. Clothes? Daglige greier? Armor? Weapons? Dangerous world.
+	- Nevn at the streets ikke er trygge. Og at de må holde seg unna Combat Zone. 
+	- Hvis noen tilbyr de billig sted to stay i Combat Zone, turn them down.
+	- Ikke stol på noen. Corpos er korrupte, boosters vil helst banke dere opp, og hvis det er gratis... 
+
+> Sudo vil nevne at hvis de trenger å kontakte henne så kan de gjøre det fra any DataTerm eller eventuelt en telefon. Ellers kontakter hun dem.
+	- Mobilnummeret vil dukke opp på mobilen deres out of nowhere hvis de anskaffer seg det.
+
+> Hvis de vil ha mer, så burde de få seg noen jobber eller noe. De klarte seg jo fint så å ta en job for noen sammen kunne sikkert vært lukrativt.
+	- Nevne The Afterlife, Cafe Chrome
+	- NCART kan være god måte å komme seg rundt på.
+
+[ Lionheart ]
+> De går ut, says goodbye, Locke setter seg på motorsykkelen sin og kjører av gårde. 
+
+Nå er playerne free to do whatever. Men MQ fortsetter under:
+
+> Afterlife
+	- Delt i tre deler, "The Antechamber", "The Crypt" og "Hades"
+		- Desto dypere de går, desto mer dangerous og mer hardcore solos
+	- Røykos i hele baren.
+	- Ingen danser eller noe, og mange liker å play hard.
+
+> Fixer der med navn Allen Cooper
+	- Prater Italian New York
+	- Har cigar og to guards.
+	- "Proposition" er noe han ofte bruker.
+
+> Mission: Han vil at de skal hente en mann med handle Frazer. Han er en booster som bor i Upper Eastside.
+> Frazer er en dyr jævel for Cooper. Han har ødelagt businessen hans ved å prate for mye, han tok med seg en promising employee og drept en Solo som skulle hente han inn.
+> Han vil henge i #13 All-RX Drugs og vil ha med seg to av sine gode booster venner. 
+> Frazer skal tas alive. Skada? Don't care. Spyttende blod? Don't care. Blown kneecaps? Don't care, men jeg kommer ikke å henter han.
+> Det Allen Cooper wants fra Frazer er for det første å banke driten ut av han for å bruke info han har etter å ha jobbet for Cooper til å øke profitten til GutterRat.
+> Han skal ha information om hvordan GutterRat holder på, når så få vet hvordan han opererer. 
+> Reward er 1000eb hver, pruting er lov (requires persuation/fast talk, opptil 2000eb). De kan anskaffe en kasse drugs og McCoys fra All-RX Drugs som de kan ta selv, eller selge for hard cash. Total worth er drugs for 4000eb, men de må fences (Perfect for Morten?).
+
+
+

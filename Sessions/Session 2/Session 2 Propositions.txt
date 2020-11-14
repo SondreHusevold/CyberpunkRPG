@@ -1,0 +1,232 @@
+Session 2: Propositions.
+
+>Start off med at de har 1 uke på å gjøre hva enn
+>Det er speedhealers i drug boxen
+>De burde selge drugsa. Sudo har anbefaling. Person involved: Kira Ysmain (Old Downtown, B5#5, blir solgt videre til B5#6).
+	> Kira kjenner igjen Nille og/eller Amund.
+>Kjøpe cellphones? Hmm...
+
+.......................................................................
+
+> One week later blir de kontaktet. Hvis de har walkie talkiene fortsatt så vil de bli kontaktet igjennom de.
+> Allen Cooper ønsker audience igjen. Denne gangen på The Afterlife. Café Chrome er litt hot right now.
+> Allen stirrer litt på Eclair og hvis Eclair spør han om det så sier han bare "Nei, nevermind, du bare minner meg on noen. Fikk litt deja vu."
+> Eclair kan gjøre Human Perception her for å se om han lyver. 
+> Hvis hun confronter han, vil han si at han kjente en med lignende ører, men det er nok en coincidence fordi den bitchen forsvant for noen år tilbake og var en massive pain in the fucking ass. Kanskje nevne body bank. Hvis det var henne, så hadde han funnet det ut ganske fort via state identification number.
+
+> Mission is as follows:
+   > Drug traden til Allen er in the gutter grunnet en viss rat.
+   > Skulle ha drept Frazer, fordi nå har han tysta til GutterRat.
+   > Han er fortsatt i fabrikken, tirsdag og torsdag etter all sannsynlighet. 
+   > Fabrikken er i Combat Zone litt sør for Night City.
+   	> It's in the combat zone, relatively close to the city.
+ 
+   > Han hører at en eller annen kar med navn Maniac drifter fabrikken for GutterRat. 
+   > Men han ønsker driften for seg selv. 
+   > Allen trekker frem en chip og nevner at han har fått en ny toy. Han ønsker at GutterRat skal se den.
+   > Når han har sett den, skal GutterRat flatlines fra det mest visible stedet man kan.
+   > Maniac skal være alive og skal godta å være med på Allens lag. 
+   > Hvor mange av Maniac sine employees og GutterRat sine goons man flatliner driter han i.
+   > Reward: 3000 eddies. Each. Hvis Maniac dør eller ikke vil ta over så blir det halv reward.
+   > Trenger ingen bevis, he'll know.
+
+> Før de drar, skal de bli kontaktet igjennom telefon av noen ukjente som ønsker en audience og omhandler GutterRat.
+> De ønsker å møtes i Allpark Parking Garage i Little China (C4#5).
+> Si at de kan gi dem informasjon om visse folk i byen som har informasjon de ønsker.
+
+> Møte gangen til Amund/Nille???
+> Hvis de møter opp, så er det en svart van, og en svart bil der.
+> Det er også lords of discipline der, men de tørr ikke nærme seg der bilen står
+> En asian mann kalt Ashikaga Hiroshi går ut av bilen 
+> ikledd sort dress, rødt tie, grønne øyne og langt hår dratt bakover.
+> Han vet hvor en Zetatech executive bor i Night City, og vet at han både pendler til San Jose, og har kobling med høye privilegier inn på nettet.
+> Mulig deres Chairjock kan koble seg inn og finne litt mer informasjon. 
+> Men i bytte mot den informasjonen, ønsker at party får ut fra GutterRat hvor Rache Bartmoss er.
+> Ønsker at det er konfidensielt.
+> Han sier at deres status som sinless er useful, ettersom Nomadene er veldig mye vanskeligere å ha med seg å gjøre.
+> Også nevne at the corp always wins. Så det er ikke noe poeng i å prøve å fuck us over
+
+> De må nå gjøre det de trenger. Også komme seg sør dit.
+> Ikke glem å forklare hvordan outskrits av byen er. Hvordan det gradvis blir mer og mer falleferdige bygninger.
+> Fabrikken er en relativt stor hvit bygning. Ingen digre piper eller noe, men står en logo hvor de første ordne er "Por" og resten av bokstavene er gone.
+> Er nesten som en stor lagerbygning.
+> Mange vinduer i fabrikken er knust, men er noen på toppen som er fortsatt er intakt.
+> Det er 2x guards foran som driver å holder utkikk (Awareness/Notice roll)
+
+[BATTLE: 2x GUARDS]
+
+--------------
+
+STATS        SKILLS                      
+points 39    Authority   ......[4]            
+INT  [4]     Awareness/Notice{I[2]                   
+REF  [7/3]   Human Percep....{T[6]                         
+TECH [3]     Education.......{R[2]             
+COOL [6]     Athletics.......{R[1]                         
+ATTR [3]     Brawling........{R[6]                         
+EMP  [5/4]   Melee...........{R[3]                           
+BODY [4]     Handgun.........{R[4]                         
+MOVE [4]     Rifle...........{R[3]                         
+LUCK [3]     Submachinegun...{R[2]  
+
+WEAPONS          type skl  dmg  #/rof rly
+BudgetArms C-13    P    8 1d6    8/2   S
+Knife             MLE   6 1d6+0          
+
+
+CYBERWARE        
+Enhanced Antibodies - +1/day to healing
+Adrenal Boost - +1 REF,1d6+2turns,3x/day
+
+ARMOR: tank top, pants,
+Head  Torso  R.Arm            
+1     2-4    5       
+[0/0] [4]   [4]            
+
+L.Arm R.Leg  L.Leg                  
+6     7-8    9-0             
+[4]  [2]    [2]  
+
+COMPUTED STATS           
+run  [12]   leap [3]   lft [160]                              
+rep  [0]   hum [18]   dmg [+0]                           
+save [4]   BTM [-1]   
+
+--------------
+
+
+> De vil først komme inn i en vestibyle først før de ser en gang fremover med to dobbeltdører til høyre
+> Der er det et stort rom som fortsetter inn til venstre. (Prøve å tegne?)
+> Det er sånn 5-6 arbeidere der. Minst tre vil løpe vekk i frykt.
+> Det er en stor vat der blant annet. Og rullebånd. Tønner. Pappesker. Osv.
+> Det er en walkway som går over.
+> I enden er det enda en walkway og et kontor på toppen hvor man bruker walkwayen til å komme til.
+
+> To ansatte vil angripe. Disse er pussies, ettersom de egentlig produserer disse drugsa. De er dirty og tynne. De kan ha noe ræva cyberware.
+> Maniac vil stå øverst der, si at det er en kvinne.
+	> Maniac har veldig kort hår, vampires augment (full set), høyrearmen er visibly Cyberware. Ett brunt og ett gult øye (ene øyet er cyberoptics).
+	> Hun er også visibly tynn. Litt som en narkoman, men ikke helt.
+	> Hun har også tatoveringer på hånda som ikke er cyberarm. Hun går i en dirty tank top og en olabukse.
+	> Maniac vil gå skyve seg fra walkwayens gelender og gå inn i kontoret for å hente to guards.
+
+[BATTLE: 2x EMPLOYEES]
+
+-------------------------
+
+STATS        SKILLS                      
+points 39    Combat Sense......[4]            
+INT  [4]     Awareness/Notice{I[5]                   
+REF  [6/5]   Weapons Tech....{T[3]                         
+TECH [4]     Stealth.........{R[2]             
+COOL [4]     Athletics.......{R[4]                         
+ATTR [3]     MA- Judo........{R[6]                         
+EMP  [5/2]   Melee...........{R[1]                           
+BODY [6]     Handgun.........{R[1]                         
+MOVE [3]     Rifle...........{R[0]                         
+LUCK [4]     Submachinegun...{R[0]  
+
+WEAPONS          type skl  dmg  #/rof rly
+Colt.38 Detective  P    5 1d6+2  6/1   V
+Knife             MLE   6 1d6+0          
+
+
+CYBERWARE        
+Basic Neural Processor
+-Pain Editor
+
+ARMOR: tank top, pants,
+Head  Torso  R.Arm            
+1     2-4    5       
+[0/0] [0]   [0]            
+
+L.Arm R.Leg  L.Leg                  
+6     7-8    9-0             
+[0]  [2]    [2]  
+
+COMPUTED STATS           
+run  [12]   leap [3]   lft [160]                              
+rep  [0]   hum [18]   dmg [+0]                           
+save [4]   BTM [-1]   
+
+-------------------------
+
+
+> Hun vil hente med seg to guards til som kommer. De vil komme etter at combat er ferdig med de to andre, eventuelt etter 6 turns.
+
+[BATTLE: 2x GUARDS + MANIAC]
+[Play: Maniac]
+
+SAMME STATS AS ABOVE
+
+---- MANIAC ----
+
+- STATS -        - SKILLS -                      
+points 39    Street Deal ......[6]
+INT  [5]     Awareness/Notice{I[1]
+REF  [4/3]   Forgery     ....{T[3]
+TECH [4]     Pick Lock.......{R[3]
+COOL [7]     Athletics.......{R[2]
+ATTR [5]     Chemestry.......{R[6]
+EMP  [7/2]   Melee...........{R[3]
+BODY [1]     Brawling........{R[3]
+MOVE [3]     Intimidate......{R[5]                         
+LUCK [3]     Persuation......{R[3]  
+
+- WEAPONS -      type skl  dmg  #/rof rly
+Vampires          MLE   7 1d6/3-1
+Switchblade       MLE   7 1d6/2-1
+
+- CYBERWARE -        
+Cyber Optic
+-Low Lite - see in dim light
+CyberArm(R) 
+ -Extension Hand - extends 1 meter
+ Adrenal Boost - +1 REF,1d6+2turns,3x/day
+
+- ARMOR -
+Head  Torso  R.Arm            
+1     2-4    5       
+[0/0] [4]   [0]            
+
+L.Arm R.Leg  L.Leg                  
+6     7-8    9-0             
+[4]  [0]    [0]  
+
+- COMPUTED STATS -           
+run  [9]   leap [2]   lft [120]
+rep  [0]   hum [18]   dmg [-1]                           
+save [3]   BTM [-1]   
+
+----------------
+
+
+> De må finne en måte å pacify Maniac eller face half reward.
+
+> In the meanwhile during combat vil GutterRat prøve å komme seg unna (Awareness/Notice). Han er orginalt i kontoret.
+
+> How this plays out er litt opp til playerne.
+
+> GutterRat vil kjenne igjen Eclair. Spørre om hun gikk konk og måtte selge eyepiecen. Nevne at han aldri trodde at han ville se henne igjen ever og spørre hvordan hun våger å prøve å ta over hans business. Han vil prøve å harke opp en massive spyttekladd og spytte henne i fjeset om han kan.
+
+> De vil nok gi GutterRat chippen, som han plugger inn reluctantly og får store øyne og overasket fjes.
+> Han vil utbryte ting som NO PLEASE når han "våkner" igjen fra chippen.
+
+[We'll need to go improv from that point. Ikke glem å overtale Maniac.]
+
+---
+
+> Back i Night City og levert informasjonen til både Cooper og Ashikaga. Så vil de få rewarden sin.
+> Informasjonen fra Ashikaga er at en Zetatech employee bor i byen med navn Tracy Tzu som driver mye business for Zetatech i Corporate Center i Night City. 
+> Hun bor i en leilighet i West Hill Gardens (B1#1). Nevne at Ashikaga selv ikke hadde gått inn der med visible weapons, fordi sikkerheten der er above average.
+> Si at chairjockeyen sikkert kan løse opp noe tråder.
+> Takke for informasjonen og si at mulig han kontakter dere again some time. 
+
+> De må nå bestemme seg om de drar til Tracy.
+> Hvis de gjør det er det high security der. De må komme på noe smart solution here. 
+> Depending on dressing så kan de bli turned away.
+> Hvis de direkte går opp, så vil resepsjonisten ringe opp til Tracy og spørre henne. De får deretter telefonen og må overtale hvem de er.
+> Hvis de successfully gjør dette kan de komme inn. Tracy vet ikke hva som forgår og hun har heller ingen anelse om hvem de er. 
+> Sudo kan hacke PCen hennes via cybermodemet hennes, men noen av de må faktisk jack into it, eventuelt få Tracy til å jack in.
+
+> De får full biografi om seg selv, pluss informasjon om at den siste personen (Butch/Blackwood/etc) er alive og fortsatt hos Zetatech.
+> THE. END.

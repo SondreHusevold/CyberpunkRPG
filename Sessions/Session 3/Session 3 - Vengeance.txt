@@ -1,0 +1,224 @@
+Session 3: Vengeance.
+
+
+> Back i Night City og levert informasjonen til både Cooper og Ashikaga. Så vil de få rewarden sin.
+> Informasjonen fra Ashikaga er at en Zetatech employee bor i byen med navn Tracy Tzu som driver mye business for Zetatech i Corporate Center i Night City. 
+> Hun bor i en leilighet i West Hill Gardens (B1#1). Nevne at Ashikaga selv ikke hadde gått inn der med visible weapons, fordi sikkerheten der er above average.
+> Si at chairjockeyen sikkert kan løse opp noe tråder.
+> Takke for informasjonen og si at mulig han kontakter dere again some time. 
+
+> De må nå bestemme seg om de drar til Tracy.
+> Hvis de gjør det er det high security der. De må komme på noe smart solution here. 
+> Depending on dressing så kan de bli turned away.
+> Hvis de direkte går opp, så vil resepsjonisten ringe opp til Tracy og spørre henne. De får deretter telefonen og må overtale hvem de er.
+> Hvis de successfully gjør dette kan de komme inn. Tracy vet ikke hva som forgår og hun har heller ingen anelse om hvem de er. 
+> Sudo kan hacke PCen hennes via cybermodemet hennes, men noen av de må faktisk jack into it, eventuelt få Tracy til å jack in.
+
+> De får full biografi om seg selv, pluss informasjon om at den siste personen Tyler McEwan (Butch/Blackwood/etc) er alive og fortsatt hos Zetatech.
+   > Minnene deres var "wiped", men ikke destroyed. De kommer tilbake. Sudo nevne dette.
+
+> Det er en siste person også - Inari Senko. Men all annen data er gone.
+> Noen (Arasaka) har helt klart vært innom Zetatech sin database og slettet data om The Kitsune.
+> All informasjon om braindance prosjektet vil være på bordet.
+   > Sudo synes dette er ekstremt interessant. Nevne at mange corporations ville 
+> Zetatech har også hemmelig informasjon om hvordan Braindancen de har laget blir distribuert rundt i Night City.
+   > Hovedstedene det blir Metro Cafe (C1 #24) CiNEmaXUS (A4 #18) og Arcade Arcade (A6 #13)
+   > Derfra blir de distrubted videre.
+
+> Hvis de decider å faktisk redde Tyler, så vil Sudo si at det er suicide å dra dit nå etter alt som skjedde, og anbefale å få hjelp av Locke og hans gang (Kotetsu no Ryu, Steel Dragons).
+   > Locke vil soleklart ha noe tilbake, hvis de overlever.
+   > Never at han også trenger hjelp. 
+   > Doesn't trust them fully, fordi han har hørt fra Sudo at de hadde hjulpet Arasaka, noe som rubs him the wrong way.
+   > Fordi hvis de ikke gjør det, vil Arasaka ha et våpen som ingen kunne tenkt seg...
+
+> Hvis de går etter dealene vil de raskt finne ut:
+   > Hilda Gustav (student netrunner) vet mer om Metro Cafe.
+   > Gina Josephson (video-juvie gang) i Arcade Arcade 
+   > Rend Skullthirst (Maelstrom) i CiNEmaXUS.
+   > Cooper er involvert og distribuerer dette i CiNEmaXUS
+   > Cheat distribuerer i Arcade Aracde
+   > Og en ukjent student (Hilda herself) distruberer de i Metro Cafe.
+      > Dealerne gir ikke bort braindancen just out of free will.
+      > Black market stuff. Not for everyone.
+   > Noen snakker om hvordan de tror det faktisk er real
+   > Noen lurer på hvordan i all verden de kunne fått det til.
+   > References. References my boy.
+
+> Hvis Eclaire drar til sin leilighet:
+   > Completely fucking ransaket. Alt ligger all over.
+   > Forklare i detalj hvordan leiligheten er sperret
+   > Stuebordet er flipped over, alle sofaputene er strødd.
+   > Stålampen som sto der er nå på gulvet i tusen knas. 
+   > Tagging innvendig. "Honker's were here!" og "If you know you gonna do it, don't.". Typisk juvie-gang dritt.
+   > Glass og lignende er bare direkte knust. Vinduer er knust.
+   > Fysisk letter fra Kunero i postkassa.
+
+> Andre scenarioer for de andre:
+   > Tatt over av gangen de var med i og noen nye bor der.
+   > Eviction notice
+   > For Caro sin del så har noen ryddet bort alt stashet characteren hennes har.
+
+> Hvis de drar til Zetatech igjen for å redde Tyler sammen med Locke vil de få låne motorsykler av Kotetsu no Ryu.
+> De burde possibly også anskaffe litt bedre gear? 
+> De må komme seg tilbake opp der Tyler er for så å få ending.
+
+
+--------------
+
+Boostergang people:
+
+--------------
+
+STATS        SKILLS                      
+points 39    Authority   ......[3]            
+INT  [3]     Awareness/Notice{I[4]                   
+REF  [6/5]   Human Percep....{T[6]                         
+TECH [4]     Education.......{R[1]             
+COOL [5]     Athletics.......{R[6]                         
+ATTR [3]     Brawling........{R[4]                         
+EMP  [3/2]   Melee...........{R[5]                           
+BODY [5]     Handgun.........{R[6]                         
+MOVE [4]     Rifle...........{R[4]                         
+LUCK [3]     Submachinegun...{R[3]  
+
+WEAPONS          type skl  dmg  #/rof rly
+Militech Avenger   P   10 2d6+1 10/2   V
+DaiLung Cybrmag15  P    9 1d6+1 10/2   U         
+
+(DUAL WIELD)
+
+CYBERWARE        
+Basic Neural Processor
+-Boosterware - +1 to initative
+
+ARMOR: tank top, pants,
+Head  Torso  R.Arm            
+1     2-4    5       
+[0/0] [2]   [2]            
+
+L.Arm R.Leg  L.Leg                  
+6     7-8    9-0             
+[2]  [0]    [0]  
+
+COMPUTED STATS           
+run  [12]   leap [2]   lft [130]                              
+rep  [0]   hum [21]   dmg [+1]                           
+save [4]   BTM [-1]   
+
+--------------
+
+STATS        SKILLS                      
+points 39    Authority   ......[5]            
+INT  [4]     Awareness/Notice{I[2]                   
+REF  [6/5]   Human Percep....{T[5]                         
+TECH [3]     Education.......{R[3]             
+COOL [4]     Athletics.......{R[5]                         
+ATTR [5]     Brawling........{R[6]                         
+EMP  [3/0]   Melee...........{R[5]                           
+BODY [6]     Handgun.........{R[5]                         
+MOVE [3]     Rifle...........{R[6]                         
+LUCK [3]     Submachinegun...{R[2]  
+
+WEAPONS          type skl  dmg  #/rof rly
+DaiLung St.Master  P   13 2d6+3 12/2   U 
+
+/ MonoKnife         MLE  10 2d6+1
+
+
+CYBERWARE        
+Smart Goggles
+-Ultraviolet - total darkness w/UV
+
+ARMOR: tank top, pants,
+Head  Torso  R.Arm            
+1     2-4    5       
+[0/0] [2]   [2]            
+
+L.Arm R.Leg  L.Leg                  
+6     7-8    9-0             
+[2]  [3]    [3]  
+
+COMPUTED STATS           
+run  [12]   leap [2]   lft [130]                              
+rep  [0]   hum [21]   dmg [+1]                           
+save [4]   BTM [-1]  
+
+
+
+
+--------------
+
+Zetatech Guards:
+
+--------------
+
+STATS        SKILLS                      
+points 39    Authority   ......[1]            
+INT  [5]     Awareness/Notice{I[4]                   
+REF  [7/5]   Human Percep....{T[5]                         
+TECH [3]     Education.......{R[4]             
+COOL [3]     Athletics.......{R[5]                         
+ATTR [4]     Brawling........{R[4]                         
+EMP  [3/2]   Melee...........{R[4]                           
+BODY [8]     Handgun.........{R[5]                         
+MOVE [3]     Rifle...........{R[2]                         
+LUCK [3]     Submachinegun...{R[6]  
+
+WEAPONS          type skl  dmg  #/rof rly
+Arasaka Miniami10 SMG  11 2d6+3 40/20  V
+DaiLung Cybrmag15  P    9 1d6+1 10/2   U         
+
+CYBERWARE        
+Cyberarm - No modules except hand.
+Adrenal Boost - +1 REF,1d6+2turns,3x/day
+
+ARMOR: tank top, pants,
+Head  Torso  R.Arm            
+1     2-4    5       
+[0/0] [4]   [20]            
+
+L.Arm R.Leg  L.Leg                  
+6     7-8    9-0             
+[4]  [4]    [4]  
+
+COMPUTED STATS           
+run  [9]   leap [2]   lft [320]                              
+rep  [1]   hum [23.5]   dmg [+1]                           
+save [8]   BTM [-3]   
+
+--------------
+
+STATS        SKILLS                      
+points 39    Authority   ......[1]            
+INT  [5]     Awareness/Notice{I[4]                   
+REF  [7/5]   Human Percep....{T[5]                         
+TECH [3]     Education.......{R[4]             
+COOL [3]     Athletics.......{R[5]                         
+ATTR [4]     Brawling........{R[4]                         
+EMP  [3/2]   Melee...........{R[4]                           
+BODY [8]     Handgun.........{R[5]                         
+MOVE [3]     Rifle...........{R[2]                         
+LUCK [3]     Submachinegun...{R[6]  
+
+WEAPONS          type skl  dmg  #/rof rly
+Tactical Baton    MLE  11  3d6-1   
+DaiLung St.Master  P   10 2d6+3 12/2   U
+
+CYBERWARE        
+Cyber Audio
+-Digital Recording Link
+-Homing Tracer - 1km range
+
+ARMOR: tank top, pants,
+Head  Torso  R.Arm            
+1     2-4    5       
+[0/0] [13]   [5]            
+
+L.Arm R.Leg  L.Leg                  
+6     7-8    9-0             
+[5]  [3]    [3]  
+
+COMPUTED STATS           
+run  [9]   leap [2]   lft [120]                              
+rep  [1]   hum [30]   dmg [-1]                           
+save [3]   BTM [-1]   

@@ -1,0 +1,379 @@
+Session 0: Algorithm
+
+TL;DR:
+
+- Start off med å høre på Arthur og Mr. Corpo prate om hvordan Arasaka og Militech begge er tilstedet og vil se en demonstration av nye braindance prosjektet.
+	"Kjære interessenter. Zetatech er stolte av å presentere et nytt gjennombrudd i Braindance teknologi, noe vi hittil kaller Braindance 2.0."
+	"Ved å bruke superrealistisk simulasjon med over 1 million objekter på over 512 Memory Units har noen, 'frivillige' latt seg midlertidig glemme alt om sitt liv for å realisere drømmene til andre. De lager uvirkelige erfaringer mellom hverandre som vi lagerer i en Braindance. Deretter kan man oppleve dette som et team med Zetatech priopitær teknologi."
+	"Aldri lengere vil Braindance være noe isolert og privat. La oss dele erfaringer, sammen. Vi er tilgjenlige for spørsmål og potensielle bruksområder etter presentasjonen."
+
+- Arthur disagrees, det er ikke nok tid til å sette dette opp. Blir forced igjennom uansett.
+
+- Werewolf nano-session:
+  - De vil være i caernen før Dances døde. Everyone is present.
+  - Pentex vil angripe med soldater osv. Tanks og biler.
+     - Encounter vil consist of: 5 soldater, 2 tanks.
+
+     Solider attack: 3 silver dice. Soak: 2 dice.
+     Tank: 10 lethal dice. 10 soak ved attack på non-weakpoint. 
+
+
+  - Etter at disse er fjernet vil resten av caernen være utryddet.
+  - Mecha Werewolf 3000 vil arrive on the scene. Ihara-Grubb Transformation Algorithm starts to fail.
+      - Encounter hard as fuck, noen kan potensielt dø
+
+      Attacks:
+
+      	- Claw: 7 lethal dice. x2
+      	- EYE LAZOR: 10 aggravated line damage.
+      	- Fire breath: 5 fire damage /turn i flammer.
+      	- Back missles: 3 damage dice per missle. 8 missles per shot.
+      	- Stomp: 20 bashing damage om stomped on without dodge eller lignende.
+      	- Tail swipe: 10 bashing dice.
+
+
+      - Sånn tre-fire turns etter start vil mainframen overheat og simulasjonen vil kræsje. 
+      - De vil høre roping osv during this segment utenifra.
+
+------
+
+- Outside the simulation for første gang
+	Dere ser ingenting, men kjenner varme bakfra før dere kjenner et enormt varmt trykk og at det lukter svidd.
+
+- Cool + Endurance 17 roll for å ikke falle ut av stolen og spy all over.
+- Body Type + Endurance 15 for å kunne reise seg opp på to bein.
+
+- Alt vil spinne og være unclear as hell
+	- Cool + Awareness/Notice roll 15 for å kunne se ting rundt seg.
+	- If they do notice at det er et glass vindu litt høyere opp i rommet
+		- En asian mann i suit blir hurried out av vakter imens en dame med undercut og langt orange hår ser ned på dem med et relativt bekymret antrykk i fjeset. Hun har tre arr som en klo som har gått over kinnet hennes fra nesen og det glows pink. Og veldig turkise øyne. Hun blir forsiktig ut med mannen kort tid etter at han er ute av rommet og drar opp en pistol.
+
+- Et panel ikke langt fra der de satt vil være completly destroyed som om en eksplosjon skjedde der. Noen mennesker i lab coats ligger strødd utover gulvet. Pluss en sikkerhetspersonell som er død.
+	- De som er wounded ligger å skriker i smerte på gulvet imens blodet spruter fra missing arms eller digre wounds hvor pieces av panelene har blitt skutt inn i dem.
+	- De har lite greier på seg, though de har klær som er blodige. Sikkerthetsduden har en Militech Arms Avenger og.
+
+- Rommet har hvite vegger, glasspaneler på gulvet og downlights i taket. Rommet er nærmest tomt utenom maskinene som var brukt til å holde devicene i gang.
+	- Det er en utgang. En lukket dobbeltdør (låst) og ved siden av den ligger en veldig stor maskin kantret etter en eksplosjon av noe slag og røyk kommer ut av den. Når den veltet har den dratt ledninger og veggen med seg og det er et hull ut. 
+
+- Dere legger merke til at dere har noen simple jumpsuits på dere. Bare plain sorte med en logo hvor det står Zetatech på.
+- Morten og Caro (muligens flere?) legger nok godt merke til at de har fått helt random bodyparts som ikke passer med resten av kroppen. Roll 1D10 for å finne ut hvilken hudfarge disse body partene har:
+
+	1-2: White
+	3-4: Asian
+	5-6: Hispanisk
+	7-8: Midøsten - India
+	9-10: Afrika
+
+- Hvis de går inn i hullet er det ledninger som gnistrer og trangt. Det er også mørkt med unntaket av gnistene som flyr fra ledninger som ikke lengere sitter fast der de skulle sitte og små røde og gule lys på maskinene som lyser som gir et snev av lys. Det er kun plass til en person i bredden, eventuelt to hvis man er tynn og presser seg sammen.
+
+- Dere kommer nå til et rom med en datamaskin og noen størremaskiner som surrer og går til høyre for dere. Det er en dør til venstre. Det er også et skap der (med noe smått verktøy i og kabler for oppkoblinger osv).
+
+Dere går ut døren og kommer til en vestibyle. Det er en vei rett frem, til venstre og til høyre. Til høyre helt nederst i korridoren ser dere et litt større rom med heis. (Ingenting impressive på denne flooren. Ingen guards either. Heisen fungerer ikke og sier "Elevator access disabled due to high security breach. Please use the stairs on your left hand side.")
+
+I fjerde etasje kommer de ned til et kryssparti. Til høyre er det en dobbeltdør (låst). Det er access rett frem, og til venstre er det et større rundt rom. Uansett hvilket de velger så kommer følgende scenario:
+
+- De kommer til å møte på tre guards som er på vakt og kommer mot dem (uten å detecte de) etter å ha gått en etasje ned. Den ene vakten har en shotgun, de to andre 9mm pistoler (også Militech Arms Avengers).
+- Locke er også i gangen, kommer ut fra en av sidene og stabber en kar i halsen. En annen hjelper kommer bakfra og prøver å drepe den ene vakten med en form for glowing garrotte.
+- Forklare hvordan Locke ser ut.
+- Den ene vakten med shotgunnen merker dette og skyter medhjelperen til Locke i øvre brystet og halsen noe som gjør at han flyr bakover inn i veggen.
+- Garrotted vakten faller ned holdene på halsen. Locke sparker shotgun vakten i hodet slik at han faller på bakken og mister shotgunnen.
+- Shotgun vakten spenner bein på Locke og Locke blir liggende på bakken imens han tar frem en pistol og skyter shotgun guarden i fjeset. Deretter tar han tar en kabel han har i armen og kobler den til vakten. Vakten spasmer på bakken før etter sånn 10 sekunder at det kommer gnister ut av øynene og munnen hans og han stopper å bevege seg.
+
+- Locke løper bort til medarbeideren sin og prater med han, som sliter med store blødninger fra halsen, og kan ikke snakke og peker mot party. Før hånda hans faller ned og hodet hans faller dypt.
+- Mannen rister på hodet, lukker øynene til personen og reiser seg opp fra huk og holder hånda veldig nære pistolen han har på beltet før han roper "Hvor er Arasaka? Jeg har tatt nok liv for en dag."
+
+- [ Party svarer sikkert ]
+
+[Mulig at han svarer på egenhånd?]
+
+Det blir stille... (med mindre noen sier noe da)
+
+- Han sier defeated: "Sudo, hvor lenge kan du holde kameraene? Kan du bekrefte IDen på disse fire i samme slengen? Mulig vi må gi dem en liten visitt senere."
+
+- "Uh, er du sikker? Ok... *kremt* Kjenner dere tilfeldigvis en 'Rahul'?"
+		[ Rahul i Vampire var egentlig var Sudo som kom over dette i the Net og manipulerte minnet til programmet for å gi seg selv access. Prøvde å finne ut hva dette var, om party var AIs eller living beings. Og ble senere "drept" av programmet essentially, men minnet etter Rahul var alt for korrupt slik at det spredte seg og fikk simulasjonen til å kræsje. ]
+
+- "Så det er dere som har gjort at varsellampene her har gått for fullt?" 
+
+- "Denne drittsekken hadde en walkie talkie på seg. *snøft* Har de ikke råd til Cyberaudio til fodderet sitt i Zetatech? En lett face å brekke?"
+
+Han setter seg på huk, tar frem en ledning fra ermet som han plugger inn i walkie talkien og venter et par sekunder før den svarer "Uten I.C.E babeh. Easy.".
+
+Han tar å sender walkie talkien mot dere på bakken.
+
+"Hallo?" spraker det fra walkie talkien. 
+
+"Dere sier dere kjenner 'Rahul'. Hvem er dere?" sier en kvinnelig stemme. 
+
+"Dere anskaffet noe for Rahul. Noen av dere som husker hva det var og hvordan det ble gjort?"
+
+"Ok, må bekrefte litt mer senere, men stoler på at det er dere. Handle er Sudo, Netrunner. Sjefen kan introdusere seg selv. Hvis dere vil ut herfra, må dere høre på oss."
+
+Mannen i motorsykkelantrekk virker som han hører etter noe og nikker for seg selv før han går å plukker opp pistolen til den døde kollegaen og går mot dere.
+
+"Dere kan kalle meg Locke. Dere burde gå å gjemme dere også kan Sudo kan forklare mer, men jeg har noe å fullføre her og vi må pelle oss vekk herfra før noen kommer å sjekker skuddene... Plukk opp Avengerne til disse to. En av dere kan ha X-9en til Zen Shadow. Hold nære og ikke umiddelbart skyt hva enn som kommer, vi trenger mindre oppmerksomhet. Ikke mer."
+
+Walkie Talkien snakker igjen.
+
+"Locke, du vil høre dette."
+
+Det kommer nå en annen stemme fra walkie talkien.
+
+"A og M har left the building via aerodyne. Repeat, A og M har left the building."
+
+Locke utroper "FAEN!!"
+
+"Samuraiene er i fjerde etasje. Beskrivelser:
+
+Ene er ikledd brun t-skjorte, camofarget vest og olabukser. Har monokatana. 
+Samurai ikledd sort leather jacket, sorte bukser  og sort motorsykkelhjelm.
+
+Shoot to kill.
+
+Project Braindance 2.0 assets har forlatt rom ZG-5-35, one confirmed dead, rest status unknown. Hvis man ser disse fire, do not flatline. I repeat, hvis man ser disse fire personene så skal de kun incapacitates, de er dyre assets."
+
+"Ok, change of plans. Vi må komme oss ut herfra før deres nye venner... "
+
+; "To vakter er på vei mot deres location. ETA 30 sekunder."
+
+"Se der ja, der kommer de. *tungt sigh*. Noen ideas?"
+
+[Battle vs 2x Goons med kun guns.] - Locke.
+
+-----------------------
+
+STATS        SKILLS                      WEAPONS          type skl  dmg  #/rof rly
+points 39    Combat Sense......[4]       Knife             MLE   6 1d6+0                   
+INT  [4]     Awareness/Notice{I[5]       FederatedArms X22  P   11 1d6+1 10/2   S                  
+REF  [6/5]   Weapons Tech....{T[3]                         
+TECH [4]     Stealth.........{R[2]       Militech Avenger   P   11 2d6+1 10/2   V                  
+COOL [4]     Athletics.......{R[4]                         
+ATTR [3]     MA- Judo........{R[6]                         
+EMP  [5/2]   Melee...........{R[1]                           
+BODY [6]     Handgun.........{R[6]                         
+MOVE [3]     Rifle...........{R[5]                         
+LUCK [4]     Submachinegun...{R[4]                        
+
+CYBERWARE                                  COMPUTED STATS           
+CyberArm(L) w/ Standard Hand               run  [9]   leap [2]   lft [240]                              
+ -Microwave/EMP Shielding                  rep  [0]   hum [18]   dmg [+0]                           
+ -AV recorder - 2hr storage,needs feed     save [6]   BTM [-2]                                        
+Digital Recorder - 2 hours storage                                             
+Chem-Skins                                             
+Gills - 4 hours water breathing                                             
+
+
+ARMOR: Lt Jacket,Subdermal,
+Head  Torso  R.Arm            
+1     2-4    5       
+[0/0] [0]   [0]            
+
+L.Arm R.Leg  L.Leg                  
+6     7-8    9-0             
+[0]  [0]    [0]  
+
+
+---------------------
+
+((Play Escape From Zetatech here.))
+
+"Not bad. Nå må vi pelle oss ut herfra!"
+
+Han løper tilbake der han og kollegaen hans kom fra.
+
+"Det kommer to stk opp trappen. Det tok litt tid, men jeg har låst opp heisen"
+
+[Heisen tar bokstavlig talt å plinger og åpner seg].
+
+"HEY!!! HEYY!!!!!! STOPP!!" kommer det fra trappa imens heisen lukker. 
+
+Dere hører at det skytes og ser at det kommer gnister på døra og to vakter løper mot sprekken som nå er så liten at de klarer ikke komme seg igjennom eller putte våpenet imellom. De løper bort for å desperat trykke på åpne knappen.
+
+"Disabled knappene på alle floors slik at ikke fodder skal få noen ideer." kommer det fra walkie talkien.
+
+Heisen begynner sakte å gå nedover. Inni heisen er det bare reklame og happenings i firmaet.
+
+Locke snur seg mot dere. "Ok når vi kommer til bunnen vær klar over at vi må skyte oss ut."
+
+Han hodler en granat av et eller annet slag.
+
+"Vi har tre motorsykler like ved, en av de... Trenger de ikke lengere. Den andre står å venter på oss for getaway. Noen av dere som kan kjøre sykkel? Resten kan sitte på med oss."
+
+[ Red Lights. ]
+
+"De tok strømmen og kasta meg ut av systemet midlertidig. Sit tight."
+
+...
+
+"Amatører, dette datafortresset har hatt sikkerhetshull i årevis. Ok får ikke heisen til å kjøre, de har slått av strømmen manuelt på motoren. Jeg kan åpne døra derimot. Dere er i tredje etasje."
+
+Locke: "Alle klare??"
+
+Kommer ned til et større rom hvor det er X antall goons. Se ann hvordan 2 stk gikk.
+
+[Battle vs x Goons] - Action (Dark).
+
+------
+
+STATS        SKILLS                      WEAPONS          type skl  dmg  #/rof rly
+points 39    Combat Sense......[3]       Knife             MLE   6 1d6+0                   
+INT  [4]     Awareness/Notice{I[1]       FederatedArms X22  P   11 1d6+1 10/2   S                  
+REF  [7/6]   Weapons Tech....{T[5]       M-16              RIF  12 4d6   30/25  U                    
+TECH [3]     Stealth.........{R[6]       Militech Avenger   P   11 2d6+1 10/2   V                  
+COOL [4]     Athletics.......{R[7]                         
+ATTR [4]     MA- Judo........{R[5]                         
+EMP  [3/1]   Melee...........{R[6]                           
+BODY [7]     Handgun.........{R[1]                         
+MOVE [3]     Rifle...........{R[1]                         
+LUCK [4]     Submachinegun...{R[6]                        
+
+CYBERWARE                                  COMPUTED STATS           
+CyberArm(L) w/ Standard Hand               run  [9]   leap [2]   lft [280]                              
+ -Microwave/EMP Shielding                  rep  [0]   hum [9]   dmg [+0]                           
+ -AV recorder - 2hr storage,needs feed     save [6]   BTM [-2]                                        
+Digital Recorder - 2 hours storage                                             
+Chem-Skins                                             
+Gills - 4 hours water breathing                                             
+
+
+ARMOR: Lt Jacket,Subdermal,
+Head  Torso  R.Arm            
+1     2-4    5       
+[0/0] [2]   [0]            
+
+L.Arm R.Leg  L.Leg                  
+6     7-8    9-0             
+[14]  [0]    [0]  
+
+
+CYBERLIMB SDPs    disable   destroy
+
+Left CyberArm      20         30
+
+
+-----
+
+Locke: "Inn døra her og ned trappa!" 
+
+Sudo: "Dere kommer nå til andre etasje. Det kommer noen gonks opp trappene. Følg korridoren inn i kantina og ta emergency exiten der ut på taket, deretter bruk stigen ned og løp inn i bakgata der dere parkerte og Alloy venter."
+
+---
+
+Kommer frem til kantina...
+
+Det står (>3) stk i andre etasje bak en glassvegg. En mann i dress, en mann i en hvit frakk og X vakter. Nå kommer det lyd fra høytalerne i kantina og dere ser at mannen i dress har en mikrofon.
+
+"Tisk tisk. Jeg er disappointed, etter alt vi har gjort for dere så skal dere rebelle? Hvorfor ødelegge det gode samarbeidet? Og hvem er denne samuraien dere har befriended? Vi har ikke gjort dere noe vondt, dere har hatt opplevelser for livet. Det har vært en win win situasjon. Kom, legg ned våpnene deres. Det er ikke for sent for min nåde."
+
+"Å jasså, og hvordan når ble det sagt?"
+
+[Sier de feil her, vil Arthur bli skutt i hodet]
+
+"Javel. Jeg mente det jeg sa. Dere er replaceable, og dere har uansett ødelagt salgsmulighetene for teknologien til både Arasaka og Militech."
+
+"Jeg har en opprydningsjobb å gjøre." Han nikker til den ene, mer dekorterte og buffe vakten, snur seg og går sammen med to vakter.
+
+Dere hører nå igjennom walkie talkien.
+
+"Samurai og assets i kantina på nivå 2. Tillatelse til å flatline Project Braindance 2.0 subjects er gitt. San Jose Police Department og ekstra Arasaka manpower er kjøpt inn og er rett rundt hjørnet. Alle skader vil bli håndtert av Trauma Team på Zetatechs regning."
+
+Sudo: "De har tilkalt litt Hosho Kaisha. De kommer via Aerodyne på taket og vil lande om kun få minutter. Big hats står i utgangen klare for arrestasjon. Det kommer X vakter nå, en av de er amped og boosted på combat drugs. Så get ready!"
+
+"Dere må ta nødutgangen fort før de blokker den utgangen også. Noen chairjocks er ute etter meg her, så jeg plugger ut. Lykke til, choombas!"
+
+[Battle vs noen vakter og officer dude] - Heat
+
+
+------ 
+
+STATS        SKILLS                      WEAPONS          type skl  dmg  #/rof rly
+points 39    Combat Sense......[3]       Knife             MLE   6 1d6+0                   
+INT  [4]     Awareness/Notice{I[1]       FederatedArms X22  P   11 1d6+1 10/2   S                  
+REF  [7/6]   Weapons Tech....{T[5]                        
+TECH [3]     Stealth.........{R[6]       Militech Avenger   P   11 2d6+1 10/2   V                  
+COOL [4]     Athletics.......{R[7]                         
+ATTR [4]     MA- Judo........{R[5]                         
+EMP  [3/1]   Melee...........{R[6]                           
+BODY [7]     Handgun.........{R[1]                         
+MOVE [3]     Rifle...........{R[1]                         
+LUCK [4]     Submachinegun...{R[6]                        
+
+CYBERWARE                                  COMPUTED STATS           
+CyberArm(R) w/ Standard Hand               run  [9]   leap [2]   lft [240]                              
+ -Microwave/EMP Shielding                  rep  [0]   hum [18]   dmg [+0]                           
+ -AV recorder - 2hr storage,needs feed     save [6]   BTM [-2]                                        
+Digital Recorder - 2 hours storage                                             
+Chem-Skins                                             
+Gills - 4 hours water breathing                                             
+
+
+ARMOR: Lt Jacket,Subdermal,
+Head  Torso  R.Arm            
+1     2-4    5       
+[0/0] [3]   [14]            
+
+L.Arm R.Leg  L.Leg                  
+6     7-8    9-0             
+[0]  [0]    [0]  
+
+
+CYBERLIMB SDPs    disable   destroy
+
+Right CyberArm      20         30
+
+-----
+
+Officer:
+
+STATS        SKILLS                      WEAPONS          type skl  dmg  #/rof rly
+points 39    Combat Sense......[7]       Knife             MLE   6 1d6+0                   
+INT  [7]     Awareness/Notice{I[7]       FederatedArms X22  P   11 1d6+1 10/2   S                  
+REF  [10/6]   Weapons Tech....{T[2]      Ingram MAC 10     SMG  11 2d6+2 30/5   U                   
+TECH [5]     Stealth.........{R[2]       Militech Avenger   P   11 2d6+1 10/2   V                  
+COOL [3]     Athletics.......{R[2]                         
+ATTR [5]     MA- Judo........{R[2]                         
+EMP  [5/4]   Melee...........{R[4]                           
+BODY [8]     Handgun.........{R[2]                         
+MOVE [5]     Rifle...........{R[6]                         
+LUCK [6]     Submachinegun...{R[7]                        
+
+CYBERWARE                                  COMPUTED STATS           
+CyberArm(L) w/ Standard Hand               run  [9]   leap [2]   lft [240]                              
+ -Microwave/EMP Shielding                  rep  [0]   hum [18]   dmg [+0]                           
+ -AV recorder - 2hr storage,needs feed     save [6]   BTM [-2]                                        
+Digital Recorder - 2 hours storage                                             
+Chem-Skins                                             
+Gills - 4 hours water breathing                                             
+
+
+ARMOR: Lt Jacket,Subdermal,
+Head  Torso  R.Arm            
+1     2-4    5       
+[3/0] [5]   [5]            
+
+L.Arm R.Leg  L.Leg                  
+6     7-8    9-0             
+[0]  [14]    [14]  
+
+
+CYBERLIMB SDPs    disable   destroy
+
+Left CyberLeg      20         30
+Right CyberLeg      20         30
+
+
+----------
+
+Dere beiner ut nødutgangen hvor dere nå ser at verden er litt... Annerledes. Dere soakes i neonlys fra reklamer på andre bygninger og kan se en flyvende bil lande på taket. Bygingene er gigantiske skyskrapere og man kan nesten speile seg i vinduene fra de andre bygningene.
+
+Dere klatrer ned stigen [Reflex Enduranace - 8] og kommer i en bakgate hvor Locke løper rundt hjørnet.
+
+Rundt hjørnet litt nede i gata er det tre motorsykler, hvorav en er okkupert allerede. De har neonlys i hjulene og er relativt godt pansret forhold til motorsykler dere har sett tidligere.
+
+"Vi må get the fuck out of here! HOPP PÅ!"
+
+...
+
+[Hvis vi har tid, få Sudo til å forklare litt hvordan hun er Rahul.]
+
+"Welcome to Night City."
