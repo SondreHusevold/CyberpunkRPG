@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { hot } from 'react-hot-loader';  
 import styles from './Bootloader.module.css';
 import Login from './Login/Login';
 import Mainframe from './Mainframe/Mainframe';
@@ -7,6 +6,7 @@ import MainMenu, { MainSection } from './MainMenu/MainMenu';
 import Player from './Player/Player';
 import Terminal from './Terminal/Terminal';
 import './Initialization.css';
+import { BrowserRouter } from 'react-router-dom';
 
 interface IBootloaderState {
 	currentSection: MainSection;
@@ -15,7 +15,7 @@ interface IBootloaderState {
 }
 
 class Bootloader extends Component<{}, IBootloaderState> {
-	private development: boolean = process.env.NODE_ENV === 'development'; 
+	// private development: boolean = process.env.NODE_ENV === 'development'; 
 
 	public constructor(props: {}) {
 		super(props);
@@ -87,20 +87,25 @@ class Bootloader extends Component<{}, IBootloaderState> {
 
 
 	public render() {
-		if(!this.development) {
-			return this.renderRealSite();
-		}
+		// if(!this.development) {
+			return (
+				<BrowserRouter>
+					{this.renderRealSite()}
+				</BrowserRouter>
+			)
 
-		return (
-			<div className={styles.Zetatech}>
-				<header className={(this.state.loggedIn !== "TopSecret" || this.development) ? "" : styles.HideHeader}>
-					<video src="assets/Background.mp4" autoPlay={true} className={styles.Background} loop={true} />
-				</header>
-				{this.renderPlayer()}
-				{this.renderLogin()}
-			</div>
-		);
+		// }
+
+		// return (
+		// 	<div className={styles.Zetatech}>
+		// 		<header className={(this.state.loggedIn !== "TopSecret" || this.development) ? "" : styles.HideHeader}>
+		// 			<video src="assets/Background.mp4" autoPlay={true} className={styles.Background} loop={true} />
+		// 		</header>
+		// 		{this.renderPlayer()}
+		// 		{this.renderLogin()}
+		// 	</div>
+		// );
 	}
 }
 
-export default hot(module)(Bootloader);
+export default Bootloader;
