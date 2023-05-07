@@ -10,7 +10,7 @@ class CyberwareIntroduction extends Component<{}> {
 				<div>
 					<h1>Introduction:</h1>
 					<FadeInPicture mobile="100% 10%" title="Alt Cunningham. Johnny Silverhand's input." 
-					alt="Alt Cunningham." src="/CyberpunkRPG/assets/Visuals/Cyberware.webp" />
+					alt="Alt Cunningham." src="/assets/Visuals/Cyberware.webp" />
 					<p>Forget everything you ever thought about cyborgs. Everything. </p>
 					<p>This is the 2000's. Today’s cyborg is stylish.</p>
 					<p>His cybernetics are designed for a streamlined, highmover lifestyle. Whether equipped with implanted data chips in his nervous system to enhance his tennis game, or bioengineered miniweapons for his personal protection, the cyborg of the 2000's is the cutting edge of high tech living.</p>
@@ -35,7 +35,7 @@ class CyberwareIntroduction extends Component<{}> {
 				</div>
 				<div className={styles.IntroductionImage}>
 					<FadeInPicture title="Alt Cunningham. Johnny Silverhand's input." 
-					alt="Alt Cunningham. Johnny Silverhand's input." src="/CyberpunkRPG/assets/Visuals/Cyberware.webp" />
+					alt="Alt Cunningham. Johnny Silverhand's input." src="/assets/Visuals/Cyberware.webp" />
 				</div>
 			</div>
 		);

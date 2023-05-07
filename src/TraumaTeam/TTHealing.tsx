@@ -104,7 +104,7 @@ class TTHealing extends Component<{}, TTHealingState> {
                 <p>If the patient is at a Mortal Wound State, he must make a daily Death Save as well as taking this damage.</p>
                 <p>Without medical aid, you're going to run out of luck pretty soon. This is probably why humans invented medicine in the first place. </p>
                 <div className={tabbedpanel.ExampleBorder}>
-                    <span>HEALING = (TECH + FIRST AID/MEDICAL TECH + 1D10) > DAMAGE.</span>
+                    <span>HEALING = (TECH + FIRST AID/MEDICAL TECH + 1D10) {">"} DAMAGE.</span>
                 </div>
                 <p>To make a successful medical skill check, you must roll a value (using TECH, your medical Skill and 1D10) greater than the total number of points of damage the patient has taken.</p>
                 <p>Medical skill checks are made with two skills, First Aid or Medical Tech.</p>

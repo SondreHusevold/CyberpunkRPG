@@ -6,7 +6,7 @@ import TTDeath from './TTDeath';
 import TTHealing from './TTHealing';
 import TTBodyBank from './TTBodyBank';
 import TTDrugs from './TTDrugs';
-import { HashRouter, Switch, Route } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 import Loading from '../Common/Loading';
 
 interface TTState {
@@ -68,25 +68,13 @@ class TraumaTeam extends Component<{}, TTState> {
 					/>
 					<div className={styles.TTMain}>
 						<Suspense fallback={<Loading/>}>
-							<HashRouter>
-								<Switch>
-									<Route path="/traumateam/introduction">
-										<TTIntroduction />
-									</Route>
-									<Route path="/traumateam/death">
-										<TTDeath />
-									</Route>
-									<Route path="/traumateam/healing">
-										<TTHealing />
-									</Route>
-									<Route path="/traumateam/bodybank">
-										<TTBodyBank />
-									</Route>
-									<Route path="/traumateam/drugs">
-										<TTDrugs />
-									</Route>
-								</Switch>
-							</HashRouter>
+							<Routes>
+								<Route path="introduction" element={ <TTIntroduction /> } />
+								<Route path="death" element={ <TTDeath /> } />
+								<Route path="healing" element={ <TTHealing /> } />
+								<Route path="bodybank" element={ <TTBodyBank /> } />
+								<Route path="drugs" element={ <TTDrugs /> } />
+							</Routes>
 						</Suspense>
 					</div>
 				</div>

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import styles from './MainMenu.module.css';
-import { Link, HashRouter } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 export enum MainSection {
 	NightCity = "Night City",
@@ -83,58 +83,56 @@ class MainMenu extends Component<IMainMenuProps, IMainMenuState> {
 
 	public render() {
 		return (
-			<HashRouter>
-				<nav className={styles.MainMenu}>
-					{ /* DESKTOP */ }
-					<div className={styles.Desktop}>
-						<button className={styles.cyberpunk_logo} tabIndex={1}>
-							<Link to="/" onClick={() => { this.changeSection(MainSection.Mainframe) }} >Cyberpunk 2020</Link>
-						</button>
-						<div className={styles.mainmenuList}>
-							{Object.values(MainSection).map((section) => {
-								if(section !== MainSection.Mainframe) {
-									let sectionLowerCaseNoSpaces = section.toLowerCase().replace(/\s/g, "");
+			<nav className={styles.MainMenu}>
+				{ /* DESKTOP */ }
+				<div className={styles.Desktop}>
+					<button className={styles.cyberpunk_logo} tabIndex={1}>
+						<Link to="/" onClick={() => { this.changeSection(MainSection.Mainframe) }} >Cyberpunk 2020</Link>
+					</button>
+					<div className={styles.mainmenuList}>
+						{Object.values(MainSection).map((section) => {
+							if(section !== MainSection.Mainframe) {
+								let sectionLowerCaseNoSpaces = section.toLowerCase().replace(/\s/g, "");
 
-									return (
-										<React.Fragment key={section}>
-											<Link to={`/${sectionLowerCaseNoSpaces}/${this.findSubSite(sectionLowerCaseNoSpaces)}`} onClick={() => { this.changeSection(section) }}>
-												<button className={this.state.selectedSection === section ? "selectedButton" : ''}>
-													{section}
-												</button>
-											</Link>
-										</React.Fragment>
-									)
-								}
-								return "";
-							})}
-						</div>
-						<hr/>
-					</div>
-
-					{ /* MOBILE */ }
-					<div className={styles.Mobile}>
-						<h1 className={styles.cyberpunk_logo} tabIndex={1} onClick={this.openMobileMenu}>Cyberpunk 2020</h1>
-						<div className={styles.mainmenuList + " " + (this.state.isOpen ? styles.activateMobileList : styles.hiddenMobileList)}>
-							{Object.values(MainSection).map((section) => {
-								if(section !== MainSection.Mainframe) {
-									let sectionLowerCaseNoSpaces = section.toLowerCase().replace(" ", "");
-									return ( 
-										<div className={styles.mainmenuMobileText} key={section}>
-											<Link to={`/${sectionLowerCaseNoSpaces}/${this.findSubSite(sectionLowerCaseNoSpaces)}`} 
-												onClick={() => { this.changeSection(section) }}
-												className={this.state.selectedSection === section ? styles.selectedSection : ''}>
+								return (
+									<React.Fragment key={section}>
+										<Link to={`/${sectionLowerCaseNoSpaces}/${this.findSubSite(sectionLowerCaseNoSpaces)}`} onClick={() => { this.changeSection(section) }}>
+											<button className={this.state.selectedSection === section ? "selectedButton" : ''}>
 												{section}
-											</Link> 
-										</div>
-									)
-								}
-								return "";
-							})}
-						</div>
-						<hr/>
+											</button>
+										</Link>
+									</React.Fragment>
+								)
+							}
+							return "";
+						})}
 					</div>
-				</nav>
-			</HashRouter>
+					<hr/>
+				</div>
+
+				{ /* MOBILE */ }
+				<div className={styles.Mobile}>
+					<h1 className={styles.cyberpunk_logo} tabIndex={1} onClick={this.openMobileMenu}>Cyberpunk 2020</h1>
+					<div className={styles.mainmenuList + " " + (this.state.isOpen ? styles.activateMobileList : styles.hiddenMobileList)}>
+						{Object.values(MainSection).map((section) => {
+							if(section !== MainSection.Mainframe) {
+								let sectionLowerCaseNoSpaces = section.toLowerCase().replace(" ", "");
+								return ( 
+									<div className={styles.mainmenuMobileText} key={section}>
+										<Link to={`/${sectionLowerCaseNoSpaces}/${this.findSubSite(sectionLowerCaseNoSpaces)}`} 
+											onClick={() => { this.changeSection(section) }}
+											className={this.state.selectedSection === section ? styles.selectedSection : ''}>
+											{section}
+										</Link> 
+									</div>
+								)
+							}
+							return "";
+						})}
+					</div>
+					<hr/>
+				</div>
+			</nav>
 		);
 	}
 }

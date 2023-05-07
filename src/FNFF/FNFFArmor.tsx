@@ -205,7 +205,7 @@ class FNFFArmor extends Component<{}, FNFFArmorState> {
                     <p>Cover allows you to move from place to place, letting something else soak up the gunfire.</p>
                     <p>Remember to use the Proportional Armor rule (Layering) which also is located on page 101 in the Core Rulebook.</p>
                     <div className={styles.CoverImageWrapper}>
-                        <img className={styles.CoverImage + " " + pictureAnimations.InterlacedPicture} alt="Covering yourself up prevents bullets to the face." src="/CyberpunkRPG/assets/Visuals/FNFFCover.webp" />
+                        <img className={styles.CoverImage + " " + pictureAnimations.InterlacedPicture} alt="Covering yourself up prevents bullets to the face." src="/assets/Visuals/FNFFCover.webp" />
                     </div>
                 </div>
                 <table className={styles.ArmorTable}>

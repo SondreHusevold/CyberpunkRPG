@@ -11,7 +11,7 @@ import FNFFWounds from './FNFFWounds';
 import FNFFDeathSaves from './FNFFDeathSaves';
 import FNFFAttacks from './FNFFAttacks';
 import FNFFVehicles from './FNFFVehicles';
-import { HashRouter, Switch, Route } from 'react-router-dom';
+import { Navigate, Route, Routes } from 'react-router-dom';
 import Loading from '../Common/Loading';
 
 interface FNFFState {
@@ -78,40 +78,19 @@ class FridayNightFirefight extends Component<{}, FNFFState> {
 
 					<div className={styles.FNFFMain}>
 						<Suspense fallback={<Loading/>}>
-							<HashRouter>
-								<Switch>
-									<Route path="/fnff/introduction">
-										<FNFFIntroduction />
-									</Route>
-									<Route path="/fnff/initiative">
-										<FNFFTurns />
-									</Route>
-									<Route path="/fnff/actions">
-										<FNFFActions />
-									</Route>
-									<Route path="/fnff/damage">
-										<FNFFDamage />
-									</Route>
-									<Route path="/fnff/armor">
-										<FNFFArmor />
-									</Route>
-									<Route path="/fnff/bodytype">
-										<FNFFBodyType />
-									</Route>
-									<Route path="/fnff/wounds">
-										<FNFFWounds />
-									</Route>
-									<Route path="/fnff/deathsaves">
-										<FNFFDeathSaves />
-									</Route>
-									<Route path="/fnff/makingattacks">
-										<FNFFAttacks />
-									</Route>
-									<Route path="/fnff/vehicles">
-										<FNFFVehicles />
-									</Route>
-								</Switch>
-							</HashRouter>
+							<Routes>
+									<Route path="introduction" element={ <FNFFIntroduction /> } />
+									<Route path="initiative" element={ <FNFFTurns /> } />
+									<Route path="actions" element={ <FNFFActions /> } />
+									<Route path="damage" element={ <FNFFDamage /> } />
+									<Route path="armor" element={ <FNFFArmor /> } />
+									<Route path="bodytype" element={ <FNFFBodyType /> } />
+									<Route path="wounds" element={ <FNFFWounds /> } />
+									<Route path="deathsaves" element={ <FNFFDeathSaves /> } />
+									<Route path="makingattacks" element={ <FNFFAttacks /> } />
+									<Route path="vehicles" element={ <FNFFVehicles /> } />
+									<Route path={`/`} element={<Navigate to="introduction" />} />
+							</Routes>
 						</Suspense>
 					</div>
 				</div>

@@ -10,7 +10,7 @@ import InterlockSkillList from './InterlockSkillList';
 import InterlockSkillsIP from './InterlockSkillsIP';
 import InterlockReputation from './InterlockReputation';
 import InterlockLifepath from './InterlockLifepath';
-import { HashRouter, Switch, Route } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 import Loading from '../Common/Loading';
 import InterlockSheet from './InterlockSheet';
 
@@ -77,40 +77,18 @@ class Interlock extends Component<{}, InterlockState> {
 							toggleMobile={this.toggleMobileView}
 					/>
 					<Suspense fallback={<Loading/>}>
-						<HashRouter>
-							<Switch>
-								<Route path="/interlocksystem/introduction">
-									<InterlockIntroduction />
-								</Route>
-								<Route path="/interlocksystem/dice">
-									<InterlockDice />
-								</Route>
-								<Route path="/interlocksystem/stats">
-									<InterlockStats />
-								</Route>
-								<Route path="/interlocksystem/skills">
-									<InterlockSkills />
-								</Route>
-								<Route path="/interlocksystem/imppoints">
-									<InterlockSkillsIP/>
-								</Route>
-								<Route path="/interlocksystem/skillcheck">
-									<InterlockSkillCheck />
-								</Route>
-								<Route path="/interlocksystem/skilllist">
-									<InterlockSkillList />
-								</Route>
-								<Route path="/interlocksystem/reputation">
-									<InterlockReputation />
-								</Route>
-								<Route path="/interlocksystem/lifepath">
-									<InterlockLifepath />
-								</Route>
-								<Route path="/interlocksystem/sheet">
-									<InterlockSheet />
-								</Route>
-							</Switch>
-						</HashRouter>
+						<Routes>
+							<Route path="introduction" element={ <InterlockIntroduction /> } />
+							<Route path="dice" element={ <InterlockDice /> } />
+							<Route path="stats" element={ <InterlockStats /> } />
+							<Route path="skills" element={ <InterlockSkills /> } />
+							<Route path="imppoints" element={ <InterlockSkillsIP/> } />
+							<Route path="skillcheck" element={ <InterlockSkillCheck /> } />
+							<Route path="skilllist" element={ <InterlockSkillList /> } />
+							<Route path="reputation" element={ <InterlockReputation /> } />
+							<Route path="lifepath" element={ <InterlockLifepath /> } />
+							<Route path="sheet" element={ <InterlockSheet /> } />
+						</Routes>
 					</Suspense>
 				</div>
 			</React.Fragment>

@@ -67,7 +67,7 @@ class InterlockSkillList extends Component<{}, InterlockSkillsState> {
 							<p>{paragraph}</p>
 						)
 					})}
-					<button className={styles.BigOnMobile} onClick={this.clearChoice}>> Return </button> 
+					<button className={styles.BigOnMobile} onClick={this.clearChoice}>{">"} Return </button> 
 				</div>
 			</React.Fragment>
 		)

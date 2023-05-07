@@ -11,7 +11,7 @@ class NightCityHistory extends Component<{}> {
 			<div className={animations.FadeInFast + " " + styles.NightCityIntroduction}>
 				<div className={styles.NightCityIntroductionText}>
 					<h1>History of Night City:</h1>
-					<FadeInPicture mobile="100% 30%" alt="The Corporate Center." title="The Corporate Center." src="/CyberpunkRPG/assets/Visuals/History.webp"/>
+					<FadeInPicture mobile="100% 30%" alt="The Corporate Center." title="The Corporate Center." src="/assets/Visuals/History.webp"/>
                     <p>Night City was founded rather recently as cities go. Before 1994, the city was merely a clutter of unincorporated suburban sprawl between San Francisco and Los Angeles.</p>
                     <p>During the Collapse, an enterprising land developer named Richard Night bought up the majority of what was later to become the Corporate Center and City Center areas. He proposed to start a new, safe, clean corporate city, free of crime and urban blight.</p>
                     <p>By offering lucrative tax packages to several major corporations (PetroChem, for example, had established drilling rights off the coast), he was able to establish a strong economic base as well as an instant population of corporate employees.</p>
@@ -27,7 +27,7 @@ class NightCityHistory extends Component<{}> {
                     <p>The current Mayor of Night City is Mbole Ebunike, a well-trained corporate puppet recently elected for his second term in 2020</p>
 				</div>
 				<div className={styles.NightCityIntroductionPicture}>
-					<FadeInPicture alt="The Corporate Center." title="The Corporate Center." src="/CyberpunkRPG/assets/Visuals/History.webp"/>
+					<FadeInPicture alt="The Corporate Center." title="The Corporate Center." src="/assets/Visuals/History.webp"/>
 				</div>
 			</div>
 		);

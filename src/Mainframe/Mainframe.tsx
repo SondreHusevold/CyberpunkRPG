@@ -8,7 +8,7 @@ import FridayNightFirefight from '../FNFF/FridayNightFirefight';
 import TraumaTeam from '../TraumaTeam/TraumaTeam';
 import Cyberware from '../Cyberware/Cyberware';
 import NightCity from '../NightCity/NightCity';
-import { Switch, Route, HashRouter } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 
 enum Feeds {
 	Realspace = "Realspace",
@@ -45,10 +45,10 @@ class Mainframe extends Component<IMainframeProps, IMainframeState> {
 	public getFeed = () => {
 		let videoLocation = "";
 		if(this.state.selectedVideo === Feeds.Realspace) {
-			videoLocation = "/CyberpunkRPG/assets/Background/OutsideVideo.webm";
+			videoLocation = "/assets/Background/OutsideVideo.webm";
 		}
 		else {
-			videoLocation = "/CyberpunkRPG/assets/Background.mp4"
+			videoLocation = "/assets/Background.mp4"
 		}
 		return <video loop muted autoPlay className={styles.fullscreenbgvideo} src={videoLocation}/>
 	}
@@ -74,31 +74,15 @@ class Mainframe extends Component<IMainframeProps, IMainframeState> {
 	public render() {		
 		return (
 			<div className={styles.Mainframe}>
-				<HashRouter>
-					<Switch>
-						<Route exact path="/">
-							{this.renderHome()}
-						</Route>
-						<Route path="/nightcity">
-							<NightCity />
-						</Route>
-						<Route path="/classes">
-							<Classes />
-						</Route>
-						<Route path="/interlocksystem">
-							<Interlock />
-						</Route>
-						<Route path="/fnff">
-							<FridayNightFirefight />
-						</Route>
-						<Route path="/traumateam">
-							<TraumaTeam />
-						</Route>
-						<Route path="/cyberware">
-							<Cyberware />
-						</Route>
-					</Switch>
-				</HashRouter>
+				<Routes>
+					<Route path="nightcity/*" element={<NightCity />} />
+					<Route path="classes/*" element={<Classes />} />
+					<Route path="interlocksystem/*" element={<Interlock />} />
+					<Route path="fnff/*" element={<FridayNightFirefight />} />
+					<Route path="traumateam/*" element={<TraumaTeam />} />
+					<Route path="cyberware/*" element={<Cyberware />} />
+					<Route path="/" element={this.renderHome()} />
+				</Routes>
 			</div>
 		);
 	}

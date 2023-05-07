@@ -9,7 +9,7 @@ export interface SurgeryCode {
 
 export class CyberwareService {
 	public static async getCodes(): Promise<SurgeryCode[]> {
-		return fetch('/CyberpunkRPG/assets/Cyberware/SurgeryCodes.json')
+		return fetch('/assets/Cyberware/SurgeryCodes.json')
 		.then((s) => s.json().then((fetched: { codes: SurgeryCode[] }) => {
 				return fetched.codes;
 			})

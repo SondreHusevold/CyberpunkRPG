@@ -1,7 +1,7 @@
 import React, { Component, Suspense } from 'react';
 import styles from './NightCity.module.css';
 import Sidebar from '../Common/Sidebar.Navigation';
-import { Switch, Route, HashRouter } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 import Loading from '../Common/Loading';
 import NightCityIntroduction from './NCIntroduction';
 import NightCityStartingOut from './NCStartingOut';
@@ -76,37 +76,17 @@ class NightCity extends Component<{}, NightCityState> {
 					/>
 					<div className={styles.NightCityMain}>
 						<Suspense fallback={<Loading/>}>
-							<HashRouter>
-								<Switch>
-									<Route path="/nightcity/about">
-										<NightCityIntroduction />
-									</Route>
-									<Route path="/nightcity/livingontheedge">
-										<NightCityTheEdge />
-									</Route>
-									<Route path="/nightcity/firstsession">
-										<NightCityStartingOut />
-									</Route>
-									<Route path="/nightcity/history">
-										<NightCityHistory />
-									</Route>
-									<Route path="/nightcity/america">
-										<NightCityAmerica />
-									</Route>
-									<Route path="/nightcity/corporations">
-										<NightCityCorporations />
-									</Route>
-									<Route path="/nightcity/slang">
-										<NightCitySlang />
-									</Route>
-									<Route path="/nightcity/map">
-										<NightCityMaps />
-									</Route>
-									<Route path="/nightcity/books">
-										<NightCityBooks />
-									</Route>
-								</Switch>
-							</HashRouter>
+							<Routes>
+									<Route path="about" element={<NightCityIntroduction />} />
+									<Route path="livingontheedge" element={<NightCityTheEdge />}/>
+									<Route path="firstsession" element={<NightCityStartingOut />}/>
+									<Route path="history" element={<NightCityHistory />}/>
+									<Route path="america" element={<NightCityAmerica />}/> 
+									<Route path="corporations" element={ <NightCityCorporations />} />
+									<Route path="slang" element={ <NightCitySlang />} />
+									<Route path="map" element={<NightCityMaps />} />
+									<Route path="books" element={<NightCityBooks />} />
+							</Routes>
 						</Suspense>
 					</div>
 				</div>

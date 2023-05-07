@@ -41,7 +41,7 @@ class FNFFAttacksAuto extends Component<{}, {}> {
 				</div>
 				<p>For every point of success over the required to Hit roll, one round hits the target, up to the maximum ROF for the weapon.</p>
 				<div className={styles.ExampleBorder}>
-					<span>NUMBER OF HITS = # POINTS > THAN TO HIT NUMBER</span>
+					<span>NUMBER OF HITS = # POINTS {">"} THAN TO HIT NUMBER</span>
 				</div>
 
 				<h2>Suppressive fire:</h2>

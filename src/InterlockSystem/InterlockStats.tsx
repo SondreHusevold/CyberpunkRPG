@@ -74,7 +74,7 @@ class InterlockStats extends Component<{}, InterlockStatsState> {
                     <hr/>
 				</div>
 				<div className={styles.InterlockIntroductionPicture}>
-					<FadeInPicture title="Stats" alt="Stats" src="/CyberpunkRPG/assets/Visuals/Stats.webp"/>
+					<FadeInPicture title="Stats" alt="Stats" src="/assets/Visuals/Stats.webp"/>
 				</div>
 			</div>
 		);
@@ -148,7 +148,7 @@ class StatRender extends Component<StatProp, {}> {
         return (
             <div className={styles.InterlockStatSubmenuDetails}>
                 <div className={styles.InterlockReturnDesktop} onClick={this.props.back}>
-                    > [<span className={styles.InterlockReturnSubmenu}> RETURN </span>]
+                    {">"} [<span className={styles.InterlockReturnSubmenu}> RETURN </span>]
                 </div>
                 <h2>{this.props.chosen.name}:</h2>
                 { this.renderText() }

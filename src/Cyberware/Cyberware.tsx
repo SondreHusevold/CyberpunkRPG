@@ -6,7 +6,7 @@ import CyberwareIntroduction from './CyberwareIntroduction';
 import Cyberpsychosis from './Cyberpsychosis';
 import CyberwareHumanity from './CyberHumanity';
 import CyberPieces from './CyberwarePieces';
-import { HashRouter, Switch, Route } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 import Loading from '../Common/Loading';
 import CyberwareLimbs from './Cyberlimbs';
 
@@ -87,28 +87,14 @@ class Cyberware extends Component<{}, CyberState> {
 					/>
 					<div className={styles.CyberMain}>
 						<Suspense fallback={<Loading/>}>
-							<HashRouter >
-								<Switch>
-									<Route path="/cyberware/introduction">
-										<CyberwareIntroduction />
-									</Route>
-									<Route path="/cyberware/cyberpsychosis">
-										<Cyberpsychosis />
-									</Route>
-									<Route path="/cyberware/surgery">
-										<CyberSurgery />
-									</Route>
-									<Route path="/cyberware/humanity">
-										<CyberwareHumanity />
-									</Route>
-									<Route path="/cyberware/pieces">
-										<CyberPieces />
-									</Route>
-									<Route path="/cyberware/limbs">
-										<CyberwareLimbs />
-									</Route>
-								</Switch>
-							</HashRouter>
+							<Routes>
+								<Route path="introduction" element={ <CyberwareIntroduction /> } />
+								<Route path="cyberpsychosis" element={ <Cyberpsychosis /> } />
+								<Route path="surgery" element={ <CyberSurgery /> } />
+								<Route path="humanity" element={ <CyberwareHumanity /> } />
+								<Route path="pieces" element={ <CyberPieces /> } />
+								<Route path="limbs" element={ <CyberwareLimbs /> } />
+							</Routes>
 						</Suspense>
 					</div>
 				</div>

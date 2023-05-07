@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import PerfectScrollbar from 'react-perfect-scrollbar'
-import 'react-perfect-scrollbar/dist/css/styles.css';
+// import PerfectScrollbar from 'react-perfect-scrollbar'
+// import 'react-perfect-scrollbar/dist/css/styles.css';
 import { PlayerService } from '../Services/PlayerService';
 import AlbumList from './AlbumList';
 import styles from './Player.module.css';
@@ -149,9 +149,9 @@ export default class Player extends Component<IPlayerProps, IPlayerState> {
 								switchToInterface={this.switchToInterface} 
 				/>
 				<div className={styles.relativeTo}>
-					<PerfectScrollbar className={styles.mainArea}>
+					{/* <PerfectScrollbar className={styles.mainArea}>
 						{this.renderListOrThumbnail()}
-					</PerfectScrollbar>
+					</PerfectScrollbar> */}
 					<PlayerMiddleware 
 						toggleMinimize={this.toggleMinimize} 
 						minimized={this.state.minimized} 

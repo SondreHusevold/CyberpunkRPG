@@ -10,7 +10,7 @@ class TTDeath extends Component<{}> {
 			<div className={animations.FadeInFast + " " + styles.TTIntroduction}>
 				<div className={styles.TTIntroductionText}>
 					<h1>Death:</h1>
-					<FadeInPicture mobile="100% 30%" title="" alt="Don't die please." src="/CyberpunkRPG/assets/Visuals/TraumaTeamDeath.webp"/>
+					<FadeInPicture mobile="100% 30%" title="" alt="Don't die please." src="/assets/Visuals/TraumaTeamDeath.webp"/>
                     <p>Whenever a character’s Wound State drops to MORTAL, he has a pretty good chance of dying. But when?</p>
                     <p>In Cyberpunk, each time you are at a MORTAL wound state, you must make a Death Save to avoid dying.</p>
                     <p>To make the Save, roll a 1D10 value lower than your character’s Body Type, subtracting the level of Mortality from your base chance to save.</p>
@@ -35,7 +35,7 @@ class TTDeath extends Component<{}> {
                     <p>On a successful roll, the patient is stabilized at his last Wound State and the process of healing can begin.</p>
 				</div>
 				<div className={styles.TTIntroductionPicture}>
-					<FadeInPicture title="Don't die please..." alt="Don't die please." src="/CyberpunkRPG/assets/Visuals/TraumaTeamDeath.webp"/>
+					<FadeInPicture title="Don't die please..." alt="Don't die please." src="/assets/Visuals/TraumaTeamDeath.webp"/>
 				</div>
 			</div>
 		);

@@ -10,7 +10,7 @@ class CyberwareLimbs extends Component<{}> {
 				<div>
 					<h1>Cyberlimbs:</h1>
                     <FadeInPicture mobile="100% 15%" title="s" 
-                        alt="Do not forget your humanity." src="/CyberpunkRPG/assets/Visuals/Cyberlimbs.webp" 
+                        alt="Do not forget your humanity." src="/assets/Visuals/Cyberlimbs.webp" 
                     />
                     <p>When the man on the Street thinks of cyborgs, what he thinks of are artificial limbs; whirring, glittering metal constructs of steel, wire and microchip circuitry. Although real arms, legs, and organs can easily be grown in bio-tanks or replaced from body banks at a much lower cost, artificial limbs are still a popular fad of the Cyberpunk future. </p>
                     <p>They are chromed, airbrushed, jeweled, lighted, and even sculpted in the pursuit of true cybertech chic.</p>
@@ -52,7 +52,7 @@ class CyberwareLimbs extends Component<{}> {
                     <p>Take a look at pages 89-91 in the Core Rulebook for a bunch of different options to add to your badass new limb.</p>
 				</div>
 				<div className={styles.IntroductionImage}>
-					<FadeInPicture alt="humanity" title="Do not forget your humanity" src="/CyberpunkRPG/assets/Visuals/Cyberlimbs.webp" />
+					<FadeInPicture alt="humanity" title="Do not forget your humanity" src="/assets/Visuals/Cyberlimbs.webp" />
 				</div>
 			</div>
 		);

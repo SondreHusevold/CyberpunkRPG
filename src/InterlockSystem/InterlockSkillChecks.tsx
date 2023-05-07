@@ -155,7 +155,7 @@ class InterlockSkillCheck extends Component<{}, InterlockSkillCheckState> {
                     </div>
                     <div className={styles.FumbleTableSubmenuReturnWrapper} onClick={() => this.setFumbleSubMenu(null)}>
                         <div className={styles.FumbleTableReturnDesktop}>
-                            > [<span className={styles.FumbleTableSubmenuReturn}> RETURN </span>]
+                            {">"} [<span className={styles.FumbleTableSubmenuReturn}> RETURN </span>]
                         </div>
                         <button className={styles.FumbleTableReturnMobile}>
                             RETURN
