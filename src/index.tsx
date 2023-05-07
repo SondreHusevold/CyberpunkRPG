@@ -1,11 +1,13 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import { createRoot } from 'react-dom/client';
 import './index.css';
 import Bootloader from './Bootloader';
 import * as serviceWorker from './serviceWorker';
 
-ReactDOM.render(<Bootloader />, document.getElementById('root'));
-
+const container = document.getElementById('root');
+const root = createRoot(container!);
+root.render(<Bootloader />);
+console.log(process.env.PUBLIC_URL);
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
 // Learn more about service workers: http://bit.ly/CRA-PWA
