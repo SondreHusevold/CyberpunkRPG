@@ -89,7 +89,7 @@ class Bootloader extends Component<{}, IBootloaderState> {
 	public render() {
 		// if(!this.development) {
 			return (
-				<BrowserRouter>
+				<BrowserRouter basename={`${process.env.PUBLIC_URL}`}>
 					{this.renderRealSite()}
 				</BrowserRouter>
 			)

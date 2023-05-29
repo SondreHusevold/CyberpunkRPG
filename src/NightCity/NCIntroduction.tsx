@@ -11,7 +11,7 @@ class NightCityIntroduction extends Component<{}, {}> {
 			<div className={animations.FadeInFast + " " + styles.NightCityIntroduction}>
 				<div className={styles.NightCityIntroductionText}>
 					<h1>Welcome to Night City:</h1>
-					<FadeInPicture mobile="100% 65%" alt="Night City from NCU." title="Night City as seen from NCU." src="/assets/Visuals/NightCity.webp" />
+					<FadeInPicture mobile="100% 65%" alt="Night City from NCU." title="Night City as seen from NCU." src={`${process.env.PUBLIC_URL}/assets/Visuals/NightCity.webp`} />
 					<p>Night City is a moderately-sized city located on the west coast of the United States. It has a population of about five million in the Greater Night City Area, with the majority living in sprawling suburbs to the southwest.</p>
 					<p>The city itself lies on a large bay, surrounded by several small subcities and suburban communities (Westbrook, Heywood, Pacifica, South Night City). </p>
 					<p>Years of pollution, neglect and one of the most corrupt governments in the world have reduced most of these cities to cluttered, semi-deserted sprawls, with burned out homes, empty shopping malls and rampant street crime.</p>
@@ -21,7 +21,7 @@ class NightCityIntroduction extends Component<{}, {}> {
 					<h3>"Nobody ever leaves Night City. Except in a body bag."</h3>
 				</div>
 				<div>
-					<FadeInPicture alt="Night City from NCU." title="Night City as seen from NCU." src="/assets/Visuals/NightCity.webp" />
+					<FadeInPicture alt="Night City from NCU." title="Night City as seen from NCU." src={`${process.env.PUBLIC_URL}/assets/Visuals/NightCity.webp`} />
 				</div>
 			</div>
 		);

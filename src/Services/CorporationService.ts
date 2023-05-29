@@ -17,7 +17,7 @@ export interface Corporation {
 
 export class CorporationService {
 	public static async getCorporations(): Promise<Corporation[]> {
-		return fetch('/assets/NightCity/Corporations.json')
+		return fetch(`${process.env.PUBLIC_URL}/assets/NightCity/Corporations.json`)
 		.then((s) => s.json().then((fetched: { corporations: Corporation[] }) => {
 				return fetched.corporations;
 			})

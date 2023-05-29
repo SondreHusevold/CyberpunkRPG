@@ -16,7 +16,7 @@ class TTIntroduction extends Component<{}> {
 				<div className={styles.TTIntroductionText}>
 					<h1>Heal. Diagnose. Extract.</h1>
                     <div className={styles.TTIntroMobilePicture} >
-					    <img title="Trauma Team" alt="Logo" src="/assets/Visuals/TraumaTeam.webp"/>
+					    <img title="Trauma Team" alt="Logo" src={`${process.env.PUBLIC_URL}/assets/Visuals/TraumaTeam.webp`}/>
                     </div>
 					<p>One of the most powerful Corporations of the Cyber Age is the Trauma Team™; a bonded and licensed paramedical franchise operating throughout the U.S., Canada and parts of Europe.</p>
                     <p>These crack ambulance units are specifically designed to get to the scene of a fatality within seven minutes (or your money back).</p>
@@ -35,7 +35,7 @@ class TTIntroduction extends Component<{}> {
                     <p>The most common transmitter is in the form of a plastic credit card, which is activated by bending the card in half, and has a range of 20 miles.</p>
                     <p>Trauma cards can be transferred between members of a group as long as the card's owner s present to sign the charges off when the Team arrives.</p>
                     <div className={styles.InterlacedVideo} onClick={this.redirectToVideo}>
-                        <video loop muted autoPlay className={pictureAnimation.InterlacedPicture} src="/assets/TRAUMA.webm"/>
+                        <video loop muted autoPlay className={pictureAnimation.InterlacedPicture} src={`${process.env.PUBLIC_URL}/assets/TRAUMA.webm`} />
                     </div>
                     <p>There are usually a dozen or more Trauma Teams on call at any time in a major city. Immediately after receiving an alert, the nearest Trauma Team™ unit goes airborne, their sophisticated tracking equipment homing in on the last known location of the patient.</p>
                     <p>The pilot (who is skilled enough to set his six-ton AV-4 on top of a parked car if need be), drops in as close as possible.
@@ -48,7 +48,7 @@ class TTIntroduction extends Component<{}> {
                     <p>As a privately owned concern, Trauma Teams™ are not under any obligation to transport a casualty to a hospital, although they are responsible for reviving and stabilizing critically wounded patients. </p>
 				</div>
 				<div className={styles.TTIntroductionPicture}>
-					<FadeInPicture title="Logo of Trauma Team International" alt="Logo" src="/assets/Visuals/TraumaTeam.webp"/>
+					<FadeInPicture title="Logo of Trauma Team International" alt="Logo" src={`${process.env.PUBLIC_URL}/assets/Visuals/TraumaTeam.webp`} />
 				</div>
 			</div>
 		);

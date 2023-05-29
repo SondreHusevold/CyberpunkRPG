@@ -45,10 +45,10 @@ class Mainframe extends Component<IMainframeProps, IMainframeState> {
 	public getFeed = () => {
 		let videoLocation = "";
 		if(this.state.selectedVideo === Feeds.Realspace) {
-			videoLocation = "/assets/Background/OutsideVideo.webm";
+			videoLocation = `${process.env.PUBLIC_URL}/assets/Background/OutsideVideo.webm`;
 		}
 		else {
-			videoLocation = "/assets/Background.mp4"
+			videoLocation = `${process.env.PUBLIC_URL}/assets/Background.mp4`
 		}
 		return <video loop muted autoPlay className={styles.fullscreenbgvideo} src={videoLocation}/>
 	}

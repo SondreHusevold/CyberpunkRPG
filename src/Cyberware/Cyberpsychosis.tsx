@@ -11,7 +11,7 @@ class Cyberpsychosis extends Component<{}> {
 					<div className={styles.LoadAnimation} />
 					<h1 className={styles.SmallerMobileTitle}>Cyberpsychosis:</h1>
 					<FadeInPicture mobile="100% 0%" title="You'll get put down by MAX-TAC." 
-					alt="You'll get put down by MAX-TAC." src="/assets/Visuals/Cyberpsychosis.webp" />
+					alt="You'll get put down by MAX-TAC." src={`${process.env.PUBLIC_URL}/assets/Visuals/Cyberpsychosis.webp`} />
                     <p>Something happens when you start adding metal and plastic to people. They start to change. And it isn’t pretty. </p>
                     <p>In the 2000's, we call this cyberpsychosis; a mental disease in which the addition of cybernetics causes an already unstable personality to fragment:</p>
                     <p>At first, the victim begins to relate more to machines than to humans. </p>
@@ -34,7 +34,7 @@ class Cyberpsychosis extends Component<{}> {
 				</div>
 				<div className={styles.IntroductionImage}>
 					<FadeInPicture title="You'll get put down by MAX-TAC." 
-					alt="You'll get put down by MAX-TAC." src="/assets/Visuals/Cyberpsychosis.webp" />
+					alt="You'll get put down by MAX-TAC." src={`${process.env.PUBLIC_URL}/assets/Visuals/Cyberpsychosis.webp`} />
 				</div>
 			</div>
 		);

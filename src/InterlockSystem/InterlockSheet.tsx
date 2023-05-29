@@ -7,11 +7,11 @@ import FadeInPicture from '../Common/FadeInPicture';
 class InterlockSheet extends Component<{}, {}> {
 
     public openSheetInNewWindow = () => {
-        window.open("/assets/CharacterSheet/ModernCharacterSheet.pdf", "_blank"); 
+        window.open(`${process.env.PUBLIC_URL}/assets/CharacterSheet/ModernCharacterSheet.pdf`, "_blank"); 
     }
 
     public openOldSheetInNewWindow = () => {
-        window.open("/assets/CharacterSheet/CB2020CharacterSheet.pdf", "_blank"); 
+        window.open(`${process.env.PUBLIC_URL}/assets/CharacterSheet/CB2020CharacterSheet.pdf`, "_blank"); 
     }
 
 
@@ -22,7 +22,7 @@ class InterlockSheet extends Component<{}, {}> {
                 <div className={styles.Explanations}>
                     <h1>Character Sheet:</h1>
                     <div  onClick={this.openSheetInNewWindow}>
-                        <FadeInPicture mobile="100% 0%" title="Click me." alt="Lifepath" src="/assets/Visuals/CharacterSheetShowcase.webp" />
+                        <FadeInPicture mobile="100% 0%" title="Click me." alt="Lifepath" src={`${process.env.PUBLIC_URL}/assets/Visuals/CharacterSheetShowcase.webp`} />
                     </div>
                     <p>We'll be going through this during the first session, but here's some information so you know how the character creation process is:</p>
                     <h2>Getting the sheet:</h2>
@@ -100,7 +100,7 @@ class InterlockSheet extends Component<{}, {}> {
                     <p>If you had cyberware before you came to be at Zetatech, they have been taken away from you and have either given away during the last company christmas party or simply sold for cash.</p>
                 </div>
                 <div className={styles.ClickablePicture} onClick={this.openSheetInNewWindow}>
-                    <FadeInPicture title="Click me to see the entire sheet" alt="Sheet" src="/assets/Visuals/CharacterSheetShowcase.webp"/>
+                    <FadeInPicture title="Click me to see the entire sheet" alt="Sheet" src={`${process.env.PUBLIC_URL}/assets/Visuals/CharacterSheetShowcase.webp`} />
                 </div>
             </div>
 		);

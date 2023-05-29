@@ -11,7 +11,7 @@ class NightCityStartingOut extends Component<{}> {
 			<div className={animations.FadeInFast + " " + styles.NightCityIntroduction}>
 				<div className={styles.NightCityIntroductionText}>
 					<h1>The First Session:</h1>
-					<FadeInPicture mobile="100% 15%" title="Let's get started." alt="Let's get started." src="/assets/Visuals/FirstSession.webp"/>
+					<FadeInPicture mobile="100% 15%" title="Let's get started." alt="Let's get started." src={`${process.env.PUBLIC_URL}/assets/Visuals/FirstSession.webp`}/>
                     <p>Like when we've been learning other systems - We'll start off by having the first session dedicated to character creation, filling out character sheets and an introduction.</p>
                     <p>The intro will not be individual like in the World of Darkness games. This time, we'll do it as a team.</p>
                     <p>As you might have surmised, you're currently at Zetatech. A wetware and computer hardware and software design megacorporation.</p>
@@ -73,7 +73,7 @@ class NightCityStartingOut extends Component<{}> {
 
 				</div>
 				<div className={styles.NightCityIntroductionPicture}>
-					<FadeInPicture title="Let's get started." alt="Let's get started." src="/assets/Visuals/FirstSession.webp"/>
+					<FadeInPicture title="Let's get started." alt="Let's get started." src={`${process.env.PUBLIC_URL}/assets/Visuals/FirstSession.webp`}/>
 				</div>
 			</div>
 		);

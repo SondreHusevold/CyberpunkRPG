@@ -12,7 +12,7 @@ class NightCityTheEdge extends Component<{}> {
 			<div className={animations.FadeInFast + " " + styles.NightCityLivingOnTheEdge}>
                 <div className={styles.NightCityOnTheEdgeSplitter}>
                     <h1>Living on the Edge:</h1>
-                    <FadeInPicture mobile="100% 15%" alt="Living on the Edge" title="Living on the Edge" src="/assets/Visuals/OnTheEdgeSide.webp"/>
+                    <FadeInPicture mobile="100% 15%" alt="Living on the Edge" title="Living on the Edge" src={`${process.env.PUBLIC_URL}/assets/Visuals/OnTheEdgeSide.webp`}/>
                     <p>To achieve the essence of the 2000's, you need to master three concepts.</p>
                     <div className={styles.NightCityEdgeRules}>
                         <div className={styles.ExampleBorder}>
@@ -34,7 +34,7 @@ class NightCityTheEdge extends Component<{}> {
                             <p>Stay committed to the Edge.</p>
                         </div>
                         <div className={styles.NightCityIntroductionPicture}>
-                            <FadeInPicture title="Living on the Edge"  alt="Living on the Edge" src="/assets/Visuals/OnTheEdgeSide.webp"/>
+                            <FadeInPicture title="Living on the Edge"  alt="Living on the Edge" src={`${process.env.PUBLIC_URL}/assets/Visuals/OnTheEdgeSide.webp`} />
                         </div>
                     </div>
 				</div>
@@ -47,9 +47,9 @@ class NightCityTheEdge extends Component<{}> {
                     <p>You dive headfirst into the Net, using your mind to hurtle at lightspeed all over a vast network of Data Fortresses and Artifical Intelligences.</p>
                     <p>With cyborged fingers you pick computer locks; with enhanced senses, you see into the Future.</p>
                     { /* Not happy with this. Shouldn't be an extra picture. */ }
-                    <FadeInPicture mobile="100% 0%" alt="Living on the Edge" title="Let's go." src="/assets/Visuals/OnTheEdge.webp" />
+                    <FadeInPicture mobile="100% 0%" alt="Living on the Edge" title="Let's go." src={`${process.env.PUBLIC_URL}/assets/Visuals/OnTheEdge.webp`} />
                     <div className={styles.NightCityOnTheEdgePicture}>
-                        <FadeInPicture alt="Living on the Edge" title="Let's go." src="/assets/Visuals/OnTheEdge.webp" />
+                        <FadeInPicture alt="Living on the Edge" title="Let's go." src={`${process.env.PUBLIC_URL}/assets/Visuals/OnTheEdge.webp`} />
                     </div>
                     <p>Cyberpunk is also an attitude.</p>
                     <p>You wear the most in clothes, know the right people and follow the right crowds.</p>

@@ -38,7 +38,7 @@ class FNFFActions extends Component<{}, FNFFActionsState> {
 	public renderAbout = () => {
 		return (
 			<div className={styles.SingleColumnGrid}>
-				<FadeInPicture mobile="100% 50%" title="Action" alt="Action!" src="/assets/Visuals/Actions.webp"/>
+				<FadeInPicture mobile="100% 50%" title="Action" alt="Action!" src={`${process.env.PUBLIC_URL}/assets/Visuals/Actions.webp`}/>
 				<p>During your part of the round, you may perform one <b>action</b> without penalty.</p>
 				<div className={splitter.TwoColumnSplit}>
 					<div className={styles.ActionText}>
@@ -59,7 +59,7 @@ class FNFFActions extends Component<{}, FNFFActionsState> {
 						</div>
 					</div>
 					<div className={styles.ActionPicture}>
-						<FadeInPicture title="Three, two, one, ACTION!" alt="Action!" src="/assets/Visuals/Actions.webp"/>
+						<FadeInPicture title="Three, two, one, ACTION!" alt="Action!" src={`${process.env.PUBLIC_URL}/assets/Visuals/Actions.webp`}/>
 					</div>
 				</div>
 			</div>
@@ -114,7 +114,7 @@ class FNFFActions extends Component<{}, FNFFActionsState> {
 					{this.renderImage()}
 				</div>
 				<img className={styles.LoSPicture + " " + pictureAnimation.InterlacedPicture} style={{ cursor: "pointer" }} 
-					onClick={this.openPictureInNewTab} alt="Line of sight" title="Click to remove background." src="/assets/Visuals/LineOfSight.webp"
+					onClick={this.openPictureInNewTab} alt="Line of sight" title="Click to remove background." src={`${process.env.PUBLIC_URL}/assets/Visuals/LineOfSight.webp`}
 				/>
 				
 			</React.Fragment>
@@ -128,10 +128,10 @@ class FNFFActions extends Component<{}, FNFFActionsState> {
 	public renderImage = () => {
 		if(this.state.imageAnimation) {
 			return <img className={pictureAnimation.InterlacedPicture} style={{ cursor: "pointer" }} 
-					onClick={this.toggleImageAnimation} alt="Line of sight" title="Click to remove background." src="/assets/Visuals/LineOfSight.webp"
+					onClick={this.toggleImageAnimation} alt="Line of sight" title="Click to remove background." src={`${process.env.PUBLIC_URL}/assets/Visuals/LineOfSight.webp`}
 					/>
 		}
-		return <img onClick={this.toggleImageAnimation} style={{ cursor: "pointer" }} alt="Line of sight" src="/assets/Visuals/LineOfSightNo3D.webp"/>
+		return <img onClick={this.toggleImageAnimation} style={{ cursor: "pointer" }} alt="Line of sight" src={`${process.env.PUBLIC_URL}/assets/Visuals/LineOfSightNo3D.webp`}/>
 	}
 
 	public toggleImageAnimation = () => {

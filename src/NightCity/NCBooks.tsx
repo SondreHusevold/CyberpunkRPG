@@ -18,7 +18,7 @@ class NightCityBooks extends Component<{}> {
 			<div className={animations.FadeInFast + " " + styles.NightCityIntroduction}>
 				<div className={styles.NightCityIntroductionText}>
 					<h1>The Books:</h1>
-					<FadeInPicture mobile="100% 20%" title="Books" alt="The books." src="/assets/Visuals/Books.webp"/>
+					<FadeInPicture mobile="100% 20%" title="Books" alt="The books." src={`${process.env.PUBLIC_URL}/assets/Visuals/Books.webp`}/>
 					<p>Cyberpunk 2020 has a multitude of books that are published by both first and third parties. The Core Rulebook being the most important of them all.</p>
                     <p>They can all be purchased at {"<"}<u className={styles.ClickableLink} onClick={this.openDriveThru}>DriveThruRPG</u>{">"}. 
                         All of these are also available for "free" download at {"<"}<u className={styles.ClickableLink} onClick={this.openTheTrove}>The Trove</u>{">"}.
@@ -55,7 +55,7 @@ class NightCityBooks extends Component<{}> {
                     <p>It also contains some revised rules that Mike Pondsmith and other players house rule in their games.</p>
 				</div>
 				<div className={styles.NightCityIntroductionPicture}>
-					<FadeInPicture title="Care to read, choomba?" alt="Care to read, choomba?" src="/assets/Visuals/Books.webp"/>					
+					<FadeInPicture title="Care to read, choomba?" alt="Care to read, choomba?" src={`${process.env.PUBLIC_URL}/assets/Visuals/Books.webp`}/>					
 				</div>
 			</div>
 		);
